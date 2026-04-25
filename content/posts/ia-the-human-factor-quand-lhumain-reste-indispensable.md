@@ -56,6 +56,10 @@ responsibilities inherent in digital transformation.
 - [AI Model Drift: Detecting and Correcting Performance Degradation](https://www.qodequay.com/ai-model-drift-detecting-and-correcting-performance-degradation)
 - [AI and the New Metrics of Work Performance - TechClass](https://www.techclass.com/resources/learning-and-development-articles/ai-and-new-metrics-of-work-what-should-we-measure-now)
 - [AI in Banking: Use Cases, Benefits, and the Future of Finance - Kellton](https://www.kellton.com/kellton-tech-blog/ai-in-banking-use-cases-benefits-future-of-finance)
+
+<details>
+<summary>Voir les 15 sources restantes</summary>
+
 - [AI in banking: 10 predictions that will define 2026](https://www.backbase.com/blog/ai-in-banking-10-predictions-that-will-define-2026)
 - [AI in employee feedback tools: How it works, use cases, and risks - CultureMonkey](https://www.culturemonkey.io/employee-engagement/ai-in-employee-feedback-tools/)
 - [AI is boosting demand for high skill tech jobs while quietly killing entry-level roles](https://cryptoslate.com/ai-is-boosting-demand-for-high-skill-tech-jobs-while-quietly-killing-entry-level-roles/)
@@ -71,3 +75,5 @@ responsibilities inherent in digital transformation.
 - [Balancing Onboarding Efficiency with Human-Centered Engagement: A Comparative Analysis of Traditional and AI-Enabled Approaches - IDEAS/RePEc](https://ideas.repec.org/p/smo/raiswp/0587.html)
 - [Banking Tech Trends Report 2026 - Newgen](https://landing.newgensoft.com/hubfs/_2020%20Website%20files/Reports/Banking%20Tech%20Trends%20Report%202026.pdf)
 - [Banque & Big Data : quelles priorités pour 2026 ?](https://www.babyloneconsulting.fr/nos-articles/banque-big-data-quelles-priorites-pour-2026/)
+
+</details>
