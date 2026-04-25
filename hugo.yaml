@@ -61,7 +61,7 @@ params:
   author: Pascal Froment
   defaultTheme: auto
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false        # désactivé : moins de bruit
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
