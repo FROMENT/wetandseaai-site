@@ -1,0 +1,23 @@
+# wrangler.toml — Configuration Cloudflare Workers + Static Assets
+# Le site Hugo statique est servi via Workers Static Assets (pas de code Worker
+# nécessaire pour l'instant). Pour ajouter de la logique serveur plus tard
+# (API endpoints, redirections complexes), créer un fichier `src/index.ts`
+# et décommenter la section [main].
+
+name = "wetandseaai-site"
+compatibility_date = "2025-04-01"
+
+# Servir le dossier `public/` (généré par Hugo) comme assets statiques.
+# Cloudflare gère automatiquement : ETag, gzip/brotli, edge cache, HTTPS.
+[assets]
+directory = "./public"
+# Mode "single-page-application" reste valable pour Hugo si pas de fallback HTML 404.
+# Pour Hugo on choisit `none` car les 404 personnalisés sont gérés par PaperMod.
+not_found_handling = "404-page"
+
+# Optionnel : décommenter pour activer Workers code (functions serveur)
+# [main]
+# main = "src/index.ts"
+
+# Pas de variables d'environnement Worker pour l'instant.
+# Build env (HUGO_VERSION) se configure dans le dashboard Cloudflare.
