@@ -1,6 +1,7 @@
 ---
 title: "AI Agents : Power & Peril — puissance et dangers des agents IA autonomes"
 date: 2026-04-01
+publishDate: "2026-05-07T17:00:00"
 youtube_url: "https://youtu.be/6d8qyqs9BQs"
 youtube_video_id: "6d8qyqs9BQs"
 theme: "ia-travail"
@@ -30,6 +31,14 @@ data collection**, researchers have raised serious alarms regarding **critical s
 "ClawHub" marketplace was found to host hundreds of **malicious skills** capable of delivering malware and exfiltrating 
 sensitive data. Users are also cautioned about **extreme token consumption costs** and the risks associated with granting the 
 AI deep system permissions.
+
+## Chapitres
+
+- `0:00` — Introduction aux agents IA
+- `0:34` — Pouvoir des agents locaux
+- `1:46` — Accès privilégié et risques
+- `2:20` — Attaques par lien malveillant
+- `3:34` — Exécution de code à distance
 
 ## Sources
 

@@ -1,6 +1,7 @@
 ---
 title: "Le Problème de l'Alignement de l'IA : Enjeux et Solutions"
 date: 2026-04-02
+publishDate: "2026-05-10T17:00:00"
 youtube_url: "https://youtu.be/0IoKsWubOj8"
 youtube_video_id: "0IoKsWubOj8"
 theme: "ia-travail"

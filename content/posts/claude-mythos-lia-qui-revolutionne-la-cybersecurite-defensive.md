@@ -1,16 +1,17 @@
 ---
 title: "Claude Mythos : L'IA qui révolutionne la cybersécurité défensive"
 date: 2026-04-17
+publishDate: "2026-06-02T11:00:00"
 youtube_url: "https://youtu.be/N8VVSWjaWTk"
 youtube_video_id: "N8VVSWjaWTk"
-theme: "ia-travail"
-categories: ["IA & Travail"]
-tags: ["ia-travail"]
+theme: "cybersecurity"
+categories: ["Cybersécurité"]
+tags: ["cybersecurity"]
 summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
 cover:
   image: "/covers/N8VVSWjaWTk.jpg"
   alt: "Claude Mythos : L'IA qui révolutionne la cybersécurité défensive"
-  caption: "IA & Travail"
+  caption: "Cybersécurité"
 draft: false
 catalogue_id: "a174f9a4"
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Prompt Engineering : Maîtrisez l'art de commander l'IA efficacement"
 date: 2026-04-04
+publishDate: "2026-05-21T17:00:00"
 youtube_url: "https://youtu.be/6lKg3QhyPgM"
 youtube_video_id: "6lKg3QhyPgM"
 theme: "ia-travail"

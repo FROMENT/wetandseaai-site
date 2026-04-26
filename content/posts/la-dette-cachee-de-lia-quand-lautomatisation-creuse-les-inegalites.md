@@ -1,16 +1,17 @@
 ---
 title: "La Dette Cachée de l'IA : Quand l'Automatisation Creuse les Inégalités"
 date: 2026-04-17
+publishDate: "2026-06-03T11:00:00"
 youtube_url: "https://youtu.be/9oYAiZsCPLA"
 youtube_video_id: "9oYAiZsCPLA"
-theme: "ia-travail"
-categories: ["IA & Travail"]
-tags: ["ia-travail"]
+theme: "prospective"
+categories: ["Prospective"]
+tags: ["prospective"]
 summary: "This **NBER working paper** examines the economic consequences of **artificial intelligence**, focusing specifically on its potential to worsen **income inequality** and **unemployment**. The…"
 cover:
   image: "/covers/9oYAiZsCPLA.jpg"
   alt: "La Dette Cachée de l'IA : Quand l'Automatisation Creuse les Inégalités"
-  caption: "IA & Travail"
+  caption: "Prospective"
 draft: false
 catalogue_id: "e9494508"
 ---

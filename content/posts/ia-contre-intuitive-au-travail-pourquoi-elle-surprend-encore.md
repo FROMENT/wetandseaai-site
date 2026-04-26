@@ -1,6 +1,7 @@
 ---
 title: "IA contre-intuitive au travail : pourquoi elle surprend encore"
 date: 2026-04-04
+publishDate: "2026-05-15T17:00:00"
 youtube_url: "https://youtu.be/Eqfe4x--9nc"
 youtube_video_id: "Eqfe4x--9nc"
 theme: "ia-travail"

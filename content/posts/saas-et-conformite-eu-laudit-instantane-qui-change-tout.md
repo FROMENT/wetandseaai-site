@@ -1,16 +1,17 @@
 ---
 title: "SaaS et conformité EU : l'audit instantané qui change tout"
 date: 2026-04-17
+publishDate: "2026-06-07T17:00:00"
 youtube_url: "https://youtu.be/TWLubLYefn8"
 youtube_video_id: "TWLubLYefn8"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "cybersecurity"
+categories: ["Cybersécurité"]
+tags: ["cybersecurity"]
 summary: "The **COMPLIANCE Scanner** is a specialized web service designed to perform rapid, **on-demand audits of third-party SaaS tools** against five key European regulatory frameworks, including **GDPR,…"
 cover:
   image: "/covers/TWLubLYefn8.jpg"
   alt: "SaaS et conformité EU : l'audit instantané qui change tout"
-  caption: "Divers"
+  caption: "Cybersécurité"
 draft: false
 catalogue_id: "120840be"
 ---

@@ -32,6 +32,15 @@ governments can better address the human dimension of ecological instability and
 **livelihood loss**. Ultimately, the sources advocate for a **multisectoral approach** where institutional collaboration and 
 sustainable funding protect the most at-risk populations from both historical and future crises.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:36` — Deux scénarios opposés
+- `1:07` — Le scénario optimiste
+- `2:15` — Les briques technologiques
+- `4:00` — Le scénario dystopique
+- `5:30` — Conclusion et appel
+
 ## Sources
 
 - [Circular Economy - Environment - European Commission](https://environment.ec.europa.eu/strategy/circular-economy_en)

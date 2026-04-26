@@ -3,14 +3,14 @@ title: "L'IA et le Paradoxe Junior : apprendre sans faire ?"
 date: 2026-03-29
 youtube_url: "https://youtu.be/eH9wxA5SNA8"
 youtube_video_id: "eH9wxA5SNA8"
-theme: "ia-travail"
-categories: ["IA & Travail"]
-tags: ["ia-travail"]
+theme: "prospective"
+categories: ["Prospective"]
+tags: ["prospective"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
   image: "/covers/eH9wxA5SNA8.jpg"
   alt: "L'IA et le Paradoxe Junior : apprendre sans faire ?"
-  caption: "IA & Travail"
+  caption: "Prospective"
 draft: false
 catalogue_id: "f19bfe90"
 ---

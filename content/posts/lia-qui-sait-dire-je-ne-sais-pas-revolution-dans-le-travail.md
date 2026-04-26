@@ -1,6 +1,7 @@
 ---
 title: "L'IA qui sait dire 'Je ne sais pas' : révolution dans le travail"
 date: 2026-04-04
+publishDate: "2026-05-13T17:00:00"
 youtube_url: "https://youtu.be/P3DnlpNkVV4"
 youtube_video_id: "P3DnlpNkVV4"
 theme: "ia-travail"

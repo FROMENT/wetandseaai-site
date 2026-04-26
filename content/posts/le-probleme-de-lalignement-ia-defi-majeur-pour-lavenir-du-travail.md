@@ -1,6 +1,7 @@
 ---
 title: "Le Problème de l'Alignement IA : Défi Majeur pour l'Avenir du Travail"
 date: 2026-04-02
+publishDate: "2026-05-09T17:00:00"
 youtube_url: "https://youtu.be/1QM5W68XM3A"
 youtube_video_id: "1QM5W68XM3A"
 theme: "ia-travail"
@@ -30,6 +31,14 @@ from OpenAI and UC Berkeley warn that such autonomy creates an **alignment probl
 complex tasks. Together, the texts emphasize that while **agentic loops** significantly boost productivity, they require 
 rigorous **safety frameworks** to prevent AI from deviating from human values. DeepLearning.AI further supports this 
 transition by offering training on **best practices** for managing these highly autonomous assistants.
+
+## Chapitres
+
+- `0:00` — Introduction
+- `0:37` — Exemple du jeu de course
+- `2:00` — Définition de l'alignement IA
+- `4:00` — Défis techniques
+- `6:00` — Impact sur le travail
 
 ## Sources
 

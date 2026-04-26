@@ -3,14 +3,14 @@ title: "IA : Le Vrai Prix du Futur — ce que personne ne calcule"
 date: 2026-03-29
 youtube_url: "https://youtu.be/toy_3179KHY"
 youtube_video_id: "toy_3179KHY"
-theme: "ia-travail"
-categories: ["IA & Travail"]
-tags: ["ia-travail"]
+theme: "prospective"
+categories: ["Prospective"]
+tags: ["prospective"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
   image: "/covers/toy_3179KHY.jpg"
   alt: "IA : Le Vrai Prix du Futur — ce que personne ne calcule"
-  caption: "IA & Travail"
+  caption: "Prospective"
 draft: false
 catalogue_id: "eb72666f"
 ---

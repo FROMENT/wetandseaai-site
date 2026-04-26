@@ -1,6 +1,7 @@
 ---
 title: "Sécuriser l'IA Agentique : Guide Complet des Menaces et Solutions"
 date: 2026-04-16
+publishDate: "2026-05-27T11:00:00"
 youtube_url: "https://youtu.be/tY10bAL2jWs"
 youtube_video_id: "tY10bAL2jWs"
 theme: "ia-travail"

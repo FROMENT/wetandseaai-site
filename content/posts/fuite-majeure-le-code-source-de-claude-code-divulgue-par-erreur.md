@@ -1,16 +1,17 @@
 ---
 title: "FUITE MAJEURE : Le code source de Claude Code divulgué par erreur"
 date: 2026-04-16
+publishDate: "2026-05-26T14:00:00"
 youtube_url: "https://youtu.be/E0hLNbUd6HE"
 youtube_video_id: "E0hLNbUd6HE"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "ia-travail"
+categories: ["IA & Travail"]
+tags: ["ia-travail"]
 summary: "The provided documents center on the accidental **source code leak** of Anthropic’s **Claude Code** and the subsequent rise of **Claw Code**, a high-performance open-source recreation built in…"
 cover:
   image: "/covers/E0hLNbUd6HE.jpg"
   alt: "FUITE MAJEURE : Le code source de Claude Code divulgué par erreur"
-  caption: "Divers"
+  caption: "IA & Travail"
 draft: false
 catalogue_id: "297426e2"
 ---

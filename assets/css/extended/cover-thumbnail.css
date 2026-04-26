@@ -1,0 +1,31 @@
+/* cover-thumbnail.css — WetAndSeaAI.fr
+ *
+ * Override PaperMod : la cover de l'article single est rendue en miniature
+ * centrée à 30 % de la largeur au lieu d'occuper toute la zone hero.
+ *
+ * Cible : page d'article unique (.post-single). La cover en page de liste
+ * (.post-entry) conserve son rendu d'origine.
+ *
+ * Activé automatiquement par PaperMod via le scan `assets/css/extended/*.css`.
+ */
+
+.post-single .entry-cover {
+    max-width: 30%;
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+.post-single .entry-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+/* Mobile portrait : 30 % devient illisible — élargir à 60 %. */
+@media (max-width: 768px) {
+    .post-single .entry-cover {
+        max-width: 60%;
+    }
+}

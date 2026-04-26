@@ -1,16 +1,17 @@
 ---
 title: "Secrets of Your Access Card: Hidden Vulnerabilities & Cyber Threats"
 date: 2026-04-16
+publishDate: "2026-05-29T14:00:00"
 youtube_url: "https://youtu.be/rVeKCQSPZSg"
 youtube_video_id: "rVeKCQSPZSg"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "cybersecurity"
+categories: ["Cybersécurité"]
+tags: ["cybersecurity"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
   image: "/covers/rVeKCQSPZSg.jpg"
   alt: "Secrets of Your Access Card: Hidden Vulnerabilities & Cyber Threats"
-  caption: "Divers"
+  caption: "Cybersécurité"
 draft: false
 catalogue_id: "bddc8e82"
 ---

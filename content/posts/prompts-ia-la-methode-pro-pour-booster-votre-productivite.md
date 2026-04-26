@@ -1,6 +1,7 @@
 ---
 title: "Prompts IA : La Méthode PRO pour Booster votre Productivité"
 date: 2026-04-04
+publishDate: "2026-05-22T17:00:00"
 youtube_url: "https://youtu.be/jn6Ag7mosbM"
 youtube_video_id: "jn6Ag7mosbM"
 theme: "ia-travail"

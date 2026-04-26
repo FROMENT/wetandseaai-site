@@ -1,6 +1,7 @@
 ---
 title: "L'Art du Prompt Engineering : Maîtriser l'IA Générative"
 date: 2026-04-04
+publishDate: "2026-05-23T17:00:00"
 youtube_url: "https://youtu.be/D1HPpu0v2sE"
 youtube_video_id: "D1HPpu0v2sE"
 theme: "ia-travail"

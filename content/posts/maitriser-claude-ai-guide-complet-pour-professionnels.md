@@ -1,6 +1,7 @@
 ---
 title: "Maîtriser Claude AI : Guide Complet pour Professionnels"
 date: 2026-04-04
+publishDate: "2026-05-20T17:00:00"
 youtube_url: "https://youtu.be/nDwhcQK8X_Y"
 youtube_video_id: "nDwhcQK8X_Y"
 theme: "ia-travail"

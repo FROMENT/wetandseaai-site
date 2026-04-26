@@ -31,6 +31,13 @@ indicates that **immigrant entrepreneurs** and foreign-born doctoral graduates a
 workforce. To remain globally competitive, researchers suggest **reforming immigration policies** to reduce bureaucratic 
 delays and aggressively recruit elite global talent.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `1:07` — Deux visions opposées
+- `1:43` — L'abondance radicale d'Hassabis
+- `2:15` — La critique de LeCun
+
 ## Sources
 
 - [(PDF) Une recherche de coincidente pour se preparer aux crises environnementales et alimentaires - ResearchGate](https://www.researchgate.net/publication/382028801_Une_recherche_de_coincidente_pour_se_preparer_aux_crises_environnementales_et_alimentaires)

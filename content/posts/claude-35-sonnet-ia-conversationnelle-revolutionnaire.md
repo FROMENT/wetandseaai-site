@@ -1,16 +1,17 @@
 ---
 title: "Claude 3.5 Sonnet : IA Conversationnelle Révolutionnaire"
 date: 2026-04-17
+publishDate: "2026-06-01T17:00:00"
 youtube_url: "https://youtu.be/oWcZv5LVSII"
 youtube_video_id: "oWcZv5LVSII"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "ia-travail"
+categories: ["IA & Travail"]
+tags: ["ia-travail"]
 summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
 cover:
   image: "/covers/oWcZv5LVSII.jpg"
   alt: "Claude 3.5 Sonnet : IA Conversationnelle Révolutionnaire"
-  caption: "Divers"
+  caption: "IA & Travail"
 draft: false
 catalogue_id: "c937ece9"
 ---

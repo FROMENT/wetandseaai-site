@@ -3,14 +3,14 @@ title: "Guerre par Drones : L'Asymétrie des Coûts qui Change Tout"
 date: 2026-04-01
 youtube_url: "https://youtu.be/Ca1nyHbrj4s"
 youtube_video_id: "Ca1nyHbrj4s"
-theme: "cybersecurity"
-categories: ["Cybersécurité"]
-tags: ["cybersecurity"]
+theme: "prospective"
+categories: ["Prospective"]
+tags: ["prospective"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
   image: "/covers/Ca1nyHbrj4s.jpg"
   alt: "Guerre par Drones : L'Asymétrie des Coûts qui Change Tout"
-  caption: "Cybersécurité"
+  caption: "Prospective"
 draft: false
 catalogue_id: "45644fd4"
 ---

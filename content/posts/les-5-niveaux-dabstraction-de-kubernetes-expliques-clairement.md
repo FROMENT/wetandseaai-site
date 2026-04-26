@@ -32,6 +32,13 @@ businesses to build complex **mobility applications** while extending the lifesp
 continuous monitoring. Ultimately, the materials emphasize that **digital integration** is essential for modernizing the 
 transportation industry and achieving faster market readiness for new automotive services.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:35` — Platform Engineering - Niveau 1
+- `1:08` — Automatisation complète - Niveau 2
+- `2:14` — Sécurité intégrée - Niveau 3
+
 ## Sources
 
 - [10 Car Database APIs: A developer's guide to faster time-to-market](https://smartcar.com/blog/car-database-api)

@@ -1,6 +1,7 @@
 ---
 title: "L'Impact Réel du Codage IA : Mesurer les Vraies Performances 2025"
 date: 2026-04-16
+publishDate: "2026-05-25T11:00:00"
 youtube_url: "https://youtu.be/wAs_qOYL8jc"
 youtube_video_id: "wAs_qOYL8jc"
 theme: "ia-travail"

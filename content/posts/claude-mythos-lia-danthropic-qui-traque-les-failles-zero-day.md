@@ -1,16 +1,17 @@
 ---
 title: "Claude Mythos : L'IA d'Anthropic qui traque les failles zero-day"
 date: 2026-04-17
+publishDate: "2026-06-02T17:00:00"
 youtube_url: "https://youtu.be/cgXr1mZbrU0"
 youtube_video_id: "cgXr1mZbrU0"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "ia-travail"
+categories: ["IA & Travail"]
+tags: ["ia-travail"]
 summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
 cover:
   image: "/covers/cgXr1mZbrU0.jpg"
   alt: "Claude Mythos : L'IA d'Anthropic qui traque les failles zero-day"
-  caption: "Divers"
+  caption: "IA & Travail"
 draft: false
 catalogue_id: "00fc558b"
 ---

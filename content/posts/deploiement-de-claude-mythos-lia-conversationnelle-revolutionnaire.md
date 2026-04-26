@@ -1,16 +1,17 @@
 ---
 title: "Déploiement de Claude Mythos : L'IA Conversationnelle Révolutionnaire"
 date: 2026-04-17
+publishDate: "2026-06-03T17:00:00"
 youtube_url: "https://youtu.be/LhR1Gr0eDkM"
 youtube_video_id: "LhR1Gr0eDkM"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "ia-travail"
+categories: ["IA & Travail"]
+tags: ["ia-travail"]
 summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
 cover:
   image: "/covers/LhR1Gr0eDkM.jpg"
   alt: "Déploiement de Claude Mythos : L'IA Conversationnelle Révolutionnaire"
-  caption: "Divers"
+  caption: "IA & Travail"
 draft: false
 catalogue_id: "010e7c4f"
 ---

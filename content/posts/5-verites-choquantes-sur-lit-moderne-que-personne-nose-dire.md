@@ -30,6 +30,12 @@ selecting appropriate **automation tools** and utilizing project management plat
 collaboration. Ultimately, the texts advocate for a balanced approach that combines rigorous **performance testing** with 
 intuitive user experiences to ensure software reliability in production.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:33` — Pratiques obsolètes dangereuses
+- `1:00` — Complexité moderne de l'IT
+
 ## Sources
 
 - [A First Look at the Self-Admitted Technical Debt in Test Code: Taxonomy and Detection - arXiv](https://arxiv.org/pdf/2510.22409)

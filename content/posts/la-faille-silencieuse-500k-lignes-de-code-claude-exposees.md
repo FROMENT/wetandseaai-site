@@ -1,16 +1,17 @@
 ---
 title: "La Faille Silencieuse : 500K lignes de code Claude exposées"
 date: 2026-04-16
+publishDate: "2026-05-26T11:00:00"
 youtube_url: "https://youtu.be/i_lijlF80nQ"
 youtube_video_id: "i_lijlF80nQ"
-theme: "ia-travail"
-categories: ["IA & Travail"]
-tags: ["ia-travail"]
+theme: "cybersecurity"
+categories: ["Cybersécurité"]
+tags: ["cybersecurity"]
 summary: "These sources document a turbulent period for **Anthropic** in early 2026, highlighted by the **accidental exposure** of the **Claude Code** source code through a misconfigured npm file. While the…"
 cover:
   image: "/covers/i_lijlF80nQ.jpg"
   alt: "La Faille Silencieuse : 500K lignes de code Claude exposées"
-  caption: "IA & Travail"
+  caption: "Cybersécurité"
 draft: false
 catalogue_id: "366371b5"
 ---

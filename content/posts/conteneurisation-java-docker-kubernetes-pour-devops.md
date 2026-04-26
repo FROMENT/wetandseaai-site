@@ -31,6 +31,14 @@ is treated as a shared, proactive responsibility rather than a final manual gate
 guide to **industry best practices**, ranging from threat modeling and secrets management to fostering a collaborative, 
 **badge-less culture** that prioritizes rapid, secure code deployment.
 
+## Chapitres
+
+- `0:00` — Introduction Docker Kubernetes
+- `0:34` — Complexité de la conteneurisation
+- `1:06` — Erreurs avec les Buildpacks
+- `1:39` — Configuration de la JVM
+- `2:13` — Gestion mémoire et paramètres
+
 ## Sources
 
 - [Best practices for Java containerization](https://bell-sw.com/announcements/2022/09/01/avoiding-side-effects-of-containerization/)

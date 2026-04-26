@@ -1,16 +1,17 @@
 ---
 title: "Asymétrie des Coûts en Défense : Drones vs Missiles Intercepteurs"
 date: 2026-04-16
+publishDate: "2026-05-28T14:00:00"
 youtube_url: "https://youtu.be/drXl7ahy_ds"
 youtube_video_id: "drXl7ahy_ds"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "cybersecurity"
+categories: ["Cybersécurité"]
+tags: ["cybersecurity"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
   image: "/covers/drXl7ahy_ds.jpg"
   alt: "Asymétrie des Coûts en Défense : Drones vs Missiles Intercepteurs"
-  caption: "Divers"
+  caption: "Cybersécurité"
 draft: false
 catalogue_id: "20f8cc25"
 ---

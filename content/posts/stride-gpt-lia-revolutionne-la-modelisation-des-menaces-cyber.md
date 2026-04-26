@@ -1,16 +1,17 @@
 ---
 title: "STRIDE GPT : L'IA révolutionne la modélisation des menaces cyber"
 date: 2026-04-16
+publishDate: "2026-05-28T11:00:00"
 youtube_url: "https://youtu.be/2O0fgENs9Qg"
 youtube_video_id: "2O0fgENs9Qg"
-theme: "ia-travail"
-categories: ["IA & Travail"]
-tags: ["ia-travail"]
+theme: "cybersecurity"
+categories: ["Cybersécurité"]
+tags: ["cybersecurity"]
 summary: "**STRIDE GPT** is an automated security tool designed to streamline **threat modeling** by utilizing advanced **large language models**. This open-source application analyzes software details or…"
 cover:
   image: "/covers/2O0fgENs9Qg.jpg"
   alt: "STRIDE GPT : L'IA révolutionne la modélisation des menaces cyber"
-  caption: "IA & Travail"
+  caption: "Cybersécurité"
 draft: false
 catalogue_id: "093d73b0"
 ---

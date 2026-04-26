@@ -1,6 +1,7 @@
 ---
 title: "CLOUD Act : Enjeux de souveraineté numérique et alternatives françaises"
 date: 2026-04-17
+publishDate: "2026-06-01T09:00:00"
 youtube_url: "https://youtu.be/957Dg1GN1ZM"
 youtube_video_id: "957Dg1GN1ZM"
 theme: "devops-cloud"

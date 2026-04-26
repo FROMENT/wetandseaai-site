@@ -3,14 +3,14 @@ title: "Sécurité DevOps : Du Code au Cloud - Guide Complet 2024"
 date: 2026-04-02
 youtube_url: "https://youtu.be/kXJHDizx1Ng"
 youtube_video_id: "kXJHDizx1Ng"
-theme: "devops-cloud"
-categories: ["DevOps & Cloud"]
-tags: ["devops-cloud"]
+theme: "cybersecurity"
+categories: ["Cybersécurité"]
+tags: ["cybersecurity"]
 summary: "The provided documents detail the operational framework and technical architecture of **DevSecOps**, specifically focusing on how organizations like **Sunbytes** and the Department of Defense's…"
 cover:
   image: "/covers/kXJHDizx1Ng.jpg"
   alt: "Sécurité DevOps : Du Code au Cloud - Guide Complet 2024"
-  caption: "DevOps & Cloud"
+  caption: "Cybersécurité"
 draft: false
 catalogue_id: "ae46a5b2"
 ---

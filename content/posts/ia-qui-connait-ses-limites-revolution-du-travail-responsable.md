@@ -1,6 +1,7 @@
 ---
 title: "IA qui connaît ses limites : révolution du travail responsable"
 date: 2026-04-04
+publishDate: "2026-05-14T17:00:00"
 youtube_url: "https://youtu.be/2-XEstpkrKg"
 youtube_video_id: "2-XEstpkrKg"
 theme: "ia-travail"

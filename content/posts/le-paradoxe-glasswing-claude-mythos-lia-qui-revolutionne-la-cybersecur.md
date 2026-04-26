@@ -1,16 +1,17 @@
 ---
 title: "Le Paradoxe Glasswing : Claude Mythos, l'IA qui révolutionne la cybersécurité"
 date: 2026-04-17
+publishDate: "2026-06-08T17:00:00"
 youtube_url: "https://youtu.be/uC1tU5YgumM"
 youtube_video_id: "uC1tU5YgumM"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "ia-travail"
+categories: ["IA & Travail"]
+tags: ["ia-travail"]
 summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
 cover:
   image: "/covers/uC1tU5YgumM.jpg"
   alt: "Le Paradoxe Glasswing : Claude Mythos, l'IA qui révolutionne la cybersécurité"
-  caption: "Divers"
+  caption: "IA & Travail"
 draft: false
 catalogue_id: "ce7c05f0"
 ---

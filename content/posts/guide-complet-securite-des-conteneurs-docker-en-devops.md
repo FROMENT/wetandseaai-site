@@ -31,6 +31,15 @@ is treated as a shared, proactive responsibility rather than a final manual gate
 guide to **industry best practices**, ranging from threat modeling and secrets management to fostering a collaborative, 
 **badge-less culture** that prioritizes rapid, secure code deployment.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:33` — Adoption massive des conteneurs
+- `1:07` — Vulnérabilités et menaces sécuritaires
+- `1:41` — Shift Left et responsabilité
+- `2:14` — Automatisation des contrôles sécuritaires
+- `2:48` — Tests statiques de sécurité
+
 ## Sources
 
 - [Best practices for Java containerization](https://bell-sw.com/announcements/2022/09/01/avoiding-side-effects-of-containerization/)

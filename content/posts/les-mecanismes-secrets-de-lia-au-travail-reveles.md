@@ -1,6 +1,7 @@
 ---
 title: "Les mécanismes secrets de l'IA au travail révélés"
 date: 2026-04-02
+publishDate: "2026-05-11T17:00:00"
 youtube_url: "https://youtu.be/SO30mI_6usk"
 youtube_video_id: "SO30mI_6usk"
 theme: "ia-travail"

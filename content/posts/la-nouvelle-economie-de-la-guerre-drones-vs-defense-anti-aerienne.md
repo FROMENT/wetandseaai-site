@@ -3,14 +3,14 @@ title: "La Nouvelle Économie de la Guerre : Drones vs Défense Anti-Aérienne"
 date: 2026-03-30
 youtube_url: "https://youtu.be/Qu3SLYa7Du4"
 youtube_video_id: "Qu3SLYa7Du4"
-theme: "cybersecurity"
-categories: ["Cybersécurité"]
-tags: ["cybersecurity"]
+theme: "prospective"
+categories: ["Prospective"]
+tags: ["prospective"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
   image: "/covers/Qu3SLYa7Du4.jpg"
   alt: "La Nouvelle Économie de la Guerre : Drones vs Défense Anti-Aérienne"
-  caption: "Cybersécurité"
+  caption: "Prospective"
 draft: false
 catalogue_id: "7b5d0f54"
 ---

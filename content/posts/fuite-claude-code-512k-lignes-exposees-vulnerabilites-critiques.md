@@ -3,14 +3,14 @@ title: "Fuite Claude Code : 512k lignes exposées, vulnérabilités critiques"
 date: 2026-04-16
 youtube_url: "https://youtu.be/1Lq0iTq0Czs"
 youtube_video_id: "1Lq0iTq0Czs"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "ia-travail"
+categories: ["IA & Travail"]
+tags: ["ia-travail"]
 summary: "These sources document a turbulent period for **Anthropic** in early 2026, highlighted by the **accidental exposure** of the **Claude Code** source code through a misconfigured npm file. While the…"
 cover:
   image: "/covers/1Lq0iTq0Czs.jpg"
   alt: "Fuite Claude Code : 512k lignes exposées, vulnérabilités critiques"
-  caption: "Divers"
+  caption: "IA & Travail"
 draft: false
 catalogue_id: "d7a35d7c"
 ---

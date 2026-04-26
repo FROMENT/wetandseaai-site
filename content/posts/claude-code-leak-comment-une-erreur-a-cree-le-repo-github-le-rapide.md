@@ -1,16 +1,17 @@
 ---
 title: "Claude Code Leak : Comment une erreur a créé le repo GitHub le + rapide"
 date: 2026-04-16
+publishDate: "2026-05-30T14:00:00"
 youtube_url: "https://youtu.be/tpdsCd9XrEY"
 youtube_video_id: "tpdsCd9XrEY"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "ia-travail"
+categories: ["IA & Travail"]
+tags: ["ia-travail"]
 summary: "The provided documents center on the accidental **source code leak** of Anthropic’s **Claude Code** and the subsequent rise of **Claw Code**, a high-performance open-source recreation built in…"
 cover:
   image: "/covers/tpdsCd9XrEY.jpg"
   alt: "Claude Code Leak : Comment une erreur a créé le repo GitHub le + rapide"
-  caption: "Divers"
+  caption: "IA & Travail"
 draft: false
 catalogue_id: "6ce152b9"
 ---

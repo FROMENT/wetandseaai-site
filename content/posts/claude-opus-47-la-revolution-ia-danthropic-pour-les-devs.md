@@ -1,16 +1,17 @@
 ---
 title: "Claude Opus 4.7 : La révolution IA d'Anthropic pour les devs"
 date: 2026-04-17
+publishDate: "2026-06-06T17:00:00"
 youtube_url: "https://youtu.be/ajKhTATEvL4"
 youtube_video_id: "ajKhTATEvL4"
-theme: "divers"
-categories: ["Divers"]
-tags: ["divers"]
+theme: "ia-travail"
+categories: ["IA & Travail"]
+tags: ["ia-travail"]
 summary: "Anthropic has introduced **Claude Opus 4.7**, a sophisticated artificial intelligence model engineered for **advanced software development** and **autonomous agentic workflows**. This release…"
 cover:
   image: "/covers/ajKhTATEvL4.jpg"
   alt: "Claude Opus 4.7 : La révolution IA d'Anthropic pour les devs"
-  caption: "Divers"
+  caption: "IA & Travail"
 draft: false
 catalogue_id: "78a44fb2"
 ---

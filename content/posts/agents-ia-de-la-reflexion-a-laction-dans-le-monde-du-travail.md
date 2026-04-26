@@ -1,6 +1,7 @@
 ---
 title: "Agents IA : De la Réflexion à l'Action dans le Monde du Travail"
 date: 2026-04-02
+publishDate: "2026-05-08T17:00:00"
 youtube_url: "https://youtu.be/kFV5T5X6ooo"
 youtube_video_id: "kFV5T5X6ooo"
 theme: "ia-travail"
@@ -29,6 +30,13 @@ reduce costs within the model's **context window**. The documentation also highl
 which standardizes how these systems securely integrate with **external tools and data sources**. By intelligently 
 **extracting and consolidating information**, these frameworks enable AI to reason, plan, and execute complex workflows with a
 personalized understanding of the user.
+
+## Chapitres
+
+- `0:00` — Introduction aux agents IA
+- `0:32` — Le problème M par N
+- `1:07` — Protocol MCP expliqué
+- `1:41` — Écosystème et perspectives futures
 
 ## Sources
 

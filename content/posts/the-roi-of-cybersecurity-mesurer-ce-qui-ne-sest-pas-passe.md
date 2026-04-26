@@ -32,6 +32,13 @@ from the Middle East. Experts emphasize that the **future of defense** requires 
 **risk-based regulatory frameworks**, and collaborative electronic warfare strategies to regain the favorable side of the 
 cost-exchange curve.
 
+## Chapitres
+
+- `0:00` — Introduction au problème
+- `0:32` — Le défi économique
+- `1:06` — Méthode SAM et stratégie
+- `1:39` — Adaptation aux menaces
+
 ## Sources
 
 - [AI Governance & Control Framework - Carve Consulting](https://www.carve.dk/wp-content/uploads/2025/09/Deeploy-whitepaper.pdf)

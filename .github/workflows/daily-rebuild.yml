@@ -1,0 +1,75 @@
+name: Daily Cloudflare rebuild (scheduled posts)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Pourquoi
+# ─────────────────────────────────────────────────────────────────────────────
+# Les articles dont le frontmatter contient `publishDate: <future>` sont
+# masqués par Hugo (cf. `buildFuture: false` dans hugo.yaml). Sans rebuild,
+# ils ne réapparaissent jamais sur le site même quand leur publishDate
+# devient passée.
+#
+# Ce workflow déclenche un rebuild Cloudflare 2× par jour pour faire
+# apparaître les articles dont la vidéo YouTube vient de basculer publique.
+# Aucune modification du repo n'est nécessaire — Cloudflare reconstruit le
+# site à partir de l'état git courant.
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# Configuration requise (one-time)
+# ─────────────────────────────────────────────────────────────────────────────
+# 1. Cloudflare Dashboard → Workers & Pages → wetandseaai → Settings
+#    → Build & deploy → Deploy hooks
+#    → Add deploy hook (nom : "daily-scheduled-posts", branche : main)
+#    → Copier l'URL générée (forme :
+#       https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/<UUID>)
+#
+# 2. GitHub repo → Settings → Secrets and variables → Actions
+#    → New repository secret
+#    → Name : CLOUDFLARE_DEPLOY_HOOK_URL
+#    → Value : <URL copiée à l'étape 1>
+#
+# 3. Tester manuellement : Actions tab → "Daily Cloudflare rebuild"
+#    → Run workflow → Run
+# ─────────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    # Cron exprimé en UTC. Aligné sur les créneaux scheduling FR (09/11/14/17h
+    # Paris) — un rebuild peu après chaque demi-journée publie les articles
+    # dont la vidéo vient de basculer public.
+    - cron: '0 8 * * *'   # 09:00–10:00 Paris (post-créneau matin)
+    - cron: '0 16 * * *'  # 17:00–18:00 Paris (post-créneau après-midi)
+  # Bouton "Run workflow" dans l'onglet Actions (pratique pour tester)
+  workflow_dispatch:
+
+jobs:
+  trigger-rebuild:
+    name: Curl Cloudflare deploy hook
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Trigger Cloudflare build
+        env:
+          HOOK_URL: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$HOOK_URL" ]; then
+            echo "::error::Secret CLOUDFLARE_DEPLOY_HOOK_URL absent — voir l'en-tête de ce workflow pour la configuration."
+            exit 1
+          fi
+
+          # Capture HTTP status + body sans exposer l'URL dans les logs.
+          response=$(curl -sS -X POST "$HOOK_URL" \
+            -H "Content-Type: application/json" \
+            -w "\nHTTP_STATUS:%{http_code}")
+
+          status=$(echo "$response" | grep "HTTP_STATUS:" | cut -d: -f2)
+          body=$(echo "$response" | grep -v "HTTP_STATUS:")
+
+          if [ "$status" -ge 200 ] && [ "$status" -lt 300 ]; then
+            echo "✓ Cloudflare rebuild déclenché (HTTP $status)"
+            echo "$body" | head -3
+          else
+            echo "::error::Échec déclenchement rebuild — HTTP $status"
+            echo "$body"
+            exit 1
+          fi
