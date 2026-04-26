@@ -8,9 +8,10 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "The provided documents detail the operational framework and technical architecture of **DevSecOps**, specifically focusing on how organizations like **Sunbytes** and the Department of Defense's…"
 cover:
-  image: "/covers/40841515.jpg"
+  image: "https://img.youtube.com/vi/LfuCtnEWUew/maxresdefault.jpg"
   alt: "Conteneurisation Java : Docker & Kubernetes pour DevOps"
   caption: "DevOps & Cloud"
+  relative: false
 draft: false
 catalogue_id: "40841515"
 ---

@@ -8,9 +8,10 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "The provided texts explore the intersection of **automotive technology** and **connected data systems**, focusing on how **APIs** and the **Internet of Things (IoT)** revolutionize vehicle…"
 cover:
-  image: "/covers/16337fd5.jpg"
+  image: "https://img.youtube.com/vi/O8XKWonwH-I/maxresdefault.jpg"
   alt: "KARMA : autoscaling Kubernetes résilient sous contrainte de coût"
   caption: "DevOps & Cloud"
+  relative: false
 draft: false
 catalogue_id: "16337fd5"
 ---

@@ -8,9 +8,10 @@ categories: ["Divers"]
 tags: ["divers"]
 summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
 cover:
-  image: "/covers/c937ece9.jpg"
+  image: "https://img.youtube.com/vi/oWcZv5LVSII/maxresdefault.jpg"
   alt: "Claude 3.5 Sonnet : IA Conversationnelle Révolutionnaire"
   caption: "Divers"
+  relative: false
 draft: false
 catalogue_id: "c937ece9"
 ---

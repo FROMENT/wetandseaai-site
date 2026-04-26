@@ -8,9 +8,10 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "The provided documents detail the operational framework and technical architecture of **DevSecOps**, specifically focusing on how organizations like **Sunbytes** and the Department of Defense's…"
 cover:
-  image: "/covers/5697e6ff.jpg"
+  image: "https://img.youtube.com/vi/5tyXztj-bEE/maxresdefault.jpg"
   alt: "Guide Complet: Sécurité des Conteneurs Docker en DevOps"
   caption: "DevOps & Cloud"
+  relative: false
 draft: false
 catalogue_id: "5697e6ff"
 ---

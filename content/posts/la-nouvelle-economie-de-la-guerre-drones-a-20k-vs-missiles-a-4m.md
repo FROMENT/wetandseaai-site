@@ -8,9 +8,10 @@ categories: ["Divers"]
 tags: ["divers"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
-  image: "/covers/2963b4f5.jpg"
+  image: "https://img.youtube.com/vi/S7I-bNq9KRc/maxresdefault.jpg"
   alt: "La Nouvelle Économie de la Guerre : Drones à $20K vs Missiles à $4M"
   caption: "Divers"
+  relative: false
 draft: false
 catalogue_id: "2963b4f5"
 ---

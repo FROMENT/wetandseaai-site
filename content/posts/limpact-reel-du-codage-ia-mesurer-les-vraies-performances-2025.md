@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources document the rapid evolution of **artificial intelligence technical performance** and its practical application in **software development**. A report from **Stanford HAI**…"
 cover:
-  image: "/covers/caddc243.jpg"
+  image: "https://img.youtube.com/vi/wAs_qOYL8jc/maxresdefault.jpg"
   alt: "L'Impact Réel du Codage IA : Mesurer les Vraies Performances 2025"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "caddc243"
 ---

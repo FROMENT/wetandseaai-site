@@ -8,9 +8,10 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "**Google DeepMind** is a leading artificial intelligence laboratory owned by **Alphabet Inc.** that focuses on developing general-purpose systems for scientific discovery and technological…"
 cover:
-  image: "/covers/e003ea43.jpg"
+  image: "https://img.youtube.com/vi/AqTDo_8qDVA/maxresdefault.jpg"
   alt: "L'Aube de l'Abondance Radicale : l'IA va-t-elle tout changer pour tous ?"
   caption: "Prospective"
+  relative: false
 draft: false
 catalogue_id: "e003ea43"
 ---

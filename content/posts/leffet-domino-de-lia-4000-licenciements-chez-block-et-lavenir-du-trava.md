@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "/covers/864b8317.jpg"
+  image: "https://img.youtube.com/vi/LT6PfcElOK4/maxresdefault.jpg"
   alt: "L'Effet Domino de l'IA : 4000 licenciements chez Block et l'avenir du travail"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "864b8317"
 ---

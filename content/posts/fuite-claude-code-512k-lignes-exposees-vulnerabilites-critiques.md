@@ -8,9 +8,10 @@ categories: ["Divers"]
 tags: ["divers"]
 summary: "These sources document a turbulent period for **Anthropic** in early 2026, highlighted by the **accidental exposure** of the **Claude Code** source code through a misconfigured npm file. While the…"
 cover:
-  image: "/covers/d7a35d7c.jpg"
+  image: "https://img.youtube.com/vi/1Lq0iTq0Czs/maxresdefault.jpg"
   alt: "Fuite Claude Code : 512k lignes exposées, vulnérabilités critiques"
   caption: "Divers"
+  relative: false
 draft: false
 catalogue_id: "d7a35d7c"
 ---

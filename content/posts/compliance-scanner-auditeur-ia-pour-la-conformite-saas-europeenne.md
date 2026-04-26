@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The **COMPLIANCE Scanner** is a specialized web service designed to perform rapid, **on-demand audits of third-party SaaS tools** against five key European regulatory frameworks, including **GDPR,…"
 cover:
-  image: "/covers/b2cdff94.jpg"
+  image: "https://img.youtube.com/vi/G_xlMBI5Ass/maxresdefault.jpg"
   alt: "COMPLIANCE Scanner : Auditeur IA pour la conformité SaaS européenne"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "b2cdff94"
 ---

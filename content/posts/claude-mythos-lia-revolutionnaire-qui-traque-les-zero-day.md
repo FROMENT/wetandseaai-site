@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
 cover:
-  image: "/covers/5ae3b441.jpg"
+  image: "https://img.youtube.com/vi/XNmKm22N-3A/maxresdefault.jpg"
   alt: "Claude Mythos : L'IA révolutionnaire qui traque les zero-day"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "5ae3b441"
 ---

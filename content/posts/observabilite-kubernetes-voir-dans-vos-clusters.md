@@ -8,9 +8,10 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "The provided texts explore the intersection of **automotive technology** and **connected data systems**, focusing on how **APIs** and the **Internet of Things (IoT)** revolutionize vehicle…"
 cover:
-  image: "/covers/9ad9aa88.jpg"
+  image: "https://img.youtube.com/vi/7C_dPRegk2U/maxresdefault.jpg"
   alt: "Observabilité Kubernetes : voir dans vos clusters"
   caption: "DevOps & Cloud"
+  relative: false
 draft: false
 catalogue_id: "9ad9aa88"
 ---

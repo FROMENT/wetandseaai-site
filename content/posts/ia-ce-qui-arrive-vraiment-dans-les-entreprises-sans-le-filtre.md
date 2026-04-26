@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "These sources outline a **pivotal transition** in the artificial intelligence sector as it moves from experimental models to **integrated economic infrastructure** by mid-2026. The reports highlight…"
 cover:
-  image: "/covers/9ee16318.jpg"
+  image: "https://img.youtube.com/vi/qq4Xg1UWN2M/maxresdefault.jpg"
   alt: "IA : Ce qui arrive vraiment dans les entreprises (sans le filtre)"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "9ee16318"
 ---

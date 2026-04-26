@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "/covers/d674de2a.jpg"
+  image: "https://img.youtube.com/vi/1EmwKtvIsLk/maxresdefault.jpg"
   alt: "IA & The Human Factor : quand l'humain reste indispensable"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "d674de2a"
 ---

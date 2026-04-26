@@ -8,9 +8,10 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "These sources describe **OpenClaw**, an open-source autonomous AI assistant designed to execute complex workflows across messaging platforms like **WhatsApp**, **Slack**, and **Discord**. Originally…"
 cover:
-  image: "/covers/5a4e46de.jpg"
+  image: "https://img.youtube.com/vi/A6p5g6_K9U4/maxresdefault.jpg"
   alt: "OpenClaw : L'Assistant IA Autonome qui Menace la Cybersécurité"
   caption: "Cybersécurité"
+  relative: false
 draft: false
 catalogue_id: "5a4e46de"
 ---

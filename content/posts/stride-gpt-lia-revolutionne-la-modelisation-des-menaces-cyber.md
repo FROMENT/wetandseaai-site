@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "**STRIDE GPT** is an automated security tool designed to streamline **threat modeling** by utilizing advanced **large language models**. This open-source application analyzes software details or…"
 cover:
-  image: "/covers/093d73b0.jpg"
+  image: "https://img.youtube.com/vi/2O0fgENs9Qg/maxresdefault.jpg"
   alt: "STRIDE GPT : L'IA révolutionne la modélisation des menaces cyber"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "093d73b0"
 ---

@@ -8,9 +8,10 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "The provided texts explore the intersection of **automotive technology** and **connected data systems**, focusing on how **APIs** and the **Internet of Things (IoT)** revolutionize vehicle…"
 cover:
-  image: "/covers/acb5f08c.jpg"
+  image: "https://img.youtube.com/vi/VkrroaIVUHc/maxresdefault.jpg"
   alt: "Les 5 Niveaux d'Abstraction de Kubernetes expliqués clairement"
   caption: "DevOps & Cloud"
+  relative: false
 draft: false
 catalogue_id: "acb5f08c"
 ---

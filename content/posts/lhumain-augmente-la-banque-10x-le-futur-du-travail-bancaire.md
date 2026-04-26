@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "/covers/63e23c73.jpg"
+  image: "https://img.youtube.com/vi/S4LUeVo0TiY/maxresdefault.jpg"
   alt: "L'Humain Augmenté & La Banque 10x : le futur du travail bancaire"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "63e23c73"
 ---

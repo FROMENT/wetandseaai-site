@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "These sources present a framework for **Conformal Language Modeling**, a method designed to provide **statistical guarantees** for the accuracy of generative artificial intelligence. By adapting…"
 cover:
-  image: "/covers/a064139d.jpg"
+  image: "https://img.youtube.com/vi/P3DnlpNkVV4/maxresdefault.jpg"
   alt: "L'IA qui sait dire 'Je ne sais pas' : révolution dans le travail"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "a064139d"
 ---

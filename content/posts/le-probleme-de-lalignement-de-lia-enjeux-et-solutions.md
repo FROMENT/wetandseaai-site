@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "These sources examine the technological advancements and critical safety challenges associated with **artificial general intelligence (AGI)** and **agentic AI systems**. Anthropic introduces the…"
 cover:
-  image: "/covers/c929e1e3.jpg"
+  image: "https://img.youtube.com/vi/0IoKsWubOj8/maxresdefault.jpg"
   alt: "Le Problème de l'Alignement de l'IA : Enjeux et Solutions"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "c929e1e3"
 ---

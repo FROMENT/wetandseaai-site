@@ -83,7 +83,7 @@ params:
     hidden: false
     hiddenInList: false
     hiddenInSingle: false
-    responsiveImages: true
+    responsiveImages: false   # désactivé : covers = URLs YT externes
 
   # Recherche client-side via Fuse.js (futur)
   fuseOpts:

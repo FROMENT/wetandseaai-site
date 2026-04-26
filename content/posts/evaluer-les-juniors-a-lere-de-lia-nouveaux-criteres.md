@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "/covers/6fdd3028.jpg"
+  image: "https://img.youtube.com/vi/pIqRXRF0yDs/maxresdefault.jpg"
   alt: "Évaluer les juniors à l'ère de l'IA : nouveaux critères"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "6fdd3028"
 ---

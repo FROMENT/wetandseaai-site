@@ -8,9 +8,10 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
-  image: "/covers/d0a0939d.jpg"
+  image: "https://img.youtube.com/vi/eDIY82dZ1O0/maxresdefault.jpg"
   alt: "Le Roi de la Cybersécurité : Entre Menaces Asymétriques et Défense"
   caption: "Cybersécurité"
+  relative: false
 draft: false
 catalogue_id: "d0a0939d"
 ---

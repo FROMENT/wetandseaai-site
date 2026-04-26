@@ -8,9 +8,10 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "The provided text explores **logical security** as a proactive and essential framework for software development rather than a mere set of restrictions. It utilizes three primary metaphors—the…"
 cover:
-  image: "/covers/da49d50d.jpg"
+  image: "https://img.youtube.com/vi/EsHE3n3Skyc/maxresdefault.jpg"
   alt: "Sécurité Logique : Fondamentaux et Meilleures Pratiques"
   caption: "Cybersécurité"
+  relative: false
 draft: false
 catalogue_id: "da49d50d"
 ---

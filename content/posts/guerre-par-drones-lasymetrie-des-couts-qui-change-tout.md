@@ -8,9 +8,10 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
-  image: "/covers/45644fd4.jpg"
+  image: "https://img.youtube.com/vi/Ca1nyHbrj4s/maxresdefault.jpg"
   alt: "Guerre par Drones : L'Asymétrie des Coûts qui Change Tout"
   caption: "Cybersécurité"
+  relative: false
 draft: false
 catalogue_id: "45644fd4"
 ---

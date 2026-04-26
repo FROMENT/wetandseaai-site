@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "/covers/bc749884.jpg"
+  image: "https://img.youtube.com/vi/eZRYx-TWxsk/maxresdefault.jpg"
   alt: "IA : Menace ou Mentor ? Choisir la bonne posture face à l'IA"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "bc749884"
 ---

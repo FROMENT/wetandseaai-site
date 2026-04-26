@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "These sources introduce **BrowseComp**, a rigorous benchmark developed by **OpenAI** to evaluate the **persistence and creativity** of AI browsing agents. Unlike older tests that focused on easily…"
 cover:
-  image: "/covers/14b357c4.jpg"
+  image: "https://img.youtube.com/vi/p0Qlk5hgB-Y/maxresdefault.jpg"
   alt: "L'avènement des agents IA : vers l'automatisation autonome"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "14b357c4"
 ---

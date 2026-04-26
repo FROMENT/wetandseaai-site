@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "These sources explore the technical evolution of **intelligent AI agents**, focusing on how **Context Engineering** transforms them from simple chatbots into autonomous collaborators. While…"
 cover:
-  image: "/covers/dfcde5e5.jpg"
+  image: "https://img.youtube.com/vi/SO30mI_6usk/maxresdefault.jpg"
   alt: "Les mécanismes secrets de l'IA au travail révélés"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "dfcde5e5"
 ---

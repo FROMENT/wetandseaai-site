@@ -8,9 +8,10 @@ categories: ["Divers"]
 tags: ["divers"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
-  image: "/covers/bddc8e82.jpg"
+  image: "https://img.youtube.com/vi/rVeKCQSPZSg/maxresdefault.jpg"
   alt: "Secrets of Your Access Card: Hidden Vulnerabilities & Cyber Threats"
   caption: "Divers"
+  relative: false
 draft: false
 catalogue_id: "bddc8e82"
 ---

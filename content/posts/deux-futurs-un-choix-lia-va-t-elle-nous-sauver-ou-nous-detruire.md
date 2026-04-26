@@ -8,9 +8,10 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "These sources analyze the intersection of demographic history, environmental crisis, and public policy, beginning with a study of the **long-term population impacts** of the First World War. This…"
 cover:
-  image: "/covers/60c28af4.jpg"
+  image: "https://img.youtube.com/vi/HhTozl4tu34/maxresdefault.jpg"
   alt: "Deux Futurs, Un Choix : L'IA va-t-elle Nous Sauver ou Nous Détruire ?"
   caption: "Prospective"
+  relative: false
 draft: false
 catalogue_id: "60c28af4"
 ---

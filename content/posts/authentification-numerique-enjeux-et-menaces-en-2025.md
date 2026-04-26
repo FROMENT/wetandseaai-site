@@ -8,9 +8,10 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "The first source is a **technical report from the French National Cybersecurity Agency (ANSSI)** detailing a surge in **critical vulnerabilities** affecting network edge devices like **VPN gateways…"
 cover:
-  image: "/covers/bb3ef019.jpg"
+  image: "https://img.youtube.com/vi/nCdtLxLrmws/maxresdefault.jpg"
   alt: "Authentification numérique : enjeux et menaces en 2025"
   caption: "Cybersécurité"
+  relative: false
 draft: false
 catalogue_id: "bb3ef019"
 ---

@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "/covers/f8e76af7.jpg"
+  image: "https://img.youtube.com/vi/l-VclKA6YN0/maxresdefault.jpg"
   alt: "IA & Banque : le dilemme entre innovation et conformité"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "f8e76af7"
 ---

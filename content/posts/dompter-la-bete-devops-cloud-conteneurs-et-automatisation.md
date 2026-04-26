@@ -8,9 +8,10 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "The provided documents detail the operational framework and technical architecture of **DevSecOps**, specifically focusing on how organizations like **Sunbytes** and the Department of Defense's…"
 cover:
-  image: "/covers/60d9dbf6.jpg"
+  image: "https://img.youtube.com/vi/netbe0Xb7VU/maxresdefault.jpg"
   alt: "Dompter la Bête DevOps : Cloud, Conteneurs et Automatisation"
   caption: "DevOps & Cloud"
+  relative: false
 draft: false
 catalogue_id: "60d9dbf6"
 ---

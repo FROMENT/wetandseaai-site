@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources examine the **structural transformation** of the global banking sector, focusing on how **artificial intelligence and digitalization** are reshaping financial institutions in…"
 cover:
-  image: "/covers/5ec0d7c1.jpg"
+  image: "https://img.youtube.com/vi/6lKg3QhyPgM/maxresdefault.jpg"
   alt: "Prompt Engineering : Maîtrisez l'art de commander l'IA efficacement"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "5ec0d7c1"
 ---

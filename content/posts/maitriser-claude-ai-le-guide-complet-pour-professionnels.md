@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources examine the **structural transformation** of the global banking sector, focusing on how **artificial intelligence and digitalization** are reshaping financial institutions in…"
 cover:
-  image: "/covers/f378140e.jpg"
+  image: "https://img.youtube.com/vi/HJUcTOWcEqc/maxresdefault.jpg"
   alt: "Maîtriser Claude AI : Le Guide Complet pour Professionnels"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "f378140e"
 ---

@@ -8,9 +8,10 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "/covers/fee70ead.jpg"
+  image: "https://img.youtube.com/vi/_n7yxM_Oy40/maxresdefault.jpg"
   alt: "IA et le Junior : La Bascule — le moment où tout change"
   caption: "IA & Travail"
+  relative: false
 draft: false
 catalogue_id: "fee70ead"
 ---

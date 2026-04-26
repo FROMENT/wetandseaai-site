@@ -8,9 +8,10 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "The provided sources discuss the legal and technological landscape of **digital sovereignty**, focusing on the tension between **United States extraterritorial laws** and European data protection.…"
 cover:
-  image: "/covers/fbeae4d5.jpg"
+  image: "https://img.youtube.com/vi/mVJ0w_Kdi8s/maxresdefault.jpg"
   alt: "Souveraineté Numérique : Comment (Pas Où) Protéger ses Données"
   caption: "Prospective"
+  relative: false
 draft: false
 catalogue_id: "fbeae4d5"
 ---
