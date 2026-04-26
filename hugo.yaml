@@ -1,7 +1,7 @@
 # hugo.yaml — Configuration WetAndSeaAI.fr
 # Stack : Hugo + PaperMod | Multilangue FR/EN | Build Cloudflare Pages
 
-baseURL: "https://next.wetandseaai.fr/"
+baseURL: "https://wetandseaai.pascal-froment.workers.dev/"
 title: "Wet & Sea & IA"
 theme: PaperMod
 defaultContentLanguage: fr

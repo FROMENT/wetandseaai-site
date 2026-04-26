@@ -4,7 +4,7 @@
 # (API endpoints, redirections complexes), créer un fichier `src/index.ts`
 # et décommenter la section [main].
 
-name = "wetandseaai-site"
+name = "wetandseaai"
 compatibility_date = "2025-04-01"
 
 # Servir le dossier `public/` (généré par Hugo) comme assets statiques.
