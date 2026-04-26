@@ -8,10 +8,9 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "The provided texts explore the intersection of **automotive technology** and **connected data systems**, focusing on how **APIs** and the **Internet of Things (IoT)** revolutionize vehicle…"
 cover:
-  image: "https://img.youtube.com/vi/sgpgG8ooQd4/maxresdefault.jpg"
+  image: "/covers/sgpgG8ooQd4.jpg"
   alt: "Kubernetes : le coût caché du hype technologique"
   caption: "DevOps & Cloud"
-  relative: false
 draft: false
 catalogue_id: "2982a855"
 ---

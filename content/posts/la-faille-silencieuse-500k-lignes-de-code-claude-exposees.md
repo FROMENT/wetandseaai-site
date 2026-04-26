@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "These sources document a turbulent period for **Anthropic** in early 2026, highlighted by the **accidental exposure** of the **Claude Code** source code through a misconfigured npm file. While the…"
 cover:
-  image: "https://img.youtube.com/vi/i_lijlF80nQ/maxresdefault.jpg"
+  image: "/covers/i_lijlF80nQ.jpg"
   alt: "La Faille Silencieuse : 500K lignes de code Claude exposées"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "366371b5"
 ---

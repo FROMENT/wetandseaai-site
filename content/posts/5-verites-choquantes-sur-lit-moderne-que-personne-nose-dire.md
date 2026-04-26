@@ -8,10 +8,9 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "These sources examine the critical role of **software testing**, emphasizing the transition from manual efforts to **automated strategies** and the distinction between **functional** and…"
 cover:
-  image: "https://img.youtube.com/vi/eCCRInF9rm4/maxresdefault.jpg"
+  image: "/covers/eCCRInF9rm4.jpg"
   alt: "5 Vérités Choquantes sur l'IT Moderne que Personne n'Ose Dire"
   caption: "DevOps & Cloud"
-  relative: false
 draft: false
 catalogue_id: "4b2d0fb1"
 ---

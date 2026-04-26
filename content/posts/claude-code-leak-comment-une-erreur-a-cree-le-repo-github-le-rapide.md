@@ -8,10 +8,9 @@ categories: ["Divers"]
 tags: ["divers"]
 summary: "The provided documents center on the accidental **source code leak** of Anthropic’s **Claude Code** and the subsequent rise of **Claw Code**, a high-performance open-source recreation built in…"
 cover:
-  image: "https://img.youtube.com/vi/tpdsCd9XrEY/maxresdefault.jpg"
+  image: "/covers/tpdsCd9XrEY.jpg"
   alt: "Claude Code Leak : Comment une erreur a créé le repo GitHub le + rapide"
   caption: "Divers"
-  relative: false
 draft: false
 catalogue_id: "6ce152b9"
 ---

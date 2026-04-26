@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "https://img.youtube.com/vi/W6gdZrRO-VY/maxresdefault.jpg"
+  image: "/covers/W6gdZrRO-VY.jpg"
   alt: "IA & RH : Menace ou Opportunité pour les Ressources Humaines ?"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "960357a6"
 ---

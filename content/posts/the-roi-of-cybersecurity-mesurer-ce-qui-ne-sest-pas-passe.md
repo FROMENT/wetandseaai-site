@@ -8,10 +8,9 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
-  image: "https://img.youtube.com/vi/rgrnqWINT_0/maxresdefault.jpg"
+  image: "/covers/rgrnqWINT_0.jpg"
   alt: "The ROI of Cybersecurity : mesurer ce qui ne s'est pas passé"
   caption: "Cybersécurité"
-  relative: false
 draft: false
 catalogue_id: "de3314a2"
 ---

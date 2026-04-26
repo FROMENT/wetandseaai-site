@@ -8,10 +8,9 @@ categories: ["Divers"]
 tags: ["divers"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
-  image: "https://img.youtube.com/vi/drXl7ahy_ds/maxresdefault.jpg"
+  image: "/covers/drXl7ahy_ds.jpg"
   alt: "Asymétrie des Coûts en Défense : Drones vs Missiles Intercepteurs"
   caption: "Divers"
-  relative: false
 draft: false
 catalogue_id: "20f8cc25"
 ---

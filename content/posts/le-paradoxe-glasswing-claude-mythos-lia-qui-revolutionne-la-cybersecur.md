@@ -8,10 +8,9 @@ categories: ["Divers"]
 tags: ["divers"]
 summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
 cover:
-  image: "https://img.youtube.com/vi/uC1tU5YgumM/maxresdefault.jpg"
+  image: "/covers/uC1tU5YgumM.jpg"
   alt: "Le Paradoxe Glasswing : Claude Mythos, l'IA qui révolutionne la cybersécurité"
   caption: "Divers"
-  relative: false
 draft: false
 catalogue_id: "ce7c05f0"
 ---

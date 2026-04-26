@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "These sources explore the technical evolution of **intelligent AI agents**, focusing on how **Context Engineering** transforms them from simple chatbots into autonomous collaborators. While…"
 cover:
-  image: "https://img.youtube.com/vi/sW89nucAzXQ/maxresdefault.jpg"
+  image: "/covers/sW89nucAzXQ.jpg"
   alt: "L'Agent IA Impuissant : pourquoi les agents échouent en production"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "e50fbf6f"
 ---

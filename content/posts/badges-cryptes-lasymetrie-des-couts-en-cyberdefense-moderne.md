@@ -8,10 +8,9 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
-  image: "https://img.youtube.com/vi/0gbZNRs99wo/maxresdefault.jpg"
+  image: "/covers/0gbZNRs99wo.jpg"
   alt: "Badges Cryptés : L'Asymétrie des Coûts en Cyberdéfense Moderne"
   caption: "Cybersécurité"
-  relative: false
 draft: false
 catalogue_id: "a6f91f80"
 ---

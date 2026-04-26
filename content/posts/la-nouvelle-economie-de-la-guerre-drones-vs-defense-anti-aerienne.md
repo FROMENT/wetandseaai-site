@@ -8,10 +8,9 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
-  image: "https://img.youtube.com/vi/Qu3SLYa7Du4/maxresdefault.jpg"
+  image: "/covers/Qu3SLYa7Du4.jpg"
   alt: "La Nouvelle Économie de la Guerre : Drones vs Défense Anti-Aérienne"
   caption: "Cybersécurité"
-  relative: false
 draft: false
 catalogue_id: "7b5d0f54"
 ---

@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources analyze the security architecture and threat landscape of **agentic multi-agent systems (MAS)**, emphasizing that autonomous AI requires a departure from traditional…"
 cover:
-  image: "https://img.youtube.com/vi/tY10bAL2jWs/maxresdefault.jpg"
+  image: "/covers/tY10bAL2jWs.jpg"
   alt: "Sécuriser l'IA Agentique : Guide Complet des Menaces et Solutions"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "6940fbe8"
 ---

@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "https://img.youtube.com/vi/toy_3179KHY/maxresdefault.jpg"
+  image: "/covers/toy_3179KHY.jpg"
   alt: "IA : Le Vrai Prix du Futur — ce que personne ne calcule"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "eb72666f"
 ---

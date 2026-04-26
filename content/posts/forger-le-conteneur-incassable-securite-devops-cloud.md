@@ -8,10 +8,9 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "The provided documents detail the operational framework and technical architecture of **DevSecOps**, specifically focusing on how organizations like **Sunbytes** and the Department of Defense's…"
 cover:
-  image: "https://img.youtube.com/vi/PbF2WljK5mg/maxresdefault.jpg"
+  image: "/covers/PbF2WljK5mg.jpg"
   alt: "Forger le Conteneur Incassable : Sécurité & DevOps Cloud"
   caption: "DevOps & Cloud"
-  relative: false
 draft: false
 catalogue_id: "70fe2071"
 ---

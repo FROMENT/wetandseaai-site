@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources examine the **structural transformation** of the global banking sector, focusing on how **artificial intelligence and digitalization** are reshaping financial institutions in…"
 cover:
-  image: "https://img.youtube.com/vi/Eqfe4x--9nc/maxresdefault.jpg"
+  image: "/covers/Eqfe4x--9nc.jpg"
   alt: "IA contre-intuitive au travail : pourquoi elle surprend encore"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "2650375d"
 ---

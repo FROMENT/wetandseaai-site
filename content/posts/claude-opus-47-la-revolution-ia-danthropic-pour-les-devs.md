@@ -8,10 +8,9 @@ categories: ["Divers"]
 tags: ["divers"]
 summary: "Anthropic has introduced **Claude Opus 4.7**, a sophisticated artificial intelligence model engineered for **advanced software development** and **autonomous agentic workflows**. This release…"
 cover:
-  image: "https://img.youtube.com/vi/ajKhTATEvL4/maxresdefault.jpg"
+  image: "/covers/ajKhTATEvL4.jpg"
   alt: "Claude Opus 4.7 : La révolution IA d'Anthropic pour les devs"
   caption: "Divers"
-  relative: false
 draft: false
 catalogue_id: "78a44fb2"
 ---

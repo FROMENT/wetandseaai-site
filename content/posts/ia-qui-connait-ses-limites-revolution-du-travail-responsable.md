@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "These sources present a framework for **Conformal Language Modeling**, a method designed to provide **statistical guarantees** for the accuracy of generative artificial intelligence. By adapting…"
 cover:
-  image: "https://img.youtube.com/vi/2-XEstpkrKg/maxresdefault.jpg"
+  image: "/covers/2-XEstpkrKg.jpg"
   alt: "IA qui connaît ses limites : révolution du travail responsable"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "0a8eaf5f"
 ---

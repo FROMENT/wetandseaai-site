@@ -8,10 +8,9 @@ categories: ["Divers"]
 tags: ["divers"]
 summary: "The **COMPLIANCE Scanner** is a specialized web service designed to perform rapid, **on-demand audits of third-party SaaS tools** against five key European regulatory frameworks, including **GDPR,…"
 cover:
-  image: "https://img.youtube.com/vi/TWLubLYefn8/maxresdefault.jpg"
+  image: "/covers/TWLubLYefn8.jpg"
   alt: "SaaS et conformité EU : l'audit instantané qui change tout"
   caption: "Divers"
-  relative: false
 draft: false
 catalogue_id: "120840be"
 ---

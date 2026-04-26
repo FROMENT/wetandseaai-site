@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "https://img.youtube.com/vi/6KVJFmqJtO0/maxresdefault.jpg"
+  image: "/covers/6KVJFmqJtO0.jpg"
   alt: "AI & Layoffs : la nouvelle ruée vers la productivité sans humains"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "da8b4a0c"
 ---

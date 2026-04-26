@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "These sources explore the technical evolution of **intelligent AI agents**, focusing on how **Context Engineering** transforms them from simple chatbots into autonomous collaborators. While…"
 cover:
-  image: "https://img.youtube.com/vi/kFV5T5X6ooo/maxresdefault.jpg"
+  image: "/covers/kFV5T5X6ooo.jpg"
   alt: "Agents IA : De la Réflexion à l'Action dans le Monde du Travail"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "605a019d"
 ---

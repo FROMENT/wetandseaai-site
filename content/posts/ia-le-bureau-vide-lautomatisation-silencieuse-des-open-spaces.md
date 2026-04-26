@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "https://img.youtube.com/vi/bZvrU8yNgKU/maxresdefault.jpg"
+  image: "/covers/bZvrU8yNgKU.jpg"
   alt: "IA & le Bureau Vide : l'automatisation silencieuse des open spaces"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "d3039f95"
 ---

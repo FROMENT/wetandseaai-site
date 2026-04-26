@@ -8,10 +8,9 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "These sources collectively explore the frameworks and strategies necessary for managing **enterprise technology** and **data assets**. The **Talend** documentation defines **modern data…"
 cover:
-  image: "https://img.youtube.com/vi/lvrwFUNJcAw/maxresdefault.jpg"
+  image: "/covers/lvrwFUNJcAw.jpg"
   alt: "De la Donnée à la Défense : Guide Cybersécurité Complète 2024"
   caption: "Cybersécurité"
-  relative: false
 draft: false
 catalogue_id: "5e6de649"
 ---

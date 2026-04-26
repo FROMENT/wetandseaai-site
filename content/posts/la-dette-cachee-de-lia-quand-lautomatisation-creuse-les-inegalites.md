@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "This **NBER working paper** examines the economic consequences of **artificial intelligence**, focusing specifically on its potential to worsen **income inequality** and **unemployment**. The…"
 cover:
-  image: "https://img.youtube.com/vi/9oYAiZsCPLA/maxresdefault.jpg"
+  image: "/covers/9oYAiZsCPLA.jpg"
   alt: "La Dette Cachée de l'IA : Quand l'Automatisation Creuse les Inégalités"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "e9494508"
 ---

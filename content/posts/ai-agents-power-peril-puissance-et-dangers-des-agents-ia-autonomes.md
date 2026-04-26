@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "These sources describe **OpenClaw**, an open-source autonomous AI assistant designed to execute complex workflows across messaging platforms like **WhatsApp**, **Slack**, and **Discord**. Originally…"
 cover:
-  image: "https://img.youtube.com/vi/6d8qyqs9BQs/maxresdefault.jpg"
+  image: "/covers/6d8qyqs9BQs.jpg"
   alt: "AI Agents : Power & Peril — puissance et dangers des agents IA autonomes"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "e76ad87c"
 ---

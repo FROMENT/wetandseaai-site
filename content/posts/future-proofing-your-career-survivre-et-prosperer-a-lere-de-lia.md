@@ -8,10 +8,9 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "These sources introduce **BrowseComp**, a rigorous benchmark developed by **OpenAI** to evaluate the **persistence and creativity** of AI browsing agents. Unlike older tests that focused on easily…"
 cover:
-  image: "https://img.youtube.com/vi/Vkca7epglB8/maxresdefault.jpg"
+  image: "/covers/Vkca7epglB8.jpg"
   alt: "Future-Proofing Your Career : survivre et prospérer à l'ère de l'IA"
   caption: "Prospective"
-  relative: false
 draft: false
 catalogue_id: "e95633db"
 ---

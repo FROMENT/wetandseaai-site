@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "https://img.youtube.com/vi/I9QEm9S8s08/maxresdefault.jpg"
+  image: "/covers/I9QEm9S8s08.jpg"
   alt: "Nouveaux KPIs IA 2026 : mesurer l'impact réel de l'IA"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "e03d212b"
 ---

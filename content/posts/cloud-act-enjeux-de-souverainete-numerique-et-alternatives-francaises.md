@@ -8,10 +8,9 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "The provided sources discuss the legal and technological landscape of **digital sovereignty**, focusing on the tension between **United States extraterritorial laws** and European data protection.…"
 cover:
-  image: "https://img.youtube.com/vi/957Dg1GN1ZM/maxresdefault.jpg"
+  image: "/covers/957Dg1GN1ZM.jpg"
   alt: "CLOUD Act : Enjeux de souveraineté numérique et alternatives françaises"
   caption: "DevOps & Cloud"
-  relative: false
 draft: false
 catalogue_id: "b76a9c1e"
 ---

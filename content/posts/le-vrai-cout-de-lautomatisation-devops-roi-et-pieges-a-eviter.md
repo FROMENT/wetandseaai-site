@@ -8,10 +8,9 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "These sources examine the critical role of **software testing**, emphasizing the transition from manual efforts to **automated strategies** and the distinction between **functional** and…"
 cover:
-  image: "https://img.youtube.com/vi/d0A6MaFqRGo/maxresdefault.jpg"
+  image: "/covers/d0A6MaFqRGo.jpg"
   alt: "Le Vrai Coût de l'Automatisation DevOps : ROI et Pièges à Éviter"
   caption: "DevOps & Cloud"
-  relative: false
 draft: false
 catalogue_id: "90f3ae51"
 ---

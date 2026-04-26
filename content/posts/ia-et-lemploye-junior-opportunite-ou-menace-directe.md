@@ -8,10 +8,9 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
 cover:
-  image: "https://img.youtube.com/vi/leConocTfq4/maxresdefault.jpg"
+  image: "/covers/leConocTfq4.jpg"
   alt: "IA et l'employé junior : opportunité ou menace directe ?"
   caption: "IA & Travail"
-  relative: false
 draft: false
 catalogue_id: "9d5c7983"
 ---

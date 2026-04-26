@@ -8,10 +8,9 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "**Google DeepMind** is a leading artificial intelligence laboratory owned by **Alphabet Inc.** that focuses on developing general-purpose systems for scientific discovery and technological…"
 cover:
-  image: "https://img.youtube.com/vi/D8pxOMsitAI/maxresdefault.jpg"
+  image: "/covers/D8pxOMsitAI.jpg"
   alt: "L'AGI arrive : Le défi est-il vraiment technologique ?"
   caption: "Prospective"
-  relative: false
 draft: false
 catalogue_id: "30325ab0"
 ---
