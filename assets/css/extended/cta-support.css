@@ -1,0 +1,90 @@
+/* cta-support.css — WetAndSeaAI.fr
+ *
+ * Bandeau de soutien discret affiché avant le footer (cf.
+ * layouts/partials/extend_footer.html).
+ *
+ * Critères :
+ *   - discret : couleurs neutres au repos, bordure légère, peu d'espace
+ *   - call to action : hover coloré (Ko-fi rouge, Etsy orange) + léger lift
+ *   - responsive : empilement vertical sous 480 px
+ *   - dark mode : adapté via les variables PaperMod
+ */
+
+.support-cta {
+    max-width: 760px;
+    margin: 3rem auto 0;
+    padding: 1.25rem 1rem 0;
+    border-top: 1px solid var(--border, #e5e7eb);
+    text-align: center;
+}
+
+.support-cta__intro {
+    margin: 0 0 0.75rem;
+    color: var(--secondary, #6b7280);
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.support-cta__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.support-cta__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border, #e5e7eb);
+    border-radius: 999px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--content, inherit);
+    text-decoration: none;
+    background: transparent;
+    transition: color 0.18s ease, border-color 0.18s ease,
+                background 0.18s ease, transform 0.18s ease;
+}
+
+.support-cta__btn svg {
+    flex-shrink: 0;
+    opacity: 0.7;
+    transition: opacity 0.18s ease;
+}
+
+.support-cta__btn:hover {
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+.support-cta__btn:hover svg {
+    opacity: 1;
+}
+
+/* Couleurs de marque au hover — appel à l'action sans saturer le repos. */
+.support-cta__btn--kofi:hover {
+    color: #ff5e5b;
+    border-color: #ff5e5b;
+    background: rgba(255, 94, 91, 0.06);
+}
+
+.support-cta__btn--etsy:hover {
+    color: #f56400;
+    border-color: #f56400;
+    background: rgba(245, 100, 0, 0.06);
+}
+
+/* Mobile portrait : empile les boutons. */
+@media (max-width: 480px) {
+    .support-cta__row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .support-cta__btn {
+        justify-content: center;
+    }
+}

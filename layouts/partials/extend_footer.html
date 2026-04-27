@@ -1,0 +1,40 @@
+{{- /*
+  extend_footer.html — WetAndSeaAI.fr
+
+  Hook officiel PaperMod (inclus avant le footer du thème).
+  Affiche un bandeau de soutien discret avec deux CTA :
+    - Ko-fi : https://ko-fi.com/newspace
+    - Etsy  : https://www.etsy.com/shop/NomadObsession
+
+  Bilingue automatique via .Site.Language.Lang (fr/en).
+  Style : voir assets/css/extended/cta-support.css.
+*/ -}}
+
+{{- $isFR := eq .Site.Language.Lang "fr" -}}
+
+<aside class="support-cta" aria-label="{{ if $isFR }}Soutenir le projet{{ else }}Support this project{{ end }}">
+  <p class="support-cta__intro">
+    {{ if $isFR }}Soutenir le projet{{ else }}Support this project{{ end }}
+  </p>
+  <div class="support-cta__row">
+    <a href="https://ko-fi.com/newspace"
+       class="support-cta__btn support-cta__btn--kofi"
+       target="_blank" rel="noopener noreferrer"
+       title="{{ if $isFR }}Offrir un café sur Ko-fi{{ else }}Buy me a coffee on Ko-fi{{ end }}">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+        <path d="M2 6.5C2 5.12 3.12 4 4.5 4h11A2.5 2.5 0 0 1 18 6.5v.5h.5a3.5 3.5 0 1 1 0 7H18v.5A4.5 4.5 0 0 1 13.5 19h-7A4.5 4.5 0 0 1 2 14.5v-8Zm16 2v4h.5a2 2 0 1 0 0-4H18ZM7.5 8a.5.5 0 0 0-.5.5v3a3 3 0 0 0 6 0v-3a.5.5 0 0 0-.5-.5h-5Z"/>
+      </svg>
+      <span>{{ if $isFR }}Offrir un café{{ else }}Buy me a coffee{{ end }}</span>
+    </a>
+
+    <a href="https://www.etsy.com/shop/NomadObsession"
+       class="support-cta__btn support-cta__btn--etsy"
+       target="_blank" rel="noopener noreferrer"
+       title="{{ if $isFR }}Découvrir la boutique Etsy Nomad Obsession{{ else }}Visit the Etsy shop Nomad Obsession{{ end }}">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+        <path d="M3 3h18v3.5h-2V5H5v6h11v-1.5h2V14h-2v-1.5H5V19h14v-1.5h2V21H3V3Z"/>
+      </svg>
+      <span>{{ if $isFR }}Boutique Nomad Obsession{{ else }}Nomad Obsession shop{{ end }}</span>
+    </a>
+  </div>
+</aside>
