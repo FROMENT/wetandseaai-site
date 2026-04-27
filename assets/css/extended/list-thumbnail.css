@@ -1,0 +1,80 @@
+/* list-thumbnail.css — WetAndSeaAI.fr
+ *
+ * Override PaperMod : pages liste (accueil, /posts/, /tags/<x>/,
+ * /categories/<x>/) — la cover passe d'une grande bannière au-dessus du
+ * titre à une miniature placée à gauche, en regard du titre + extrait + meta.
+ *
+ * Cible : `.first-entry` (1er article featured) ET `.post-entry` (suivants).
+ * Layout : CSS grid 2 colonnes  [thumbnail 110px]  [header / content / footer]
+ *
+ * En page d'article unique (.post-single), la cover reste à 30% centrée —
+ * cf. cover-thumbnail.css.
+ */
+
+.first-entry,
+.post-entry {
+    position: relative;
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    grid-template-areas:
+        "cover header"
+        "cover content"
+        "cover footer";
+    column-gap: 1.1rem;
+    row-gap: 0.25rem;
+    align-items: start;
+}
+
+.first-entry .entry-cover,
+.post-entry .entry-cover {
+    grid-area: cover;
+    margin: 0;
+    align-self: start;
+}
+
+.first-entry .entry-cover img,
+.post-entry .entry-cover img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+
+.first-entry .entry-header { grid-area: header; }
+.post-entry  .entry-header { grid-area: header; }
+
+.first-entry .entry-content { grid-area: content; }
+.post-entry  .entry-content { grid-area: content; }
+
+.first-entry .entry-footer { grid-area: footer; }
+.post-entry  .entry-footer { grid-area: footer; }
+
+/* L'overlay-link couvre toute la card pour conserver la zone cliquable. */
+.first-entry .entry-link,
+.post-entry .entry-link {
+    position: absolute;
+    inset: 0;
+}
+
+/* Petite hiérarchie visuelle — le titre reste lisible à côté de la miniature. */
+.first-entry .entry-header h2,
+.post-entry .entry-header h2 {
+    margin-top: 0;
+    line-height: 1.25;
+}
+
+/* Mobile portrait : miniature réduite, layout préservé en 2 colonnes pour
+ * garder la densité (un layout empilé reviendrait à la cover bannière). */
+@media (max-width: 580px) {
+    .first-entry,
+    .post-entry {
+        grid-template-columns: 72px 1fr;
+        column-gap: 0.7rem;
+    }
+    .first-entry .entry-content,
+    .post-entry .entry-content {
+        font-size: 0.9rem;
+    }
+}
