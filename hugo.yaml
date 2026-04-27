@@ -48,6 +48,10 @@ languages:
           name: Topics
           url: /en/tags/
           weight: 2
+        - identifier: about
+          name: About
+          url: /en/about/
+          weight: 3
 
 # ── Taxonomies (alignées sur theme catalogue) ──────────────────────────────
 taxonomies:
@@ -74,7 +78,9 @@ params:
   hideMeta: false
   socialIcons:
     - name: youtube
-      url: "https://www.youtube.com/@wetandseaai"
+      url: "https://www.youtube.com/@DISCOVER-ALLIN360"
+    - name: spotify
+      url: "https://open.spotify.com/show/0oYaiUgc05GR03ERhV9uEr"
     - name: rss
       url: "/index.xml"
 

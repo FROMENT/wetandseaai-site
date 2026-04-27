@@ -14,27 +14,41 @@
 
 <aside class="support-cta" aria-label="{{ if $isFR }}Soutenir le projet{{ else }}Support this project{{ end }}">
   <p class="support-cta__intro">
-    {{ if $isFR }}Soutenir le projet{{ else }}Support this project{{ end }}
+    {{ if $isFR }}Vous aimez ce que vous lisez&nbsp;?{{ else }}Enjoying what you read?{{ end }}
   </p>
   <div class="support-cta__row">
     <a href="https://ko-fi.com/newspace"
        class="support-cta__btn support-cta__btn--kofi"
        target="_blank" rel="noopener noreferrer"
-       title="{{ if $isFR }}Offrir un café sur Ko-fi{{ else }}Buy me a coffee on Ko-fi{{ end }}">
-      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
-        <path d="M2 6.5C2 5.12 3.12 4 4.5 4h11A2.5 2.5 0 0 1 18 6.5v.5h.5a3.5 3.5 0 1 1 0 7H18v.5A4.5 4.5 0 0 1 13.5 19h-7A4.5 4.5 0 0 1 2 14.5v-8Zm16 2v4h.5a2 2 0 1 0 0-4H18ZM7.5 8a.5.5 0 0 0-.5.5v3a3 3 0 0 0 6 0v-3a.5.5 0 0 0-.5-.5h-5Z"/>
+       title="{{ if $isFR }}Offrir un ramen via Ko-fi — un coup de pouce direct au projet{{ else }}Buy me a ramen on Ko-fi — direct support for the project{{ end }}">
+      {{- /* Bol de ramen stylisé : cercle + 3 volutes de vapeur. */ -}}
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M3 11h18a9 9 0 0 1-18 0Z" fill="currentColor" fill-opacity="0.12"/>
+        <path d="M3 11h18"/>
+        <path d="M9 5c0 1-1 1-1 2s1 1 1 2"/>
+        <path d="M12 4c0 1-1 1-1 2s1 1 1 2"/>
+        <path d="M15 5c0 1-1 1-1 2s1 1 1 2"/>
       </svg>
-      <span>{{ if $isFR }}Offrir un café{{ else }}Buy me a coffee{{ end }}</span>
+      <span>{{ if $isFR }}Payer un Ramen{{ else }}Pay for a Ramen{{ end }}</span>
     </a>
 
     <a href="https://www.etsy.com/shop/NomadObsession"
        class="support-cta__btn support-cta__btn--etsy"
        target="_blank" rel="noopener noreferrer"
-       title="{{ if $isFR }}Découvrir la boutique Etsy Nomad Obsession{{ else }}Visit the Etsy shop Nomad Obsession{{ end }}">
-      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
-        <path d="M3 3h18v3.5h-2V5H5v6h11v-1.5h2V14h-2v-1.5H5V19h14v-1.5h2V21H3V3Z"/>
+       title="{{ if $isFR }}Visiter la boutique Etsy Nomad Obsession{{ else }}Visit the Etsy shop Nomad Obsession{{ end }}">
+      {{- /* Sac shopping minimaliste. */ -}}
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 8h14l-1.2 11a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8Z"/>
+        <path d="M9 8V6a3 3 0 0 1 6 0v2"/>
       </svg>
       <span>{{ if $isFR }}Boutique Nomad Obsession{{ else }}Nomad Obsession shop{{ end }}</span>
     </a>
   </div>
+  <p class="support-cta__note">
+    {{ if $isFR -}}
+      Chaque don finance un nouvel article ou une nouvelle vidéo.
+    {{- else -}}
+      Every donation funds a new article or video.
+    {{- end }}
+  </p>
 </aside>

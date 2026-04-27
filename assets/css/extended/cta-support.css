@@ -34,6 +34,14 @@
     gap: 0.6rem;
 }
 
+.support-cta__note {
+    margin: 0.85rem 0 0;
+    color: var(--secondary, #9ca3af);
+    font-size: 0.78rem;
+    font-style: italic;
+    line-height: 1.4;
+}
+
 .support-cta__btn {
     display: inline-flex;
     align-items: center;
