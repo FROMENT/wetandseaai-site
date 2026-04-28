@@ -30,6 +30,13 @@ Furthermore, it emphasizes that the **severity of a vulnerability** is dictated 
 the information it protects. Ultimately, the text advocates for a **collaborative approach** where security is integrated into
 the development lifecycle to ensure long-term project viability.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `1:06` — Le Bouclier - Première Défense
+- `1:43` — Exemples d'Attaques Réelles
+- `2:15` — Validation des Entrées
+
 ## Sources
 
 - [La Sécurité Logique : Bouclier, Forteresse Et Loupe Pour Votre Développement - Wet & Sea & IA](https://wetandseaai.fr/la-securite-logique-bouclier-forteresse-et-loupe-pour-votre-developpement/)

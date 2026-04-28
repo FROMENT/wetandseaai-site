@@ -31,6 +31,14 @@ delay**, balancing between a shift toward digital customer interfaces and an end
 traditional processes**. Ultimately, the texts forecast an industry-wide transition where **back-office functions disappear**,
 leaving a smaller workforce of "financial architects" to manage complex, AI-driven ecosystems.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `1:07` — Framework CTR Fondamental
+- `1:40` — Techniques Essentielles
+- `2:13` — Puissance du Contexte
+- `2:46` — Few Shot Prompting
+
 ## Sources
 
 - [ACTIVITÉ DYNAMIQUE ET RÉSULTATS ÉLEVÉS EN 2025 - Crédit Agricole](https://www.credit-agricole.com/pdfPreview/208647)

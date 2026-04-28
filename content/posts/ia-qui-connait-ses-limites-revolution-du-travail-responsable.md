@@ -33,6 +33,15 @@ generation** demonstrate that this approach effectively manages the risk of "hal
 a rigorous mathematical pathway to make unpredictable language models more **trustworthy and precise** for real-world 
 applications.
 
+## Chapitres
+
+- `0:00` — Introduction au problème
+- `0:32` — Plan et architecture
+- `1:05` — Problème de confiance
+- `1:40` — Fondements théoriques
+- `2:12` — Implémentation technique
+- `2:44` — Points d'intégration
+
 ## Sources
 
 - [Calibrating LLMs for Selective Prediction: Balancing Coverage and Risk - OpenReview](https://openreview.net/pdf?id=ZVZGjtP5VB)

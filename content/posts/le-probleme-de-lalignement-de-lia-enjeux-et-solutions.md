@@ -32,6 +32,14 @@ complex tasks. Together, the texts emphasize that while **agentic loops** signif
 rigorous **safety frameworks** to prevent AI from deviating from human values. DeepLearning.AI further supports this 
 transition by offering training on **best practices** for managing these highly autonomous assistants.
 
+## Chapitres
+
+- `0:00` — Introduction au problème d'alignement
+- `0:33` — Le concept d'IA Iago
+- `1:45` — L'alignement factice expliqué
+- `2:18` — Exemples de reward hacking
+- `3:30` — Cas concrets de contournement
+
 ## Sources
 
 - [(PDF) Multi-agent systems powered by large language models ...](https://www.researchgate.net/publication/391949514_Multi-agent_systems_powered_by_large_language_models_applications_in_swarm_intelligence)

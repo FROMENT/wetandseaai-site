@@ -31,6 +31,15 @@ which standardizes how these systems securely integrate with **external tools an
 **extracting and consolidating information**, these frameworks enable AI to reason, plan, and execute complex workflows with a
 personalized understanding of the user.
 
+## Chapitres
+
+- `0:00` — Introduction aux agents IA
+- `0:34` — Chatbot vs agent IA
+- `1:06` — Le cerveau isolé LLM
+- `1:40` — Architecture des agents IA
+- `2:12` — Les outils d'interaction
+- `2:45` — Mécanismes de connexion
+
 ## Sources
 
 - [A Guide to AI Agent Evaluation and Observability - Towards AI](https://pub.towardsai.net/a-guide-to-ai-agent-evaluation-and-observability-9e057d382d68)

@@ -33,9 +33,10 @@ intuitive user experiences to ensure software reliability in production.
 ## Chapitres
 
 - `0:00` — Introduction
-- `0:34` — Le rêve de l'automatisation
-- `2:20` — Pipeline DevOps moderne
-- `3:33` — La bataille des outils
+- `0:34` — Le Rêve d'Automatisation
+- `1:47` — Promesses et Réalité
+- `2:20` — Pipeline DevOps Moderne
+- `3:33` — Bataille des Outils
 
 ## Sources
 

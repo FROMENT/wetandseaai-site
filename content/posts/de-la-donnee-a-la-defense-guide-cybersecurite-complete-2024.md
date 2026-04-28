@@ -31,6 +31,14 @@ methodology for designing **enterprise architecture**, ensuring that an organiza
 global market changes. Together, these materials emphasize that **standardization**, **strategic alignment**, and **integrated
 governance** are essential for achieving high performance in a data-driven landscape.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:35` — Valeur stratégique des données
+- `1:08` — Propriété et responsabilité
+- `1:40` — Data ownership expliqué
+- `2:13` — Rôle du gardien
+
 ## Sources
 
 - [A data governance framework for digital social protection systems](https://spdci.org/wp-content/uploads/2025/11/251124_DCI_Data_Governance_framework_publication.pdf)

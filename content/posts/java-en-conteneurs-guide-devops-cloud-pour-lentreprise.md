@@ -33,10 +33,10 @@ guide to **industry best practices**, ranging from threat modeling and secrets m
 
 ## Chapitres
 
-- `0:00` — Introduction
-- `1:00` — Configuration ressources JVM
-- `2:00` — Évolution support conteneurs
-- `3:00` — Gestion mémoire avancée
+- `0:00` — Introduction et problématique
+- `1:00` — Configuration manuelle des ressources
+- `2:00` — Évolution du support conteneurs
+- `3:00` — Gestion mémoire Java
 
 ## Sources
 
