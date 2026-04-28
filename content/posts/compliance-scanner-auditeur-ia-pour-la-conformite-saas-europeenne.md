@@ -1,17 +1,16 @@
 ---
 title: "COMPLIANCE Scanner : Auditeur IA pour la conformité SaaS européenne"
 date: 2026-04-17
-publishDate: "2026-06-04T11:00:00"
 youtube_url: "https://youtu.be/G_xlMBI5Ass"
 youtube_video_id: "G_xlMBI5Ass"
-theme: "cybersecurity"
-categories: ["Cybersécurité"]
-tags: ["cybersecurity"]
+theme: "ia-travail"
+categories: ["IA & Travail"]
+tags: ["ia-travail"]
 summary: "The **COMPLIANCE Scanner** is a specialized web service designed to perform rapid, **on-demand audits of third-party SaaS tools** against five key European regulatory frameworks, including **GDPR,…"
 cover:
   image: "/covers/G_xlMBI5Ass.jpg"
   alt: "COMPLIANCE Scanner : Auditeur IA pour la conformité SaaS européenne"
-  caption: "Cybersécurité"
+  caption: "IA & Travail"
 draft: false
 catalogue_id: "b2cdff94"
 ---
