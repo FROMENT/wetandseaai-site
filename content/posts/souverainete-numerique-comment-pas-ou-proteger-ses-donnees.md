@@ -1,6 +1,7 @@
 ---
 title: "Souveraineté Numérique : Comment (Pas Où) Protéger ses Données"
 date: 2026-04-17
+publishDate: "2026-05-04T17:00:00"
 youtube_url: "https://youtu.be/mVJ0w_Kdi8s"
 youtube_video_id: "mVJ0w_Kdi8s"
 theme: "prospective"
