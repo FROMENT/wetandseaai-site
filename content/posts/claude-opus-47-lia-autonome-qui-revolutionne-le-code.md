@@ -31,6 +31,15 @@ includes specialized safeguards and a new verification program for security prof
 their prompts to accommodate the model’s **literal interpretation** of commands and its tendency toward **increased reasoning 
 depth**.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:33` — Le Rêve d'Autonomie IA
+- `1:47` — Claude Opus 4.7 Dévoilé
+- `2:19` — Retours des Testeurs
+- `3:33` — Performances et Benchmarks
+- `4:06` — Moteur d'Autonomie Technique
+
 ## Sources
 
 - [Introducing Claude Opus 4.7 \ Anthropic](https://www.anthropic.com/news/claude-opus-4-7?utm_content=hero_cta&utm_source=it&utm_medium=email&utm_campaign=2026_Q2_PMM_TR_API_API_Opus_4_7_Launch_CC_USERS&utm_term=api&utm_campaign=17731348)

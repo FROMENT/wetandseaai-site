@@ -32,6 +32,15 @@ benchmarks. These materials also emphasize Anthropic's **Responsible Scaling Pol
 to manage the risks associated with increasingly powerful **agentic systems**. Ultimately, the sources illustrate a shift 
 toward **transparent AI infrastructure** and the growing technical sophistication of autonomous coding assistants.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:36` — La fuite majeure
+- `1:09` — Cause de l'erreur
+- `1:42` — Analyse communautaire
+- `2:14` — Réécriture en salle blanche
+- `3:14` — Fonctionnement du système
+
 ## Sources
 
 - [AI Governance & Security Platform | Harmonic Security](https://www.harmonic.security/resources/security-lessons-from-claude-codes-first-year)

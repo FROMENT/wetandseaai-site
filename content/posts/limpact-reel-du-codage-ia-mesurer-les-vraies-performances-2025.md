@@ -33,6 +33,14 @@ these tools offer developers faster, more accurate **inline suggestions** and au
 texts show a landscape where **frontier model performance** is converging while becoming more accessible through **compact 
 architectures** and integrated development extensions.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:35` — Chiffres impressionnants productivité
+- `1:49` — Prix de la vitesse
+- `2:23` — Paradoxe de la productivité
+- `3:37` — Productivité nette et latence
+
 ## Sources
 
 - [AI Coding Performance Benchmarks: Measure Real Impact](https://blog.exceeds.ai/ai-coding-tool-performance-benchmarks/)

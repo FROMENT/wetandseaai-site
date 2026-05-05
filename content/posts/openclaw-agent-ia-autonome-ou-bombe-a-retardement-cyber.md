@@ -32,6 +32,15 @@ data collection**, researchers have raised serious alarms regarding **critical s
 sensitive data. Users are also cautioned about **extreme token consumption costs** and the risks associated with granting the 
 AI deep system permissions.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:35` — Concept et popularité
+- `1:49` — IA autonome révolutionnaire
+- `2:22` — Ascension fulgurante
+- `3:35` — Dilemme du God Mode
+- `4:08` — Risques de sécurité
+
 ## Sources
 
 - [A frightening OpenClaw vulnerability has been discovered | Mashable](https://mashable.com/article/new-frightening-openclaw-vulnerability-has-been-discovered)

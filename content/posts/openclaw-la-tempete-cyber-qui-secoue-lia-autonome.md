@@ -32,6 +32,15 @@ data collection**, researchers have raised serious alarms regarding **critical s
 sensitive data. Users are also cautioned about **extreme token consumption costs** and the risks associated with granting the 
 AI deep system permissions.
 
+## Chapitres
+
+- `0:00` — Introduction OpenClaw
+- `0:34` — Chronologie de la tempête
+- `1:07` — Faille de sécurité critique
+- `2:14` — Bannissement par Anthropic
+- `3:20` — Arrivée de nouveaux concurrents
+- `4:27` — Stratégie de contre-attaque
+
 ## Sources
 
 - [A frightening OpenClaw vulnerability has been discovered | Mashable](https://mashable.com/article/new-frightening-openclaw-vulnerability-has-been-discovered)

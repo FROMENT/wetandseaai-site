@@ -31,6 +31,15 @@ models. The project also features capabilities for **GitHub repository analysis*
 their codebases for security flaws. Developed by **Matt Adams**, the tool is available as a **Python** application or a 
 **Docker** container for flexible deployment.
 
+## Chapitres
+
+- `0:00` — Introduction à STRIDE GPT
+- `0:32` — Le framework STRIDE traditionnel
+- `1:05` — L'idée révolutionnaire de STRIDE GPT
+- `1:38` — Les premiers défis techniques
+- `2:12` — L'obstacle des modèles cloud
+- `2:45` — Le moment de révélation
+
 ## Sources
 
 - [GitHub - mrwadams/stride-gpt: An AI-powered threat modeling tool that leverages OpenAI's GPT models to generate threat models for a given application based on the STRIDE methodology.](https://github.com/mrwadams/stride-gpt)

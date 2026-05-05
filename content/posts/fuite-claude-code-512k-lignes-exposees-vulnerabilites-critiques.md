@@ -32,6 +32,14 @@ interact with **standardized protocols** like the **Model Context Protocol** (MC
 interfaces. Ultimately, the collection portrays an industry leader balancing **aggressive feature deployment** with 
 significant **security and oversight challenges**.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:33` — Constitution Claude d'Anthropic
+- `1:46` — Fuite de code accidentelle
+- `2:46` — Vulnérabilités critiques découvertes
+- `4:06` — Conséquences et leçons
+
 ## Sources
 
 - [(PDF) SeapoPym v0.1: Implementation of the SEAPODYM low and mid trophic levels in Python with a flexible optimisation framework - ResearchGate](https://www.researchgate.net/publication/403410898_SeapoPym_v01_Implementation_of_the_SEAPODYM_low_and_mid_trophic_levels_in_Python_with_a_flexible_optimisation_framework)

@@ -33,6 +33,14 @@ interact with **standardized protocols** like the **Model Context Protocol** (MC
 interfaces. Ultimately, the collection portrays an industry leader balancing **aggressive feature deployment** with 
 significant **security and oversight challenges**.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:36` — Qu'est-ce qu'un agent IA
+- `1:10` — Découverte de la faille
+- `1:44` — Le problème des 50 instructions
+- `2:17` — Conséquences et dangers potentiels
+
 ## Sources
 
 - [(PDF) SeapoPym v0.1: Implementation of the SEAPODYM low and mid trophic levels in Python with a flexible optimisation framework - ResearchGate](https://www.researchgate.net/publication/403410898_SeapoPym_v01_Implementation_of_the_SEAPODYM_low_and_mid_trophic_levels_in_Python_with_a_flexible_optimisation_framework)
