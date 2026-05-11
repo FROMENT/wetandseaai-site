@@ -3,6 +3,10 @@ title: "Fuite Claude Code : 512k lignes exposées, vulnérabilités critiques"
 date: 2026-04-16
 youtube_url: "https://youtu.be/1Lq0iTq0Czs"
 youtube_video_id: "1Lq0iTq0Czs"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]

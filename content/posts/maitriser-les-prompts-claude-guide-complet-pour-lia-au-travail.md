@@ -3,6 +3,10 @@ title: "Maîtriser les Prompts Claude : Guide Complet pour l'IA au Travail"
 date: 2026-04-04
 youtube_url: "https://youtu.be/7tVsVY3MOB4"
 youtube_video_id: "7tVsVY3MOB4"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]

@@ -4,6 +4,10 @@ date: 2026-04-16
 publishDate: "2026-05-29T14:00:00"
 youtube_url: "https://youtu.be/rVeKCQSPZSg"
 youtube_video_id: "rVeKCQSPZSg"
+youtube_channel: "B"
+youtube_channel_handle: "@wetseatech"
+youtube_channel_url: "https://www.youtube.com/@wetseatech"
+youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -32,6 +36,14 @@ interceptor drones** like the "Sting," though current regulations prioritize dom
 from the Middle East. Experts emphasize that the **future of defense** requires a transition toward high-scale manufacturing, 
 **risk-based regulatory frameworks**, and collaborative electronic warfare strategies to regain the favorable side of the 
 cost-exchange curve.
+
+## Chapters
+
+- `0:00` — Introduction & Channel Welcome
+- `0:33` — Smart Card Technology Evolution
+- `1:46` — Cryptography & Security Features
+- `2:46` — Mutual Authentication Process
+- `4:06` — Digital Fortress Limitations
 
 ## Sources
 

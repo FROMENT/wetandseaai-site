@@ -1,8 +1,8 @@
 ---
-title: "Maîtriser Claude AI : 6 Techniques Avancées pour Booster sa Productivité"
+title: "IA au Travail : Les Mécanismes Cachés de l'Intelligence Artificielle"
 date: 2026-04-04
-youtube_url: "https://youtu.be/yTvX6iNz6vo"
-youtube_video_id: "yTvX6iNz6vo"
+youtube_url: "https://youtu.be/V9_eUGi_ZcY"
+youtube_video_id: "V9_eUGi_ZcY"
 youtube_channel: "A"
 youtube_channel_handle: "@discover-allin360"
 youtube_channel_url: "https://www.youtube.com/@discover-allin360"
@@ -12,18 +12,18 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "The provided sources examine the **structural transformation** of the global banking sector, focusing on how **artificial intelligence and digitalization** are reshaping financial institutions in…"
 cover:
-  image: "/covers/yTvX6iNz6vo.jpg"
-  alt: "Maîtriser Claude AI : 6 Techniques Avancées pour Booster sa Productivité"
+  image: "/covers/V9_eUGi_ZcY.jpg"
+  alt: "IA au Travail : Les Mécanismes Cachés de l'Intelligence Artificielle"
   caption: "IA & Travail"
 draft: false
-catalogue_id: "d7ef3453"
+catalogue_id: "62133fb3"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/yTvX6iNz6vo" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/V9_eUGi_ZcY" title="Watch the video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Contexte
+## Context
 
 The provided sources examine the **structural transformation** of the global banking sector, focusing on how **artificial 
 intelligence and digitalization** are reshaping financial institutions in Europe, the United States, and Tunisia. Major French
@@ -35,14 +35,13 @@ delay**, balancing between a shift toward digital customer interfaces and an end
 traditional processes**. Ultimately, the texts forecast an industry-wide transition where **back-office functions disappear**,
 leaving a smaller workforce of "financial architects" to manage complex, AI-driven ecosystems.
 
-## Chapitres
+## Chapters
 
-- `0:00` — Introduction
-- `1:38` — Niveaux d'utilisation de Claude
-- `2:53` — Technique 1 : Le contexte
-- `4:31` — Technique 2 : Rôles précis
-- `5:42` — Technique 3 : Formatage de sortie
-- `6:40` — Conclusion et récapitulatif
+- `0:00` — Introduction à l'IA
+- `0:33` — Context Engineering
+- `1:08` — Boucle React
+- `1:48` — IA Constitutionnelle
+- `2:21` — Logique Ternaire
 
 ## Sources
 
@@ -63,7 +62,7 @@ leaving a smaller workforce of "financial architects" to manage complex, AI-driv
 - [Constitutional AI: An Expanded Overview of Anthropic's Alignment Approach - Zenodo](https://zenodo.org/records/15331063/files/Constitutional%20AI%20Overview.pdf?download=1)
 
 <details>
-<summary>Voir les 15 sources restantes</summary>
+<summary>See 15 additional sources</summary>
 
 - [Créer de la valeur avec l'IA même si elle hallucine, la stratégie de BNP Paribas](https://www.larevuedudigital.com/creer-de-la-valeur-avec-lia-meme-quand-elle-hallucine-la-strategie-de-bnp-paribas/)
 - [Dans l'IA, BNP Paribas cherche à passer à l'échelle - CIO-online](https://www.cio-online.com/actualites/lire-dans-l-ia-bnp-paribas-cherche-a-passer-a-l-echelle-16575.html)

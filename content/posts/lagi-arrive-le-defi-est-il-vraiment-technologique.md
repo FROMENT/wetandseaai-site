@@ -1,42 +1,46 @@
 ---
 title: "L'AGI arrive : Le défi est-il vraiment technologique ?"
-date: 2026-04-02
-youtube_url: "https://youtu.be/D8pxOMsitAI"
-youtube_video_id: "D8pxOMsitAI"
+date: 2026-05-11
+publishDate: "2026-05-13T09:00:00"
+youtube_url: "https://youtu.be/Rxu27Lj4Zbw"
+youtube_video_id: "Rxu27Lj4Zbw"
+youtube_channel: "B"
+youtube_channel_handle: "@wetseatech"
+youtube_channel_url: "https://www.youtube.com/@wetseatech"
+youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "**Google DeepMind** is a leading artificial intelligence laboratory owned by **Alphabet Inc.** that focuses on developing general-purpose systems for scientific discovery and technological…"
+summary: "The provided sources focus on the development and strategic importance of **artificial intelligence** through the lens of a leading research laboratory and national policy. The first source details…"
 cover:
-  image: "/covers/D8pxOMsitAI.jpg"
+  image: "/covers/theme_prospective.svg"
   alt: "L'AGI arrive : Le défi est-il vraiment technologique ?"
   caption: "Prospective"
 draft: false
-catalogue_id: "30325ab0"
+catalogue_id: "f6ace488"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/D8pxOMsitAI" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/Rxu27Lj4Zbw" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Contexte
 
-**Google DeepMind** is a leading artificial intelligence laboratory owned by **Alphabet Inc.** that focuses on developing 
-general-purpose systems for scientific discovery and technological innovation. The organization has achieved historic 
-milestones in competitive gaming with **AlphaGo** and addressed complex biological challenges through its protein-folding 
-model, **AlphaFold**. Beyond specialized research, the lab creates popular generative tools and language models, including the
-**Gemini** series and the video generator **Veo**. Complementing these technical advancements, policy experts argue that 
-maintaining **United States leadership** in the field requires attracting more international professionals. Current analysis 
-indicates that **immigrant entrepreneurs** and foreign-born doctoral graduates are essential components of the domestic 
-workforce. To remain globally competitive, researchers suggest **reforming immigration policies** to reduce bureaucratic 
-delays and aggressively recruit elite global talent.
-
-## Chapitres
-
-- `0:00` — Introduction
-- `0:35` — Défis socio-économiques de l'AGI
-- `1:07` — Revenu universel et lien social
-- `1:40` — Nos choix collectifs
+The provided sources focus on the development and strategic importance of 
+**artificial intelligence** through the lens of a leading research laboratory 
+and national policy. The first source details the history and innovations of 
+**Google DeepMind**, highlighting its breakthroughs in **competitive gaming**, 
+**protein folding**, and **large language models** like Gemini. In contrast, the
+second source examines the critical role of **immigrant talent** in maintaining 
+American AI leadership, noting that a majority of top startups and doctoral 
+researchers are foreign-born. It argues that increasing **immigration barriers**
+and global competition threaten the domestic workforce, leading to specific 
+recommendations for **policy reform**. These suggestions include reducing 
+bureaucratic red tape, recapturing **unused green cards**, and launching 
+proactive recruitment initiatives to secure high-level experts. Collectively, 
+the texts illustrate that while technical progress is driven by labs like 
+**DeepMind**, sustained industry growth depends on **high-skilled immigration** 
+and strategic human capital management.
 
 ## Sources
 

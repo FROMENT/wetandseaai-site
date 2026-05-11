@@ -1,30 +1,26 @@
 ---
-title: "Claude Mythos : L'IA qui révolutionne la cybersécurité défensive"
+title: "Claude Mythos : L'IA d'Anthropic qui traque les failles zero-day"
 date: 2026-04-17
-publishDate: "2026-06-02T11:00:00"
-youtube_url: "https://youtu.be/N8VVSWjaWTk"
-youtube_video_id: "N8VVSWjaWTk"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
-theme: "cybersecurity"
-categories: ["Cybersécurité"]
-tags: ["cybersecurity"]
+publishDate: "2026-06-02T17:00:00"
+youtube_url: "https://youtu.be/cgXr1mZbrU0"
+youtube_video_id: "cgXr1mZbrU0"
+theme: "ia-travail"
+categories: ["IA & Travail"]
+tags: ["ia-travail"]
 summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
 cover:
-  image: "/covers/N8VVSWjaWTk.jpg"
-  alt: "Claude Mythos : L'IA qui révolutionne la cybersécurité défensive"
-  caption: "Cybersécurité"
+  image: "/covers/cgXr1mZbrU0.jpg"
+  alt: "Claude Mythos : L'IA d'Anthropic qui traque les failles zero-day"
+  caption: "IA & Travail"
 draft: false
-catalogue_id: "a174f9a4"
+catalogue_id: "00fc558b"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/N8VVSWjaWTk" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/cgXr1mZbrU0" title="Watch the video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Contexte
+## Context
 
 Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date,
 **Claude Mythos Preview**. This frontier AI possesses unprecedented capabilities in **cybersécurité**, including the 

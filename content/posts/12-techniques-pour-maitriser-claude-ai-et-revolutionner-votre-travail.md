@@ -3,6 +3,10 @@ title: "12 Techniques pour Maîtriser Claude AI et Révolutionner votre Travail"
 date: 2026-04-04
 youtube_url: "https://youtu.be/ko6grwkFVKo"
 youtube_video_id: "ko6grwkFVKo"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]

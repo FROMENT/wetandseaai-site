@@ -4,6 +4,10 @@ date: 2026-04-16
 publishDate: "2026-05-28T11:00:00"
 youtube_url: "https://youtu.be/2O0fgENs9Qg"
 youtube_video_id: "2O0fgENs9Qg"
+youtube_channel: "B"
+youtube_channel_handle: "@wetseatech"
+youtube_channel_url: "https://www.youtube.com/@wetseatech"
+youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]

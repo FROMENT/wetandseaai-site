@@ -1,30 +1,25 @@
 ---
-title: "La Nouvelle Économie de la Guerre : Drones à $20K vs Missiles à $4M"
-date: 2026-04-16
-publishDate: "2026-05-27T14:00:00"
-youtube_url: "https://youtu.be/S7I-bNq9KRc"
-youtube_video_id: "S7I-bNq9KRc"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
-theme: "prospective"
-categories: ["Prospective"]
-tags: ["prospective"]
+title: "The ROI of Cybersecurity : mesurer ce qui ne s'est pas passé"
+date: 2026-04-01
+youtube_url: "https://youtu.be/rgrnqWINT_0"
+youtube_video_id: "rgrnqWINT_0"
+theme: "cybersecurity"
+categories: ["Cybersécurité"]
+tags: ["cybersecurity"]
 summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
 cover:
-  image: "/covers/S7I-bNq9KRc.jpg"
-  alt: "La Nouvelle Économie de la Guerre : Drones à $20K vs Missiles à $4M"
-  caption: "Prospective"
+  image: "/covers/rgrnqWINT_0.jpg"
+  alt: "The ROI of Cybersecurity : mesurer ce qui ne s'est pas passé"
+  caption: "Cybersécurité"
 draft: false
-catalogue_id: "2963b4f5"
+catalogue_id: "de3314a2"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/S7I-bNq9KRc" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/rgrnqWINT_0" title="Watch the video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Contexte
+## Context
 
 These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities 
 of **low-cost unmanned aerial vehicles** have created a lethal, high-speed "kill chain." Russia has exploited this trend by 
@@ -37,13 +32,12 @@ from the Middle East. Experts emphasize that the **future of defense** requires 
 **risk-based regulatory frameworks**, and collaborative electronic warfare strategies to regain the favorable side of the 
 cost-exchange curve.
 
-## Chapitres
+## Chapters
 
-- `0:00` — Introduction
-- `0:34` — Le déséquilibre économique
-- `1:07` — Impact sur la sécurité mondiale
-- `1:39` — La menace à bas coût
-- `2:11` — L'asymétrie des coûts
+- `0:00` — Introduction au problème
+- `0:32` — Le défi économique
+- `1:06` — Méthode SAM et stratégie
+- `1:39` — Adaptation aux menaces
 
 ## Sources
 
@@ -64,7 +58,7 @@ cost-exchange curve.
 - [NIST SP 800-39, Managing Information Security Risk: Organization, Mission, and Information System View](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-39.pdf)
 
 <details>
-<summary>Voir les 13 sources restantes</summary>
+<summary>See 13 additional sources</summary>
 
 - [NIST Special Publication 800-30 Revision 1, Guide for Conducting Risk Assessments](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-30r1.pdf)
 - [NXP MIFARE DESFire EV2 – Security Target Lite](https://www.cardlogix.com/wp-content/uploads/NXP-MIFARE-DESFire-EV2-Card-Security-Target-Lite-MF3Dx2-1.5.pdf)

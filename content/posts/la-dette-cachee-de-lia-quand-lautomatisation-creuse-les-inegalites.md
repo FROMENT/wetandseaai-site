@@ -4,6 +4,10 @@ date: 2026-04-17
 publishDate: "2026-06-03T11:00:00"
 youtube_url: "https://youtu.be/9oYAiZsCPLA"
 youtube_video_id: "9oYAiZsCPLA"
+youtube_channel: "B"
+youtube_channel_handle: "@wetseatech"
+youtube_channel_url: "https://www.youtube.com/@wetseatech"
+youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
