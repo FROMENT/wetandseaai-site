@@ -4,6 +4,10 @@ date: 2026-04-17
 publishDate: "2026-06-04T17:00:00"
 youtube_url: "https://youtu.be/b92SqErKPfw"
 youtube_video_id: "b92SqErKPfw"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
