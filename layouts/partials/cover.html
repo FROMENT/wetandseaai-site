@@ -1,0 +1,77 @@
+{{- /*
+  Override PaperMod cover.html — 2026-05-12
+  ──────────────────────────────────────────
+  Fix matching pattern : .Params.cover.image dans le frontmatter commence par
+  un slash ("/covers/abc.jpg" pour rétrocompat avec l'ancien static/covers/).
+  Le pattern PaperMod par défaut "*<path>*" ne matche pas les resources
+  assets/covers/* (Name sans slash leading).
+
+  Solution : strip le slash leading avant le GetMatch global → matche
+  "covers/abc.jpg" dans assets/. Pour page bundle, le matching reste sur le
+  basename uniquement. Reste comportement identique sinon (srcset, sizes, etc.).
+*/ -}}
+{{- with .cxt}} {{/* Apply proper context from dict */}}
+{{- if (and .Params.cover.image (not $.isHidden)) }}
+<figure class="entry-cover">
+    {{- $loading := cond $.IsSingle "eager" "lazy" }}
+    {{- $addLink := (and site.Params.cover.linkFullImages $.IsSingle) }}
+    {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+    {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+    {{- $responsiveImages := (.Params.cover.responsiveImages | default site.Params.cover.responsiveImages) | default true }}
+
+    {{- /* Strip leading slash for global resources matching (override fix) */ -}}
+    {{- $coverPath := (trim .Params.cover.image "/") }}
+    {{- $pageBundleCover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" $coverPath) }}
+    {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
+
+    {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
+    {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+    {{- if hugo.IsExtended -}}
+        {{- $processableFormats = $processableFormats | append "webp" -}}
+    {{- end -}}
+
+    {{- $imgdl := (.Params.cover.image) | absURL }}
+    {{- if $cover -}}
+        {{- $imgdl = $cover.Permalink }}
+    {{- end -}}
+
+    {{- if $addLink }}
+        <a href="{{ $imgdl }}" target="_blank" rel="noopener noreferrer">
+    {{- end }}
+
+    {{- if $cover -}}
+        {{/* i.e it is present in page bundle or assets/ */}}
+        {{- if (and (in $processableFormats $cover.MediaType.SubType) ($responsiveImages) (eq $prod true)) }}
+            <img loading="{{$loading}}"
+                srcset='{{- range $size := $sizes -}}
+                            {{- if (ge $cover.Width $size) }}
+                                {{- printf "%s %s" (($cover.Resize (printf "%sx" $size)).Permalink) (printf "%sw," $size) }}
+                            {{- end }}
+                        {{- end }}
+                        {{- printf "%s %dw" ($cover.Permalink) ($cover.Width) }}'
+                src="{{ $cover.Permalink }}"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="{{ $cover.Width }}" height="{{ $cover.Height }}"
+                alt="{{ $alt }}">
+        {{- else }}{{/* Unprocessable image or responsive images disabled */}}
+            <img loading="{{ $loading }}" src="{{ $imgdl }}" alt="{{ $alt }}">
+        {{- end }}
+    {{- else }}
+        {{- /* For absolute urls and external links, no img processing here */}}
+        <img loading="{{ $loading }}" src="{{ $imgdl }}" alt="{{ $alt }}">
+    {{- end }}
+
+    {{- if $addLink }}
+        </a>
+    {{- end -}}
+
+    {{- /*  Display Caption  */}}
+    {{- if $.IsSingle }}
+        {{ with .Params.cover.caption -}}
+            <figcaption>{{ . | markdownify }}</figcaption>
+        {{- end }}
+    {{- end }}
+</figure>
+{{- end }}{{/* End image */}}
+{{- end -}}{{/* End context */ -}}

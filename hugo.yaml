@@ -89,7 +89,7 @@ params:
     hidden: false
     hiddenInList: false
     hiddenInSingle: false
-    responsiveImages: false   # désactivé : covers = URLs YT externes
+    responsiveImages: true    # 2026-05-12 — covers locaux dans static/covers/ → srcset auto 360/480/720/1080/1500w via Hugo image processing (gain ~70% poids listing pages mobile)
 
   # Recherche client-side via Fuse.js (futur)
   fuseOpts:
