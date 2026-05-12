@@ -33,7 +33,7 @@ The YouTube channel and this blog are **co-authored with [NotebookLM](https://no
 If you find the project useful, two ways to encourage what comes next:
 
 - [Buy me a ramen on Ko-fi](https://ko-fi.com/newspace) — direct support for the project
-- [Etsy shop Nomad Obsession](https://www.etsy.com/shop/NomadObsession) — original creations
+- [Etsy shop WetSeaTech](https://www.etsy.com/shop/WetSeaTech) — original creations
 
 Every donation funds a new article or video.
 

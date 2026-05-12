@@ -33,7 +33,7 @@ La chaîne YouTube et ce blog sont **co-rédigés avec [NotebookLM](https://note
 Si vous trouvez le projet utile, deux façons d'encourager la suite :
 
 - [Payer un ramen sur Ko-fi](https://ko-fi.com/newspace) — un coup de pouce direct au projet
-- [Boutique Etsy Nomad Obsession](https://www.etsy.com/shop/NomadObsession) — créations originales
+- [Boutique Etsy WetSeaTech](https://www.etsy.com/shop/WetSeaTech) — créations originales
 
 Chaque don finance un nouvel article ou une nouvelle vidéo.
 
