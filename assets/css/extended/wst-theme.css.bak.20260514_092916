@@ -1,0 +1,187 @@
+/* ============================================================
+   WST Observatory — extended/wst-theme.css
+   Source: ~/Documents/Documents/Work_Professional/wetsea-observatory
+   Palette canonique : branding/palettes.md
+   Typographie       : docs/typography.md
+   Composition       : branding/composition_rules.md (negative space)
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap");
+
+:root {
+  --wst-deep-navy:   #0A1A2B;
+  --wst-graphite:    #2A2F36;
+  --wst-cyan:        #5E8FA3;
+  --wst-ocean-green: #1D3A3A;
+  --wst-off-white:   #F2F1EC;
+  --wst-mineral:     #C9BDA8;
+}
+
+/* === Page /tags/ — Hero éditorial === */
+.wst-tags-hero {
+  margin: 3rem 0 2.5rem;
+  padding: 0 0.5rem;
+  text-align: left;
+}
+.wst-tags-eyebrow {
+  display: inline-block;
+  margin: 0 0 0.7rem;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--wst-cyan);
+}
+.wst-tags-eyebrow::before {
+  content: "—  ";
+  color: var(--wst-cyan);
+  opacity: 0.6;
+}
+.wst-tags-title {
+  font-family: "Spectral", Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  margin: 0 0 0.75rem;
+}
+.wst-tags-subtitle {
+  max-width: 640px;
+  margin: 0;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--wst-mineral);
+}
+
+/* === Grille thématique === */
+.wst-tags-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2.5rem 0 3.5rem;
+}
+
+/* === Carte (theme dark default) === */
+.wst-tag-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--wst-graphite);
+  border: 1px solid rgba(201, 189, 168, 0.12);
+  border-radius: 6px;
+  overflow: hidden;
+  text-decoration: none !important;
+  color: var(--wst-off-white);
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+.wst-tag-card::before {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0; left: 0;
+  width: 2px;
+  background: var(--wst-cyan);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+.wst-tag-card:hover {
+  border-color: rgba(94, 143, 163, 0.45);
+  transform: translateY(-2px);
+}
+.wst-tag-card:hover::before { opacity: 1; }
+
+.wst-tag-card__cover {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--wst-deep-navy);
+}
+.wst-tag-card__cover::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(10,26,43,0) 35%, rgba(10,26,43,0.85) 100%);
+}
+
+.wst-tag-card__body {
+  padding: 1.25rem 1.4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.wst-tag-card__coord {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: var(--wst-cyan);
+  opacity: 0.75;
+  text-transform: uppercase;
+}
+.wst-tag-card__title {
+  margin: 0;
+  font-family: "Spectral", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  color: var(--wst-off-white);
+}
+.wst-tag-card__count {
+  margin: 0;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--wst-mineral);
+}
+.wst-tag-card__desc {
+  margin: 0.3rem 0 0;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: rgba(242, 241, 236, 0.78);
+}
+
+/* === Footnote éditoriale === */
+.wst-tags-footnote {
+  margin: 3rem 0 4rem;
+  padding: 0 0.5rem;
+}
+.wst-tags-footnote__rule {
+  display: block;
+  width: 56px;
+  height: 1px;
+  background: var(--wst-cyan);
+  opacity: 0.5;
+  margin: 0 0 1rem;
+}
+.wst-tags-footnote p {
+  margin: 0;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--wst-mineral);
+}
+.wst-tags-footnote em {
+  font-style: normal;
+  color: var(--wst-cyan);
+}
+
+/* === Page /tags/<tag>/ — réactivation des covers (fix P0-007 vol. 2) === */
+.tag-entry .entry-cover { display: block; margin: 0 0 1rem; }
+.tag-entry .entry-cover img { max-width: 100%; height: auto; border-radius: 4px; }
+
+/* === Variante light theme PaperMod === */
+:root:not([data-theme="dark"]) .wst-tag-card {
+  background: var(--wst-off-white);
+  color: var(--wst-deep-navy);
+  border-color: rgba(10, 26, 43, 0.10);
+}
+:root:not([data-theme="dark"]) .wst-tag-card__title { color: var(--wst-deep-navy); }
+:root:not([data-theme="dark"]) .wst-tag-card__count { color: var(--wst-graphite); }
+:root:not([data-theme="dark"]) .wst-tag-card__desc  { color: rgba(42, 47, 54, 0.78); }
+:root:not([data-theme="dark"]) .wst-tag-card__cover::after {
+  background: linear-gradient(180deg, rgba(242,241,236,0) 35%, rgba(242,241,236,0.6) 100%);
+}
+:root:not([data-theme="dark"]) .wst-tags-subtitle  { color: var(--wst-graphite); }
