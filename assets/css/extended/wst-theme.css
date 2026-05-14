@@ -1,0 +1,3 @@
+/* Afficher les miniatures sur les pages taxonomy (tags, categories) */
+.tag-entry .entry-cover { display: block; margin: 0 0 1rem 0; }
+.tag-entry .entry-cover img { max-width: 100%; height: auto; border-radius: 4px; }
