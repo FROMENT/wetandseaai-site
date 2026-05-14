@@ -16,3 +16,7 @@ hugo_stats.json
 
 # Local previews
 .tmp/
+
+# Backups locaux générés par apply_wst_tags_design.sh
+*.bak.*
+*.bak_*
