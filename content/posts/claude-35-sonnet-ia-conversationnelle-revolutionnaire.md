@@ -36,6 +36,15 @@ defensive reasoning, its development has sparked **legal and political friction*
 lethal military applications. Ultimately, Project Glasswing aims to accelerate the **patching of global digital 
 infrastructure** while establishing a cautious new standard for the deployment of highly capable AI.
 
+## Chapitres
+
+- `0:00` — Introduction
+- `0:34` — Le problème de sécurité
+- `1:08` — Project Glasswing
+- `1:42` — Claude Mythos Preview
+- `2:15` — Déploiement et sécurité
+- `2:47` — Contrôles d'accès détaillés
+
 ## Sources
 
 - [Anthropic Glasswing : l'IA qui traque les zero-day avant les hackers - Webotit](https://www.webotit.ai/blog/agents-ia/securite/anthropic-glasswing-claude-mythos-cybersecurite-zero-day)

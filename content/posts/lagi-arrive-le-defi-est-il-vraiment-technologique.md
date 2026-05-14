@@ -13,7 +13,7 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "The provided sources focus on the development and strategic importance of **artificial intelligence** through the lens of a leading research laboratory and national policy. The first source details…"
 cover:
-  image: "/covers/theme_prospective.svg"
+  image: "/covers/Rxu27Lj4Zbw.jpg"
   alt: "L'AGI arrive : Le défi est-il vraiment technologique ?"
   caption: "Prospective"
 draft: false

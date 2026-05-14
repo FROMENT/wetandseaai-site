@@ -13,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "These sources collectively address the emerging **cybersecurity threat** posed by **quantum computing**, which has the potential to break current encryption standards like RSA and ECC. To counter…"
 cover:
-  image: "/covers/theme_cybersecurity.svg"
+  image: "/covers/FWLJNIyv2Zc.jpg"
   alt: "Le Paradoxe Post-Quantique : Cybersécurité Face à la Menace Quantique"
   caption: "Cybersécurité"
 draft: false

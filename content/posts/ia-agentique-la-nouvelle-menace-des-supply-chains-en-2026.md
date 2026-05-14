@@ -13,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "The provided sources detail the 2026 cybersecurity landscape, which is defined by the rapid evolution of **adversary tradecraft** and a shifting focus toward **automated, identity-driven attacks**.…"
 cover:
-  image: "/covers/theme_cybersecurity.svg"
+  image: "/covers/EvDPDrj8paI.jpg"
   alt: "IA Agentique : La Nouvelle Menace des Supply Chains en 2026"
   caption: "Cybersécurité"
 draft: false

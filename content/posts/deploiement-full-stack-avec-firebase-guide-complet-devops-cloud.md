@@ -13,7 +13,7 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "These sources outline a comprehensive ecosystem for building and deploying **artificial intelligence applications** using **Google Cloud** and **Firebase**. Key platforms like **Cloud Run** and **App…"
 cover:
-  image: "/covers/theme_devops-cloud.svg"
+  image: "/covers/y5q7sFogYKg.jpg"
   alt: "Déploiement Full Stack avec Firebase : Guide Complet DevOps Cloud"
   caption: "DevOps & Cloud"
 draft: false

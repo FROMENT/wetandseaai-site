@@ -12,7 +12,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "These sources comprise **strategic guides** and **operational frameworks** from **ANSSI** and **LARUS** focused on managing **cybersecurity incidents** and **IP infrastructure**. The documentation…"
 cover:
-  image: "/covers/theme_cybersecurity.svg"
+  image: "/covers/hiHpsTQ0H_o.jpg"
   alt: "Gestion de Crise Cyber : Guide ANSSI pour la Résilience Digitale"
   caption: "Cybersécurité"
 draft: false
