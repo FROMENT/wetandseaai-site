@@ -97,23 +97,6 @@
   background-position: center;
   background-color: var(--wst-deep-navy);
 }
-
-/* Background-image par thème — declaré en CSS plutot que style inline.
-   Raison : Hugo minify deshabille les guillemets internes de url(...)
-   et casse le parsing sur certains navigateurs. */
-.wst-tag-card--cybersecurity .wst-tag-card__cover {
-  background-image: url("/covers/theme_cybersecurity.svg");
-}
-.wst-tag-card--devops-cloud .wst-tag-card__cover {
-  background-image: url("/covers/theme_devops-cloud.svg");
-}
-.wst-tag-card--ia-travail .wst-tag-card__cover {
-  background-image: url("/covers/theme_ia-travail.svg");
-}
-.wst-tag-card--prospective .wst-tag-card__cover {
-  background-image: url("/covers/theme_prospective.svg");
-}
-
 .wst-tag-card__cover::after {
   content: "";
   position: absolute; inset: 0;

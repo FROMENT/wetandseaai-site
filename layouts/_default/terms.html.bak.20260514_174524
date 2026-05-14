@@ -17,7 +17,7 @@
   {{- $count := len $taxonomy }}
   {{- $coord := index $coords $name | default "—°N · —°W" }}
   <a href="{{ $tag.Permalink }}" class="wst-tag-card wst-tag-card--{{ $name }}" aria-label="{{ $tag.Title }} — {{ $count }} articles">
-    <div class="wst-tag-card__cover"></div>
+    <div class="wst-tag-card__cover" style="background-image:url('/covers/theme_{{ $name }}.svg');"></div>
     <div class="wst-tag-card__body">
       <span class="wst-tag-card__coord">{{ $coord }}</span>
       <h2 class="wst-tag-card__title">{{ $tag.Title }}</h2>
