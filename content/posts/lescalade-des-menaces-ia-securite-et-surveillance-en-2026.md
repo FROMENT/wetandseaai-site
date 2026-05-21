@@ -1,6 +1,7 @@
 ---
 title: "L'Escalade des Menaces IA : Sécurité et Surveillance en 2026"
 date: 2026-05-21
+publishDate: "2026-05-22T09:00:00"
 youtube_url: "https://youtu.be/DjvfDzHT3RQ"
 youtube_video_id: "DjvfDzHT3RQ"
 youtube_channel: "B"
