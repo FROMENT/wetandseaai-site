@@ -1,6 +1,7 @@
 ---
 title: "The New Face of Cybercrime: AI-Powered Threats & Ransomware Evolution"
 date: 2026-05-22
+publishDate: "2026-06-04T09:00:00"
 youtube_url: "https://youtu.be/oylQcVIOyw8"
 youtube_video_id: "oylQcVIOyw8"
 youtube_channel: "B"

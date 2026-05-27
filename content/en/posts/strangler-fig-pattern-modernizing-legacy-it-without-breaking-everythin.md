@@ -1,6 +1,7 @@
 ---
 title: "Strangler Fig Pattern: Modernizing Legacy IT Without Breaking Everything"
 date: 2026-05-22
+publishDate: "2026-06-02T09:00:00"
 youtube_url: "https://youtu.be/-MFjfMNHdhM"
 youtube_video_id: "-MFjfMNHdhM"
 youtube_channel: "B"

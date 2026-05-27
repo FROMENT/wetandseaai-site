@@ -1,6 +1,7 @@
 ---
 title: "Edison's Innovation Lab: Blueprint for Modern R&D Revolution"
 date: 2026-05-23
+publishDate: "2026-06-05T09:00:00"
 youtube_url: "https://youtu.be/WNHlfDhVcRo"
 youtube_video_id: "WNHlfDhVcRo"
 youtube_channel: "B"

@@ -1,6 +1,7 @@
 ---
 title: "Gestion Identités & Accès : Guide IAM/IGA pour Leaders Tech"
 date: 2026-05-22
+publishDate: "2026-06-01T09:00:00"
 youtube_url: "https://youtu.be/_Dk6aVFX8U8"
 youtube_video_id: "_Dk6aVFX8U8"
 youtube_channel: "B"

@@ -1,6 +1,7 @@
 ---
 title: "The Fall of Didier Raoult: Science, Ethics & Legal Consequences"
 date: 2026-05-23
+publishDate: "2026-06-03T09:00:00"
 youtube_url: "https://youtu.be/Ty7AV7Vi7Qw"
 youtube_video_id: "Ty7AV7Vi7Qw"
 youtube_channel: "B"

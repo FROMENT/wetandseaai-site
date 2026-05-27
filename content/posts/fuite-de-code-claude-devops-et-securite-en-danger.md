@@ -1,6 +1,7 @@
 ---
 title: "🚨 Fuite de Code Claude : DevOps et Sécurité en Danger"
 date: 2026-05-22
+publishDate: "2026-06-08T09:00:00"
 youtube_url: "https://youtu.be/bxxraWSg4pw"
 youtube_video_id: "bxxraWSg4pw"
 youtube_channel: "B"
@@ -10,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: ""
+summary: "The provided text presents a curated collection of articles from \"Wet & Sea & IA\" that primarily focus on **advanced artificial intelligence** and its integration into the **modern software…"
 cover:
   image: "/covers/bxxraWSg4pw.jpg"
   alt: "🚨 Fuite de Code Claude : DevOps et Sécurité en Danger"
@@ -46,6 +47,10 @@ Sources :
 - Documentation Anthropic sur la gestion de données Claude (accès direct via console API)
 - Standards de sécurité DevOps : OWASP API Security, NIST Cybersecurity Framework
 - Pratiques de protection des secrets : HashiCorp Vault, AWS Secrets Manager documentation officielles
+## Références (Golden Sources)
+
+- [Wet & Sea & IA](https://wetandseaai.pascal-froment.workers.dev/)
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

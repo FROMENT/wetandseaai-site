@@ -1,6 +1,7 @@
 ---
 title: "Cybersécurité : Le Problème Complexe de Notre Époque Numérique"
 date: 2026-05-22
+publishDate: "2026-06-07T09:00:00"
 youtube_url: "https://youtu.be/YlAFhhiOiSA"
 youtube_video_id: "YlAFhhiOiSA"
 youtube_channel: "B"

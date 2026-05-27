@@ -1,6 +1,7 @@
 ---
 title: "APT & Guerre de l'Information : Menaces Persistantes Avancées"
 date: 2026-05-22
+publishDate: "2026-05-30T09:00:00"
 youtube_url: "https://youtu.be/DnXjotGVTKE"
 youtube_video_id: "DnXjotGVTKE"
 youtube_channel: "B"

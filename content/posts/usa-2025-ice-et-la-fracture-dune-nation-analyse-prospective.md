@@ -1,6 +1,7 @@
 ---
 title: "USA 2025 : ICE et la Fracture d'une Nation - Analyse Prospective"
 date: 2026-05-23
+publishDate: "2026-06-06T09:00:00"
 youtube_url: "https://youtu.be/p3biBMcvZ5k"
 youtube_video_id: "p3biBMcvZ5k"
 youtube_channel: "B"
