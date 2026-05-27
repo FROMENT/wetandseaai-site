@@ -23,27 +23,36 @@ catalogue_id: "5ae3b441"
   <iframe src="https://www.youtube.com/embed/XNmKm22N-3A" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Contexte
+## Executive Summary
 
-Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date,
-**Claude Mythos Preview**. This frontier AI possesses unprecedented capabilities in **cybersécurité**, including the 
-autonomous discovery of thousands of critical "zero-day" vulnerabilities across major operating systems and browsers. Due to 
-its potential for offensive misuse, Anthropic has rejected a public release, instead granting controlled access to a 
-**consortium of twelve partners** such as AWS, Google, and Microsoft. The program includes **$100 million in credits** and 
-direct donations to bolster open-source security infrastructure and mission-critical codebases. While the model excels at 
-defensive reasoning, its development has sparked **legal and political friction** with the U.S. Department of Defense over 
-lethal military applications. Ultimately, Project Glasswing aims to accelerate the **patching of global digital 
-infrastructure** while establishing a cautious new standard for the deployment of highly capable AI.
+Anthropic a lancé le **Project Glasswing**, une initiative défensive restreignant l'accès à Claude Mythos Preview, son modèle IA le plus puissant conçu pour la cybersécurité. Ce modèle démontre une capacité à identifier des milliers de vulnérabilités zero-day critiques sur les systèmes d'exploitation et navigateurs majeurs de manière autonome. Plutôt qu'une publication publique, Anthropic a opté pour un accès contrôlé auprès d'un consortium de douze partenaires (AWS, Google, Microsoft, Apple) bénéficiant de 100 millions de dollars en crédits et donations destinés aux infrastructures de sécurité open-source. Cette approche révèle la tension entre la valeur défensive exceptionnelle du modèle et les risques d'usages offensifs, soulevant des questions stratégiques et légales.
 
-## Sources
+## Principaux points abordés
 
-- [Anthropic Glasswing : l'IA qui traque les zero-day avant les hackers - Webotit](https://www.webotit.ai/blog/agents-ia/securite/anthropic-glasswing-claude-mythos-cybersecurite-zero-day)
-- [Anthropic's Claude Mythos is now available, but not for you - The New Stack](https://thenewstack.io/anthropic-claude-mythos-cybersecurity/)
-- [Anthropic–United States Department of Defense dispute - Wikipedia](https://en.wikipedia.org/wiki/Anthropic%E2%80%93United_States_Department_of_Defense_dispute)
-- [Building AI defenses at scale: Before the threats emerge | AWS Security Blog](https://aws.amazon.com/blogs/security/building-ai-defenses-at-scale-before-the-threats-emerge/)
-- [Claude Mythos Benchmark Results: SWE-Bench 93.9% and What It Means for AI Agents](https://www.mindstudio.ai/blog/claude-mythos-benchmark-results-swe-bench)
-- [Claude Mythos Preview [pdf] (anthropic.com)](https://img.sauf.ca/pictures/2026-04-08/8c5a49a3b85183aaa3764fff94158b78.pdf)
-- [Claude Mythos Preview on Vertex AI | Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai)
-- [Deploy and use Claude models in Microsoft Foundry (preview)](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-claude)
-- [Project Glasswing \ Anthropic](https://www.anthropic.com/project/glasswing?utm_source=chatgpt.com)
-- [Project Glasswing, Claude Mythos and what "Secure AI" really means for organisations](https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/)
+- **Capacités de détection autonome** : Claude Mythos Preview détecte des vulnérabilités zero-day à l'échelle industrielle avant leur exploitation, marquant un saut qualitatif dans la défense préventive comparée aux approches réactives traditionnelles.
+
+- **Modèle de distribution restreinte** : L'accès exclusif à douze partenaires majeurs (AWS, Google, Microsoft, Apple) constitue une gouvernance stratégique contre les usages offensifs, distinguant cette IA des sorties publiques standard.
+
+- **Performance mesurable** : Le modèle atteint 93,9 % au benchmark SWE-Bench, indicateur de capacités agentic avancées pour la résolution de vulnérabilités complexes en code.
+
+- **Financement défensif structuré** : 100 millions de dollars en crédits dédiés aux codebases critiques et infrastructure open-source, plutôt que financement commercial direct.
+
+- **Tensions juridiques et politiques non résolues** : Les divergences entre Anthropic et les autorités (notamment le Département de la Défense américain) sur l'usage militaire de ces technologies demeurent irrésolues, créant une ambiguïté réglementaire durable pour le déploiement opérationnel.
+
+- **Limite d'échelle organisationnelle** : Le modèle excelle en raisonnement défensif, mais l'accès restreint limite son intégration dans les chaînes de sécurité des PME et organisations non partenaires, creusant une fracture entre capacités disponibles et accès effectif.
+
+## Références (Golden Sources)
+
+Sources :
+- [Anthropic Glasswing : l'IA qui traque les zero-day avant les hackers](https://www.webotit.ai/blog/agents-ia/securite/anthropic-glasswing-claude-mythos-cybersecurite-zero-day) — Webotit
+- [Project Glasswing | Anthropic](https://www.anthropic.com/project/glasswing) — Source officielle Anthropic
+- [Building AI defenses at scale: Before the threats emerge](https://aws.amazon.com/blogs/security/building-ai-defenses-at-scale-before-the-threats-emerge/) — AWS Security Blog
+- [Claude Mythos Preview on Vertex AI](https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai) — Google Cloud Blog
+- [Project Glasswing, Claude Mythos and what "Secure AI" really means for organisations](https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/) — Version 1
+## Ressources Wet & Sea Tech
+
+**Blog :** https://wetandseaai.fr
+
+**Boutique :** https://wetseatech.etsy.com
+
+**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech

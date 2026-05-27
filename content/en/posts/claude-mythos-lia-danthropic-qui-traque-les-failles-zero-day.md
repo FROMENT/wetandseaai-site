@@ -24,18 +24,26 @@ catalogue_id: "00fc558b"
   <iframe src="https://www.youtube.com/embed/cgXr1mZbrU0" title="Watch the video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Context
+## Executive Summary
 
-Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date,
-**Claude Mythos Preview**. This frontier AI possesses unprecedented capabilities in **cybersécurité**, including the 
-autonomous discovery of thousands of critical "zero-day" vulnerabilities across major operating systems and browsers. Due to 
-its potential for offensive misuse, Anthropic has rejected a public release, instead granting controlled access to a 
-**consortium of twelve partners** such as AWS, Google, and Microsoft. The program includes **$100 million in credits** and 
-direct donations to bolster open-source security infrastructure and mission-critical codebases. While the model excels at 
-defensive reasoning, its development has sparked **legal and political friction** with the U.S. Department of Defense over 
-lethal military applications. Ultimately, Project Glasswing aims to accelerate the **patching of global digital 
-infrastructure** while establishing a cautious new standard for the deployment of highly capable AI.
+Anthropic has launched Project Glasswing, a restricted cybersecurity initiative featuring Claude Mythos Preview, an advanced AI model capable of autonomously discovering zero-day vulnerabilities in major operating systems and browsers. The model demonstrates unprecedented defensive capabilities, identifying thousands of critical security flaws across enterprise infrastructure. Due to potential offensive misuse, Anthropic restricts access to a consortium of twelve verified partners including AWS, Google Cloud, and Microsoft Azure. The program allocates $100 million in credits and direct funding to strengthen open-source security infrastructure. This controlled deployment strategy aims to enhance proactive threat detection while preventing malicious exploitation of the model's vulnerability discovery capabilities.
 
+## Key Points
+
+- **Claude Mythos Preview operates exclusively within Project Glasswing's restricted access framework**, limited to twelve consortium partners rather than public availability
+- **Zero-day detection capabilities span multiple attack vectors** including operating system kernels, browser engines, and mission-critical open-source codebases
+- **$100 million investment program supports defensive infrastructure**, combining computational credits with direct donations to security-focused open-source projects
+- **Access restrictions reflect dual-use concerns** as the same capabilities enabling defensive security research could facilitate offensive exploitation
+- **Enterprise integration occurs through partner cloud platforms** (AWS Bedrock, Google Vertex AI, Microsoft Azure) with additional security controls and monitoring
+
+## References (Golden Sources)
+
+Sources:
+- https://www.anthropic.com/project/glasswing?utm_source=chatgpt.com
+- https://aws.amazon.com/blogs/security/building-ai-defenses-at-scale-before-the-threats-emerge/
+- https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai
+- https://thenewstack.io/anthropic-claude-mythos-cybersecurity/
+- https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/
 ## Chapters
 
 - `0:00` — Introduction to Claude Mythics
@@ -43,15 +51,10 @@ infrastructure** while establishing a cautious new standard for the deployment o
 - `2:16` — Security Vulnerabilities and Zero-Days
 - `3:36` — Real Incident Case Study
 
-## Sources
+## Wet & Sea Tech Resources
 
-- [Anthropic Glasswing : l'IA qui traque les zero-day avant les hackers - Webotit](https://www.webotit.ai/blog/agents-ia/securite/anthropic-glasswing-claude-mythos-cybersecurite-zero-day)
-- [Anthropic's Claude Mythos is now available, but not for you - The New Stack](https://thenewstack.io/anthropic-claude-mythos-cybersecurity/)
-- [Anthropic–United States Department of Defense dispute - Wikipedia](https://en.wikipedia.org/wiki/Anthropic%E2%80%93United_States_Department_of_Defense_dispute)
-- [Building AI defenses at scale: Before the threats emerge | AWS Security Blog](https://aws.amazon.com/blogs/security/building-ai-defenses-at-scale-before-the-threats-emerge/)
-- [Claude Mythos Benchmark Results: SWE-Bench 93.9% and What It Means for AI Agents](https://www.mindstudio.ai/blog/claude-mythos-benchmark-results-swe-bench)
-- [Claude Mythos Preview [pdf] (anthropic.com)](https://img.sauf.ca/pictures/2026-04-08/8c5a49a3b85183aaa3764fff94158b78.pdf)
-- [Claude Mythos Preview on Vertex AI | Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai)
-- [Deploy and use Claude models in Microsoft Foundry (preview)](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-claude)
-- [Project Glasswing \ Anthropic](https://www.anthropic.com/project/glasswing?utm_source=chatgpt.com)
-- [Project Glasswing, Claude Mythos and what "Secure AI" really means for organisations](https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/)
+**Blog:** https://wetandseaai.fr
+
+**Shop:** https://wetseatech.etsy.com
+
+**YouTube Channel:** https://www.youtube.com/@WetSeaTech

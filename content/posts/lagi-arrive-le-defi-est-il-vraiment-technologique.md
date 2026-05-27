@@ -23,59 +23,30 @@ catalogue_id: "f6ace488"
   <iframe src="https://www.youtube.com/embed/Rxu27Lj4Zbw" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Contexte
+## Executive Summary
 
-The provided sources focus on the development and strategic importance of 
-**artificial intelligence** through the lens of a leading research laboratory 
-and national policy. The first source details the history and innovations of 
-**Google DeepMind**, highlighting its breakthroughs in **competitive gaming**, 
-**protein folding**, and **large language models** like Gemini. In contrast, the
-second source examines the critical role of **immigrant talent** in maintaining 
-American AI leadership, noting that a majority of top startups and doctoral 
-researchers are foreign-born. It argues that increasing **immigration barriers**
-and global competition threaten the domestic workforce, leading to specific 
-recommendations for **policy reform**. These suggestions include reducing 
-bureaucratic red tape, recapturing **unused green cards**, and launching 
-proactive recruitment initiatives to secure high-level experts. Collectively, 
-the texts illustrate that while technical progress is driven by labs like 
-**DeepMind**, sustained industry growth depends on **high-skilled immigration** 
-and strategic human capital management.
+L'avènement de l'Intelligence Artificielle Générale (AGI) révèle un paradoxe stratégique majeur : tandis que les débats se concentrent sur les prouesses techniques d'AlphaFold, Gemini 3 ou AlphaEvolve de Google DeepMind, le facteur déterminant pourrait résider dans la gestion des talents humains. Les données démographiques des startups d'IA américaines montrent une dépendance critique aux talents immigrés, particulièrement visible chez les doctorants et fondateurs d'entreprises technologiques. Cette réalité interroge les politiques migratoires actuelles et leur impact sur la capacité d'innovation. Parallèlement, Google DeepMind continue ses percées avec des agents de codage alimentés par Gemini et des modèles de vision-langage avancés, démontrant que l'excellence technique reste indissociable de l'écosystème humain qui la produit.
 
-## Sources
+## Principaux points abordés
 
-- [(PDF) Une recherche de coincidente pour se preparer aux crises environnementales et alimentaires - ResearchGate](https://www.researchgate.net/publication/382028801_Une_recherche_de_coincidente_pour_se_preparer_aux_crises_environnementales_et_alimentaires)
-- [60 of our biggest AI announcements in 2025 - The Keyword](https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/)
-- [A Chat About AI, Immigration, and Trump | Educational Technology and Change Journal](https://etcjournal.com/2025/07/25/a-chat-about-ai-immigration-and-trump/)
-- [A glimpse of the next generation of AlphaFold - Isomorphic Labs](https://www.isomorphiclabs.com/articles/a-glimpse-of-the-next-generation-of-alphafold)
-- [A new era of intelligence with Gemini 3 - Google Blog](https://blog.google/products/gemini/gemini-3/)
-- [AI Annotation Global Market Insights 2025, Analysis and Forecast to 2030, by Market Participants, Regions, Technology, Application](https://www.researchandmarkets.com/reports/6177866/ai-annotation-global-market-insights-analysis)
-- [AI Annotation Market Size | CAGR of 28.60%](https://market.us/report/ai-annotation-market/)
-- [AI Pioneer Yann LeCun Launches Startup Targeting 'World Model ...](https://finance.biggo.com/news/7gOmNJsBNsR7DNk20mZ-)
-- [AI annotation Market Size to Hit USD 17.37 Billion by 2034 - Precedence Research](https://www.precedenceresearch.com/ai-annotation-market)
-- [AI as a research partner: Advancing theoretical computer science with AlphaEvolve](https://research.google/blog/ai-as-a-research-partner-advancing-theoretical-computer-science-with-alphaevolve/)
-- [AMI Raises $1.03B to Build World Models — Powering the Next Generation of Healthcare AI with Nabla](https://www.nabla.com/blog/ami-raises-1-03b-to-build-world-models----powering-the-next-generation-of-healthcare-ai-with-nabla?gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr6Y2QS3Zg-CiuH_yfb4UzYLc8ffvVgskpUDwDVGIbRARXNeiN14WDUaAg2AEALw_wcB&gbraid=0AAAAAoXM9JWYELG8XUP6Ln7YxfHrmAbNg&adgroupid=187626521987&campaignid=22938940551&creative=771415852017)
-- [AMI and Nabla Advance 'World Models' to Power Agentic ... - HLTH](https://hlth.com/insights/news/ami-and-nabla-advance-world-models-to-power-agentic-healthcare-ai-2026-03-11)
-- [About Google DeepMind](https://deepmind.google/about/)
-- [Advanced Vision Language Models: Gemma 3 And 3N Explained - Labellerr](https://www.labellerr.com/blog/gemma-3/)
-- [After 4 years at Google, here's my honest take on why their work culture and processes didn't work for me. : r/cscareerquestions - Reddit](https://www.reddit.com/r/cscareerquestions/comments/1kslf3b/after_4_years_at_google_heres_my_honest_take_on/)
+- **Dépendance aux talents immigrés** — La majorité des innovations IA proviennent de chercheurs et entrepreneurs étrangers dans l'écosystème américain
+- **Avancées techniques récentes** — Google DeepMind déploie AlphaEvolve pour la conception d'algorithmes et améliore AlphaFold via Isomorphic Labs
+- **Modèles de vision-langage** — Gemma 3 et Gemini 3 représentent la nouvelle génération de modèles multimodaux
+- **Barrières administratives croissantes** — Les restrictions migratoires menacent la pipeline de talents essentiels au développement de l'AGI
+- **Impact sur la gouvernance technologique** — La concentration géographique des talents détermine les centres de pouvoir dans la course à l'AGI
 
-<details>
-<summary>Voir les 15 sources restantes</summary>
+## Références (Golden Sources)
 
-- [AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
-- [AlphaEvolve: A coding agent for scientific and algorithmic discovery - Googleapis.com](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf)
-- [AlphaFold - Google DeepMind](https://deepmind.google/science/alphafold/)
-- [AlphaFold - Wikipedia](https://en.wikipedia.org/wiki/AlphaFold)
-- [AlphaFold 3 predicts the structure and interactions of all of life's molecules - Google Blog](https://blog.google/innovation-and-ai/products/google-deepmind-isomorphic-alphafold-3-ai-model/)
-- [AlphaFold 3 ushers in a new era for biomedical research and drug discovery - EurekAlert!](https://www.eurekalert.org/news-releases/1101499)
-- [AlphaFold 3: an unprecedent opportunity for fundamental research and drug development](https://pmc.ncbi.nlm.nih.gov/articles/PMC12342994/)
-- [AlphaFold: Five Years of Impact - Google DeepMind](https://deepmind.google/blog/alphafold-five-years-of-impact/)
-- [AlphaGenome: AI for better understanding the genome - Google DeepMind](https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/)
-- [AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model - bioRxiv.org](https://www.biorxiv.org/content/10.1101/2025.06.25.661532v1)
-- [AlphaGo - Google DeepMind](https://deepmind.google/research/alphago/)
-- [AlphaGo - Wikipedia](https://en.wikipedia.org/wiki/AlphaGo)
-- [AlphaZero and MuZero - Google DeepMind](https://deepmind.google/research/alphazero-and-muzero/)
-- [Alphabet & Google C-Suite Executive Team [2025] - DigitalDefynd Education](https://digitaldefynd.com/IQ/csuite-team-of-google-meet-the-executives/)
-- [Announcing the NeurIPS 2025 Best Paper Awards](https://blog.neurips.cc/2025/11/26/announcing-the-neurips-2025-best-paper-awards/)
+Sources :
+- https://deepmind.google/about/
+- https://blog.google/products/gemini/gemini-3/
+- https://www.isomorphiclabs.com/articles/a-glimpse-of-the-next-generation-of-alphafold
+- https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/
+- https://etcjournal.com/2025/07/25/a-chat-about-ai-immigration-and-trump/
+## Ressources Wet & Sea Tech
 
-</details>
+**Blog :** https://wetandseaai.fr
+
+**Boutique :** https://wetseatech.etsy.com
+
+**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech

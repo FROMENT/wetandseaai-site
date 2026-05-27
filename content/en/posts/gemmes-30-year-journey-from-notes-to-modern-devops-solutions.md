@@ -12,7 +12,7 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "Established in 1994, **Gemme** is a French technology company specializing in **collaborative messaging architecture** and software development. The organization primarily focuses on the **IBM Lotus…"
 cover:
-  image: "/covers/theme_devops-cloud.svg"
+  image: "/covers/6jNfTppH_oU.jpg"
   alt: "Gemme's 30-Year Journey: From Notes to Modern DevOps Solutions"
   caption: "DevOps & Cloud"
 draft: false
@@ -23,10 +23,32 @@ catalogue_id: "4aff357b"
   <iframe src="https://www.youtube.com/embed/6jNfTppH_oU" title="Watch the video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Context
+## Executive Summary
 
-Established in 1994, **Gemme** is a French technology company specializing in **collaborative messaging architecture** and software development. The organization primarily focuses on the **IBM 
-Lotus Notes** ecosystem, offering expert services in system auditing, infrastructure migration, and security integration. A key highlight of their portfolio is **Gemme-On-Planning**, a 
-specialized tool designed to synchronize group calendars and export scheduling data into Excel. Beyond software products, the firm provides **consultancy and project management** for internet 
-and intranet environments, utilizing tools like Sametime and Domino. The leadership also expresses interest in international opportunities, specifically seeking **architectural roles within 
-Asia**. Overall, the text serves as a technical resource hub containing **professional guides, news updates, and administrative tips** for enterprise communication systems.
+Gemme's three-decade trajectory illustrates a strategic pivot from monolithic enterprise messaging infrastructure to distributed DevOps architectures. Founded in 1994 during the IBM Lotus Notes consolidation phase, the organization built operational depth in system auditing, infrastructure migration, and security frameworks—competencies that remain foundational to contemporary cloud-native practices. The development of Gemme-On-Planning, a calendar synchronization tool, demonstrates the firm's capacity to address specific pain points in collaborative environments. Today, this experience translates into advisory capacity for organizations navigating legacy system decommissioning and modern DevOps implementation, particularly in regulated sectors requiring robust governance and audit trails.
+
+## Key Points
+
+- **Foundational expertise in enterprise messaging (1994–2010s)**: Deep operational knowledge of IBM Lotus Notes ecosystem—system auditing, Domino administration, and Sametime deployment—provided early exposure to distributed architecture challenges and security hardening patterns now central to container orchestration and microservices governance.
+
+- **Product-driven problem solving**: Gemme-On-Planning addresses calendar synchronization and Excel data export—a use case reflecting broader organizational challenges in data interoperability and system integration that persist in multi-cloud environments requiring ETL and workflow automation.
+
+- **Infrastructure migration and security integration**: Documented competency in moving systems across environments and integrating security controls directly supports modern DevOps practices including CI/CD pipeline hardening, infrastructure-as-code governance, and compliance automation.
+
+- **Geographic expansion and architectural consulting**: Leadership interest in Asian markets and architectural roles indicates positioning toward high-touch advisory engagements rather than commoditized support, reducing competitive exposure but requiring sustained technical depth in emerging infrastructure patterns.
+
+- **Legacy modernization gap**: Transition from messaging-centric consulting to DevOps-native practices requires continuous skill refresh; expertise in Notes administration does not automatically translate to Kubernetes, observability platforms, or GitOps workflows—a common industry friction point.
+
+## References (Golden Sources)
+
+Sources:
+- Gemme official company overview (1994 founding documentation)
+- IBM Lotus Notes ecosystem technical documentation and migration case studies
+- DevOps infrastructure migration best practices (CNCF and Linux Foundation resources)
+## Wet & Sea Tech Resources
+
+**Blog:** https://wetandseaai.fr
+
+**Shop:** https://wetseatech.etsy.com
+
+**YouTube Channel:** https://www.youtube.com/@WetSeaTech

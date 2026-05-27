@@ -12,7 +12,7 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "The provided sources outline a rapidly changing **cybersecurity regulatory landscape** in the EU and UK, specifically highlighting 2025 and 2026 as pivotal years for **AI governance**. Major…"
 cover:
-  image: "/covers/theme_devops-cloud.svg"
+  image: "/covers/pp0F4zDDLdI.jpg"
   alt: "IA & Cybersécurité : Le Défi de la Gouvernance en 2025-2026"
   caption: "DevOps & Cloud"
 draft: false
@@ -23,59 +23,30 @@ catalogue_id: "2e475d3d"
   <iframe src="https://www.youtube.com/embed/pp0F4zDDLdI" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Contexte
+## Executive Summary
 
-The provided sources outline a rapidly changing **cybersecurity regulatory 
-landscape** in the EU and UK, specifically highlighting 2025 and 2026 as pivotal
-years for **AI governance**. Major legislative frameworks like the **NIS 2 
-Directive**, the **EU AI Act**, and **DORA** are shifting the corporate focus 
-from mere legal compliance to active, **operational resilience**. 
-Simultaneously, the emergence of advanced models such as **Anthropic’s Mythos**,
-which can autonomously exploit vulnerabilities, has prompted defensive 
-initiatives like **Project Glasswing**. To address these escalating threats, 
-experts advocate for adopting international standards like **ISO 42001** and 
-leveraging **NIST’s Cyber AI Profile** to secure agentic systems. The collective
-texts emphasize moving away from static, bureaucratic paperwork toward 
-**continuous controls monitoring** and **independent verification** to ensure 
-digital trust. Ultimately, organizations are urged to integrate AI risk into 
-their core **cybersecurity strategies** to maintain a competitive advantage and 
-safeguard critical infrastructure.
+L'année 2025-2026 marque une transition fondamentale dans la gouvernance IA et cybersécurité européenne. L'entrée en vigueur simultanée de la directive NIS 2, de l'EU AI Act et du règlement DORA impose aux organisations de passer d'une approche de conformité réactive à une résilience opérationnelle continue. Cette évolution coïncide avec l'émergence de modèles IA autonomes capables d'exploiter automatiquement les vulnérabilités, comme Anthropic's Mythos, remettant en question les stratégies de défense traditionnelles. Face aux contraintes budgétaires qui poussent 85% des organisations à repenser leurs approches GRC conventionnelles, l'adoption de standards internationaux comme ISO 42001 et l'utilisation du framework NIST Cyber AI Profile deviennent essentielles pour sécuriser les systèmes agentiques et maintenir la conformité réglementaire.
 
-## Sources
+## Principaux points abordés
 
-- [2025: A Critical Year for Cybersecurity Compliance in the EU and UK](https://www.infosecurity-magazine.com/opinions/2025-critical-year-cybersecurity/)
-- [2026 State of CCM Report: Resource Constraints Drive 85% of Organizations to Rethink Traditional GRC Approaches](https://s23.q4cdn.com/175719177/files/doc_news/2026-State-of-CCM-Report-Resource-Constraints-Drive-85-of-Organizations-to-Rethink-Traditional-GRC-Approaches-2026.pdf)
-- [2026 State of CCM Report: Resource Constraints Drive 85% of Organizations to Rethink Traditional GRC Approaches - Business Wire](https://www.businesswire.com/news/home/20260120755843/en/2026-State-of-CCM-Report-Resource-Constraints-Drive-85-of-Organizations-to-Rethink-Traditional-GRC-Approaches)
-- [2026 State of Continuous Controls Monitoring Report - RegScale](https://regscale.com/resource-center/state-of-continuous-controls-monitoring-report/)
-- [350+ Generative AI Statistics [January 2026] - Master of Code](https://masterofcode.com/blog/generative-ai-statistics)
-- [7 Steps to Implement ISO 42001 with AI Governance Tools - Elevate Consult](https://elevateconsult.com/insights/iso-42001-implementation-7-steps/)
-- [87% of Organizations Are Running Software With Known, Exploitable Vulnerabilities, Datadog Finds](https://www.datadoghq.com/about/latest-news/press-releases/datadog-state-of-devsecops-report-2026/)
-- [90+ Generative AI Statistics You Need to Know in 2026 - AmplifAI](https://www.amplifai.com/blog/generative-ai-statistics)
-- [A Complete Guide to ISO 42001 Compliance in 2026 - ValueMentor](https://valuementor.com/blogs/a-complete-guide-to-iso-42001-compliance-in-2026)
-- [A first look at NIST's new cyber AI framework - Freeman Mathis & Gary, LLP](https://www.fmglaw.com/cyber-privacy-security/a-first-look-at-nists-new-cyber-ai-framework/)
-- [Application Security Trends Every DevSecOps Team Should Watch in 2026](https://www.ox.security/blog/application-security-trends-in-2026/)
-- [Best Continuous Controls Monitoring (CCM) Reviews 2026 | Gartner Peer Insights](https://www.gartner.com/reviews/market/continuous-controls-monitoring-ccm)
-- [Claude Mythos Preview System Card](https://reason.com/wp-content/uploads/2026/04/Claude-Mythos-Preview-System-Card1.pdf)
-- [Continuous Monitoring in 2026: Best Practices for Regulated Industries - Telos Corporation](https://www.telos.com/blog/2026/04/14/continuous-monitoring-in-highly-regulated-industries-best-practices/)
-- [Continuous control monitoring in hybrid IT: Future trends for 2026 - TrustCloud](https://www.trustcloud.ai/risk-management/the-future-of-continuous-control-monitoring-in-hybrid-it-environments/)
+- **Convergence réglementaire 2025-2026** — NIS 2, EU AI Act et DORA transforment les obligations de cybersécurité de la conformité passive vers la résilience opérationnelle active
+- **Menaces IA autonomes** — Les modèles comme Mythos d'Anthropic démontrent des capacités d'exploitation automatisée de vulnérabilités, nécessitant de nouvelles stratégies défensives
+- **Contraintes budgétaires GRC** — 85% des organisations doivent repenser leurs approches traditionnelles de gouvernance, risque et conformité face aux limitations de ressources
+- **Standards ISO 42001** — L'implémentation de normes internationales pour la gouvernance IA devient critique pour la sécurisation des systèmes agentiques
+- **Framework NIST Cyber AI** — Le profil cybersécurité IA du NIST offre une approche structurée pour sécuriser les déploiements d'intelligence artificielle en entreprise
 
-<details>
-<summary>Voir les 15 sources restantes</summary>
+## Références (Golden Sources)
 
-- [Cyber Security - Cyber Sierra](https://cybersierra.co/blog/category/cyber-security/page/4/)
-- [Cybersecurity: NIST Draft Cybersecurity Framework for AI - KPMG International](https://kpmg.com/us/en/articles/2026/cybersecurity-nist-draft-cybersecurity-framework-for-ai-reg-alert.html)
-- [Datadog's DevSecOps 2026 Report Validates What We've Been Building - StepSecurity](https://www.stepsecurity.io/blog/datadogs-devsecops-2026-report-validates-what-weve-been-building)
-- [DevOps Trends Shaping Enterprise IT Strategy in 2026 - RealVNC](https://www.realvnc.com/en/blog/devops-trends/)
-- [DevSecOps Statistics (2026): Market, Adoption, and AI Trends - Cloudaware](https://cloudaware.com/blog/devsecops-statistics/)
-- [DevSecOps stats roundup I pulled together for 2026. Do these match what you see? - Reddit](https://www.reddit.com/r/devsecops/comments/1rfb55g/devsecops_stats_roundup_i_pulled_together_for/)
-- [EU AI Code of Practice: 2025 Guide + ISO 42001 Map - Elevate Consult](https://elevateconsult.com/insights/eu-ai-code-of-practice-iso-42001/)
-- [Enterprise AI adoption in 2026: Why 79% face challenges despite high investment - Writer](https://writer.com/blog/enterprise-ai-adoption-2026/)
-- [Evaluating the Top 8 Continuous Control Monitoring Solutions for 2026 - CyberSaint](https://www.cybersaint.io/blog/compare-continuous-control-monitoring-solutions)
-- [FEUILLE DE ROUTE INESIA 2026 — 2027 - SGDSN](https://www.sgdsn.gouv.fr/files/files/Nos_missions/Feuille%20de%20route%20INESIA%202026-2027.pdf)
-- [GRC Trends for 2026: What Leaders Need to Know - BOC Group](https://www.boc-group.com/en/blog/grc/grc-trends-2026/)
-- [Global Cybersecurity Outlook 2026 - World Economic Forum publications](https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2026.pdf)
-- [Global standards for AI governance: EU AI Act, ISO 42001 and NIST compared](https://www.modulos.ai/blog/global-standards-for-ai-governance/)
-- [Gouvernance de l'IA 2026 : Seulement 14 % ont clarifié qui est responsable - Digital Chiefs](https://www.digital-chiefs.de/fr/gouvernance-de-l-ia-2026/)
-- [How AI is quietly reshaping government operations in 2026 | Granicus](https://granicus.com/blog/from-policy-to-practice-how-ai-is-quietly-reshaping-government-operations-in-2026/)
+Sources :
+- https://www.infosecurity-magazine.com/opinions/2025-critical-year-cybersecurity/
+- https://www.businesswire.com/news/home/20260120755843/en/2026-State-of-CCM-Report-Resource-Constraints-Drive-85-of-Organizations-to-Rethink-Traditional-GRC-Approaches
+- https://reason.com/wp-content/uploads/2026/04/Claude-Mythos-Preview-System-Card1.pdf
+- https://elevateconsult.com/insights/iso-42001-implementation-7-steps/
+- https://www.fmglaw.com/cyber-privacy-security/a-first-look-at-nists-new-cyber-ai-framework/
+## Ressources Wet & Sea Tech
 
-</details>
+**Blog :** https://wetandseaai.fr
+
+**Boutique :** https://wetseatech.etsy.com
+
+**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech

@@ -12,7 +12,7 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "These sources examine the critical need for **technical and corporate oversight** as artificial intelligence capabilities accelerate. The research paper introduces the **Secure Gateway Device…"
 cover:
-  image: "/covers/theme_prospective.svg"
+  image: "/covers/DjvfDzHT3RQ.jpg"
   alt: "L'Escalade des Menaces IA : Sécurité et Surveillance en 2026"
   caption: "Prospective"
 draft: false
@@ -23,32 +23,36 @@ catalogue_id: "648b6a48"
   <iframe src="https://www.youtube.com/embed/DjvfDzHT3RQ" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Contexte
+## Executive Summary
 
-These sources examine the critical need for **technical and corporate 
-oversight** as artificial intelligence capabilities accelerate. The research 
-paper introduces the **Secure Gateway Device (SeGaDev)**, an architectural 
-blueprint designed to **verify data center compliance** by cryptographically 
-fingerprinting all hardware communication. This system aims to eliminate 
-**covert data exfiltration** through physical and protocol-based side channels 
-without requiring mutually trusted processors. Complementing this technical 
-proposal, the **AI Safety Index** evaluates how leading companies are currently 
-managing such **catastrophic risks**. The index reveals a **significant gap** 
-between the rapid advancement of AI ambitions and the implementation of 
-**credible safety frameworks**. While some firms show progress in **governance 
-transparency**, the reports collectively argue that the industry remains 
-**structurally unprepared** for the existential threats posed by frontier 
-models.
+Les capacités croissantes de l'IA générative redessinent le paysage des menaces de cybersécurité à l'horizon 2026. Parallèlement à l'accélération des développements technologiques, un fossé substantiel persiste entre les ambitions déployées et la mise en œuvre concrète de cadres de sécurité crédibles. Les organisations font face à des vecteurs d'attaque émergents ciblant les chaînes d'approvisionnement IA, les données d'entraînement et les canaux d'exfiltration cryptographiques. Cette escalade exige une approche architecturale nouvelle associant vérification matérielle, surveillance organisationnelle et mesures réglementaires intégrées, particulièrement pour les infrastructures de centres de données critiques.
 
-## Sources
+## Principaux points abordés
 
-- [AI News - April 2026: Key Events & Releases - dentro.de/ai](https://dentro.de/ai/news/)
-- [AI Safety Index - Future of Life Institute](https://futureoflife.org/wp-content/uploads/2025/12/AI-Safety-Index-Report_131225_Full_Report_Digital.pdf)
-- [China Bulletin: April 2, 2026](https://www.uscc.gov/sites/default/files/2026-04/China_Bulletin_April_2_2026.pdf)
-- [DeepSeek V4 Review: Professional Assessment of the Best Chinese AI Model vs ChatGPT](https://bridgers.agency/en/blog/deepseek-v4-professional-review)
-- [Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors](https://aigi.ox.ac.uk/wp-content/uploads/2026/04/Fingerprinting_All_AI_Cluster_IO.pdf)
-- [From Stateless Queries to Autonomous Actions: A Layered Security Framework for Agentic AI Systems - arXiv](https://arxiv.org/pdf/2604.23338)
-- [Introduction to Data Poisoning: A 2026 Perspective | Lakera – Protecting AI teams that disrupt the world.](https://www.lakera.ai/blog/training-data-poisoning)
-- [OWASP Top 10 for LLMs 2025: Key Risks and Mitigation Strategies - Invicti](https://www.invicti.com/blog/web-security/owasp-top-10-risks-llm-security-2025)
-- [Red Teaming Report: DeepSeek-R1](https://cdn.prod.website-files.com/6690a78074d86ca0ad978007/679bc2e71b48e423c0ff7e60_1%20RedTeaming_DeepSeek_Jan29_2025%20(1).pdf)
-- [TeamPCP and the Cascading AI/ML Supply Chain Campaign - Lab Space](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/03/CSA_research_note_ai_pypi_supply_chain_campaign_20260329-csa-styled.pdf)
+- **Empoisonnement des données d'entraînement** — Les attaques compromettant les ensembles de données sources constituent une vulnérabilité systémique. Ces compromissions peuvent introduire des biais persistants ou des comportements indésirables en aval sans détection immédiate.
+
+- **Attaques sur les chaînes d'approvisionnement IA** — Les campagnes ciblant les dépendances logicielles (typiquement via les écosystèmes PyPI) permettent une injection de code malveillant à grande échelle, affectant des configurations distribuées d'apprentissage machine en production.
+
+- **Exfiltration de données par canaux auxiliaires** — Les attaques exploitant les canaux latéraux matériels et protocolaires contournent les mesures de segmentation réseau traditionnelles, particulièrement dans les grappes de calcul intensif.
+
+- **Lacunes de conformité mesurées** — L'AI Safety Index révèle que même les organisations leaders présentent des disparités significatives entre les déclarations de posture de sécurité et l'implémentation opérationnelle de frameworks de gestion des risques catastrophiques.
+
+- **Secure Gateway Device (SeGaDev)** — Solution d'architecture proposée basée sur l'empreinte cryptographique des communications matérielles, offrant une vérification de conformité décentralisée sans dépendre de processeurs mutuellement de confiance.
+
+- **Impact opérationnel** — Les organisations d'infrastructure critique doivent réévaluer la couche de vérification matérielle et déployer des cadres de sécurité multicouches couvrant l'accès physique, la configuration réseau et les protocoles d'authentification inter-nœuds.
+
+## Références (Golden Sources)
+
+Sources :
+- [AI Safety Index — Future of Life Institute](https://futureoflife.org/wp-content/uploads/2025/12/AI-Safety-Index-Report_131225_Full_Report_Digital.pdf)
+- [Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors — University of Oxford, Alan Turing Institute](https://aigi.ox.ac.uk/wp-content/uploads/2026/04/Fingerprinting_All_AI_Cluster_IO.pdf)
+- [Introduction to Data Poisoning: A 2026 Perspective — Lakera](https://www.lakera.ai/blog/training-data-poisoning)
+- [TeamPCP and the Cascading AI/ML Supply Chain Campaign — Cloud Security Alliance](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/03/CSA_research_note_ai_pypi_supply_chain_campaign_20260329-csa-styled.pdf)
+- [OWASP Top 10 for LLMs 2025: Key Risks and Mitigation Strategies — Invicti](https://www.invicti.com/blog/web-security/owasp-top-10-risks-llm-security-2025)
+## Ressources Wet & Sea Tech
+
+**Blog :** https://wetandseaai.fr
+
+**Boutique :** https://wetseatech.etsy.com
+
+**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech
