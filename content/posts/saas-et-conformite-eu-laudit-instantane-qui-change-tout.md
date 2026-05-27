@@ -24,34 +24,27 @@ catalogue_id: "120840be"
   <iframe src="https://www.youtube.com/embed/TWLubLYefn8" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-```markdown
 ## Executive Summary
 
-La gestion de la conformité réglementaire dans les écosystèmes SaaS est devenue un enjeu critique pour les organisations européennes. Face à la multiplication des cadres législatifs (GDPR, DORA, NIS2, EU AI Act), les processus d'audit traditionnels demeurent chronophages et mobilisent des ressources importantes. Le COMPLIANCE Scanner propose une approche alternative basée sur l'analyse automatisée : en interrogeant un service web avec le nom d'un fournisseur SaaS, l'outil génère une évaluation structurée contre les principaux référentiels européens, sans nécessiter d'accès aux systèmes internes ni aux contrats clients. Cette méthode adresse un besoin opérationnel concret pour les fonctions de conformité (RSSI, DPO, responsables gouvernance) cherchant une première évaluation de risque rapide et documentée.
+Les audits de conformité réglementaire des outils SaaS représentent un goulot d'étranglement critique pour les organisations soumises aux cadres européens (GDPR, DORA, NIS2, EU AI Act). Le COMPLIANCE Scanner aborde ce défi en automatisant l'évaluation initiale de tiers applicatifs via une interface sans onboarding. L'outil, alimenté par Gemini 2.5-flash et hébergé sur infrastructure européenne, génère des analyses structurées en JSON avec scores de maturité et cartographies de risque. Cette approche pre-due-diligence économise plusieurs mois de travail manuel, tout en reconnaissant ses limites : elle fournit une première passe d'évaluation, non un audit complet, et repose sur des données publiques et propriétaires du service audité.
 
 ## Principaux points abordés
 
-- **Architecture technique** — Utilisation du moteur Gemini 2.5-flash associée à une infrastructure hébergée en Europe, générant des rapports JSON structurés et exploitables programmatiquement
+- **Portée réglementaire couverte** — GDPR (protection des données personnelles), DORA (résilience des prestataires financiers), NIS2 (sécurité des opérateurs essentiels), EU AI Act (gouvernance des systèmes IA) et Schrems II (transferts de données transatlantiques)
 
-- **Couverture réglementaire** — Évaluation multi-cadres couvrant GDPR, DORA, NIS2, Schrems II et EU AI Act, permettant une visibilité transversale sur les obligations applicables
+- **Architecture technique** — Moteur Gemini 2.5-flash, infrastructure hébergée au sein de l'UE, génération d'une analyse JSON structurée sans accès aux systèmes internes du client ni consultation des contrats privés
 
-- **Méthode d'analyse** — Notation par système de feux tricolores (rouge, orange, vert) avec scores de maturité et plans de remédiation, sans onboarding préalable ni accès à l'infrastructure client
+- **Système de notation par feux tricolores** — Classification des risques (rouge, orange, vert) associée à des scores de maturité et propositions de remédiation pour faciliter la priorisation
 
-- **Modèle de positionnement** — Outil de pré-due-diligence destiné à qualifier rapidement le profil de risque avant engagement dans des processus d'audit approfondis
+- **Zéro-onboarding comme atout opérationnel** — Évaluation rapide sans phases d'intégration complexes, compatible avec les workflows des RSSI, DPO et équipes de gouvernance IT
 
-- **Limitation claire** — Approche basée sur des données publiques et catalogues de conformité ; ne remplace pas un audit exhaustif accédant aux architectures, politiques et registres de traitement réels du fournisseur
+- **Limitation intrinsèque** — L'outil constitue une première évaluation basée sur des données publiques et documentées ; un audit complet requiert toujours un examen approfondi des architectures, contrats et pratiques internes du prestataire
 
-- **Impact gouvernance** — Réduction du délai d'évaluation initiale (secondes vs. semaines), accélération des cycles de sélection fournisseur, documentation systématique des risques de souveraineté des données et exposition à la Cloud Act américaine
+- **Exposition au Cloud Act américain** — L'analyse identifie et évalue l'exposition des données aux juridictions extracommunautaires, critique sous Schrems II et DORA
 
-## Références
-
-Sources :
-- https://cpl.wetandseaai.fr/
-```
 ## Références (Golden Sources)
 
-- [COMPLIANCE Scanner — Auditeur SaaS conformité EU (GDPR, DORA, NIS2, Schrems II, AI Act)](https://cpl.wetandseaai.fr/)
-
+- [COMPLIANCE Scanner — Auditeur SaaS conformité EU (GDPR, DORA, NIS2, Schrems II)](https://cpl.wetandseaai.fr/)
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

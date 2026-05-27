@@ -25,25 +25,29 @@ catalogue_id: "366371b5"
 
 ## Executive Summary
 
-En avril 2026, une erreur de configuration npm chez Anthropic a exposé publiquement 512 000 lignes du code source de Claude Code, l'outil d'assistance au développement de l'entreprise. Cette fuite a permis aux chercheurs en sécurité d'identifier rapidement une vulnérabilité critique affectant le système de permissions des agents IA. L'incident survient dans un contexte d'expansion accélérée de l'écosystème Claude — lancement de Claude Mythos en preview, généralisation de Claude Cowork, introduction de capacités autonomes avancées — marquant les tensions entre innovation et sécurisation de systèmes d'IA sophistiqués en environnement professionnel.
+En avril 2026, une erreur de configuration npm chez Anthropic a exposé publiquement 512 000 lignes du code source de Claude Code. Cette fuite s'accompagne d'une vulnérabilité critique identifiée dans le système de permissions des agents IA, compromettant les contrôles d'exécution. L'incident révèle des lacunes structurelles dans la gestion des risques liés aux assistants autonomes déployés en environnement professionnel. Parallèlement, l'écosystème Claude s'élargit avec l'introduction de Claude Mythos et de nouvelles capacités d'agents persistants, amplifiant les enjeux de sécurité et de gouvernance. Ce contexte met en lumière le décalage entre l'adoption rapide de l'IA générative en entreprise et la maturité des mesures de protection contre les défaillances de configuration et les injections de prompts.
 
 ## Principaux points abordés
 
-- **Mécanisme de la fuite** : exposition via fichier source map npm mal configuré, rendant le code source consultable publiquement plutôt que protégé derrière authentification
-- **Superficie de l'exposition** : 512 000 lignes de code révélant l'architecture interne des agents Claude, y compris les mécanismes de delegation et d'exécution
-- **Vulnérabilité induite** : faille identifiée dans le système de permissions permettant potentiellement des échappements de contexte ou injections de directives malveillantes au sein des agents
-- **Calendrier comprimé** : la vulnérabilité critique a émergé quelques jours après la découverte de la fuite, indiquant une surface d'attaque amplifiée par la divulgation
-- **Contexte concurrent** : parallèlement à cet incident, Anthropic a lancé Claude Mythos et Claude Cowork avec des capacités autonomes renforcées (computer use, threads persistants), complexifiant le modèle de risque global de la plateforme
+- **Exposition du code source via misconfiguration npm** — La source map d'un fichier npm contenant l'intégralité de l'architecture Claude Code a été rendue accessible publiquement, offrant aux chercheurs et potentiels attaquants un blueprint détaillé de fonctionnalités propriétaires et de vecteurs d'attaque.
+
+- **Vulnérabilité critique dans le système de permissions** — Une faille identifiée post-leak affecte directement le contrôle d'accès des agents IA, permettant un contournement potentiel des restrictions d'exécution sur des systèmes d'entreprise.
+
+- **Risque de prompt injection amplifié** — L'accès au code source facilite l'ingénierie inverse des mécanismes de sécurité et la conception d'attaques ciblées exploitant les instructions d'agents autonomes.
+
+- **Expansion de l'écosystème Claude en parallèle** — Le lancement de Claude Mythos et la généralisation de Claude Cowork avec capacités de *computer use* et threads persistants élargissent la surface d'exposition aux risques, sans mesures compensatoires publiquement documentées.
+
+- **Limitation : absence de disclosure transparent** — Aucune communication officielle d'Anthropic ne détaille le périmètre exact de la fuite, le timeline de découverte-notification, ou les mesures correctives immédiatement déployées, compliquant l'évaluation des risques résiduels.
+
+- **Impact opérationnel et de gouvernance** — Les organisations ayant déployé Claude Code en production doivent réévaluer les modèles de menace associés aux agents autonomes, revoir les contrôles de chaîne logicielle et redéfinir les limites de confiance accordées aux outils tiers intégrés aux workflows critiques.
 
 ## Références (Golden Sources)
 
-Sources :
-
-- https://www.kucoin.com/news/flash/512-000-lines-of-anthropic-s-claude-code-source-code-leaked-due-to-configuration-error
-- https://www.infoq.com/news/2026/04/claude-code-source-leak/
-- https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/
-- https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-preview.html
-- https://platform.claude.com/docs/en/release-notes/overview
+- [512,000 lines of Anthropic's Claude code source code leaked due to configuration error](https://www.kucoin.com/news/flash/512-000-lines-of-anthropic-s-claude-code-source-code-leaked-due-to-configuration-error)
+- [Anthropic Accidentally Exposes Claude Code Source via npm Source Map File](https://www.infoq.com/news/2026/04/claude-code-source-leak/)
+- [Critical Vulnerability in Claude Code Emerges Days After Source Leak](https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/)
+- [Claude AI 2026: Complete Guide to Models, Pricing, Features & Use Cases](https://www.nxcode.io/resources/news/claude-ai-complete-guide-models-pricing-features-2026)
+- [Release notes | Claude Help Center](https://support.claude.com/en/articles/12138966-release-notes)
 ## Chapitres
 
 - `0:00` — Introduction
@@ -51,34 +55,6 @@ Sources :
 - `1:10` — Découverte de la faille
 - `1:44` — Le problème des 50 instructions
 - `2:17` — Conséquences et dangers potentiels
-
-## Références (Golden Sources)
-
-- [(PDF) SeapoPym v0.1: Implementation of the SEAPODYM low and mid trophic levels in Python with a flexible optimisation framework - ResearchGate](https://www.researchgate.net/publication/403410898_SeapoPym_v01_Implementation_of_the_SEAPODYM_low_and_mid_trophic_levels_in_Python_with_a_flexible_optimisation_framework)
-- [512,000 lines of Anthropic's Claude code source code leaked due to configuration error | KuCoin](https://www.kucoin.com/news/flash/512-000-lines-of-anthropic-s-claude-code-source-code-leaked-due-to-configuration-error)
-- [Abonnés Claude : fin brutale des forfaits illimités, coûts en hausse dès 2026 - IA Tech au Quotidien](https://www.iatechauquotidien.com/abonnes-claude-fin-brutale-des-forfaits-illimites-couts-en-hausse-des-2026/)
-- [Amherst College Statistics - GitHub](https://github.com/Amherst-Statistics)
-- [Anthropic Accidentally Exposes Claude Code Source via npm Source Map File - InfoQ](https://www.infoq.com/news/2026/04/claude-code-source-leak/)
-- [ChemBioHTP/ARMer: Python API for adaptive resource management of high-throughput workflow on HPC - GitHub](https://github.com/ChemBioHTP/ARMer)
-- [Claude AI 2026: Complete Guide to Models, Pricing, Features & Use Cases | NxCode](https://www.nxcode.io/resources/news/claude-ai-complete-guide-models-pricing-features-2026)
-- [Claude Code Alternatives (2026): 11 Tested, 3 That Beat It for Under $20/mo](https://www.morphllm.com/comparisons/claude-code-alternatives)
-- [Claude Mythos Preview - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-preview.html)
-- [Claude Platform - Claude API Docs](https://platform.claude.com/docs/en/release-notes/overview)
-- [Claude's Constitution - AI Governance Library](https://www.aigl.blog/claudes-constitution/)
-- [Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance](https://bisi.org.uk/reports/claudes-new-constitution-ai-alignment-ethics-and-the-future-of-model-governance)
-- [Collective Constitutional AI: Aligning a Language Model with Public Input - Anthropic](https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input)
-- [Critical Vulnerability in Claude Code Emerges Days After Source Leak - SecurityWeek](https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/)
-- [Release notes | Claude Help Center](https://support.claude.com/en/articles/12138966-release-notes)
-
-<details>
-<summary>Voir les 4 sources restantes</summary>
-
-- [The Complete Guide to Every Claude Update in Q1 2026 (Tested by Two AI Builders)](https://aimaker.substack.com/p/anthropic-claude-updates-q1-2026-guide)
-- [Une faille critique dans Claude Code est apparue après la fuite du code source : Anthropic a d'abord divulgué le code source de Claude Code, puis une faille critique a été découverte par Adversa AI](https://intelligence-artificielle.developpez.com/actu/381928/Une-faille-critique-dans-Claude-Code-est-apparue-apres-la-fuite-du-code-source-Anthropic-a-d-abord-divulgue-le-code-source-de-Claude-Code-puis-une-faille-critique-a-ete-decouverte-par-Adversa-AI/)
-- [mdENG — Lesson 01 — Claude Code Boot Sequence — Source Deep Dive](https://www.markdown.engineering/learn-claude-code/01-boot-sequence)
-- [qcr/armer: The Generic Manipulation Driver Package - Implements a ROS Interface over the robotics toolbox for Python · GitHub](https://github.com/qcr/armer)
-
-</details>
 
 ## Ressources Wet & Sea Tech
 

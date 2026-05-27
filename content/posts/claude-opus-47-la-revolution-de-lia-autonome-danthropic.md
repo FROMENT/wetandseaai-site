@@ -41,11 +41,6 @@ Claude Opus 4.7 représente une évolution significative dans les capacités d'I
 Sources :
 - [Introducing Claude Opus 4.7 — Anthropic](https://www.anthropic.com/news/claude-opus-4-7?utm_content=hero_cta&utm_source=it&utm_medium=email&utm_campaign=2026_Q2_PMM_TR_API_API_Opus_4_7_Launch_CC_USERS&utm_term=api&utm_campaign=17731348)
 - [Prompting Best Practices — Claude API Documentation](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
-## Références (Golden Sources)
-
-- [Introducing Claude Opus 4.7 \ Anthropic](https://www.anthropic.com/news/claude-opus-4-7?utm_content=hero_cta&utm_source=it&utm_medium=email&utm_campaign=2026_Q2_PMM_TR_API_API_Opus_4_7_Launch_CC_USERS&utm_term=api&utm_campaign=17731348)
-- [Prompting best practices - Claude API Docs](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
-
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360

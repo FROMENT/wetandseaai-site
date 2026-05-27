@@ -25,24 +25,19 @@ catalogue_id: "0c87c782"
 
 ## Executive Summary
 
-La gestion de crise cybersécurité constitue un processus structuré combinant remédiation technique et gouvernance opérationnelle. L'ANSSI propose des frameworks éprouvés permettant aux organisations de reprendre le contrôle de systèmes compromis et de construire une résilience durable face aux incidents. Ces approches adressent simultanément les enjeux tactiques (isolation, restauration, investigation) et stratégiques (continuité métier, apprentissage organisationnel). La préparation via exercices de simulation et la mobilisation coordonnée des équipes techniques et exécutives constituent les leviers critiques pour réduire les délais de remédiation et les impacts opérationnels des incidents ransomware.
+La gestion de crise cybersécurité repose sur une articulation claire entre réponse tactique et continuité opérationnelle. L'ANSSI propose des frameworks structurés de remédiation post-incident, permettant aux organisations de reprendre progressivement le contrôle des systèmes compromis. Ces approches combinent diagnostic technique, isolement des périmètres affectés et validation des restaurations. Au-delà de la réaction immédiate, les exercices de simulation — en particulier sur scénarios ransomware — constituent un vecteur d'apprentissage institutionnel. Ils permettent aux équipes techniques et aux décideurs d'identifier les points faibles organisationnels avant une véritable crise. L'enjeu réside dans l'alignement entre gouvernance (RSSI, DSI) et capacités opérationnelles, essentiel pour assurer la continuité métier et la restauration de confiance auprès des parties prenantes.
 
 ## Principaux points abordés
 
-- **Frameworks de remédiation post-incident** : méthodologies ANSSI structurant les phases d'identification, confinement et restauration des systèmes compromis, avec allocation claire des responsabilités entre équipes techniques et direction
-- **Exercices de simulation de crise ransomware** : approches pédagogiques permettant de tester les plans de continuité, d'évaluer les temps de réaction et d'identifier les lacunes organisationnelles avant un incident réel
-- **Reprise de contrôle des infrastructures** : étapes techniques de décontamination, hardening et vérification de la chaîne de confiance système pour prévenir la réinfection
-- **Implication des décideurs** : structures de gouvernance de crise définissant les appels de décision critiques (arrêt de production, négociation rançon, notification) et les circuits d'information exécutive
-- **Limites identifiées** : l'efficacité opérationnelle dépend fortement de la préparation préalable et du niveau de maturité des processus de sauvegarde et monitoring, facteurs souvent insuffisants dans les organisations
-- **Impact opérationnel** : la qualité de la réaction initiale détermine directement la durée d'immobilisation des ressources critiques et la viabilité des services, justifiant une préparation inversée (du scénario au protocole)
+- **Frameworks opérationnels ANSSI** — Méthodologies structurées de remédiation distinguant phases de containment (isolement), eradication (suppression des accès non autorisés) et recovery (restauration validée des services)
 
-## Références (Golden Sources)
+- **Exercices de simulation ransomware** — Approche pédagogique intégrant scénarios réalistes, déploiement de chaos engineering contrôlé et débriefing post-simulation pour identifier écarts entre procédures théoriques et réalité opérationnelle
 
-Sources :
-- ANSSI — Guides de gestion de crise cybersécurité et frameworks de remédiation
-- ANSSI — Méthodes de conception et d'exécution d'exercices de simulation incident
-- LARUS — Documentation opérationnelle sur la gestion de l'infrastructure IP post-incident
-- ANSSI — Stratégies de continuité métier et résilience organisationnelle face aux menaces ransomware
+- **Reprise de contrôle des systèmes** — Processus de validation (audits de compromission, nettoiement des artefacts malveillants, rebaseline des configurations) précédant la restauration progressive en environnement maîtrisé
+
+- **Implication des décideurs** — Nécessité d'une prise de décision structurée en crise (allocation de ressources, communication, arbitrage opérationnel) distincte des phases de planification
+
+- **Limite : dépendance au contexte architectural** — L'efficacité des frameworks reste tributaire de la documentation préalable des actifs, de la segmentation réseau existante et de la maturité des processus de configuration management au sein de l'organisation
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

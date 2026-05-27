@@ -26,19 +26,19 @@ catalogue_id: "536c6bee"
 
 ## Executive Summary
 
-The Strangler Fig pattern represents a structured approach to legacy system modernization that prioritizes risk mitigation over rapid replacement. Organizations implement this strategy through a mediating proxy layer that intercepts requests, progressively routing traffic from deprecated monolithic components to new cloud-native services. This incremental methodology aligns with enterprise constraints—operational continuity, budget cycles, and team capacity—while enabling architecture evolution. Combined with decision frameworks like the 6R model (Rehost, Replatform, Refactor, Repurchase, Retire, Retain), the pattern provides organizations with systematic criteria for evaluating which systems warrant transformation and at what pace. The approach addresses a critical challenge in cloud adoption: how to modernize without halting production systems or accumulating technical debt through forced wholesale replacement.
+The Strangler Fig pattern represents a risk-mitigation approach to legacy system modernization, enabling organizations to replace monolithic architectures incrementally through a mediating proxy layer. This strategy addresses the operational reality that complete system rewrites introduce substantial failure risk and business disruption. By routing traffic through an intermediary component, teams can progressively extract business logic into cloud-native services while maintaining backward compatibility with existing systems. The pattern's effectiveness depends on precise identification of boundaries, careful proxy implementation, and phased service migration—factors that directly impact deployment velocity, cost optimization, and architectural debt reduction during cloud transitions.
 
 ## Key Points
 
-- **Proxy-mediated traffic routing** enables simultaneous operation of legacy and modern services, with gradual request migration eliminating the need for binary cutover events
-- **6R framework stratification** distinguishes between lift-and-shift strategies (Rehost, Replatform), structural refactoring (Refactor), alternative solutions (Repurchase), and decommissioning approaches (Retire, Retain)
-- **Cost efficiency emerges from staged investment** rather than upfront capital requirements; organizations optimize infrastructure spending by replacing high-maintenance legacy components incrementally
-- **Architectural coupling risks persist** if proxy layer logic becomes complex; insufficient abstraction between old and new services can obscure dependencies and delay modernization velocity
-- **Operational resilience depends on proxy reliability**; the mediating layer becomes a critical control point requiring monitoring, logging, and failover mechanisms to prevent single points of failure
+- **Strangler Fig pattern mechanics**: A proxy-based intermediary intercepts requests to legacy systems, gradually routing calls to replacement microservices while legacy components remain operational, reducing cutover risk compared to big-bang migrations.
 
-## References
+- **6R categorization framework**: Migration strategies span Rehost (lift-and-shift), Replatform (OS/middleware optimization), Refactor (code modernization), Rearchitect (cloud-native redesign), Repurchase (SaaS transition), and Retire (decommissioning)—each with distinct cost-benefit and risk profiles applicable to different system components.
 
-- AWS Cloud Migration Strategies Guide – https://aws.amazon.com/cloud-migration/strategie
+- **Proxy layer complexity**: The mediating component becomes a critical dependency requiring robust error handling, request routing logic, and performance optimization; misconfigured proxies introduce latency overhead and single-point-of-failure vulnerabilities that can outweigh modernization benefits.
+
+- **Organizational constraint**: Success requires sustained parallel operations of legacy and new systems during transition phases, extending infrastructure costs and operational overhead; timeline compression to reduce this period often compromises migration quality and increases production incidents.
+
+- **Governance impact**: Incremental migration demands continuous architectural decision-making regarding which components migrate first, service boundary definitions, and data consistency strategies between old and new systems—responsibilities often unclear across DevOps, architecture, and product teams.
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

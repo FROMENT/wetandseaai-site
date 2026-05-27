@@ -54,10 +54,6 @@ Sources :
 - `2:12` — L'obstacle des modèles cloud
 - `2:45` — Le moment de révélation
 
-## Références (Golden Sources)
-
-- [GitHub - mrwadams/stride-gpt: An AI-powered threat modeling tool that leverages OpenAI's GPT models to generate threat models for a given application based on the STRIDE methodology.](https://github.com/mrwadams/stride-gpt)
-
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
