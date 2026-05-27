@@ -1,7 +1,6 @@
 ---
 title: "OpenClaw : Agent IA Autonome ou Bombe à Retardement Cyber ?"
 date: 2026-04-16
-publishDate: "2026-04-29T09:00:00"
 youtube_url: "https://youtu.be/XupKvIOQEl0"
 youtube_video_id: "XupKvIOQEl0"
 youtube_channel: "B"

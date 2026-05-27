@@ -1,7 +1,6 @@
 ---
 title: "Claude Mythos : L'IA révolutionnaire qui traque les zero-day"
 date: 2026-04-17
-publishDate: "2026-06-01T11:00:00"
 youtube_url: "https://youtu.be/XNmKm22N-3A"
 youtube_video_id: "XNmKm22N-3A"
 youtube_channel: "B"

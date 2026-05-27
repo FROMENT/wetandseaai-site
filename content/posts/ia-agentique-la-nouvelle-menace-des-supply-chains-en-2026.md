@@ -1,7 +1,6 @@
 ---
 title: "IA Agentique : La Nouvelle Menace des Supply Chains en 2026"
 date: 2026-05-11
-publishDate: "2026-05-13T17:00:00"
 youtube_url: "https://youtu.be/EvDPDrj8paI"
 youtube_video_id: "EvDPDrj8paI"
 youtube_channel: "B"

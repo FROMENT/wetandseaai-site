@@ -1,7 +1,6 @@
 ---
 title: "La Dette Cachée de l'IA : Quand l'Automatisation Creuse les Inégalités"
 date: 2026-04-17
-publishDate: "2026-06-03T11:00:00"
 youtube_url: "https://youtu.be/9oYAiZsCPLA"
 youtube_video_id: "9oYAiZsCPLA"
 youtube_channel: "B"

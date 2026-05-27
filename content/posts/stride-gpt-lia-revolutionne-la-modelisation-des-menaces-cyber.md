@@ -1,7 +1,6 @@
 ---
 title: "STRIDE GPT : L'IA révolutionne la modélisation des menaces cyber"
 date: 2026-04-16
-publishDate: "2026-05-28T11:00:00"
 youtube_url: "https://youtu.be/2O0fgENs9Qg"
 youtube_video_id: "2O0fgENs9Qg"
 youtube_channel: "B"

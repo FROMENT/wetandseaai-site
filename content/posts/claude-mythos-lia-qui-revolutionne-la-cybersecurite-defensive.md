@@ -1,7 +1,6 @@
 ---
 title: "Claude Mythos : L'IA qui révolutionne la cybersécurité défensive"
 date: 2026-04-17
-publishDate: "2026-06-02T11:00:00"
 youtube_url: "https://youtu.be/N8VVSWjaWTk"
 youtube_video_id: "N8VVSWjaWTk"
 youtube_channel: "B"

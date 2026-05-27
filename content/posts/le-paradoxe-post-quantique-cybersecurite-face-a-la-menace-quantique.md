@@ -1,7 +1,6 @@
 ---
 title: "Le Paradoxe Post-Quantique : Cybersécurité Face à la Menace Quantique"
 date: 2026-05-11
-publishDate: "2026-05-14T09:00:00"
 youtube_url: "https://youtu.be/FWLJNIyv2Zc"
 youtube_video_id: "FWLJNIyv2Zc"
 youtube_channel: "B"

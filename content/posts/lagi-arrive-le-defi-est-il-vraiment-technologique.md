@@ -1,7 +1,6 @@
 ---
 title: "L'AGI arrive : Le défi est-il vraiment technologique ?"
 date: 2026-05-11
-publishDate: "2026-05-13T09:00:00"
 youtube_url: "https://youtu.be/Rxu27Lj4Zbw"
 youtube_video_id: "Rxu27Lj4Zbw"
 youtube_channel: "B"

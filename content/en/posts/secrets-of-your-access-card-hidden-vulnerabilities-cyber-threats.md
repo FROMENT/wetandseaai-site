@@ -1,7 +1,6 @@
 ---
 title: "Secrets of Your Access Card: Hidden Vulnerabilities & Cyber Threats"
 date: 2026-04-16
-publishDate: "2026-05-29T14:00:00"
 youtube_url: "https://youtu.be/rVeKCQSPZSg"
 youtube_video_id: "rVeKCQSPZSg"
 youtube_channel: "B"

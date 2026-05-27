@@ -1,7 +1,6 @@
 ---
 title: "La Nouvelle Économie de la Guerre : Drones à $20K vs Missiles à $4M"
 date: 2026-04-16
-publishDate: "2026-05-27T14:00:00"
 youtube_url: "https://youtu.be/S7I-bNq9KRc"
 youtube_video_id: "S7I-bNq9KRc"
 youtube_channel: "B"

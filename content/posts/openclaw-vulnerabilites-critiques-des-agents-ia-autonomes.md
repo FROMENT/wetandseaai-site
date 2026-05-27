@@ -1,7 +1,6 @@
 ---
 title: "OpenClaw : Vulnérabilités Critiques des Agents IA Autonomes"
 date: 2026-04-16
-publishDate: "2026-05-27T09:00:00"
 youtube_url: "https://youtu.be/MG7lIGDPeuU"
 youtube_video_id: "MG7lIGDPeuU"
 youtube_channel: "B"

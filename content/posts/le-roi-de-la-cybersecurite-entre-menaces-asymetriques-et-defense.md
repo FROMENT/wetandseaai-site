@@ -1,7 +1,6 @@
 ---
 title: "Le Roi de la Cybersécurité : Entre Menaces Asymétriques et Défense"
 date: 2026-04-16
-publishDate: "2026-05-26T09:00:00"
 youtube_url: "https://youtu.be/eDIY82dZ1O0"
 youtube_video_id: "eDIY82dZ1O0"
 youtube_channel: "B"

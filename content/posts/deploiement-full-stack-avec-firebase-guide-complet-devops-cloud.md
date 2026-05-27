@@ -1,7 +1,6 @@
 ---
 title: "Déploiement Full Stack avec Firebase : Guide Complet DevOps Cloud"
 date: 2026-05-11
-publishDate: "2026-05-12T09:00:00"
 youtube_url: "https://youtu.be/y5q7sFogYKg"
 youtube_video_id: "y5q7sFogYKg"
 youtube_channel: "B"

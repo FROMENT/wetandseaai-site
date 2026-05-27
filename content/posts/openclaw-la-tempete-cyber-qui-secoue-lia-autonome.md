@@ -1,7 +1,6 @@
 ---
 title: "OpenClaw : La Tempête Cyber qui Secoue l'IA Autonome"
 date: 2026-04-16
-publishDate: "2026-05-25T09:00:00"
 youtube_url: "https://youtu.be/69WgyJDf-oI"
 youtube_video_id: "69WgyJDf-oI"
 youtube_channel: "B"

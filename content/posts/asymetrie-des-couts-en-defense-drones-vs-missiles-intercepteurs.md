@@ -1,7 +1,6 @@
 ---
 title: "Asymétrie des Coûts en Défense : Drones vs Missiles Intercepteurs"
 date: 2026-04-16
-publishDate: "2026-05-28T14:00:00"
 youtube_url: "https://youtu.be/drXl7ahy_ds"
 youtube_video_id: "drXl7ahy_ds"
 youtube_channel: "B"
