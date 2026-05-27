@@ -60,19 +60,6 @@ Sources :
 - `2:20` — Pipeline DevOps Moderne
 - `3:33` — Bataille des Outils
 
-## Références (Golden Sources)
-
-- [A First Look at the Self-Admitted Technical Debt in Test Code: Taxonomy and Detection - arXiv](https://arxiv.org/pdf/2510.22409)
-- [Automated testing of non-functional requirements based on behavioural scripts - Chalmers Publication Library](https://publications.lib.chalmers.se/records/fulltext/155661.pdf)
-- [Automatisation des activités de test - CFTL](https://cftl.fr/wp-content/uploads/2024/02/Livre-du-CFTL-2-Automatisation-des-activites-de-test.pdf)
-- [Bonnes pratiques du test en Agile : ATDD visuel vs BDD Gherkin - La taverne du testeur](https://latavernedutesteur.fr/2020/04/28/bonnes-pratiques-du-test-en-agile-atdd-visuel-vs-bdd-gherkin/)
-- [How to Improve Test Automation Effectiveness and ROI - Aspire Systems](https://www.aspiresys.com/WhitePapers/how-to-improve-test-automation-effectiveness-and-roi.pdf)
-- [La différence entre les tests fonctionnels et les tests non fonctionnels - ClickUp](https://clickup.com/fr-FR/blog/269252/tests-fonctionnels-et-non-fonctionnels)
-- [Optimiser vos tests avec Cucumber - Ouidou](https://ouidou.fr/2025/11/17/optimiser-vos-tests-avec-cucumber/)
-- [Robot Framework: generic open source automation framework | Hacker News](https://news.ycombinator.com/item?id=33340782)
-- [Test Automation Maturity Models: Driving ROI in Mobile-Web and Systems Integration Testing](https://jisem-journal.com/index.php/journal/article/download/13485/6343/22821)
-- [The Truth About Autonomous Software Testing | Test Guild](https://testguild.com/autonomous-testing/)
-
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

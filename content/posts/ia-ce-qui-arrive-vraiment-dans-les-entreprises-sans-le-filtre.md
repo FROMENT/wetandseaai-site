@@ -23,32 +23,25 @@ catalogue_id: "9ee16318"
   <iframe src="https://www.youtube.com/embed/qq4Xg1UWN2M" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
+```markdown
 ## Executive Summary
 
-L'intégration de l'IA dans les entreprises en 2025 marque un passage critique : du stade expérimental vers une infrastructure économique intégrée. Contrairement aux promesses marketing, l'adoption réelle reste fragmentée, caractérisée par des projets pilotes limités au stade POC, des résistances organisationnelles et quelques transformations tangibles dans les secteurs financier, sanitaire et industriel. Le calendrier réglementaire européen (AI Act août 2026) et l'émergence de modèles haute performance (Claude, Spud) accélèrent la convergence entre capacités techniques et impératifs de conformité. Les organisations doivent arbitrer entre déploiement rapide et gouvernance robuste, déterminant ainsi leur position compétitive post-2026.
+L'adoption de l'IA dans les entreprises en 2025 se caractérise par une transition de l'expérimentation vers l'intégration opérationnelle. Loin de la narration marketing, les organisations font face à des défis concrets : des projets pilotes limités au stade POC, des frictions organisationnelles et une standardisation progressive des modèles fondamentaux. La fenêtre d'avantage compétitif par la différenciation technologique se referme, tandis que les secteurs finance, santé et industrie expérimentent des transformations mesurables. L'entrée en vigueur de l'Acte sur l'IA européen (août 2026) impose parallèlement des contraintes de gouvernance qui redéfinissent les roadmaps d'implémentation.
 
 ## Principaux points abordés
 
-- **Fin de la différenciation par les modèles** — Les modèles de base deviennent commodifiés ; l'avantage compétitif migre vers l'intégration opérationnelle et la gouvernance des workflows agents.
+- **Fin de la différenciation par modèle fondamental** — Les systèmes haute performance (Spud, Claude Mythos) deviennent des commodités accessibles à tous les acteurs. L'avantage compétitif se déplace vers l'intégration organisationnelle et l'usage contextualisé plutôt que vers la propriété technologique.
 
-- **Workflows agents et automatisation décentralisée** — Passage des chatbots conversationnels vers des systèmes autonomes prenant des décisions métier, exigeant des cadres de contrôle accrus.
+- **Écart entre POC et déploiement à l'échelle** — Nombreux projets pilotes ne franchissent pas le stade de preuve de concept. Les facteurs d'échec incluent l'absence de cas d'usage pérenne, l'intégration fragmentée avec les systèmes legacy et l'insuffisance de gouvernance data.
 
-- **Conformité réglementaire comme levier stratégique** — L'AI Act européen (échéance août 2026) impose des critères légaux strictes ; les entreprises conformes tôt gagnent un avantage d'accès marchand.
+- **Résistances internes et changement organisationnel** — Les frictions humaines (résistance métier, craintes de substitution, manque de reskilling) constituent des freins plus importants que les obstacles techniques. La structure hiérarchique et les silos organisationnels ralentissent l'adoption des workflows agentiques.
 
-- **Mobilité stratégique des géants technologiques** — Apple et Google intègrent l'IA en couche système consommateur et entreprise, normalisant l'attente de disponibilité IA par défaut.
+- **Gains opérationnels limités mais mesurables dans trois secteurs** — Finance : automatisation des processus conformité et analyse de risque ; Santé : aide au diagnostic et optimisation administrative ; Industrie : maintenance prédictive et optimisation de chaîne. Ces cas réels restent circonscrits à des domaines à faible risque réputationnel.
 
-- **POC stériles et goulots d'étranglement organisationnels** — Nombreux projets pilotes ne dépassent pas la phase de démonstration ; les résistances internes et l'absence de ROI clair freinent le passage à l'échelle.
+- **Tension entre opportunité et conformité réglementaire** — L'Acte sur l'IA européen (entrée en vigueur août 2026) impose des audits de transparence, la documentation des données d'entraînement et la mise en place de gouvernance. Les entreprises sans infrastructure de traçabilité data accumulent un risque légal croissant.
 
-- **Quick wins sectoriels documentés** — Finance, santé et industrie rapportent des gains mesurables (automatisation processuelle, diagnostic assisté, planification optimisée), validant certains cas d'usage.
-
-- **Tension gouvernance-vélocité** — L'absence de structure décisionnelle clarifie les choix IA ralentit déploiement ; cadres de governance insuffisants créent des risques de conformité et de sécurité.
-
-## Références (Golden Sources)
-
-Sources :
-- Rapports stratégiques OpenAI et Anthropic sur transition infrastructure IA (2025-2026)
-- Documentation de l'AI Act européen et calendriers d'application obligatoire
-- Études de cas sectoriels finance/santé/industrie (à valider via rapports R&D consortium IA)
+- **Impact sur l'infrastructure et la cybersécurité** — L'intégration d'agents IA augmente la surface d'attaque (injection de prompts, accès data non contrôlé, dépendances externes). Les équipes DevOps et SecOps doivent redéfinir les modèles de contrôle d'accès et la segmentation réseau pour les pipelines IA.
+```
 ## Chapitres
 
 - `0:00` — Introduction

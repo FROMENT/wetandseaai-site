@@ -64,19 +64,6 @@ Sources :
 - `1:42` — Risques et menaces concrètes
 - `2:15` — Solutions de sécurité avancées
 
-## Références (Golden Sources)
-
-- [CLOUD COMPUTING - CERT-FR - ANSSI](https://www.cert.ssi.gouv.fr/uploads/CERTFR-2025-CTI-001.pdf)
-- [EXFILTRATION DE DONNÉES DU SECTEUR SOCIAL : RETOUR D'EXPÉRIENCE DU CERT-FR](https://www.cert.ssi.gouv.fr/uploads/CERTFR-2024-CTI-009.pdf)
-- [FAILLES SUR LES ÉQUIPEMENTS DE SECURITE : RETOUR D'EXPERIENCE DU CERT-FR - ANSSI](https://www.cert.ssi.gouv.fr/uploads/20240612_NP_ANSSI-SDO_Retex-Vuln_vf.pdf)
-- [How to Evaluate Identity Governance & Administration (IGA) Systems - Saviynt](https://saviynt.com/blog/how-to-evaluate-identity-governance-administration-iga-solutions)
-- [NIST Update: Multi-Factor Authentication and SP 800-63 Digital Identity Guidelines - CSRC](https://csrc.nist.gov/csrc/media/Presentations/2022/multi-factor-authentication-and-sp-800-63-digital/images-media/Federal_Cybersecurity_and_Privacy_Forum_15Feb2022_NIST_Update_Multi-Factor_Authentication_and_SP800-63_Digital_Identity_%20Guidelines.pdf)
-- [OpenID Connect Core 1.0 incorporating errata set 2](https://openid.net/specs/openid-connect-core-1_0.html)
-- [Privileged Access Manager - Self-Hosted Architecture - CyberArk Docs](https://docs.cyberark.com/pam-self-hosted/latest/en/content/pasimp/privileged-account-security-solution-architecture.htm)
-- [System for Cross-domain Identity Management: SCIM](https://simplecloud.info/)
-- [User Authentication Specifications Overview - FIDO Alliance](https://fidoalliance.org/specifications/)
-- [Zero Trust Maturity Model Version 2.0 - CISA](https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf)
-
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

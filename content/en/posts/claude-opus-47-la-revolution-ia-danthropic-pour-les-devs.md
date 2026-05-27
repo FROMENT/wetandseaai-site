@@ -46,11 +46,6 @@ Anthropic released Claude Opus 4.7, an AI model designed to address computationa
 
 - [Introducing Claude Opus 4.7 — Anthropic](https://www.anthropic.com/news/claude-opus-4-7)
 - [Prompting Best Practices — Claude API Documentation](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
-## References (Golden Sources)
-
-- [Introducing Claude Opus 4.7 \ Anthropic](https://www.anthropic.com/news/claude-opus-4-7?utm_content=hero_cta&utm_source=it&utm_medium=email&utm_campaign=2026_Q2_PMM_TR_API_API_Opus_4_7_Launch_CC_USERS&utm_term=api&utm_campaign=17731348)
-- [Prompting best practices - Claude API Docs](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
-
 ## Wet & Sea Tech Resources
 
 **YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360

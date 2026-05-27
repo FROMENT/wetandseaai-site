@@ -45,10 +45,6 @@ COMPLIANCE Scanner est un service web d'audit automatisé conçu pour évaluer r
 
 Sources :
 - [COMPLIANCE Scanner — Auditeur SaaS conformité EU](https://cpl.wetandseaai.fr/)
-## Références (Golden Sources)
-
-- [COMPLIANCE Scanner — Auditeur SaaS conformité EU (GDPR, DORA, NIS2, Schrems II, AI Act)](https://cpl.wetandseaai.fr/)
-
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
