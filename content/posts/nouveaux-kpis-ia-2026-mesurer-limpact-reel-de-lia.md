@@ -25,78 +25,38 @@ catalogue_id: "e03d212b"
 
 ## Executive Summary
 
-La mesure de l'impact de l'IA en entreprise exige un renouvellement complet des indicateurs de performance. Les KPIs traditionnels échouent à capturer la valeur réelle générée par les systèmes d'intelligence artificielle intégrés aux processus métier. En 2026, les organisations doivent adopter un cadre structuré combinant vitesse d'adoption, taux d'augmentation humain-IA, qualité des outputs, ROI opérationnel et maturité algorithmique. Cette transition devient critique pour les restructurations d'envergure : des sociétés comme Block Inc. réduisent considérablement leurs effectifs au profit de modèles IA-native, créant une pression accrue pour quantifier l'efficacité réelle de ces changements. La gouvernance des données et la prévention de la dégradation des modèles constituent des enjeux opérationnels directs.
+Les indicateurs de performance traditionnels deviennent obsolètes face à l'intégration systématique de l'IA dans les processus métier. Les organisations qui maintiennent des tableaux de bord conçus avant 2023 perdent la visibilité sur l'impact réel de leurs investissements en intelligence artificielle. En 2026, les KPIs pertinents doivent capturer la vélocité d'adoption, la qualité des outputs générés, l'efficacité de la collaboration humain-IA et la stabilité des modèles en production. Cette évolution du pilotage devient critique dans un contexte où les restructurations accélérées par l'IA redessinent les effectifs et exigent une mesure précise du ROI opérationnel au-delà des simples réductions de coûts.
 
 ## Principaux points abordés
 
-- **Obsolescence des KPIs 2020** : les métriques centrées sur l'activité humaine ne mesurent pas l'assistance IA, la productivité hybride ni l'économie de temps. Un tableau de bord sans ces dimensions ignore 30 à 40 % de la création de valeur dans un environnement coassisté.
+- **Mesure de la vélocité d'adoption** — La capacité des équipes à intégrer les outils IA ne se limite plus à un pourcentage d'utilisation, mais doit évaluer le temps de montée en compétence, la profondeur d'utilisation par rôle métier et la réduction du taux d'abandon post-déploiement.
 
-- **Taux d'augmentation humain-IA** : métrique clé mesurant le pourcentage de tâches enrichies par l'IA (complétude, délai de traitement, qualité). Doit être dissocié du simple taux d'adoption binaire (« IA active / inactive »).
+- **Taux d'augmentation humain-IA** — Un KPI distinct qui quantifie la proportion de tâches où l'IA augmente la capacité humaine (plutôt que de la remplacer). Cet indicateur révèle l'équilibre stratégique entre automatisation complète et amélioration des performances individuelles.
 
-- **Qualité des outputs assistés** : nécessite le suivi de la conformité, des erreurs résiduelles et de la variance entre productions humaines et augmentées. Les systèmes de feedback temps réel deviennent essentiels pour détecter la dégradation du modèle et les biais algorithmiques persistants.
+- **Qualité des outputs assistés** — Mesurer l'exactitude, la cohérence et la conformité réglementaire des résultats générés ou co-produits par les systèmes IA, incluant la détection des dérives de modèles et l'analyse des erreurs récurrentes.
 
-- **ROI opérationnel granulaire** : au-delà du ROI global, segmenter par processus (RPA, traitement documentaire, support client, analytics). Block Inc. et les restructurations similaires imposent de démontrer le gain économique spécifique par domaine.
+- **ROI opérationnel multi-dimensions** — Au-delà du coût par transaction réduite, intégrer le coût total de possession (infrastructure, maintenance, gouvernance), l'impact sur la rétention des talents et l'accélération du time-to-market des initiatives métier.
 
-- **Maturité algorithmique et model drift** : suivi de la dérive des modèles (performance degradation), des réentraînements nécessaires et de la stabilité des algorithmes en production. Ce KPI direct impacte la robustesse opérationnelle et la continuité de service.
+- **Maturité algorithmique et gouvernance** — Évaluer la couverture du monitoring en production, la présence de processus de révision éthique, la traçabilité des décisions assistées par IA et l'établissement de chaînes de contrôle humain sur les systèmes critiques.
 
-- **Contradiction majeure** : les restructurations rapides (217 licenciements remplacés par l'IA en France) contredisent l'approche prudente de « human oversight » et d'apprentissage progressif recommandée par les frameworks éthiques. Mesurer l'impact réel révèle souvent un délai de 6 à 12 mois avant stabilisation des processus IA-native.
+- **Limite contextuelle** — Les cadres de mesure doivent rester adaptables à chaque secteur. Les KPIs bancaires diffèrent de ceux en santé en matière de seuils d'acceptabilité du risque et de conformité réglementaire. Une approche one-size-fits-all masque les risques sectoriels.
 
-- **Impact gouvernance et cybersécurité** : chaque augmentation humain-IA génère des flux de données additionnels. La gouvernance des données et la conformité RGPD doivent être intégrées aux KPIs (taux d'audit IA, incidents de conformité détectés par trimestre).
+- **Impact sur la gouvernance** — L'absence de KPIs structurés crée des angles morts où les investissements IA progressent sans visibilité sur les externalités (biais algorithmique, dépendance technologique, obsolescence des compétences internes). Une instrumentation rigoureuse devient un préalable à la maturité opérationnelle.
 
 ## Références (Golden Sources)
 
-Sources :
-
-- https://www.techclass.com/resources/learning-and-development-articles/ai-and-new-metrics-of-work-what-should-we-measure-now
-- https://www.qodequay.com/ai-model-drift-detecting-and-correcting-performance-degradation
-- https://ia.acs.org.au/article/2026/4-000-jobs-cut-as-block-goes-all-in-on-ai.html
-- https://online.hbs.edu/blog/post/ai-implementation-cost
-- https://peoplemanagingpeople.com/tools/best-ai-employee-feedback-software/
+- [AI and the New Metrics of Work Performance - TechClass](https://www.techclass.com/resources/learning-and-development-articles/ai-and-new-metrics-of-work-what-should-we-measure-now)
+- [AI Implementation Cost vs ROI: Finding the Balance - HBS Online](https://online.hbs.edu/blog/post/ai-implementation-cost)
+- [AI Model Drift: Detecting and Correcting Performance Degradation](https://www.qodequay.com/ai-model-drift-detecting-and-correcting-performance-degradation)
+- [3 Key Shifts Will Make 2026 the Inflection Point for AI in Banking - The Financial Brand](https://thefinancialbrand.com/news/artificial-intelligence-banking/three-key-shifts-to-make-2026-your-inflection-point-for-ai-in-banking-194723)
+- [4 Ways AI Will Shape Entry-Level Jobs Big in 2026 - HRMorning](https://www.hrmorning.com/articles/ai-shapes-entry-level-jobs/)
+- [24 Best AI Onboarding Tools Reviewed in 2026](https://peoplemanagingpeople.com/tools/best-ai-onboarding-tools/)
 ## Chapitres
 
 - `0:00` — Introduction
 - `0:35` — Nouveaux KPIs IA
 - `1:10` — Time to Productivity
 - `1:42` — Bien-être et Burnout
-
-## Références (Golden Sources)
-
-- [20 Best AI Employee Feedback Software Reviewed in 2026](https://peoplemanagingpeople.com/tools/best-ai-employee-feedback-software/)
-- [20 Strategies To Sustain Morale During Company Cuts](https://www.forbes.com/councils/forbeshumanresourcescouncil/2024/12/03/20-strategies-to-sustain-morale-during-company-cuts/)
-- [217 personnes licenciées, remplacées par une IA : une première en France à cette échelle !](https://www.clubic.com/technologies-d-avenir/intelligence-artificielle/actualite-484945-personnes-licenciees-remplacees-par-une-ia-une-premiere-en-france-a-cette-echelle.html)
-- [24 Best AI Onboarding Tools Reviewed in 2026](https://peoplemanagingpeople.com/tools/best-ai-onboarding-tools/)
-- [2501.ai and ITS Services combine their expertise to deploy autonomous AI applied to IT Operations on a large scale - ITS Group](https://www.itsgroup.com/actualites/2501-ai-et-its-services-unissent-leurs-expertises-pour-deployer-a-grande-echelle-lia-autonome-appliquee-aux-operations-it/)
-- [3 Key Shifts Will Make 2026 the Inflection Point for AI in Banking - The Financial Brand](https://thefinancialbrand.com/news/artificial-intelligence-banking/three-key-shifts-to-make-2026-your-inflection-point-for-ai-in-banking-194723)
-- [4 Ways AI Will Shape Entry-Level Jobs Big in 2026 - HRMorning](https://www.hrmorning.com/articles/ai-shapes-entry-level-jobs/)
-- [4,000 jobs cut as Block goes all in on AI | Information Age - ACS](https://ia.acs.org.au/article/2026/4-000-jobs-cut-as-block-goes-all-in-on-ai.html)
-- [: l'année du workflow automation - wevioo](https://www.wevioo.com/sites/default/files/2021-04/2021%20_%20l%27ann%C3%A9e%20du%20workflow%20automation.pdf)
-- [A Cost-Benefit Analysis of On-Premise Large Language Model Deployment: Breaking Even with Commercial LLM Services - arXiv](https://arxiv.org/html/2509.18101v3)
-- [AI Implementation Cost vs ROI: Finding the Balance - HBS Online](https://online.hbs.edu/blog/post/ai-implementation-cost)
-- [AI Knowledge Base Examples: 9 Real-World Use Cases in 2026](https://monday.com/blog/service/ai-knowledge-base-examples/)
-- [AI Model Drift: Detecting and Correcting Performance Degradation](https://www.qodequay.com/ai-model-drift-detecting-and-correcting-performance-degradation)
-- [AI and the New Metrics of Work Performance - TechClass](https://www.techclass.com/resources/learning-and-development-articles/ai-and-new-metrics-of-work-what-should-we-measure-now)
-- [AI in Banking: Use Cases, Benefits, and the Future of Finance - Kellton](https://www.kellton.com/kellton-tech-blog/ai-in-banking-use-cases-benefits-future-of-finance)
-
-<details>
-<summary>Voir les 15 sources restantes</summary>
-
-- [AI in banking: 10 predictions that will define 2026](https://www.backbase.com/blog/ai-in-banking-10-predictions-that-will-define-2026)
-- [AI in employee feedback tools: How it works, use cases, and risks - CultureMonkey](https://www.culturemonkey.io/employee-engagement/ai-in-employee-feedback-tools/)
-- [AI is boosting demand for high skill tech jobs while quietly killing entry-level roles](https://cryptoslate.com/ai-is-boosting-demand-for-high-skill-tech-jobs-while-quietly-killing-entry-level-roles/)
-- [AI vs People Debate Rages as Block Cut 40% of Workforce | AI Magazine](https://aimagazine.com/news/ai-vs-people-debate-rages-as-block-cut-40-of-workforce)
-- [AI's Impact on Graduate Jobs: A 2025 Data Analysis | IntuitionLabs](https://intuitionlabs.ai/articles/ai-impact-graduate-jobs-2025)
-- [AI, demographic shifts, and agility: Preparing for the next workforce evolution - Deloitte](https://www.deloitte.com/us/en/insights/topics/talent/strategies-for-workforce-evolution.html)
-- [AI-Powered Knowledge Management: Transforming How Organizations Drive Information](https://clickhelp.com/clickhelp-technical-writing-blog/ai-powered-knowledge-management-transforming-how-organizations-drive-information/)
-- [AI-Powered Onboarding: How an AI Knowledge Base Enhances Employee Experience](https://www.bhyve.io/blogs/ai-powered-onboarding-how-an-ai-knowledge-base-enhances-employee-experience)
-- [Accenture Top Banking Trends 2026: Unconstrained Banking](https://www.accenture.com/content/dam/accenture/final/industry/banking/document/Banking-Top-Trends-FY26-Report-Final.pdf)
-- [Analyse stratégique du secteur des ESN en Europe 2024–2026](https://www.scale2sell.company/content/analyse-strategique-et-prospective-du-secteur-des-esn-en-france-et-en-europe-2024-2026)
-- [Annual Report 2019 – 2020 - EBF](https://www.ebf.eu/wp-content/uploads/2021/05/Women-in-Finance-Yearly-report-Final-9.09.pdf)
-- [Artificial Intelligence in Financial Services - World Economic Forum publications](https://reports.weforum.org/docs/WEF_Artificial_Intelligence_in_Financial_Services_2025.pdf)
-- [Balancing Onboarding Efficiency with Human-Centered Engagement: A Comparative Analysis of Traditional and AI-Enabled Approaches - IDEAS/RePEc](https://ideas.repec.org/p/smo/raiswp/0587.html)
-- [Banking Tech Trends Report 2026 - Newgen](https://landing.newgensoft.com/hubfs/_2020%20Website%20files/Reports/Banking%20Tech%20Trends%20Report%202026.pdf)
-- [Banque & Big Data : quelles priorités pour 2026 ?](https://www.babyloneconsulting.fr/nos-articles/banque-big-data-quelles-priorites-pour-2026/)
-
-</details>
 
 ## Ressources Wet & Sea Tech
 

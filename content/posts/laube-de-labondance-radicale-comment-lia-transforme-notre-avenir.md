@@ -25,29 +25,30 @@ catalogue_id: "e003ea43"
 
 ## Executive Summary
 
-Google DeepMind structure sa stratégie autour de systèmes d'IA généralistes capables de résoudre des problèmes scientifiques et technologiques complexes. Les avancées en modélisation des protéines (AlphaFold), en jeux compétitifs (AlphaGo) et en génération multimodale (Gemini, Veo) constituent les piliers d'une trajectoire orientée vers l'automatisation accrue de la découverte. Cette accumulation de capacités soulève des questions d'ordre infrastructurel (ressources de calcul, coûts énergétiques), de gouvernance algorithmique et de concentration technologique. L'articulation entre innovations techniques et enjeux de talent international structure désormais le positionnement géopolitique du secteur.
+Google DeepMind consolide sa position de leader en intelligence artificielle par une série de réalisations structurantes : des systèmes de découverte scientifique (AlphaFold, AlphaGo) aux modèles génératifs (Gemini, Veo). Cette trajectoire reflète une stratégie d'intégration horizontale reliant recherche fondamentale, outils commerciaux et infrastructure logicielle. L'impact projeté dépasse le secteur tech : optimisation de la recherche biologique, accélération des cycles de résolution de problèmes complexes, redistribution des capacités computationnelles. L'enjeu majeur réside dans la capacité à transformer ces innovations en applications productives stables, face aux contraintes de gouvernance, aux demandes énergétiques et aux dépendances critiques aux talents internationaux.
 
 ## Principaux points abordés
 
-- **Portefeuille technologique diversifié** — DeepMind combine des systèmes spécialisés (AlphaFold pour la biologie structurale, AlphaGo pour la maîtrise stratégique) avec des modèles généralistes (Gemini 3) et des outils génératifs (Veo pour la vidéosynthèse), couvrant ainsi plusieurs domaines d'application sans rupture architecturale.
+- **Architecture multi-domaines de DeepMind** : passage d'une spécialisation (jeux compétitifs) à une plateforme transversale intégrant protéomique, génération de contenu vidéo et modélisation du langage, avec Gemini 3 comme socle unificateur.
 
-- **Accélération de la recherche scientifique** — Les systèmes d'IA fonctionnent comme partenaires de recherche opérationnels, comme l'illustrent AlphaEvolve pour l'informatique théorique et les travaux en cours sur la modélisation prédictive biologiques (world models).
+- **AlphaFold et modèles biologiques avancés** : réduction drastique du délai de prédiction structurelle des protéines, ouvrant des champs d'application en pharmacologie et biologie synthétique ; déploiement de versions générationalistes via Isomorphic Labs.
 
-- **Écosystème d'annotation en croissance** — Le marché global de l'annotation IA affiche un taux de croissance annuel composé de 28,60 %, avec une projection de 17,37 milliards USD d'ici 2034, reflétant l'intensité en travail humain qualifié des pipelines d'entraînement.
+- **Systèmes d'annotation et marché d'infrastructure** : croissance du secteur annotation IA à +28,60% annuels (projection 17,37 Mrd USD en 2034), révélant la dépendance critique aux pipelines de labellisation et aux coûts de pré-entraînement.
 
-- **Contrainte géopolitique du talent** — Les analyses montrent que le maintien de la leadership technologique états-unienne repose partiellement sur l'attraction de professionnels étrangers et d'entrepreneurs immigrés, signalant une dépendance stratégique aux flux de mobilité internationale.
+- **AgentIC et modèles monde** : émergence de systèmes autonomes (AlphaEvolve, world models) centralisant planification et exécution, soulevant questions de gouvernance opérationnelle et de traçabilité décisionnelle dans contextes sensibles (santé, infrastructure critique).
 
-- **Infrastructure et durabilité énergétique** — La scalabilité des modèles actuels pose des questions non résolues sur la consommation énergétique, les capacités de calcul distribuées et les modèles économiques viables à long terme, particulièrement en contexte de crises environnementales.
+- **Limitation : dépendance aux talents immigrés et débat politique associé** : études indiquent que la compétitivité américaine repose partiellement sur recrutement international, actuellement fragilisé par contexte réglementaire, créant risque de fuite de talents vers écosystèmes concurrents (EU, Asie).
+
+- **Impact opérationnel en cybersécurité et DevOps** : modèles génératifs appliqués à détection de vulnérabilités et optimisation d'infrastructure, mais créant surface d'attaque accrue (injection de prompts, empoisonnement de données d'entraînement, dépendances de supply chain logicielle).
 
 ## Références (Golden Sources)
 
-Sources :
-- https://deepmind.google/about/
-- https://blog.google/products/gemini/gemini-3/
-- https://research.google/blog/ai-as-a-research-partner-advancing-theoretical-computer-science-with-alphaevolve/
-- https://www.isomorphiclabs.com/articles/a-glimpse-of-the-next-generation-of-alphafold
-- https://www.precedenceresearch.com/ai-annotation-market
-- https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/
+- [About Google DeepMind](https://deepmind.google/about/)
+- [A glimpse of the next generation of AlphaFold - Isomorphic Labs](https://www.isomorphiclabs.com/articles/a-glimpse-of-the-next-generation-of-alphafold)
+- [A new era of intelligence with Gemini 3 - Google Blog](https://blog.google/products/gemini/gemini-3/)
+- [AI as a research partner: Advancing theoretical computer science with AlphaEvolv](https://research.google/blog/ai-as-a-research-partner-advancing-theoretical-computer-science-with-alphaevolve/)
+- [AI Annotation Market Size | CAGR of 28.60%](https://market.us/report/ai-annotation-market/)
+- [A Chat About AI, Immigration, and Trump | Educational Technology and Change Jour](https://etcjournal.com/2025/07/25/a-chat-about-ai-immigration-and-trump/)
 ## Chapitres
 
 - `0:00` — Introduction
@@ -55,45 +56,6 @@ Sources :
 - `1:06` — Problème intelligence en dents-de-scie
 - `2:18` — Solution par convergence modalités
 - `3:31` — Concept d'omnimodel unifié
-
-## Références (Golden Sources)
-
-- [(PDF) Une recherche de coincidente pour se preparer aux crises environnementales et alimentaires - ResearchGate](https://www.researchgate.net/publication/382028801_Une_recherche_de_coincidente_pour_se_preparer_aux_crises_environnementales_et_alimentaires)
-- [60 of our biggest AI announcements in 2025 - The Keyword](https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/)
-- [A Chat About AI, Immigration, and Trump | Educational Technology and Change Journal](https://etcjournal.com/2025/07/25/a-chat-about-ai-immigration-and-trump/)
-- [A glimpse of the next generation of AlphaFold - Isomorphic Labs](https://www.isomorphiclabs.com/articles/a-glimpse-of-the-next-generation-of-alphafold)
-- [A new era of intelligence with Gemini 3 - Google Blog](https://blog.google/products/gemini/gemini-3/)
-- [AI Annotation Global Market Insights 2025, Analysis and Forecast to 2030, by Market Participants, Regions, Technology, Application](https://www.researchandmarkets.com/reports/6177866/ai-annotation-global-market-insights-analysis)
-- [AI Annotation Market Size | CAGR of 28.60%](https://market.us/report/ai-annotation-market/)
-- [AI Pioneer Yann LeCun Launches Startup Targeting 'World Model ...](https://finance.biggo.com/news/7gOmNJsBNsR7DNk20mZ-)
-- [AI annotation Market Size to Hit USD 17.37 Billion by 2034 - Precedence Research](https://www.precedenceresearch.com/ai-annotation-market)
-- [AI as a research partner: Advancing theoretical computer science with AlphaEvolve](https://research.google/blog/ai-as-a-research-partner-advancing-theoretical-computer-science-with-alphaevolve/)
-- [AMI Raises $1.03B to Build World Models — Powering the Next Generation of Healthcare AI with Nabla](https://www.nabla.com/blog/ami-raises-1-03b-to-build-world-models----powering-the-next-generation-of-healthcare-ai-with-nabla?gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr6Y2QS3Zg-CiuH_yfb4UzYLc8ffvVgskpUDwDVGIbRARXNeiN14WDUaAg2AEALw_wcB&gbraid=0AAAAAoXM9JWYELG8XUP6Ln7YxfHrmAbNg&adgroupid=187626521987&campaignid=22938940551&creative=771415852017)
-- [AMI and Nabla Advance 'World Models' to Power Agentic ... - HLTH](https://hlth.com/insights/news/ami-and-nabla-advance-world-models-to-power-agentic-healthcare-ai-2026-03-11)
-- [About Google DeepMind](https://deepmind.google/about/)
-- [Advanced Vision Language Models: Gemma 3 And 3N Explained - Labellerr](https://www.labellerr.com/blog/gemma-3/)
-- [After 4 years at Google, here's my honest take on why their work culture and processes didn't work for me. : r/cscareerquestions - Reddit](https://www.reddit.com/r/cscareerquestions/comments/1kslf3b/after_4_years_at_google_heres_my_honest_take_on/)
-
-<details>
-<summary>Voir les 15 sources restantes</summary>
-
-- [AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
-- [AlphaEvolve: A coding agent for scientific and algorithmic discovery - Googleapis.com](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf)
-- [AlphaFold - Google DeepMind](https://deepmind.google/science/alphafold/)
-- [AlphaFold - Wikipedia](https://en.wikipedia.org/wiki/AlphaFold)
-- [AlphaFold 3 predicts the structure and interactions of all of life's molecules - Google Blog](https://blog.google/innovation-and-ai/products/google-deepmind-isomorphic-alphafold-3-ai-model/)
-- [AlphaFold 3 ushers in a new era for biomedical research and drug discovery - EurekAlert!](https://www.eurekalert.org/news-releases/1101499)
-- [AlphaFold 3: an unprecedent opportunity for fundamental research and drug development](https://pmc.ncbi.nlm.nih.gov/articles/PMC12342994/)
-- [AlphaFold: Five Years of Impact - Google DeepMind](https://deepmind.google/blog/alphafold-five-years-of-impact/)
-- [AlphaGenome: AI for better understanding the genome - Google DeepMind](https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/)
-- [AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model - bioRxiv.org](https://www.biorxiv.org/content/10.1101/2025.06.25.661532v1)
-- [AlphaGo - Google DeepMind](https://deepmind.google/research/alphago/)
-- [AlphaGo - Wikipedia](https://en.wikipedia.org/wiki/AlphaGo)
-- [AlphaZero and MuZero - Google DeepMind](https://deepmind.google/research/alphazero-and-muzero/)
-- [Alphabet & Google C-Suite Executive Team [2025] - DigitalDefynd Education](https://digitaldefynd.com/IQ/csuite-team-of-google-meet-the-executives/)
-- [Announcing the NeurIPS 2025 Best Paper Awards](https://blog.neurips.cc/2025/11/26/announcing-the-neurips-2025-best-paper-awards/)
-
-</details>
 
 ## Ressources Wet & Sea Tech
 
