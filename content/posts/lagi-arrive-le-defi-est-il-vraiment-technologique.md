@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "The provided sources focus on the development and strategic importance of **artificial intelligence** through the lens of a leading research laboratory and national policy. The first source details…"
+summary: "L'Intelligence Artificielle Générale (AGI) n'est plus une question de si, mais de quand. Mais le véritable défi pour dominer cette révolution technologique ne réside peut-être pas là où on le pense."
 cover:
   image: "/covers/Rxu27Lj4Zbw.jpg"
   alt: "L'AGI arrive : Le défi est-il vraiment technologique ?"

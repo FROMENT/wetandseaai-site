@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "🚨 4000 emplois supprimés chez Block, 217 licenciements en France : l'IA transforme radicalement le marché du travail junior ! Cette analyse prospective explore comment l'intelligence artificielle redessine les emplois d'entrée de gamme.…"
 cover:
   image: "/covers/eH9wxA5SNA8.jpg"
   alt: "L'IA et le Paradoxe Junior : Quand l'Intelligence Artificielle Redéfinit l'Emploi"

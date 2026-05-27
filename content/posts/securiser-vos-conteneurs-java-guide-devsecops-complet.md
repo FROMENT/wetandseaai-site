@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided documents detail the operational framework and technical architecture of **DevSecOps**, specifically focusing on how organizations like **Sunbytes** and the Department of Defense's…"
+summary: "Maîtrisez la conteneurisation sécurisée de vos applications Java avec les meilleures pratiques DevSecOps ! Ce guide complet vous accompagne de la configuration initiale aux déploiements en production, en intégrant la sécurité à chaque…"
 cover:
   image: "/covers/LfuCtnEWUew.jpg"
   alt: "Sécuriser vos Conteneurs Java : Guide DevSecOps Complet"

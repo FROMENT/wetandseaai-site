@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources examine the **structural transformation** of the global banking sector, focusing on how **artificial intelligence and digitalization** are reshaping financial institutions in…"
+summary: "Découvrez 6 techniques expertes pour exploiter pleinement Claude AI et révolutionner votre workflow professionnel."
 cover:
   image: "/covers/yTvX6iNz6vo.jpg"
   alt: "Maîtriser Claude AI : 6 Techniques Avancées pour Booster sa Productivité"

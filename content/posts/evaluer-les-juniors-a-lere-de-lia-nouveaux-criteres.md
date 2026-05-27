@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "Quand un junior peut utiliser l'IA pour produire un rapport de qualité senior en 30 minutes, comment évaluer ses compétences réelles ? Les grilles d'évaluation traditionnelles sont inadaptées — et certaines entreprises n'ont pas encore…"
 cover:
   image: "/covers/pIqRXRF0yDs.jpg"
   alt: "Évaluer les juniors à l'ère de l'IA : nouveaux critères"

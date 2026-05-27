@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "These sources introduce **BrowseComp**, a rigorous benchmark developed by **OpenAI** to evaluate the **persistence and creativity** of AI browsing agents. Unlike older tests that focused on easily…"
+summary: "2025 est l'année où les agents IA passent du laboratoire à la production. Ces systèmes capables de planifier, d'utiliser des outils et d'exécuter des workflows complexes de manière autonome représentent un saut qualitatif majeur au-delà…"
 cover:
   image: "/covers/p0Qlk5hgB-Y.jpg"
   alt: "L'avènement des agents IA : vers l'automatisation autonome"

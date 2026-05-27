@@ -11,7 +11,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "lifestyle"
 categories: ["Lifestyle"]
 tags: ["lifestyle"]
-summary: "The provided sources offer a comprehensive guide to **short-form video editing**, focusing on strategies that boost **audience engagement** and **brand recognition**. They emphasize the technical…"
+summary: "Découvrez les secrets des créateurs qui cartonnent sur les réseaux sociaux ! Cette vidéo révèle 5 techniques concrètes pour transformer vos contenus lifestyle en véritables aimants à engagement. De l'optimisation des overlays de texte aux…"
 cover:
   image: "/covers/theme_lifestyle.svg"
   alt: "5 Astuces PRO pour Améliorer Vos Vidéos Courtes Lifestyle"

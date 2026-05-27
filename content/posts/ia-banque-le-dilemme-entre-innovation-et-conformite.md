@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "Le secteur bancaire est pris en étau entre la pression d'innover par l'IA et des contraintes réglementaires parmi les plus strictes au monde. DORA, AI Act, RGPD, Bâle IV — comment les banques peuvent-elles accélérer leur transformation IA…"
 cover:
   image: "/covers/l-VclKA6YN0.jpg"
   alt: "IA & Banque : le dilemme entre innovation et conformité"

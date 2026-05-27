@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The provided sources examine the evolution of **Information Warfare** and the strategic deployment of **Advanced Persistent Threats (APTs)** in modern geopolitics. They explain how state-sponsored…"
+summary: "Les menaces persistantes avancées (APT) redéfinissent la guerre moderne en combinant cyberattaques sophistiquées et manipulation de l'information."
 cover:
   image: "/covers/DnXjotGVTKE.jpg"
   alt: "APT & Guerre de l'Information : Menaces Persistantes Avancées"

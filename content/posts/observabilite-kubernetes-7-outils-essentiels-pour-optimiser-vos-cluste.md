@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided texts explore the intersection of **automotive technology** and **connected data systems**, focusing on how **APIs** and the **Internet of Things (IoT)** revolutionize vehicle…"
+summary: "Maîtrisez l'observabilité Kubernetes avec les 7 meilleurs outils testés en 2026 ! Découvrez comment surveiller efficacement vos clusters, optimiser les performances et réduire les coûts jusqu'à 80% grâce à l'IA."
 cover:
   image: "/covers/7C_dPRegk2U.jpg"
   alt: "Observabilité Kubernetes : 7 Outils Essentiels pour Optimiser vos Clusters"

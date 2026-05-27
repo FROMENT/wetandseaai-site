@@ -11,7 +11,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "Anthropic has introduced **Claude Opus 4.7**, a sophisticated artificial intelligence model engineered for **advanced software development** and **autonomous agentic workflows**. This release…"
+summary: "Anthropic dévoile Claude Opus 4.7, un modèle IA révolutionnaire conçu pour l'ingénierie logicielle complexe et les tâches autonomes long terme."
 cover:
   image: "/covers/ajKhTATEvL4.jpg"
   alt: "Claude Opus 4.7 : La révolution IA d'Anthropic pour les devs"

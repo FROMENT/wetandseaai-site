@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided text presents a curated collection of articles from \"Wet & Sea & IA\" that primarily focus on **advanced artificial intelligence** and its integration into the **modern software…"
+summary: "Une faille majeure dans Claude Opus 4.7 expose des milliers de lignes de code source ! Cette analyse approfondie révèle comment les modèles IA autonomes transforment nos workflows de développement tout en créant de nouveaux risques…"
 cover:
   image: "/covers/bxxraWSg4pw.jpg"
   alt: "🚨 Fuite de Code Claude : DevOps et Sécurité en Danger"

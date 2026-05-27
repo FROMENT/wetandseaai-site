@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "**STRIDE GPT** is an automated security tool designed to streamline **threat modeling** by utilizing advanced **large language models**. This open-source application analyzes software details or…"
+summary: "🚀 Découvrez STRIDE GPT, l'outil open-source qui automatise la création de modèles de menaces grâce à l'IA !"
 cover:
   image: "/covers/2O0fgENs9Qg.jpg"
   alt: "STRIDE GPT : L'IA révolutionne la modélisation des menaces cyber"

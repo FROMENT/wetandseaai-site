@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The provided documents examine modern digital identity and the critical vulnerabilities found in the infrastructure that protects it. The first source from **CERT-FR (ANSSI)** highlights a surge in…"
+summary: "🚨 Les attaques contre les dispositifs de frontière réseau explosent ! VPN, pare-feu : ces équipements critiques deviennent la cible privilégiée des cybercriminels."
 cover:
   image: "/covers/theme_cybersecurity.svg"
   alt: "Gérer les accès : Le défi externe qui menace votre entreprise"

@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "These sources address the critical intersection of **scientific integrity**, **research ethics**, and the legal frameworks governing French academia. They highlight the controversial case of **Didier…"
+summary: "How one of France's most prominent researchers became the center of a scientific integrity scandal that reshaped academic governance."
 cover:
   image: "/covers/Ty7AV7Vi7Qw.jpg"
   alt: "The Fall of Didier Raoult: Science, Ethics & Legal Consequences"

@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided texts explore the intersection of **automotive technology** and **connected data systems**, focusing on how **APIs** and the **Internet of Things (IoT)** revolutionize vehicle…"
+summary: "🚀 Découvrez comment KARMA révolutionne l'autoscaling résilient dans les infrastructures cloud modernes, optimisant les coûts Kubernetes jusqu'à 80% grâce à l'IA."
 cover:
   image: "/covers/O8XKWonwH-I.jpg"
   alt: "KARMA : Autoscaling Résilient pour Infrastructure Cloud IA"

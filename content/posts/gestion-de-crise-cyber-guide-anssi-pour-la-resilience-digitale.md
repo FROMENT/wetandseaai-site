@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "These sources comprise **strategic guides** and **operational frameworks** from **ANSSI** and **LARUS** focused on managing **cybersecurity incidents** and **IP infrastructure**. The documentation…"
+summary: "🛡️ Découvrez les méthodes éprouvées de l'ANSSI pour gérer efficacement les incidents cybersécurité et construire une résilience organisationnelle durable."
 cover:
   image: "/covers/hiHpsTQ0H_o.jpg"
   alt: "Gestion de Crise Cyber : Guide ANSSI pour la Résilience Digitale"

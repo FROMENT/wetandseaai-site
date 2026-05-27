@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "La banque de demain ne sera pas sans humains — elle sera faite d'humains 10x plus productifs, augmentés par l'IA sur chaque tâche à faible valeur ajoutée. Le concept de \"Banque 10x\" redéfinit ce que signifie travailler dans la finance en…"
 cover:
   image: "/covers/S4LUeVo0TiY.jpg"
   alt: "L'Humain Augmenté & La Banque 10x : le futur du travail bancaire"

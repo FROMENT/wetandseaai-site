@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The provided sources detail the 2026 cybersecurity landscape, which is defined by the rapid evolution of **adversary tradecraft** and a shifting focus toward **automated, identity-driven attacks**.…"
+summary: "L'attaque Mini Shai-Hulud révèle comment l'IA agentique transforme la cybersécurité en 2026."
 cover:
   image: "/covers/EvDPDrj8paI.jpg"
   alt: "IA Agentique : La Nouvelle Menace des Supply Chains en 2026"

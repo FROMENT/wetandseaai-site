@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided sources discuss the legal and technological landscape of **digital sovereignty**, focusing on the tension between **United States extraterritorial laws** and European data protection.…"
+summary: "Le CLOUD Act américain permet aux autorités US d'accéder aux données stockées par leurs fournisseurs, peu importe leur localisation géographique. Cette réalité questionne notre souveraineté numérique."
 cover:
   image: "/covers/957Dg1GN1ZM.jpg"
   alt: "CLOUD Act : Enjeux de souveraineté numérique et alternatives françaises"

@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The **COMPLIANCE Scanner** is a specialized web service designed to perform rapid, **on-demand audits of third-party SaaS tools** against five key European regulatory frameworks, including **GDPR,…"
+summary: "🚀 Découvrez COMPLIANCE Scanner, l'outil d'audit automatisé qui révolutionne la conformité SaaS en Europe !"
 cover:
   image: "/covers/G_xlMBI5Ass.jpg"
   alt: "COMPLIANCE Scanner : Auditeur IA pour la conformité SaaS européenne"

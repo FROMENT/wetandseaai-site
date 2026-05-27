@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "These sources explore the technical evolution of **intelligent AI agents**, focusing on how **Context Engineering** transforms them from simple chatbots into autonomous collaborators. While…"
+summary: "Les agents IA promettent d'automatiser des workflows complexes de bout en bout. En pratique, ils se heurtent à des obstacles que les démos ne montrent jamais : ambiguïté des instructions, échecs de chaîne d'outils, hallucinations en…"
 cover:
   image: "/covers/sW89nucAzXQ.jpg"
   alt: "L'Agent IA Impuissant : pourquoi les agents échouent en production"

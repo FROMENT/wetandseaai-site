@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided documents detail the operational framework and technical architecture of **DevSecOps**, specifically focusing on how organizations like **Sunbytes** and the Department of Defense's…"
+summary: "🔒 Découvrez comment créer des conteneurs véritablement sécurisés grâce aux meilleures pratiques DevSecOps ! Cette masterclass détaille l'intégration de SAST, DAST et SCA dans vos pipelines, les stratégies de gestion des vulnérabilités, et…"
 cover:
   image: "/covers/PbF2WljK5mg.jpg"
   alt: "DevSecOps : Forger des Conteneurs Incassables en 2025"

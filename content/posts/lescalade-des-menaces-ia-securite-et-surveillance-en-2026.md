@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "These sources examine the critical need for **technical and corporate oversight** as artificial intelligence capabilities accelerate. The research paper introduces the **Secure Gateway Device…"
+summary: "🚨 L'IA générative transforme radicalement le paysage des cybermenaces, exigeant une réponse technologique et réglementaire sans précédent."
 cover:
   image: "/covers/DjvfDzHT3RQ.jpg"
   alt: "L'Escalade des Menaces IA : Sécurité et Surveillance en 2026"

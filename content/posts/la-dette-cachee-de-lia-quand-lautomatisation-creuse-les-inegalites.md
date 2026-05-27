@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "This **NBER working paper** examines the economic consequences of **artificial intelligence**, focusing specifically on its potential to worsen **income inequality** and **unemployment**. The…"
+summary: "L'intelligence artificielle promet prospérité et productivité, mais cache une réalité économique troublante : elle pourrait aggraver massivement les inégalités de revenus."
 cover:
   image: "/covers/9oYAiZsCPLA.jpg"
   alt: "La Dette Cachée de l'IA : Quand l'Automatisation Creuse les Inégalités"

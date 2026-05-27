@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "These sources examine the critical role of **software testing**, emphasizing the transition from manual efforts to **automated strategies** and the distinction between **functional** and…"
+summary: "L'automatisation des tests promet efficacité et économies, mais quel est son véritable coût ? Cette analyse approfondie révèle les facteurs cachés qui impactent le ROI de vos projets d'automatisation."
 cover:
   image: "/covers/d0A6MaFqRGo.jpg"
   alt: "Le Vrai Coût de l'Automatisation des Tests : ROI et Pièges à Éviter"

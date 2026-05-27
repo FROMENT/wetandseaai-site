@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "No summary available"
+summary: "Deep dive into France's internal challenges and their impact on digital transformation strategies. This comprehensive analysis explores the intersection of national crisis management, technological adaptation, and strategic planning for…"
 cover:
   image: "/covers/theme_prospective.svg"
   alt: "France Crisis Within: Strategic Analysis & Digital Transformation"

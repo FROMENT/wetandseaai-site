@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "These museum exhibits and archival documents commemorate the life and legacy of **Yang Pao-an**, a pioneering Chinese revolutionary and early theoretical leader of the Communist Party. The sources…"
+summary: "Discover how artificial intelligence is revolutionizing the way we preserve and present historical narratives, from museum digitization to immersive virtual exhibitions."
 cover:
   image: "/covers/gtdfwA-WDcI.jpg"
   alt: "Digital Revolution: How AI Transforms Historical Preservation"

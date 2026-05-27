@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided sources outline a rapidly changing **cybersecurity regulatory landscape** in the EU and UK, specifically highlighting 2025 and 2026 as pivotal years for **AI governance**. Major…"
+summary: "🚨 2025-2026 marquent un tournant décisif pour la cybersécurité avec l'entrée en vigueur de NIS 2, l'EU AI Act et DORA. Ces nouvelles réglementations transforment radicalement l'approche des entreprises, passant de la simple conformité…"
 cover:
   image: "/covers/pp0F4zDDLdI.jpg"
   alt: "IA & Cybersécurité : Le Défi de la Gouvernance en 2025-2026"

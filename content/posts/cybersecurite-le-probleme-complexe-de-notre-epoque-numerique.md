@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The provided text centers on the **complex intersection of digital technology, international security, and political stability**, primarily through the lens of the book *Cyber Security Politics*. The…"
+summary: "La cybersécurité représente un \"wicked problem\" défini par l'incertitude socio-technologique et la fragmentation de l'autorité politique entre acteurs étatiques et privés."
 cover:
   image: "/covers/YlAFhhiOiSA.jpg"
   alt: "Cybersécurité : Le Problème Complexe de Notre Époque Numérique"

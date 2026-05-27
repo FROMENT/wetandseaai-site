@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The provided text explores **logical security** as a proactive and essential framework for software development rather than a mere set of restrictions. It utilizes three primary metaphors—the…"
+summary: "La sécurité logique n'est pas une contrainte mais un catalyseur d'innovation ! Découvrez comment les métaphores du bouclier, de la forteresse et de la loupe transforment votre approche du développement sécurisé."
 cover:
   image: "/covers/EsHE3n3Skyc.jpg"
   alt: "Sécurité Logique : 3 Métaphores pour Développer Sans Vulnérabilités"

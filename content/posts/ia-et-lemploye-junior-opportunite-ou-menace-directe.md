@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "Les employés juniors sont historiquement ceux qui effectuent les tâches répétitives d'apprentissage — rédaction de rapports, recherches documentaires, analyses de données basiques. Ce sont exactement ces tâches que l'IA automatise en…"
 cover:
   image: "/covers/leConocTfq4.jpg"
   alt: "IA et l'employé junior : opportunité ou menace directe ?"

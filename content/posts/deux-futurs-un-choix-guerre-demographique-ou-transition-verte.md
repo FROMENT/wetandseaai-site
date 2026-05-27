@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "These sources analyze the intersection of demographic history, environmental crisis, and public policy, beginning with a study of the **long-term population impacts** of the First World War. This…"
+summary: "Face aux crises multiples, l'humanité se trouve à la croisée des chemins : reproduire les erreurs du passé ou construire un avenir durable ?"
 cover:
   image: "/covers/HhTozl4tu34.jpg"
   alt: "Deux futurs, un choix : guerre démographique ou transition verte ?"

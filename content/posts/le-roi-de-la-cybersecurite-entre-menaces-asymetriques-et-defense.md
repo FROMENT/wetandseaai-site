@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
+summary: "L'asymétrie des coûts révolutionne la cybersécurité moderne : quand des drones à 20 000$ défient des intercepteurs à 4 millions$, comment repenser nos stratégies de défense ?"
 cover:
   image: "/covers/eDIY82dZ1O0.jpg"
   alt: "Le Roi de la Cybersécurité : Entre Menaces Asymétriques et Défense"

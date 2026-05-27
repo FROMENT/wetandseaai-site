@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "**Google DeepMind** is a leading artificial intelligence laboratory owned by **Alphabet Inc.** that focuses on developing general-purpose systems for scientific discovery and technological…"
+summary: "🚀 Google DeepMind révèle les deux chemins qui s'offrent à l'humanité avec l'essor de l'intelligence artificielle générale."
 cover:
   image: "/covers/J48o2gd7OyM.jpg"
   alt: "L'Humanité face à l'IA : Deux Futurs Possibles selon DeepMind"

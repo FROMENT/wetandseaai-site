@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided texts explore the intersection of **automotive technology** and **connected data systems**, focusing on how **APIs** and the **Internet of Things (IoT)** revolutionize vehicle…"
+summary: "🔧 En 2026, les développeurs abandonnent la complexité pour adopter des stacks « ennuyeuses » mais efficaces. Découvrez pourquoi cette approche pragmatique révolutionne le développement moderne."
 cover:
   image: "/covers/ExpA4oefT5Q.jpg"
   alt: "La Stack Ennuyeuse : Pourquoi la Simplicité Gagne en 2026"

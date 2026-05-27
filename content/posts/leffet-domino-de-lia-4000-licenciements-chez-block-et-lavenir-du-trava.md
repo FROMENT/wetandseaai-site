@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "🚨 Block Inc. licencie 4000 employés pour miser sur l'IA - révélation des vraies conséquences de cette révolution technologique sur l'emploi."
 cover:
   image: "/covers/LT6PfcElOK4.jpg"
   alt: "L'Effet Domino de l'IA : 4000 licenciements chez Block et l'avenir du travail"

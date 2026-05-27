@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The provided sources originate from **Wet & sea**, a multifaceted digital platform that bridges the gap between **technical professional development** and **global lifestyle exploration**. One…"
+summary: "Comment construire l'identité numérique d'un blog technologique entre cybersécurité, IA et lifestyle digital ?"
 cover:
   image: "/covers/RAEjeOm4hdk.jpg"
   alt: "L'Identité d'un Blog Tech : Cybersécurité et Transformation Digitale"

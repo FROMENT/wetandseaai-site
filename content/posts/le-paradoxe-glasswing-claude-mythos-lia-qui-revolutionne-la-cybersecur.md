@@ -11,7 +11,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
+summary: "Anthropic lance Claude Mythos via Project Glasswing : une IA révolutionnaire capable de détecter et exploiter les vulnérabilités zero-day avant les hackers. Cette initiative marque un tournant majeur en cybersécurité, avec AWS, Google et…"
 cover:
   image: "/covers/uC1tU5YgumM.jpg"
   alt: "Le Paradoxe Glasswing : Claude Mythos, l'IA qui révolutionne la cybersécurité"

@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "Les DRH sont face à un paradoxe inédit : l'IA peut optimiser le recrutement, la formation et la gestion des talents — mais elle menace aussi une grande partie des fonctions RH elles-mêmes. Alors, l'IA est-elle l'alliée ou l'adversaire des…"
 cover:
   image: "/covers/W6gdZrRO-VY.jpg"
   alt: "IA & RH : Menace ou Opportunité pour les Ressources Humaines ?"

@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "These sources outline a comprehensive ecosystem for building and deploying **artificial intelligence applications** using **Google Cloud** and **Firebase**. Key platforms like **Cloud Run** and **App…"
+summary: "🚀 Maîtrisez le déploiement d'applications IA full stack avec Google Cloud et Firebase !"
 cover:
   image: "/covers/y5q7sFogYKg.jpg"
   alt: "Déploiement Full Stack avec Firebase : Guide Complet DevOps Cloud"

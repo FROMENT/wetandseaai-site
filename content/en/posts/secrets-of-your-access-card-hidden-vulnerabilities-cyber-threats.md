@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
+summary: "Your access card holds more secrets than you think - and cybercriminals know exactly how to exploit them."
 cover:
   image: "/covers/rVeKCQSPZSg.jpg"
   alt: "Secrets of Your Access Card: Hidden Vulnerabilities & Cyber Threats"

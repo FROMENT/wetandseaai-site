@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "These sources document a turbulent period for **Anthropic** in early 2026, highlighted by the **accidental exposure** of the **Claude Code** source code through a misconfigured npm file. While the…"
+summary: "🚨 Anthropic face à sa plus grave faille de sécurité : 512 000 lignes du code source de Claude accidentellement exposées via un fichier npm mal configuré !"
 cover:
   image: "/covers/1Lq0iTq0Czs.jpg"
   alt: "Fuite Claude Code : 512k lignes exposées, vulnérabilités critiques"

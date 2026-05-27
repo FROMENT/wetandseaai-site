@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "**Google DeepMind** is a leading artificial intelligence laboratory owned by **Alphabet Inc.** that focuses on developing general-purpose systems for scientific discovery and technological…"
+summary: "🚀 Découvrez comment Google DeepMind révolutionne l'IA avec ses modèles de monde et systèmes d'usage général ! De AlphaGo à AlphaFold, explorons les avancées qui façonnent notre futur technologique. Cette analyse prospective examine…"
 cover:
   image: "/covers/q8bC5nvOsKU.jpg"
   alt: "Les Modèles de Monde en IA : L'Avenir de l'Intelligence Artificielle"

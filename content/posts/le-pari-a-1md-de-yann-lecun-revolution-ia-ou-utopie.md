@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "**Google DeepMind** is a leading artificial intelligence laboratory owned by **Alphabet Inc.** that focuses on developing general-purpose systems for scientific discovery and technological…"
+summary: "Yann LeCun mise tout sur les \"World Models\" : une startup révolutionnaire qui pourrait transformer l'IA en 2025."
 cover:
   image: "/covers/AbA7EpUgIds.jpg"
   alt: "Le pari à 1Md$ de Yann LeCun : révolution IA ou utopie ?"

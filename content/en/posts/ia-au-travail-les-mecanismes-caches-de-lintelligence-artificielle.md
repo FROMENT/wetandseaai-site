@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources examine the **structural transformation** of the global banking sector, focusing on how **artificial intelligence and digitalization** are reshaping financial institutions in…"
+summary: "Découvrez comment l'IA transforme réellement nos environnements de travail."
 cover:
   image: "/covers/V9_eUGi_ZcY.jpg"
   alt: "IA au Travail : Les Mécanismes Cachés de l'Intelligence Artificielle"

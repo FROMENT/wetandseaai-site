@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "L'intelligence artificielle transforme radicalement le marché du travail avec des conséquences majeures : Block Inc. supprime 4000 emplois pour devenir \"AI-native\", tandis qu'en France, 217 personnes sont remplacées par l'IA. Cette analyse…"
 cover:
   image: "/covers/toy_3179KHY.jpg"
   alt: "IA : Le Vrai Prix du Futur - 4000 Emplois Supprimés pour l'IA"

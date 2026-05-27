@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "Une nouvelle forme de course économique est en cours : les entreprises qui suppriment des postes au nom de l'IA ne cherchent pas uniquement à réduire les coûts — elles cherchent à distancer leurs concurrents dans une ruée vers la…"
 cover:
   image: "/covers/6KVJFmqJtO0.jpg"
   alt: "AI & Layoffs : la nouvelle ruée vers la productivité sans humains"

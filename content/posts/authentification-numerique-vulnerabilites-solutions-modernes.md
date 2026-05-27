@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The first source is a **technical report from the French National Cybersecurity Agency (ANSSI)** detailing a surge in **critical vulnerabilities** affecting network edge devices like **VPN gateways…"
+summary: "🔐 L'authentification numérique face aux cybermenaces : analyse des vulnérabilités critiques et des standards de sécurité modernes."
 cover:
   image: "/covers/nCdtLxLrmws.jpg"
   alt: "Authentification Numérique : Vulnérabilités & Solutions Modernes"

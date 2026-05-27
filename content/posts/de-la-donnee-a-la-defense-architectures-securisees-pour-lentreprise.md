@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "These sources collectively explore the frameworks and strategies necessary for managing **enterprise technology** and **data assets**. The **Talend** documentation defines **modern data…"
+summary: "🔒 Transformez vos données en rempart défensif grâce aux frameworks modernes de gouvernance et d'architecture sécurisée."
 cover:
   image: "/covers/lvrwFUNJcAw.jpg"
   alt: "De la Donnée à la Défense : Architectures Sécurisées pour l'Entreprise"

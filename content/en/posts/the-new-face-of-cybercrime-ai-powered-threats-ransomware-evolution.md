@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The provided sources offer expert **cybersecurity predictions for 2024**, highlighting a transition toward more **professional, profit-driven criminal operations**. Ransomware tactics are shifting…"
+summary: "Cybercrime is evolving rapidly in 2024, shifting toward professional, profit-driven operations that leverage AI and sophisticated attack vectors. From ransomware groups abandoning simple encryption for data theft to AI-enhanced social…"
 cover:
   image: "/covers/oylQcVIOyw8.jpg"
   alt: "The New Face of Cybercrime: AI-Powered Threats & Ransomware Evolution"

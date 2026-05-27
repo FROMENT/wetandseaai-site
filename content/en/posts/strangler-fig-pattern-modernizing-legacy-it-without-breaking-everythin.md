@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "These sources examine **cloud migration strategies** and **modernization patterns** for transforming legacy enterprise systems. A central focus is the **Strangler Fig pattern**, which enables…"
+summary: "Transform your legacy enterprise systems safely using the Strangler Fig pattern - the proven incremental migration strategy that minimizes risk while maximizing results."
 cover:
   image: "/covers/-MFjfMNHdhM.jpg"
   alt: "Strangler Fig Pattern: Modernizing Legacy IT Without Breaking Everything"

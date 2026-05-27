@@ -11,7 +11,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided text outlines **five psychological strategies** designed to overcome mental blocks and enhance daily productivity. It emphasizes that **perfectionism often causes paralysis**, suggesting…"
+summary: "Découvrez 5 stratégies psychologiques éprouvées pour surmonter les blocages mentaux et maximiser votre efficacité professionnelle quotidienne."
 cover:
   image: "/covers/theme_ia-travail.svg"
   alt: "5 Hacks Psychologiques pour Booster Votre Productivité au Travail"

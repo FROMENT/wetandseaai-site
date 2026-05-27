@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "These sources document a turbulent period for **Anthropic** in early 2026, highlighted by the **accidental exposure** of the **Claude Code** source code through a misconfigured npm file. While the…"
+summary: "🚨 Une erreur de configuration d'Anthropic a exposé 512 000 lignes du code source de Claude, révélant des vulnérabilités critiques qui menacent la sécurité de l'IA en entreprise."
 cover:
   image: "/covers/i_lijlF80nQ.jpg"
   alt: "La Faille Silencieuse : 500K lignes de code Claude exposées"

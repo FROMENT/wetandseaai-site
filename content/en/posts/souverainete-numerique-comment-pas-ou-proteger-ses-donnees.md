@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "The provided sources discuss the legal and technological landscape of **digital sovereignty**, focusing on the tension between **United States extraterritorial laws** and European data protection.…"
+summary: "Le CLOUD Act américain peut accéder à vos données peu importe où elles sont stockées physiquement. La vraie question n'est plus OÙ mais COMMENT protéger sa souveraineté numérique."
 cover:
   image: "/covers/mVJ0w_Kdi8s.jpg"
   alt: "Souveraineté Numérique : Comment (Pas Où) Protéger ses Données"

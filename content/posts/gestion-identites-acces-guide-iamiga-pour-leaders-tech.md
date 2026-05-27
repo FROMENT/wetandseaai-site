@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The provided text serves as a **comprehensive guide to Identity and Access Management (IAM)** and **Identity Governance and Administration (IGA)**, specifically tailored for technical leaders and…"
+summary: "🔐 Maîtrisez l'Identity and Access Management (IAM) et l'Identity Governance and Administration (IGA) pour sécuriser votre infrastructure numérique !"
 cover:
   image: "/covers/_Dk6aVFX8U8.jpg"
   alt: "Gestion Identités & Accès : Guide IAM/IGA pour Leaders Tech"

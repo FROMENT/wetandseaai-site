@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided texts explore the intersection of **automotive technology** and **connected data systems**, focusing on how **APIs** and the **Internet of Things (IoT)** revolutionize vehicle…"
+summary: "Is Kubernetes worth the complexity? Let's cut through the marketing hype and examine the real operational costs, infrastructure overhead, and team challenges that come with K8s adoption."
 cover:
   image: "/covers/sgpgG8ooQd4.jpg"
   alt: "Kubernetes: The Hidden Costs Behind the Hype - DevOps Reality Check"

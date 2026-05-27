@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "Face à l'IA, deux postures dominent : la crainte de la substitution, ou l'enthousiasme naïf de la promesse. La réalité est plus nuancée — et ceux qui réussissent le mieux sont ceux qui traitent l'IA comme un mentor exigeant plutôt qu'une…"
 cover:
   image: "/covers/eZRYx-TWxsk.jpg"
   alt: "IA : Menace ou Mentor ? Choisir la bonne posture face à l'IA"

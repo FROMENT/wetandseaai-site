@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "Il y a un moment précis dans la trajectoire d'un jeune professionnel où l'IA cesse d'être un outil et devient un collaborateur indispensable. Cette bascule — cognitive, professionnelle, organisationnelle — redéfinit ce que signifie être…"
 cover:
   image: "/covers/_n7yxM_Oy40.jpg"
   alt: "IA et le Junior : La Bascule — le moment où tout change"

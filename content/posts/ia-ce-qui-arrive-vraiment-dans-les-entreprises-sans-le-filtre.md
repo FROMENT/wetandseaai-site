@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "These sources outline a **pivotal transition** in the artificial intelligence sector as it moves from experimental models to **integrated economic infrastructure** by mid-2026. The reports highlight…"
+summary: "On vous parle de révolution IA depuis des années. Mais concrètement, que se passe-t-il vraiment dans les entreprises en 2025 ? Loin des annonces marketing et des cas d'usage vitrine, la réalité de l'adoption IA est plus nuancée — et plus…"
 cover:
   image: "/covers/qq4Xg1UWN2M.jpg"
   alt: "IA : Ce qui arrive vraiment dans les entreprises (sans le filtre)"

@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "Anthropic has introduced **Project Glasswing**, a restricted defensive initiative centered on its most powerful model to date, **Claude Mythos Preview**. This frontier AI possesses unprecedented…"
+summary: "Anthropic dévoile Claude Mythos Preview dans le cadre du Project Glasswing : une IA spécialement conçue pour la cybersécurité et capable de détecter les vulnérabilités zero-day avant les hackers. Cette collaboration entre AWS, Google,…"
 cover:
   image: "/covers/XNmKm22N-3A.jpg"
   alt: "Claude Mythos : L'IA révolutionnaire qui traque les zero-day"

@@ -10,7 +10,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "The provided sources focus on the evolving landscape of **fintech** and **healthcare technology**, specifically highlighting the strategic shift toward **artificial intelligence** to drive efficiency…"
+summary: "Les bureaux se vident, mais pas pour les raisons que l'on croit. Derrière le télétravail et la flex-office, une transformation plus profonde est à l'œuvre : l'IA prend en charge des tâches entières, rendant certaines présences physiques…"
 cover:
   image: "/covers/bZvrU8yNgKU.jpg"
   alt: "IA & le Bureau Vide : l'automatisation silencieuse des open spaces"

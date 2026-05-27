@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided documents detail the operational framework and technical architecture of **DevSecOps**, specifically focusing on how organizations like **Sunbytes** and the Department of Defense's…"
+summary: "🔒 Découvrez comment les géants tech transforment leurs pipelines DevOps en forteresses imprenables grâce au DevSecOps. Cette analyse approfondie révèle les stratégies concrètes utilisées par le Département de la Défense américain et des…"
 cover:
   image: "/covers/netbe0Xb7VU.jpg"
   alt: "DevSecOps : Comment Dompter la Bête de la Sécurité Cloud"

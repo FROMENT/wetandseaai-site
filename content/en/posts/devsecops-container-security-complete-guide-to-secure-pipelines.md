@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided documents detail the operational framework and technical architecture of **DevSecOps**, specifically focusing on how organizations like **Sunbytes** and the Department of Defense's…"
+summary: "Master container security in DevSecOps pipelines with automated testing tools like SAST, DAST, and SCA integration. Learn how organizations implement secure software lifecycles using platforms like Iron Bank for container storage and Big…"
 cover:
   image: "/covers/5tyXztj-bEE.jpg"
   alt: "DevSecOps Container Security: Complete Guide to Secure Pipelines"

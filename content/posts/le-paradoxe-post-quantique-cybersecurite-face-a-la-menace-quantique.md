@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "These sources collectively address the emerging **cybersecurity threat** posed by **quantum computing**, which has the potential to break current encryption standards like RSA and ECC. To counter…"
+summary: "L'informatique quantique va-t-elle briser tous nos systèmes de chiffrement ? Découvrez pourquoi la cryptographie post-quantique (PQC) est devenue urgente pour toutes les entreprises, y compris les PME."
 cover:
   image: "/covers/FWLJNIyv2Zc.jpg"
   alt: "Le Paradoxe Post-Quantique : Cybersécurité Face à la Menace Quantique"

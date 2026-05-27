@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "**Google DeepMind** is a leading artificial intelligence laboratory owned by **Alphabet Inc.** that focuses on developing general-purpose systems for scientific discovery and technological…"
+summary: "🚀 Découvrez comment Google DeepMind et les géants de l'IA façonnent un monde d'abondance technologique sans précédent !"
 cover:
   image: "/covers/AqTDo_8qDVA.jpg"
   alt: "L'Aube de l'Abondance Radicale : Comment l'IA Transforme Notre Avenir"

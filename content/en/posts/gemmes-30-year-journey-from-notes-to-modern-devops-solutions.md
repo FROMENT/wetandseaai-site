@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "Established in 1994, **Gemme** is a French technology company specializing in **collaborative messaging architecture** and software development. The organization primarily focuses on the **IBM Lotus…"
+summary: "Discover how Gemme transformed from a 1994 IBM Lotus Notes specialist into a modern technology consultancy driving digital transformation and DevOps excellence."
 cover:
   image: "/covers/6jNfTppH_oU.jpg"
   alt: "Gemme's 30-Year Journey: From Notes to Modern DevOps Solutions"

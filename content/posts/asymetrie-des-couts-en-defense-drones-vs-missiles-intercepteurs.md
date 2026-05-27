@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
+summary: "Comment des drones à 20 000$ neutralisent des systèmes de défense à 4 millions$ ? Analyse approfondie de l'asymétrie des coûts dans la guerre moderne et ses implications stratégiques."
 cover:
   image: "/covers/drXl7ahy_ds.jpg"
   alt: "Asymétrie des Coûts en Défense : Drones vs Missiles Intercepteurs"

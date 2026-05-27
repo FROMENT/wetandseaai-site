@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "These sources describe **OpenClaw**, an open-source autonomous AI assistant designed to execute complex workflows across messaging platforms like **WhatsApp**, **Slack**, and **Discord**. Originally…"
+summary: "🚨 OpenClaw révèle les failles de sécurité majeures des agents IA autonomes : injection de prompts, malware dans ClawHub, et exfiltration de tokens."
 cover:
   image: "/covers/MG7lIGDPeuU.jpg"
   alt: "OpenClaw : Vulnérabilités Critiques des Agents IA Autonomes"

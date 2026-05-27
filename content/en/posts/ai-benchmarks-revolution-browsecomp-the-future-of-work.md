@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "These sources introduce **BrowseComp**, a rigorous benchmark developed by **OpenAI** to evaluate the **persistence and creativity** of AI browsing agents. Unlike older tests that focused on easily…"
+summary: "Revolutionary AI benchmarking is reshaping how we evaluate intelligent systems - and your career depends on understanding this shift."
 cover:
   image: "/covers/Vkca7epglB8.jpg"
   alt: "AI Benchmarks Revolution: BrowseComp & the Future of Work"

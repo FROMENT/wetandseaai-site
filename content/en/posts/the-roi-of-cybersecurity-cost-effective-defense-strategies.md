@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
+summary: "Discover how modern warfare's cost asymmetry principles apply to cybersecurity ROI - where cheap attacks force expensive defenses, but smart strategies can flip the equation."
 cover:
   image: "/covers/rgrnqWINT_0.jpg"
   alt: "The ROI of Cybersecurity: Cost-Effective Defense Strategies"

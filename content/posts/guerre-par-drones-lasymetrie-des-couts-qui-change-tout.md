@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
+summary: "La guerre moderne révèle un paradoxe économique critique : des drones à 20 000$ neutralisent des intercepteurs à 4 millions$."
 cover:
   image: "/covers/Ca1nyHbrj4s.jpg"
   alt: "Guerre par Drones : L'Asymétrie des Coûts qui Change Tout"

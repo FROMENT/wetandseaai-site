@@ -11,7 +11,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "lifestyle"
 categories: ["Lifestyle"]
 tags: ["lifestyle"]
-summary: "These sources provide a comprehensive framework for improving daily life through **intentional morning and evening routines** backed by psychological principles. The material emphasizes that…"
+summary: "Découvrez comment rewirer votre cerveau pour le bonheur grâce à des routines matinales et nocturnes basées sur la psychologie comportementale."
 cover:
   image: "/covers/theme_lifestyle.svg"
   alt: "7 Habitudes Scientifiques pour Transformer Votre Quotidien"

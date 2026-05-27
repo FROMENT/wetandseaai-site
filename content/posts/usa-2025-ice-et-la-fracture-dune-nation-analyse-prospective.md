@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "The provided text details the history, structure, and mounting controversies surrounding **U.S. Immigration and Customs Enforcement (ICE)**, a federal agency established in 2003. While its primary…"
+summary: "L'administration Trump 2025 transforme ICE en force militarisée : surveillance IA, déportations massives et recrutement controversé fracturent l'Amérique."
 cover:
   image: "/covers/p3biBMcvZ5k.jpg"
   alt: "USA 2025 : ICE et la Fracture d'une Nation - Analyse Prospective"

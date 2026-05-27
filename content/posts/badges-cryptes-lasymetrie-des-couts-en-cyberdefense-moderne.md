@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "These sources analyze a paradigm shift in modern warfare characterized by the **drone revolution**, where massive quantities of **low-cost unmanned aerial vehicles** have created a lethal, high-speed…"
+summary: "🛡️ L'équation économique de la cyberdéfense moderne révèle un défi majeur : comment protéger des infrastructures critiques face à des attaques asymétriques où un drone à 20 000$ peut nécessiter un intercepteur à 4 millions$ ?"
 cover:
   image: "/covers/0gbZNRs99wo.jpg"
   alt: "Badges Cryptés : L'Asymétrie des Coûts en Cyberdéfense Moderne"

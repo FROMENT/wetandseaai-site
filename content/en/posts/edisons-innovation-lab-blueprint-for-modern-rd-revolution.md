@@ -11,7 +11,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
-summary: "These sources explore the life and legacy of **Thomas Edison**, highlighting his transition from an independent inventor to the pioneer of the **modern industrial research laboratory**. The texts…"
+summary: "From phonograph to light bulb, Edison didn't just invent – he invented invention itself, creating the world's first industrial research laboratory that transformed how we innovate today."
 cover:
   image: "/covers/WNHlfDhVcRo.jpg"
   alt: "Edison's Innovation Lab: Blueprint for Modern R&D Revolution"

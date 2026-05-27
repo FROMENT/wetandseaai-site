@@ -11,7 +11,7 @@ youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "ia-travail"
 categories: ["IA & Travail"]
 tags: ["ia-travail"]
-summary: "These sources detail the fallout and technical debate surrounding **Google’s \"TurboQuant\" AI research paper**, which claimed to drastically reduce AI memory usage. The publication reportedly…"
+summary: "🚨 Comment un seul papier de recherche IA de Google a fait perdre 90 milliards $ aux semiconducteurs ! L'affaire TurboQuant révèle les manipulations possibles dans la recherche IA. Entre optimisations truquées et benchmarks biaisés, cette…"
 cover:
   image: "/covers/theme_ia-travail.svg"
   alt: "90 milliards perdus : le scandale du papier IA de Google"

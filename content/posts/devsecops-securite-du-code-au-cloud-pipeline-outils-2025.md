@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
-summary: "The provided documents detail the operational framework and technical architecture of **DevSecOps**, specifically focusing on how organizations like **Sunbytes** and the Department of Defense's…"
+summary: "🔐 Découvrez comment intégrer la sécurité dans votre pipeline DevSecOps, du développement au déploiement cloud."
 cover:
   image: "/covers/kXJHDizx1Ng.jpg"
   alt: "DevSecOps : Sécurité du Code au Cloud - Pipeline & Outils 2025"

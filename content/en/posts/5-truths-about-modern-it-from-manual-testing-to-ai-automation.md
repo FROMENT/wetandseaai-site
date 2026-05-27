@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "These sources examine the critical role of **software testing**, emphasizing the transition from manual efforts to **automated strategies** and the distinction between **functional** and…"
+summary: "Discover the harsh realities of modern IT transformation and why 80% of automation projects fail without proper strategy."
 cover:
   image: "/covers/eCCRInF9rm4.jpg"
   alt: "5 Truths About Modern IT: From Manual Testing to AI Automation"

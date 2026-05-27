@@ -10,7 +10,7 @@ youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
-summary: "The provided texts explore the intersection of **automotive technology** and **connected data systems**, focusing on how **APIs** and the **Internet of Things (IoT)** revolutionize vehicle…"
+summary: "🎯 Maîtrisez Kubernetes en comprenant ses 5 niveaux d'abstraction fondamentaux !"
 cover:
   image: "/covers/VkrroaIVUHc.jpg"
   alt: "Les 5 Niveaux d'Abstraction de Kubernetes Expliqués"
