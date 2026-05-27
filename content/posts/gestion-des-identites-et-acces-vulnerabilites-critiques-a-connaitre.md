@@ -1,6 +1,7 @@
 ---
 title: "Gestion des Identités et Accès : Vulnérabilités Critiques à Connaître"
 date: 2026-05-27
+publishDate: "2026-05-31T09:00:00"
 youtube_url: "https://youtu.be/_ipXrAM-cIg"
 youtube_video_id: "_ipXrAM-cIg"
 youtube_channel: "B"

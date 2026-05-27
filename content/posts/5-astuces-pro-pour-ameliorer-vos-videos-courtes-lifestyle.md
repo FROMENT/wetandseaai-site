@@ -1,6 +1,7 @@
 ---
 title: "5 Astuces PRO pour Améliorer Vos Vidéos Courtes Lifestyle"
 date: 2026-05-27
+publishDate: "2026-05-28T09:00:00"
 youtube_url: "https://youtu.be/lvr_8V9ua2M"
 youtube_video_id: "lvr_8V9ua2M"
 youtube_channel: "A"

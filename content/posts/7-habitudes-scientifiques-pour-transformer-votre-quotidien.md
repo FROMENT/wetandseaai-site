@@ -1,6 +1,7 @@
 ---
 title: "7 Habitudes Scientifiques pour Transformer Votre Quotidien"
 date: 2026-05-27
+publishDate: "2026-05-29T09:00:00"
 youtube_url: "https://youtu.be/g3_iD8qDMNA"
 youtube_video_id: "g3_iD8qDMNA"
 youtube_channel: "A"

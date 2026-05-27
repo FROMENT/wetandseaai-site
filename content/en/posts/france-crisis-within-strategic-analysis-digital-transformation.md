@@ -1,6 +1,7 @@
 ---
 title: "France Crisis Within: Strategic Analysis & Digital Transformation"
 date: 2026-05-27
+publishDate: "2026-05-30T09:00:00"
 youtube_url: "https://youtu.be/neierzbGBIo"
 youtube_video_id: "neierzbGBIo"
 youtube_channel: "B"
