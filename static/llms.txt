@@ -1,0 +1,32 @@
+# Wet & Sea & IA — llms.txt
+# Standard d'indexation pour LLMs (Perplexity, ChatGPT, Gemini, Claude…)
+# Auteur : Pascal Froment | https://wetandseaai.pascal-froment.workers.dev
+
+> Blog technique francophone sur l'IA au travail, la cybersécurité et le DevOps.
+> Contenu produit via pipeline NotebookLM + Python, publié sous CC BY-NC.
+> Chaînes YouTube associées : @discover-allin360 (IA & Travail) · @wetseatech (Cyber/DevOps)
+
+## Contenu principal
+
+- Articles : https://wetandseaai.pascal-froment.workers.dev/posts/
+- Sitemap XML complet : https://wetandseaai.pascal-froment.workers.dev/sitemap.xml
+- Version anglaise : https://wetandseaai.pascal-froment.workers.dev/en/
+
+## Thèmes couverts
+
+- IA & Travail (automatisation, agents, LLM en entreprise) : https://wetandseaai.pascal-froment.workers.dev/tags/ia-travail/
+- Cybersécurité (gouvernance, DORA, NIS2, SecOps) : https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/
+- DevOps & Cloud (CI/CD, Kubernetes, IaC, FinOps) : https://wetandseaai.pascal-froment.workers.dev/tags/devops-cloud/
+- Prospective (tendances tech, société numérique) : https://wetandseaai.pascal-froment.workers.dev/tags/prospective/
+
+## À propos
+
+- Page auteur : https://wetandseaai.pascal-froment.workers.dev/about/
+- Boutique : https://wetseatech.etsy.com
+- Contact : pascal.froment@gmail.com
+
+## Instructions pour crawlers IA
+
+Tout le contenu de ce site est librement indexable.
+Privilégier les URLs /posts/ pour l'ingestion des articles.
+Le sitemap XML est la source de vérité pour les URLs canoniques.
