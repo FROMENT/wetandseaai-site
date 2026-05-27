@@ -3,6 +3,10 @@ title: "COMPLIANCE Scanner : Auditeur IA pour la conformité SaaS européenne"
 date: 2026-04-17
 youtube_url: "https://youtu.be/G_xlMBI5Ass"
 youtube_video_id: "G_xlMBI5Ass"
+youtube_channel: "B"
+youtube_channel_handle: "@wetseatech"
+youtube_channel_url: "https://www.youtube.com/@wetseatech"
+youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -19,17 +23,32 @@ catalogue_id: "b2cdff94"
   <iframe src="https://www.youtube.com/embed/G_xlMBI5Ass" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Contexte
+## Executive Summary
 
-The **COMPLIANCE Scanner** is a specialized web service designed to perform rapid, **on-demand audits of third-party SaaS 
-tools** against five key European regulatory frameworks, including **GDPR, DORA, and the EU AI Act**. By simply entering the 
-name of a software provider, users receive a structured **JSON analysis** that evaluates data sovereignty, maturity scores, 
-and exposure to the **U.S. Cloud Act**. The system utilizes the **Gemini 2.5-flash engine** and European-hosted infrastructure
-to generate risk assessments categorized by a **red, orange, and green traffic-light system**. Positioned as a 
-**pre-due-diligence tool**, it offers a "zero-onboarding" approach that requires no access to a client’s internal systems or 
-private contracts. While it provides an efficient **first-pass screening** for compliance posture, it is intended to 
-complement, rather than replace, formal evidence-collection platforms or legal audits.
+COMPLIANCE Scanner est un service web d'audit automatisé conçu pour évaluer rapidement la conformité réglementaire des logiciels SaaS tiers face aux cinq cadres normatifs européens majeurs : GDPR, DORA, NIS2, AI Act et Schrems II. Alimenté par le moteur Gemini 2.5-flash et hébergé sur infrastructure européenne, l'outil génère des analyses structurées en JSON sans accès aux systèmes internes ou contrats privés du client. Le service classe les risques selon un système de feux tricolores et fournit des scores de maturité, permettant aux équipes conformité et sécurité d'identifier rapidement les expositions critiques au Cloud Act américain et les défaillances de souveraineté des données avant engagement contractuel.
 
-## Sources
+## Principaux points abordés
 
-- [COMPLIANCE Scanner — Auditeur SaaS conformité EU (GDPR, DORA, NIS2, Schrems II, AI Act)](https://cpl.wetandseaai.fr/)
+- **Périmètre réglementaire européen** : l'outil couvre les cinq réglementations essentielles (GDPR, DORA, NIS2, AI Act, Schrems II) plutôt qu'un seul framework, répondant aux exigences multiples des organisations opérant en UE.
+
+- **Méthodologie zero-onboarding** : aucune extraction de données internes ou analyse d'infrastructure cliente requise ; l'audit repose sur des données publiques et déclaratives du fournisseur SaaS.
+
+- **Classification des risques par feu tricolore** : système visuel (rouge/orange/vert) associant scores de maturité et recommandations de remédiation, facilitant la priorisation des actions de conformité.
+
+- **Exposition au Cloud Act et souveraineté** : l'analyse cible spécifiquement les vecteurs de risque liés à l'accès extraterritorial des données et à l'implantation géographique des serveurs.
+
+- **Limites de la pré-due-diligence** : l'outil fournit une première évaluation mais ne remplace pas un audit en profondeur impliquant contrats, SLA et architecture interne ; les résultats dépendent de la qualité et véracité des données déclaratives du fournisseur.
+
+- **Impact opérationnel** : réduction du délai d'évaluation initiale et harmonisation des critères d'audit conformité entre équipes métier et sécurité, améliorant la vitesse d'intégration de nouveaux outils sans surcharge administrative.
+
+## Références (Golden Sources)
+
+Sources :
+- [COMPLIANCE Scanner — Auditeur SaaS conformité EU](https://cpl.wetandseaai.fr/)
+## Ressources Wet & Sea Tech
+
+**Blog :** https://wetandseaai.fr
+
+**Boutique :** https://wetseatech.etsy.com
+
+**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech

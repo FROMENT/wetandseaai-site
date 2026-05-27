@@ -25,22 +25,19 @@ catalogue_id: "536c6bee"
 
 ## Executive Summary
 
-The Strangler Fig pattern emerges as a critical migration strategy for enterprise systems transitioning from legacy architectures to cloud-native environments. This incremental approach utilizes a mediating proxy to gradually replace monolithic components with modern services, reducing operational risk during transformation. Organizations face mounting pressure to modernize aging infrastructure while maintaining business continuity and regulatory compliance. The pattern addresses fundamental challenges including technical debt accumulation, vendor lock-in, and the complexity of coordinating large-scale architectural changes. When combined with structured frameworks like the 6R migration model, enterprises can systematically evaluate whether to rehost, refactor, or rearchitect specific system components. Implementation success depends on careful analysis of performance metrics, cost implications, and long-term architectural sustainability across diverse industry contexts.
+The Strangler Fig pattern represents a structured approach to legacy system modernization that prioritizes risk mitigation over rapid replacement. Organizations implement this strategy through a mediating proxy layer that intercepts requests, progressively routing traffic from deprecated monolithic components to new cloud-native services. This incremental methodology aligns with enterprise constraints—operational continuity, budget cycles, and team capacity—while enabling architecture evolution. Combined with decision frameworks like the 6R model (Rehost, Replatform, Refactor, Repurchase, Retire, Retain), the pattern provides organizations with systematic criteria for evaluating which systems warrant transformation and at what pace. The approach addresses a critical challenge in cloud adoption: how to modernize without halting production systems or accumulating technical debt through forced wholesale replacement.
 
 ## Key Points
 
-- **Incremental replacement strategy** — Strangler Fig pattern enables component-by-component migration through proxy-mediated traffic routing, minimizing system downtime
-- **6R framework categorization** — Migration strategies span rehosting (lift-and-shift), replatforming, refactoring, rearchitecting, retiring, and retaining legacy components
-- **Proxy-based traffic management** — Mediating layer controls request routing between legacy and modernized services during transition phases
-- **Risk mitigation limitations** — Pattern complexity increases with highly coupled monolithic systems and real-time processing requirements
-- **Operational governance impact** — Requires enhanced monitoring capabilities and coordinated deployment pipelines across hybrid infrastructure environments
+- **Proxy-mediated traffic routing** enables simultaneous operation of legacy and modern services, with gradual request migration eliminating the need for binary cutover events
+- **6R framework stratification** distinguishes between lift-and-shift strategies (Rehost, Replatform), structural refactoring (Refactor), alternative solutions (Repurchase), and decommissioning approaches (Retire, Retain)
+- **Cost efficiency emerges from staged investment** rather than upfront capital requirements; organizations optimize infrastructure spending by replacing high-maintenance legacy components incrementally
+- **Architectural coupling risks persist** if proxy layer logic becomes complex; insufficient abstraction between old and new services can obscure dependencies and delay modernization velocity
+- **Operational resilience depends on proxy reliability**; the mediating layer becomes a critical control point requiring monitoring, logging, and failover mechanisms to prevent single points of failure
 
-## References (Golden Sources)
+## References
 
-- AWS Cloud Migration Strategies Guide → https://aws.amazon.com/cloud-migration/strategies/
-- Martin Fowler's Strangler Fig Pattern → https://martinfowler.com/bliki/StranglerFigApplication.html
-- Microsoft Azure Migration Framework → https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/
-- Google Cloud Architecture Center → https://cloud.google.com/architecture/application-migration-strategies
+- AWS Cloud Migration Strategies Guide – https://aws.amazon.com/cloud-migration/strategie
 ## Wet & Sea Tech Resources
 
 **Blog:** https://wetandseaai.fr

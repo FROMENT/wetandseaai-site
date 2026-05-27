@@ -25,21 +25,26 @@ catalogue_id: "093d73b0"
 
 ## Executive Summary
 
-STRIDE GPT automatise la modélisation des menaces cybersécurité en exploitant les capacités des grands modèles de langage pour analyser les architectures logicielles. Cet outil open-source applique le framework STRIDE établi pour identifier les vulnérabilités, générer des arbres d'attaque visuels et calculer des scores de risque DREAD. La solution intègre plusieurs fournisseurs d'IA (OpenAI, Google Gemini, modèles locaux) via une interface web accessible. L'enjeu principal réside dans l'accélération du processus de threat modeling, traditionnellement manuel et chronophage, tout en maintenant la rigueur méthodologique. Cette approche automatisée permet aux équipes de sécurité d'évaluer rapidement leurs systèmes et d'obtenir des stratégies de mitigation ciblées.
+STRIDE GPT est un outil open-source qui automatise la modélisation des menaces en intégrant des modèles de langage avancés. Il analyse les architectures logicielles ou les diagrammes techniques pour identifier les vulnérabilités selon le framework STRIDE, puis génère des arbres d'attaque, des scores de risque DREAD et des stratégies d'atténuation. L'outil réduit le temps d'analyse manuelle des menaces et démocratise l'accès à une méthodologie structurée de sécurité informatique. Il supporte plusieurs fournisseurs LLM (OpenAI, Google Gemini, modèles locaux) et inclut des capacités d'analyse de dépôts GitHub pour évaluation automatisée de bases de code.
 
 ## Principaux points abordés
 
-- **Automatisation du framework STRIDE** — Application des six catégories (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) via IA
-- **Génération d'arbres d'attaque visuels** — Création automatique de représentations graphiques des vecteurs d'attaque potentiels
-- **Scoring DREAD intégré** — Calcul automatisé des scores de risque selon les critères Damage, Reproducibility, Exploitability, Affected Users, Discoverability
-- **Support multi-fournisseurs IA** — Compatibilité avec OpenAI, Google Gemini et modèles hébergés localement pour l'indépendance technologique
-- **Analyse de repositories GitHub** — Capacité d'évaluation directe des bases de code pour la détection de vulnérabilités structurelles
-- **Interface web accessible** — Déploiement simplifié sans expertise technique approfondie en threat modeling
+- **Automatisation de la modélisation STRIDE** — L'outil exploite les LLM pour mapper automatiquement les menaces selon les six catégories STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) sans intervention manuelle complète.
+
+- **Génération d'arbres d'attaque et scoring DREAD** — Après identification des vulnérabilités, le système crée des représentations visuelles des chemins d'attaque potentiels et calcule les scores DREAD pour prioriser les risques par sévérité.
+
+- **Propositions de mitigation ciblées** — L'IA recommande des stratégies d'atténuation spécifiques pour chaque menace identifiée, réduisant le fardeau analytique des équipes de sécurité.
+
+- **Interface web et intégration multi-fournisseurs** — L'application offre une interface utilisateur accessible et s'intègre avec OpenAI, Google Gemini, Anthropic et modèles auto-hébergés, permettant flexibilité opérationnelle et conformité aux politiques d'infrastructure.
+
+- **Analyse de repositories GitHub** — La capacité d'évaluer automatiquement des bases de code complètes pour détection de failles introduit une dépendance vis-à-vis de la qualité d'analyse du modèle LLM sous-jacent, nécessitant validation humaine des résultats.
+
+- **Impact sur la gouvernance de sécurité** — Accélération du cycle d'audit de sécurité et démocratisation de la méthodologie STRIDE pour équipes sans expertise poussée, mais requiert cadre de validation pour éviter faux négatifs critiques.
 
 ## Références (Golden Sources)
 
 Sources :
-- https://github.com/mrwadams/stride-gpt
+- [STRIDE GPT sur GitHub — mrwadams/stride-gpt](https://github.com/mrwadams/stride-gpt)
 ## Chapitres
 
 - `0:00` — Introduction à STRIDE GPT

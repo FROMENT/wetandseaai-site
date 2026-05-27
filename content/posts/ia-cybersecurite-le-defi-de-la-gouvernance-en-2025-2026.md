@@ -25,24 +25,30 @@ catalogue_id: "2e475d3d"
 
 ## Executive Summary
 
-L'année 2025-2026 marque une transition fondamentale dans la gouvernance IA et cybersécurité européenne. L'entrée en vigueur simultanée de la directive NIS 2, de l'EU AI Act et du règlement DORA impose aux organisations de passer d'une approche de conformité réactive à une résilience opérationnelle continue. Cette évolution coïncide avec l'émergence de modèles IA autonomes capables d'exploiter automatiquement les vulnérabilités, comme Anthropic's Mythos, remettant en question les stratégies de défense traditionnelles. Face aux contraintes budgétaires qui poussent 85% des organisations à repenser leurs approches GRC conventionnelles, l'adoption de standards internationaux comme ISO 42001 et l'utilisation du framework NIST Cyber AI Profile deviennent essentielles pour sécuriser les systèmes agentiques et maintenir la conformité réglementaire.
+La convergence de trois cadres réglementaires majeurs (NIS 2, EU AI Act, DORA) entre 2025 et 2026 redéfinit les fondations de la gouvernance cybersécurité en Europe. Au-delà de l'obligation légale, ces directives imposent une architecture de résilience opérationnelle active, dépassant les modèles de conformité déclarative. Parallèlement, l'émergence de modèles IA autonomes capables d'identifier et exploiter des vulnérabilités crée une asymétrie de menace inédite. Les organisations font face à une double pression : adopter des standards internationaux (ISO 42001, NIST Cyber AI Profile) tout en gérant des contraintes budgétaires qui poussent 85% d'entre elles à repenser leurs approches traditionnelles de GRC. Cet article examine les leviers stratégiques et opérationnels pour construire une gouvernance IA-native en environnement cloud et DevOps.
 
 ## Principaux points abordés
 
-- **Convergence réglementaire 2025-2026** — NIS 2, EU AI Act et DORA transforment les obligations de cybersécurité de la conformité passive vers la résilience opérationnelle active
-- **Menaces IA autonomes** — Les modèles comme Mythos d'Anthropic démontrent des capacités d'exploitation automatisée de vulnérabilités, nécessitant de nouvelles stratégies défensives
-- **Contraintes budgétaires GRC** — 85% des organisations doivent repenser leurs approches traditionnelles de gouvernance, risque et conformité face aux limitations de ressources
-- **Standards ISO 42001** — L'implémentation de normes internationales pour la gouvernance IA devient critique pour la sécurisation des systèmes agentiques
-- **Framework NIST Cyber AI** — Le profil cybersécurité IA du NIST offre une approche structurée pour sécuriser les déploiements d'intelligence artificielle en entreprise
+- **Cadre réglementaire dualisé** — NIS 2 impose une gestion des tiers critiques et une notification obligatoire des incidents sous 24 heures ; l'EU AI Act classe les systèmes IA par risque et exige une documentation continue ; DORA renforce la résilience opérationnelle des entités financières avec des tests d'attaque coordonnés.
+
+- **Autonomie des modèles IA et complexité défensive** — Les systèmes comme Anthropic Mythos peuvent détecter et chaîner des exploitations sans intervention humaine, forçant une mutation du périmètre de sécurité traditionnel vers une supervision agentic et une détection comportementale en temps réel.
+
+- **ISO 42001 comme socle de gouvernance** — La norme structure la gestion des risques IA en trois axes : chaîne d'approvisionnement des données, cycle de vie du modèle, monitoring continu. Elle devient incontournable pour les organisations DevOps utilisant des pipelines IA intégrés.
+
+- **Monitoring continu et CCM obligatoire** — 87% des organisations exécutent des logiciels contenant des vulnérabilités exploitables connues. Les outils de Continuous Controls Monitoring (CCM) et les profils NIST deviennent critiques pour identifier les dérives entre état déclaré et état réel en infrastructure cloud.
+
+- **Limite budgétaire majeure** — 85% des organisations reconnaissent l'insuffisance de ressources pour soutenir des approches GRC parallèles (compliance legacy + gouvernance IA). Cette contrainte accélère la migration vers des outils intégrés et une automatisation accrue des contrôles.
+
+- **Impact opérationnel** — La gouvernance 2025-2026 exige une refonte architecturale : intégration de la conformité IA dans les pipelines DevSecOps, adoption de monitoring déclaratif plutôt que périodique, et réduction de la latence décisionnelle entre détection et remédiation.
 
 ## Références (Golden Sources)
 
 Sources :
-- https://www.infosecurity-magazine.com/opinions/2025-critical-year-cybersecurity/
-- https://www.businesswire.com/news/home/20260120755843/en/2026-State-of-CCM-Report-Resource-Constraints-Drive-85-of-Organizations-to-Rethink-Traditional-GRC-Approaches
-- https://reason.com/wp-content/uploads/2026/04/Claude-Mythos-Preview-System-Card1.pdf
-- https://elevateconsult.com/insights/iso-42001-implementation-7-steps/
-- https://www.fmglaw.com/cyber-privacy-security/a-first-look-at-nists-new-cyber-ai-framework/
+- [2025: A Critical Year for Cybersecurity Compliance in the EU and UK](https://www.infosecurity-magazine.com/opinions/2025-critical-year-cybersecurity/)
+- [2026 State of CCM Report: Resource Constraints Drive 85% of Organizations to Rethink Traditional GRC Approaches](https://www.businesswire.com/news/home/20260120755843/en/2026-State-of-CCM-Report-Resource-Constraints-Drive-85-of-Organizations-to-Rethink-Traditional-GRC-Approaches)
+- [7 Steps to Implement ISO 42001 with AI Governance Tools](https://elevateconsult.com/insights/iso-42001-implementation-7-steps/)
+- [A first look at NIST's new cyber AI framework](https://www.fmglaw.com/cyber-privacy-security/a-first-look-at-nists-new-cyber-ai-framework/)
+- [87% of Organizations Are Running Software With Known, Exploitable Vulnerabilities — Datadog State of DevSecOps 2026](https://www.datadoghq.com/about/latest-news/press-releases/datadog-state-of-devsecops-report-2026/)
 ## Ressources Wet & Sea Tech
 
 **Blog :** https://wetandseaai.fr

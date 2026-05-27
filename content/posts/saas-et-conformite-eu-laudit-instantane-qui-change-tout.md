@@ -24,22 +24,30 @@ catalogue_id: "120840be"
   <iframe src="https://www.youtube.com/embed/TWLubLYefn8" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
+```markdown
 ## Executive Summary
 
-Le **COMPLIANCE Scanner** constitue un service d'audit automatisé pour évaluer la conformité des outils SaaS tiers aux réglementations européennes. Cette plateforme analyse en temps réel cinq cadres réglementaires majeurs (GDPR, DORA, EU AI Act, NIS2, Schrems II) sans nécessiter d'accès aux systèmes internes ou aux contrats privés des organisations. Le moteur **Gemini 2.5-flash** hébergé en Europe génère des évaluations structurées au format JSON, incluant des scores de maturité et une classification par codes couleurs (rouge, orange, vert). Cette approche répond aux défis opérationnels des RSSI et DPO confrontés à des cycles d'audit traditionnels chronophages, particulièrement dans un contexte où l'exposition au **U.S. Cloud Act** et la souveraineté des données européennes deviennent des critères décisionnels critiques pour les organisations soumises aux obligations réglementaires renforcées.
+La gestion de la conformité réglementaire dans les écosystèmes SaaS est devenue un enjeu critique pour les organisations européennes. Face à la multiplication des cadres législatifs (GDPR, DORA, NIS2, EU AI Act), les processus d'audit traditionnels demeurent chronophages et mobilisent des ressources importantes. Le COMPLIANCE Scanner propose une approche alternative basée sur l'analyse automatisée : en interrogeant un service web avec le nom d'un fournisseur SaaS, l'outil génère une évaluation structurée contre les principaux référentiels européens, sans nécessiter d'accès aux systèmes internes ni aux contrats clients. Cette méthode adresse un besoin opérationnel concret pour les fonctions de conformité (RSSI, DPO, responsables gouvernance) cherchant une première évaluation de risque rapide et documentée.
 
 ## Principaux points abordés
 
-- **Architecture technique** : Service web utilisant le moteur Gemini 2.5-flash avec infrastructure hébergée exclusivement en Europe
-- **Périmètre d'audit** : Évaluation automatisée contre GDPR, DORA, NIS2, EU AI Act et Schrems II par simple saisie du nom du fournisseur SaaS
-- **Méthodologie "zero-onboarding"** : Analyse externe sans accès aux données internes ni aux contrats clients de l'organisation auditée
-- **Format de sortie standardisé** : Rapport JSON structuré incluant scores de maturité, évaluation de souveraineté des données et exposition au Cloud Act américain
-- **Positionnement comme outil de pré-due-diligence** : Première évaluation rapide nécessitant validation par audit approfondi pour les décisions critiques
+- **Architecture technique** — Utilisation du moteur Gemini 2.5-flash associée à une infrastructure hébergée en Europe, générant des rapports JSON structurés et exploitables programmatiquement
 
-## Références (Golden Sources)
+- **Couverture réglementaire** — Évaluation multi-cadres couvrant GDPR, DORA, NIS2, Schrems II et EU AI Act, permettant une visibilité transversale sur les obligations applicables
+
+- **Méthode d'analyse** — Notation par système de feux tricolores (rouge, orange, vert) avec scores de maturité et plans de remédiation, sans onboarding préalable ni accès à l'infrastructure client
+
+- **Modèle de positionnement** — Outil de pré-due-diligence destiné à qualifier rapidement le profil de risque avant engagement dans des processus d'audit approfondis
+
+- **Limitation claire** — Approche basée sur des données publiques et catalogues de conformité ; ne remplace pas un audit exhaustif accédant aux architectures, politiques et registres de traitement réels du fournisseur
+
+- **Impact gouvernance** — Réduction du délai d'évaluation initiale (secondes vs. semaines), accélération des cycles de sélection fournisseur, documentation systématique des risques de souveraineté des données et exposition à la Cloud Act américaine
+
+## Références
 
 Sources :
-- [COMPLIANCE Scanner — Auditeur SaaS conformité EU](https://cpl.wetandseaai.fr/)
+- https://cpl.wetandseaai.fr/
+```
 ## Ressources Wet & Sea Tech
 
 **Blog :** https://wetandseaai.fr

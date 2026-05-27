@@ -25,25 +25,30 @@ catalogue_id: "3d567ac7"
 
 ## Executive Summary
 
-L'informatique quantique représente une menace imminente pour les infrastructures cryptographiques actuelles, capable de compromettre les algorithmes RSA et ECC sur lesquels repose la sécurité numérique moderne. Cette transition forcée vers la cryptographie post-quantique (PQC) nécessite une planification immédiate, particulièrement face à la stratégie "Store Now, Decrypt Later" où les attaquants collectent aujourd'hui des données chiffrées en vue de les déchiffrer ultérieurement. Les organisations doivent adopter des frameworks de crypto-agilité pour faciliter la migration vers les nouveaux standards NIST comme ML-KEM et ML-DSA. Cette transformation technique s'impose à toutes les entreprises, y compris les PME, avec des délais de mise en œuvre critiques qui requièrent une approche structurée de la modernisation des systèmes de sécurité.
+L'informatique quantique représente une menace concrète pour les standards de chiffrement asymétrique actuels (RSA, ECC). Les acteurs malveillants adoptent d'ores et déjà la stratégie « Chiffrer Maintenant, Déchiffrer Plus Tard » en collectant les données chiffrées aujourd'hui pour les exploiter une fois les capacités quantiques disponibles. Face à cette vulnérabilité, la transition vers la cryptographie post-quantique (PQC) est devenue impérative, notamment via les nouveaux algorithmes standardisés par le NIST : ML-KEM et ML-DSA. Les organisations, des grandes entreprises aux PME, doivent mettre en œuvre une stratégie de crypto-agilité permettant une migration progressive et adaptée à leur contexte opérationnel. Les délais de transition sont critiques : une préparation dès 2025-2026 est nécessaire pour atteindre un niveau de conformité acceptable avant la généralisation des capacités quantiques.
 
 ## Principaux points abordés
 
-- **Vulnérabilité des algorithmes actuels** — L'informatique quantique compromet définitivement RSA, ECC et autres protocoles de chiffrement asymétrique actuellement déployés
-- **Standards post-quantiques NIST** — Adoption des algorithmes ML-KEM (Module-Lattice-Based Key Encapsulation Mechanism) et ML-DSA (Module-Lattice-Based Digital Signature Algorithm) comme nouveaux référentiels
-- **Crypto-agilité organisationnelle** — Implémentation de frameworks permettant le remplacement rapide des protocoles cryptographiques obsolètes
-- **Menace "Store Now, Decrypt Later"** — Risque immédiat de collecte massive de données chiffrées en attente de déchiffrement quantique futur
-- **Délais de migration critiques** — Nécessité de planifier dès 2024-2025 la transition complète vers la PQC avant l'avènement des ordinateurs quantiques opérationnels
-- **Impact PME** — Extension obligatoire de ces mesures aux petites et moyennes entreprises, contrairement aux idées reçues sur la limitation aux grandes organisations
+- **Exposition actuelle des données sensibles** — La menace « Chiffrer Maintenant, Déchiffrer Plus Tard » implique que les données confidentielles capturées aujourd'hui (secrets d'État, données médicales, propriété intellectuelle) resteront vulnérables rétroactivement une fois que les capacités de calcul quantique seront suffisantes, sans délai de prescription.
+
+- **Standards de remplacement identifiés** — Le NIST a finalisé une suite d'algorithmes post-quantiques : ML-KEM pour l'échange de clés et ML-DSA pour la signature numérique. Ces standards offrent une résistance théorique aux attaques quantiques tout en restant compatibles avec les infrastructures existantes si implémentés graduellement.
+
+- **Crypto-agilité comme cadre stratégique** — La capacité à substituer rapidement les protocoles cryptographiques devient un élément central de la gouvernance cybersécurité. Cela implique une audit des dépendances cryptographiques, une modularité des systèmes et une planification d'obsolescence accélérée des solutions actuelles.
+
+- **Calendrier de migration fragmenté** — Les PME et les grandes organisations n'ont pas les mêmes capacités de transition. Les délais estimés pour une migration complète s'étendent sur plusieurs années (2026-2030), créant une fenêtre d'opportunité pour les attaquants et une pression compétitive sur les fournisseurs technologiques.
+
+- **Limite : incertitude sur la maturité opérationnelle** — Les algorithmes PQC sont standardisés mais leur intégration massive en production pose des défis d'interopérabilité et de performance. Aucun consensus n'existe encore sur les impacts réels en termes de latence ou de consommation ressource dans les environnements cloud ou embarqués.
+
+- **Impact sur la continuité opérationnelle** — Une migration PQC mal planifiée peut générer des incompatibilités système, des ruptures de service et des coûts cachés. L'absence de stratégie expose les organisations à des audits de conformité futurs et à une responsabilité accrue en cas de violation liée à une cryptographie obsolète.
 
 ## Références (Golden Sources)
 
 Sources :
-- https://www.bpifrance.fr/download/media-file/74330
 - https://www4.orangecyberdefense.com/fr_quantum_report
+- https://www.bpifrance.fr/download/media-file/74330
 - https://cyberpilot.fr/quantique/migration-post-quantique-pme/
 - https://pqshield.com/nist-finalizes-cybersecurity-whitepaper-39-considerations-for-crypto-agility/
-- https://biztechmagazine.com/article/2024/11/how-small-businesses-should-approach-cybersecurity-post-quantum-era
+- https://weltaare-tech.com/blog/chiffrement-post-quantique-lurgence-pour-les-pme-africaines-face-a-la-menace-quantique
 ## Ressources Wet & Sea Tech
 
 **Blog :** https://wetandseaai.fr

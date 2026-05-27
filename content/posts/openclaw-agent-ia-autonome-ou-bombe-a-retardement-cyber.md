@@ -23,17 +23,22 @@ catalogue_id: "6a2d182b"
   <iframe src="https://www.youtube.com/embed/XupKvIOQEl0" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
+```markdown
 ## Executive Summary
 
-OpenClaw, assistant IA autonome open-source développé par Peter Steinberger, exécute des workflows complexes sur WhatsApp, Slack et Discord via une architecture mémoire transparente basée sur Markdown et bases vectorielles. Malgré sa popularité virale et son rachat par OpenAI en 2026, l'outil expose des vulnérabilités critiques de sécurité. Le marketplace ClawHub héberge des centaines de compétences malveillantes, tandis que la CVE-2026-25253 permet l'exécution de code distant via l'exfiltration de tokens d'authentification en un clic. Ces failles soulèvent des questions fondamentales sur la sécurisation des agents IA autonomes dans les environnements d'entreprise et leur impact sur la gestion d'identité.
+OpenClaw est un assistant IA autonome open-source conçu pour orchestrer des workflows complexes sur des plateformes de messagerie (WhatsApp, Slack, Discord). Lancé par Peter Steinberger et devenu viral début 2026, le projet a transitionné vers une fondation open-source associée à OpenAI. Cependant, des recherches en cybersécurité ont identifié des vulnérabilités critiques qui contredisent son positionnement de solution fiable pour l'entreprise. L'enjeu principal réside dans la tension entre capacités d'automatisation et surface d'attaque exponentiellement accrue par son architecture d'agent autonome interconnectée.
 
 ## Principaux points abordés
 
-- **Vulnérabilité critique CVE-2026-25253** — Exécution de code distant (RCE) en un clic par exfiltration de tokens d'authentification
-- **Marketplace ClawHub compromis** — Centaines de compétences malveillantes distribuant des stealers comme Atomic MacOS Stealer
-- **Architecture mémoire transparente** — Stockage des données long-terme via fichiers Markdown éditables et bases vectorielles
-- **Arrêt d'accès par Anthropic** — Suspension de Claude Computer Use pour OpenClaw suite aux risques sécuritaires
-- **Défis identité enterprise** — Impact des agents autonomes sur les stratégies de sécurité d'identité traditionnelles
+- **CVE-2026-25253 : RCE par exfiltration de token d'authentification** — Une vulnérabilité 1-click permettant l'exécution de code à distance exploite directement le mécanisme d'authentification, menaçant les déploiements en production sans isolation réseau appropriée.
+
+- **Écosystème malveillant ClawHub** — Des centaines de "skills" (extensions) malveillants ont été documentés dans la marketplace officielle, certains distribuant des outils de vol de données (Atomic MacOS Stealer identifié par Trend Micro), dépassant les capacités de modération existantes.
+
+- **Architecture de mémoire transparente et risques d'exfiltration** — Le système stocke les données long-terme en fichiers Markdown éditables et bases de données vectorielles, augmentant les vecteurs d'accès non autorisé aux données sensibles et tokens d'authentification stockés en clair.
+
+- **Restriction d'accès par Anthropic** — Malgré son association avec OpenAI, Anthropic a mis fin à l'accès à Claude via OpenClaw, signalant une fracture majeure quant aux garanties de sécurité de l'implémentation.
+
+- **Impact opérationnel critique** — Les agents autonomes persistants créent un nouveau périmètre de sécurité requérant une gestion d'identité avancée, une isolation de tokens privilégiés et un audit continu des extensions tierces — charges incompatibles avec les modèles de gouvernance informatique classiques.
 
 ## Références (Golden Sources)
 
@@ -41,9 +46,9 @@ Sources :
 - https://socradar.io/blog/cve-2026-25253-rce-openclaw-auth-token/
 - https://www.esecurityplanet.com/threats/hundreds-of-malicious-skills-found-in-openclaws-clawhub/
 - https://www.trendmicro.com/en_us/research/26/b/openclaw-skills-used-to-distribute-atomic-macos-stealer.html
-- https://blog.cyberdesserts.com/anthropic-openclaw/
 - https://www.cyberark.com/resources/agentic-ai-security/how-autonomous-ai-agents-like-openclaw-are-reshaping-enterprise-identity-security
 - https://github.com/slowmist/openclaw-security-practice-guide
+```
 ## Chapitres
 
 - `0:00` — Introduction

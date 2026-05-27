@@ -25,19 +25,20 @@ catalogue_id: "366371b5"
 
 ## Executive Summary
 
-En avril 2026, Anthropic a connu une exposition accidentelle de 512 000 lignes de code source de Claude Code suite à une misconfiguration d'un fichier npm. Cet incident a révélé l'architecture interne des agents IA tout en mettant au jour une vulnérabilité critique dans le système de permissions. Parallèlement, l'écosystème Claude a connu une expansion rapide avec le lancement de Claude Mythos et Claude Cowork, tandis que des modifications tarifaires drastiques ont supprimé les forfaits illimités. Cet ensemble d'événements soulève des questions fondamentales sur la sécurité des architectures d'IA autonomes en environnement professionnel et la gestion des risques liés à la prolifération de capacités d'exécution sans supervision granulaire.
+En avril 2026, une erreur de configuration npm chez Anthropic a exposé publiquement 512 000 lignes du code source de Claude Code, l'outil d'assistance au développement de l'entreprise. Cette fuite a permis aux chercheurs en sécurité d'identifier rapidement une vulnérabilité critique affectant le système de permissions des agents IA. L'incident survient dans un contexte d'expansion accélérée de l'écosystème Claude — lancement de Claude Mythos en preview, généralisation de Claude Cowork, introduction de capacités autonomes avancées — marquant les tensions entre innovation et sécurisation de systèmes d'IA sophistiqués en environnement professionnel.
 
 ## Principaux points abordés
 
-- **Mécanisme de la fuite** — Exposition du code source via un fichier source map non sécurisé dans la distribution npm, révélant l'architecture complète de Claude Code et ses dépendances
-- **Vulnérabilité système de permissions** — Identification d'un défaut critique dans la validation des instructions d'agent, permettant contournement des contrôles d'accès initialement prévus
-- **Amplification du risque par les nouvelles capacités** — Introduction simultanée du computer use et des threads d'agents persistants, augmentant la surface d'exposition en l'absence de correctifs immédiats
-- **Limite temporelle d'exposition** — La vulnérabilité a été détectée quelques jours seulement après la fuite, réduisant la fenêtre probable d'exploitation, mais sans clarifier l'exposition rétrospective
-- **Impact sur la gouvernance d'entreprise** — La convergence fuite-vulnérabilité-augmentation tarifaire fragilise la confiance opérationnelle dans l'écosystème Claude pour les déploiements critiques, particulièrement pour les agents autonomes en accès infrastructure
+- **Mécanisme de la fuite** : exposition via fichier source map npm mal configuré, rendant le code source consultable publiquement plutôt que protégé derrière authentification
+- **Superficie de l'exposition** : 512 000 lignes de code révélant l'architecture interne des agents Claude, y compris les mécanismes de delegation et d'exécution
+- **Vulnérabilité induite** : faille identifiée dans le système de permissions permettant potentiellement des échappements de contexte ou injections de directives malveillantes au sein des agents
+- **Calendrier comprimé** : la vulnérabilité critique a émergé quelques jours après la découverte de la fuite, indiquant une surface d'attaque amplifiée par la divulgation
+- **Contexte concurrent** : parallèlement à cet incident, Anthropic a lancé Claude Mythos et Claude Cowork avec des capacités autonomes renforcées (computer use, threads persistants), complexifiant le modèle de risque global de la plateforme
 
 ## Références (Golden Sources)
 
 Sources :
+
 - https://www.kucoin.com/news/flash/512-000-lines-of-anthropic-s-claude-code-source-code-leaked-due-to-configuration-error
 - https://www.infoq.com/news/2026/04/claude-code-source-leak/
 - https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/
