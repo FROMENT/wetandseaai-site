@@ -45,8 +45,8 @@ Sources :
 - ANSSI — Stratégies de continuité métier et résilience organisationnelle face aux menaces ransomware
 ## Ressources Wet & Sea Tech
 
-**Blog :** https://wetandseaai.fr
+**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech
+**Tous les articles Cybersécurité :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/

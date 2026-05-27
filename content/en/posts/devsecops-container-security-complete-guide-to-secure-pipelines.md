@@ -57,10 +57,22 @@ Container security within DevSecOps pipelines requires integration of automated 
 - `2:14` — Automatisation des contrôles sécuritaires
 - `2:48` — Tests statiques de sécurité
 
+## References (Golden Sources)
+
+- [Best practices for Java containerization](https://bell-sw.com/announcements/2022/09/01/avoiding-side-effects-of-containerization/)
+- [Comprehensive best practices for container security | Sysdig](https://www.sysdig.com/learn-cloud-native/container-security-best-practices)
+- [Container Security Tools: A Complete 2025 Guide | OX Security](https://www.ox.security/blog/container-security-tools/)
+- [DevSecOps Pipeline: Definition, Tools and Best Practices | Sunbytes](https://sunbytes.io/blog/devsecops-pipeline-definition-tools-best-practices)
+- [Intuitive dashboard for agile vulnerability management](https://faradaysec.com/intuitive-dashboard/)
+- [What is Container Security? | Anchore](https://anchore.com/container-security/)
+- [What is Container Vulnerability Management? | Wiz](https://www.wiz.io/academy/container-vulnerability-management)
+- [[2112.12597] Well Begun is Half Done: An Empirical Study of Exploitability & Impact of Base-Image Vulnerabilities](https://arxiv.org/abs/2112.12597?utm_source=chatgpt.com)
+- [https://sso-info.il2.dso.mil/file/Platform_One_Grogus_Guide_To_Devsecops_Survival_Guide.pdf](https://sso-info.il2.dso.mil/file/Platform_One_Grogus_Guide_To_Devsecops_Survival_Guide.pdf)
+
 ## Wet & Sea Tech Resources
 
-**Blog:** https://wetandseaai.fr
+**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
-**Shop:** https://wetseatech.etsy.com
+**Shop :** https://wetseatech.etsy.com
 
-**YouTube Channel:** https://www.youtube.com/@WetSeaTech
+**More articles — DevOps & Cloud :** https://wetandseaai.pascal-froment.workers.dev/tags/devops-cloud/

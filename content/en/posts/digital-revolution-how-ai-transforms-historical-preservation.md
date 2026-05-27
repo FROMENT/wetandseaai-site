@@ -48,8 +48,8 @@ Artificial intelligence is fundamentally reshaping cultural heritage preservatio
 - The Mellon Foundation — Reports on Digital Preservation Infrastructure Funding
 ## Wet & Sea Tech Resources
 
-**Blog:** https://wetandseaai.fr
+**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
-**Shop:** https://wetseatech.etsy.com
+**Shop :** https://wetseatech.etsy.com
 
-**YouTube Channel:** https://www.youtube.com/@WetSeaTech
+**More articles — Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/

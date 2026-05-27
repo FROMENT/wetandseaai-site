@@ -61,10 +61,38 @@ Sources :
 - `4:00` — Le scénario dystopique
 - `5:30` — Conclusion et appel
 
+## Références (Golden Sources)
+
+- [Circular Economy - Environment - European Commission](https://environment.ec.europa.eu/strategy/circular-economy_en)
+- [Family-friendly France? - International Viewpoint - online socialist magazine](https://internationalviewpoint.org/Family-friendly-France)
+- [Générations sacrifiées : le bilan démographique de la Grande Guerre | INED](https://www.ined.fr/fr/publications/editions/population-et-societes/bilan-demographique-grande-guerre)
+- [La guerre de 1914-1918 : un cataclysme démographique. Effets immédiats et conséquences à long terme de la guerre de 1914-1918 sur la démographie française](https://journals.openedition.org/eps/13244)
+- [More boys are born after wars and scientists call it 'Returning soldier effect' - Times of India](https://timesofindia.indiatimes.com/etimes/trending/what-is-returning-soldier-effect-and-what-role-major-wars-play-in-it/articleshow/113885121.cms)
+- [News | Plant Production and Protection | Food and Agriculture Organization of the United Nations](https://www.fao.org/plant-production-protection/news-and-events/news/news-detail/africa-s-vanishing-crop-diversity-crisis-threatening-our-food-future/en)
+- [TRENDS Research & Advisory - Water Implications of AI-Driven Digital Infrastructure Expansion](https://trendsresearch.org/insight/water-implications-of-ai-driven-digital-infrastructure-expansion/)
+- [The effect of war on marriage, divorce and birth rates - PubMed](https://pubmed.ncbi.nlm.nih.gov/12179705/)
+- [Trade growth likely to feel tariff hit in 2026: WTO | Global Trade Review (GTR)](https://www.gtreview.com/news/global/trade-growth-likely-to-feel-tariff-hit-in-2026-wto/)
+- [https://archined.ined.fr/download/publication/40_b7IsBU9Wft_qNW1Rm/62b92e16e2b6448f8228d1d57fd8f5541701166791849.pdf](https://archined.ined.fr/download/publication/40_b7IsBU9Wft_qNW1Rm/62b92e16e2b6448f8228d1d57fd8f5541701166791849.pdf)
+- [https://civis.eu/storage/files/9-lawal-polycrisis-and-sdgs-in-africa-v2-sep-2025.pdf](https://civis.eu/storage/files/9-lawal-polycrisis-and-sdgs-in-africa-v2-sep-2025.pdf)
+- [https://claudeberrebi.huji.ac.il/sites/default/files/claudeberrebi/files/2015-berrebi-ostwald-oep-fertility.pdf](https://claudeberrebi.huji.ac.il/sites/default/files/claudeberrebi/files/2015-berrebi-ostwald-oep-fertility.pdf)
+- [https://earth4all.life/wp-content/uploads/2024/01/E4A_SDGs-for-All_Report.pdf](https://earth4all.life/wp-content/uploads/2024/01/E4A_SDGs-for-All_Report.pdf)
+- [https://economics.ucr.edu/wp-content/uploads/2019/10/Vandenbroucke-corrected-paper-for-4-15-13-seminar.pdf](https://economics.ucr.edu/wp-content/uploads/2019/10/Vandenbroucke-corrected-paper-for-4-15-13-seminar.pdf)
+- [https://eohhs.ri.gov/sites/g/files/xkgbur226/files/2025-02/Health%20Care%20System%20Planning%20Foundational%20Report%20-%20December%202024.pdf](https://eohhs.ri.gov/sites/g/files/xkgbur226/files/2025-02/Health%20Care%20System%20Planning%20Foundational%20Report%20-%20December%202024.pdf)
+
+<details>
+<summary>Voir les 4 sources restantes</summary>
+
+- [https://epc2022.eaps.nl/uploads/210085](https://epc2022.eaps.nl/uploads/210085)
+- [https://usp2030.org/wp-content/uploads/USP2030-Social-protection-and-climate-finance.pdf](https://usp2030.org/wp-content/uploads/USP2030-Social-protection-and-climate-finance.pdf)
+- [https://www.crowe.com/-/media/crowe/firms/middle-east-and-africa/ae/crowehorwathae/news/the-agentic-ai-shift-13-02-2026.pdf](https://www.crowe.com/-/media/crowe/firms/middle-east-and-africa/ae/crowehorwathae/news/the-agentic-ai-shift-13-02-2026.pdf)
+- [https://www.ined.fr/sites/default/files/imported_images/introduction.bouleversement.ouvrage.grande.guerre.fr.pdf](https://www.ined.fr/sites/default/files/imported_images/introduction.bouleversement.ouvrage.grande.guerre.fr.pdf)
+
+</details>
+
 ## Ressources Wet & Sea Tech
 
-**Blog :** https://wetandseaai.fr
+**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech
+**Tous les articles Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/

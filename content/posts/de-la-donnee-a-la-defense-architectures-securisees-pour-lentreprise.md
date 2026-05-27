@@ -60,10 +60,40 @@ Sources :
 - `1:40` — Data ownership expliqué
 - `2:13` — Rôle du gardien
 
+## Références (Golden Sources)
+
+- [A data governance framework for digital social protection systems](https://spdci.org/wp-content/uploads/2025/11/251124_DCI_Data_Governance_framework_publication.pdf)
+- [ARCHITECTURE DE DONNÉES ET DE L'INFORMATION | Data Action Lab](https://www.data-action-lab.com/wp-content/uploads/2020/02/7-Architecture-de-donnees-et-de-linformation-version-longue.pdf)
+- [Building a Zero-Trust Architecture for Confidential AI Factories | NVIDIA Technical Blog](https://developer.nvidia.com/blog/building-a-zero-trust-architecture-for-confidential-ai-factories/)
+- [Comment une architecture de données moderne rend l'entreprise plus performante - Talend](https://www.talend.com/fr/resources/what-is-data-architecture/)
+- [Contrôler ses processus de mise en œuvre du RGPD - Institut du Risk et Compliance](https://www.institutriskcompliance.org/wp-content/uploads/2018/11/DPO_4CYSEC_6NOV_IRC.pdf)
+- [Cybersecurity Frameworks Explained: NIST, ISO, CIS & More](https://questsys.com/security-blog/Cybersecurity-Frameworks-Explained-NIST-ISO-CIS-More/)
+- [DAMA® Data Management Body of Knowledge (DAMA-DMBOK®)](https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/)
+- [Data ownership : définition, gestion, enjeux et bonnes pratiques](https://www.softyflow.io/data-ownership-definition-gestion-enjeux-bonnes-pratiques/)
+- [Data sovereignty is now a cybersecurity imperative - Tech Monitor](https://www.techmonitor.ai/comment-2/data-sovereignty-cybersecurity-imperative/)
+- [Data-centric security - Wikipedia](https://en.wikipedia.org/wiki/Data-centric_security)
+- [Enterprise Data Architecture – Benefits, Frameworks and Strategy](https://erstudio.com/blog/enterprise-data-architecture/)
+- [How Data Ownership and Stewardship Differ in Practice](https://www.actian.com/blog/data-management/data-owner-vs-data-steward/)
+- [How to Implement MDM: Key Styles & Phases Explained](https://semarchy.com/blog/mdm-implementation/)
+- [Le Data Owner : fonction clé de la gouvernance des données | Les actualités du Freelance](https://www.freelance-informatique.fr/actualites/data-owner)
+- [Qu'est-ce que le data management?](https://www.opendatasoft.com/wp-content/uploads/2025/07/ebook-data-management.pdf)
+
+<details>
+<summary>Voir les 6 sources restantes</summary>
+
+- [The Open Group Architecture Framework (TOGAF) - Sparx Systems](https://sparxsystems.com/resources/user-guides/17.1/large-print/model-domains/frameworks/togaf.pdf)
+- [What Is the COBIT Framework? IT Governance and Management](https://www.legitsecurity.com/aspm-knowledge-base/what-is-cobit-framework)
+- [http://irjaes.com/wp-content/uploads/2020/10/IRJAES-V5N2P104Y20.pdf](http://irjaes.com/wp-content/uploads/2020/10/IRJAES-V5N2P104Y20.pdf)
+- [https://resources.data.gov/assets/documents/Zero-Trust-DataSecurityGuide_RevisedMay2025_CIO.govVersion.pdf](https://resources.data.gov/assets/documents/Zero-Trust-DataSecurityGuide_RevisedMay2025_CIO.govVersion.pdf)
+- [https://www.dbmasters.at/i/Projects/dbmasters/bilder/vortraege/20150316_market_guide_for_datacentric.pdf](https://www.dbmasters.at/i/Projects/dbmasters/bilder/vortraege/20150316_market_guide_for_datacentric.pdf)
+- [https://www.vldb.org/pvldb/vol15/p3332-wang.pdf](https://www.vldb.org/pvldb/vol15/p3332-wang.pdf)
+
+</details>
+
 ## Ressources Wet & Sea Tech
 
-**Blog :** https://wetandseaai.fr
+**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech
+**Tous les articles Cybersécurité :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/

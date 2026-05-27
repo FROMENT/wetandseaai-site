@@ -50,8 +50,8 @@ The cybercrime landscape in 2024 exhibits a marked shift toward professionalized
 - Recorded Future Threat Intelligence (recordedfuture.com)
 ## Wet & Sea Tech Resources
 
-**Blog:** https://wetandseaai.fr
+**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
-**Shop:** https://wetseatech.etsy.com
+**Shop :** https://wetseatech.etsy.com
 
-**YouTube Channel:** https://www.youtube.com/@WetSeaTech
+**More articles — Cybersecurity :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/

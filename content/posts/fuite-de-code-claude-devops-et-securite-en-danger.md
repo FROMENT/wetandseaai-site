@@ -48,8 +48,8 @@ Sources :
 - Pratiques de protection des secrets : HashiCorp Vault, AWS Secrets Manager documentation officielles
 ## Ressources Wet & Sea Tech
 
-**Blog :** https://wetandseaai.fr
+**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech
+**Tous les articles DevOps & Cloud :** https://wetandseaai.pascal-froment.workers.dev/tags/devops-cloud/

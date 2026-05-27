@@ -49,10 +49,23 @@ Sources :
 - https://cyberpilot.fr/quantique/migration-post-quantique-pme/
 - https://pqshield.com/nist-finalizes-cybersecurity-whitepaper-39-considerations-for-crypto-agility/
 - https://weltaare-tech.com/blog/chiffrement-post-quantique-lurgence-pour-les-pme-africaines-face-a-la-menace-quantique
+## Références (Golden Sources)
+
+- [Chiffrement Post-Quantique : Urgence pour les PME Africaines | Weltaare-tech](https://weltaare-tech.com/blog/chiffrement-post-quantique-lurgence-pour-les-pme-africaines-face-a-la-menace-quantique)
+- [Cryptographie post-quantique - Bpifrance](https://www.bpifrance.fr/download/media-file/74330)
+- [Estimating Migration Timelines for Enterprises Transitioning to Post- Quantum Cryptography - Preprints.org](https://www.preprints.org/manuscript/202511.1764/v1/download)
+- [How Small Businesses Should Approach Cybersecurity in the Post-Quantum Era](https://biztechmagazine.com/article/2024/11/how-small-businesses-should-approach-cybersecurity-post-quantum-era)
+- [How Small Businesses Should Prepare for Quantum Cybersecurity Risks | BizTech Magazine](https://biztechmagazine.com/article/2026/04/how-small-businesses-should-prepare-quantum-cybersecurity-risks)
+- [L'informatique quantique casse les protocoles de cryptographie asymétrique - Tarbes info](https://tarbesinfo.fr/informatique-quantique-cryptographie/)
+- [Menace quantique - Orange Cyberdefense](https://www4.orangecyberdefense.com/fr_quantum_report)
+- [Migration post-quantique PME : que faire concrètement en 2026 - CyberPilot](https://cyberpilot.fr/quantique/migration-post-quantique-pme/)
+- [NIST finalizes Cybersecurity Whitepaper 39 - considerations for crypto agility | PQShield](https://pqshield.com/nist-finalizes-cybersecurity-whitepaper-39-considerations-for-crypto-agility/)
+- [Se préparer pour la cryptographie post-quantique (CPQ) : impacts sur les opérations de cybersécurité classiques des PME - In-Sec-M](https://insecm.ca/infolettre/se-preparer-pour-la-cryptographie-post-quantique-cpq-impacts-sur-les-operations-de-cybersecurite-classiques-des-pme/)
+
 ## Ressources Wet & Sea Tech
 
-**Blog :** https://wetandseaai.fr
+**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech
+**Tous les articles Cybersécurité :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/

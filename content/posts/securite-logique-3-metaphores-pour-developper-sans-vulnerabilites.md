@@ -50,10 +50,14 @@ Sources :
 - `1:43` — Exemples d'Attaques Réelles
 - `2:15` — Validation des Entrées
 
+## Références (Golden Sources)
+
+- [La Sécurité Logique : Bouclier, Forteresse Et Loupe Pour Votre Développement - Wet & Sea & IA](https://wetandseaai.fr/la-securite-logique-bouclier-forteresse-et-loupe-pour-votre-developpement/)
+
 ## Ressources Wet & Sea Tech
 
-**Blog :** https://wetandseaai.fr
+**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech
+**Tous les articles Cybersécurité :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/

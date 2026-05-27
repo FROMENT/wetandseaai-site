@@ -47,8 +47,8 @@ Thomas Edison's establishment of the first systematic industrial research labora
 - [Smithsonian Institution — History of American Industrial Research](https://www.si.edu/)
 ## Wet & Sea Tech Resources
 
-**Blog:** https://wetandseaai.fr
+**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
-**Shop:** https://wetseatech.etsy.com
+**Shop :** https://wetseatech.etsy.com
 
-**YouTube Channel:** https://www.youtube.com/@WetSeaTech
+**More articles — Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/

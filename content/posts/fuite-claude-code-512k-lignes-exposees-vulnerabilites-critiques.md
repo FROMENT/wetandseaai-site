@@ -52,10 +52,38 @@ Sources :
 - `2:46` — Vulnérabilités critiques découvertes
 - `4:06` — Conséquences et leçons
 
+## Références (Golden Sources)
+
+- [(PDF) SeapoPym v0.1: Implementation of the SEAPODYM low and mid trophic levels in Python with a flexible optimisation framework - ResearchGate](https://www.researchgate.net/publication/403410898_SeapoPym_v01_Implementation_of_the_SEAPODYM_low_and_mid_trophic_levels_in_Python_with_a_flexible_optimisation_framework)
+- [512,000 lines of Anthropic's Claude code source code leaked due to configuration error | KuCoin](https://www.kucoin.com/news/flash/512-000-lines-of-anthropic-s-claude-code-source-code-leaked-due-to-configuration-error)
+- [Abonnés Claude : fin brutale des forfaits illimités, coûts en hausse dès 2026 - IA Tech au Quotidien](https://www.iatechauquotidien.com/abonnes-claude-fin-brutale-des-forfaits-illimites-couts-en-hausse-des-2026/)
+- [Amherst College Statistics - GitHub](https://github.com/Amherst-Statistics)
+- [Anthropic Accidentally Exposes Claude Code Source via npm Source Map File - InfoQ](https://www.infoq.com/news/2026/04/claude-code-source-leak/)
+- [ChemBioHTP/ARMer: Python API for adaptive resource management of high-throughput workflow on HPC - GitHub](https://github.com/ChemBioHTP/ARMer)
+- [Claude AI 2026: Complete Guide to Models, Pricing, Features & Use Cases | NxCode](https://www.nxcode.io/resources/news/claude-ai-complete-guide-models-pricing-features-2026)
+- [Claude Code Alternatives (2026): 11 Tested, 3 That Beat It for Under $20/mo](https://www.morphllm.com/comparisons/claude-code-alternatives)
+- [Claude Mythos Preview - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-preview.html)
+- [Claude Platform - Claude API Docs](https://platform.claude.com/docs/en/release-notes/overview)
+- [Claude's Constitution - AI Governance Library](https://www.aigl.blog/claudes-constitution/)
+- [Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance](https://bisi.org.uk/reports/claudes-new-constitution-ai-alignment-ethics-and-the-future-of-model-governance)
+- [Collective Constitutional AI: Aligning a Language Model with Public Input - Anthropic](https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input)
+- [Critical Vulnerability in Claude Code Emerges Days After Source Leak - SecurityWeek](https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/)
+- [Release notes | Claude Help Center](https://support.claude.com/en/articles/12138966-release-notes)
+
+<details>
+<summary>Voir les 4 sources restantes</summary>
+
+- [The Complete Guide to Every Claude Update in Q1 2026 (Tested by Two AI Builders)](https://aimaker.substack.com/p/anthropic-claude-updates-q1-2026-guide)
+- [Une faille critique dans Claude Code est apparue après la fuite du code source : Anthropic a d'abord divulgué le code source de Claude Code, puis une faille critique a été découverte par Adversa AI](https://intelligence-artificielle.developpez.com/actu/381928/Une-faille-critique-dans-Claude-Code-est-apparue-apres-la-fuite-du-code-source-Anthropic-a-d-abord-divulgue-le-code-source-de-Claude-Code-puis-une-faille-critique-a-ete-decouverte-par-Adversa-AI/)
+- [mdENG — Lesson 01 — Claude Code Boot Sequence — Source Deep Dive](https://www.markdown.engineering/learn-claude-code/01-boot-sequence)
+- [qcr/armer: The Generic Manipulation Driver Package - Implements a ROS Interface over the robotics toolbox for Python · GitHub](https://github.com/qcr/armer)
+
+</details>
+
 ## Ressources Wet & Sea Tech
 
-**Blog :** https://wetandseaai.fr
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech
+**Tous les articles IA & Travail :** https://wetandseaai.pascal-froment.workers.dev/tags/ia-travail/

@@ -40,8 +40,8 @@ The Strangler Fig pattern represents a structured approach to legacy system mode
 - AWS Cloud Migration Strategies Guide – https://aws.amazon.com/cloud-migration/strategie
 ## Wet & Sea Tech Resources
 
-**Blog:** https://wetandseaai.fr
+**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
-**Shop:** https://wetseatech.etsy.com
+**Shop :** https://wetseatech.etsy.com
 
-**YouTube Channel:** https://www.youtube.com/@WetSeaTech
+**More articles — DevOps & Cloud :** https://wetandseaai.pascal-froment.workers.dev/tags/devops-cloud/

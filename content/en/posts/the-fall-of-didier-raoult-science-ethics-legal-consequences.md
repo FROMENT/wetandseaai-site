@@ -50,8 +50,8 @@ The Didier Raoult case represents a watershed moment in French scientific govern
 - International Committee on Publication Ethics (ICPE) case analysis documentation
 ## Wet & Sea Tech Resources
 
-**Blog:** https://wetandseaai.fr
+**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
 
-**Shop:** https://wetseatech.etsy.com
+**Shop :** https://wetseatech.etsy.com
 
-**YouTube Channel:** https://www.youtube.com/@WetSeaTech
+**More articles — Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/

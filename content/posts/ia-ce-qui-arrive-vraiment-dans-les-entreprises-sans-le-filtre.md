@@ -58,8 +58,8 @@ Sources :
 
 ## Ressources Wet & Sea Tech
 
-**Blog :** https://wetandseaai.fr
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech
+**Tous les articles IA & Travail :** https://wetandseaai.pascal-froment.workers.dev/tags/ia-travail/

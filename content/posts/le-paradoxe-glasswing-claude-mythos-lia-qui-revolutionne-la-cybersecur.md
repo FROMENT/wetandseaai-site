@@ -49,10 +49,23 @@ Sources :
 - [Building AI defenses at scale: Before the threats emerge — AWS Security Blog](https://aws.amazon.com/blogs/security/building-ai-defenses-at-scale-before-the-threats-emerge/)
 - [Claude Mythos Preview on Vertex AI — Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai)
 - [Project Glasswing, Claude Mythos and what "Secure AI" really means for organisations — Version1](https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/)
+## Références (Golden Sources)
+
+- [Anthropic Glasswing : l'IA qui traque les zero-day avant les hackers - Webotit](https://www.webotit.ai/blog/agents-ia/securite/anthropic-glasswing-claude-mythos-cybersecurite-zero-day)
+- [Anthropic's Claude Mythos is now available, but not for you - The New Stack](https://thenewstack.io/anthropic-claude-mythos-cybersecurity/)
+- [Anthropic–United States Department of Defense dispute - Wikipedia](https://en.wikipedia.org/wiki/Anthropic%E2%80%93United_States_Department_of_Defense_dispute)
+- [Building AI defenses at scale: Before the threats emerge | AWS Security Blog](https://aws.amazon.com/blogs/security/building-ai-defenses-at-scale-before-the-threats-emerge/)
+- [Claude Mythos Benchmark Results: SWE-Bench 93.9% and What It Means for AI Agents](https://www.mindstudio.ai/blog/claude-mythos-benchmark-results-swe-bench)
+- [Claude Mythos Preview [pdf] (anthropic.com)](https://img.sauf.ca/pictures/2026-04-08/8c5a49a3b85183aaa3764fff94158b78.pdf)
+- [Claude Mythos Preview on Vertex AI | Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai)
+- [Deploy and use Claude models in Microsoft Foundry (preview)](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-claude)
+- [Project Glasswing \ Anthropic](https://www.anthropic.com/project/glasswing?utm_source=chatgpt.com)
+- [Project Glasswing, Claude Mythos and what "Secure AI" really means for organisations](https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/)
+
 ## Ressources Wet & Sea Tech
 
-**Blog :** https://wetandseaai.fr
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Chaîne YouTube :** https://www.youtube.com/@WetSeaTech
+**Tous les articles IA & Travail :** https://wetandseaai.pascal-froment.workers.dev/tags/ia-travail/
