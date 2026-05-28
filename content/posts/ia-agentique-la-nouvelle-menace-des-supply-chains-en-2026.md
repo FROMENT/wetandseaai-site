@@ -1,8 +1,9 @@
 ---
 title: "IA Agentique : La Nouvelle Menace des Supply Chains en 2026"
-date: 2026-05-11
-youtube_url: "https://youtu.be/EvDPDrj8paI"
-youtube_video_id: "EvDPDrj8paI"
+date: 2026-05-28
+publishDate: "2026-05-31T09:00:00"
+youtube_url: "https://youtu.be/NOD82kaIc8Y"
+youtube_video_id: "NOD82kaIc8Y"
 youtube_channel: "B"
 youtube_channel_handle: "@wetseatech"
 youtube_channel_url: "https://www.youtube.com/@wetseatech"
@@ -12,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "L'attaque Mini Shai-Hulud révèle comment l'IA agentique transforme la cybersécurité en 2026."
 cover:
-  image: "/covers/EvDPDrj8paI.jpg"
+  image: "/covers/theme_cybersecurity.svg"
   alt: "IA Agentique : La Nouvelle Menace des Supply Chains en 2026"
   caption: "Cybersécurité"
 draft: false
@@ -20,7 +21,7 @@ catalogue_id: "a926cdfa"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/EvDPDrj8paI" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/NOD82kaIc8Y" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary

@@ -1,8 +1,9 @@
 ---
 title: "Gestion de Crise Cyber : Guide ANSSI pour la Résilience Digitale"
-date: 2026-05-07
-youtube_url: "https://youtu.be/hiHpsTQ0H_o"
-youtube_video_id: "hiHpsTQ0H_o"
+date: 2026-05-28
+publishDate: "2026-05-29T09:00:00"
+youtube_url: "https://youtu.be/HXdbVPXPeFo"
+youtube_video_id: "HXdbVPXPeFo"
 youtube_channel: "B"
 youtube_channel_handle: "@wetseatech"
 youtube_channel_url: "https://www.youtube.com/@wetseatech"
@@ -12,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "🛡️ Découvrez les méthodes éprouvées de l'ANSSI pour gérer efficacement les incidents cybersécurité et construire une résilience organisationnelle durable."
 cover:
-  image: "/covers/hiHpsTQ0H_o.jpg"
+  image: "/covers/theme_cybersecurity.svg"
   alt: "Gestion de Crise Cyber : Guide ANSSI pour la Résilience Digitale"
   caption: "Cybersécurité"
 draft: false
@@ -20,7 +21,7 @@ catalogue_id: "0c87c782"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/hiHpsTQ0H_o" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/HXdbVPXPeFo" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary

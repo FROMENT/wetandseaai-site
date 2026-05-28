@@ -1,8 +1,9 @@
 ---
 title: "Le Paradoxe Post-Quantique : Cybersécurité Face à la Menace Quantique"
-date: 2026-05-11
-youtube_url: "https://youtu.be/FWLJNIyv2Zc"
-youtube_video_id: "FWLJNIyv2Zc"
+date: 2026-05-28
+publishDate: "2026-06-01T09:00:00"
+youtube_url: "https://youtu.be/3w2tRt4HOtE"
+youtube_video_id: "3w2tRt4HOtE"
 youtube_channel: "B"
 youtube_channel_handle: "@wetseatech"
 youtube_channel_url: "https://www.youtube.com/@wetseatech"
@@ -12,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "L'informatique quantique va-t-elle briser tous nos systèmes de chiffrement ? Découvrez pourquoi la cryptographie post-quantique (PQC) est devenue urgente pour toutes les entreprises, y compris les PME."
 cover:
-  image: "/covers/FWLJNIyv2Zc.jpg"
+  image: "/covers/theme_cybersecurity.svg"
   alt: "Le Paradoxe Post-Quantique : Cybersécurité Face à la Menace Quantique"
   caption: "Cybersécurité"
 draft: false
@@ -20,7 +21,7 @@ catalogue_id: "3d567ac7"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/FWLJNIyv2Zc" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/3w2tRt4HOtE" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary

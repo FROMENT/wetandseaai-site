@@ -1,8 +1,9 @@
 ---
 title: "L'AGI arrive : Le défi est-il vraiment technologique ?"
-date: 2026-05-11
-youtube_url: "https://youtu.be/Rxu27Lj4Zbw"
-youtube_video_id: "Rxu27Lj4Zbw"
+date: 2026-05-28
+publishDate: "2026-05-30T09:00:00"
+youtube_url: "https://youtu.be/7rZNuthzOds"
+youtube_video_id: "7rZNuthzOds"
 youtube_channel: "B"
 youtube_channel_handle: "@wetseatech"
 youtube_channel_url: "https://www.youtube.com/@wetseatech"
@@ -12,7 +13,7 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "L'Intelligence Artificielle Générale (AGI) n'est plus une question de si, mais de quand. Mais le véritable défi pour dominer cette révolution technologique ne réside peut-être pas là où on le pense."
 cover:
-  image: "/covers/Rxu27Lj4Zbw.jpg"
+  image: "/covers/theme_prospective.svg"
   alt: "L'AGI arrive : Le défi est-il vraiment technologique ?"
   caption: "Prospective"
 draft: false
@@ -20,7 +21,7 @@ catalogue_id: "f6ace488"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/Rxu27Lj4Zbw" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/7rZNuthzOds" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary
