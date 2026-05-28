@@ -13,7 +13,7 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "Découvrez 5 stratégies psychologiques éprouvées pour surmonter les blocages mentaux et maximiser votre efficacité professionnelle quotidienne."
 cover:
-  image: "/covers/theme_ia-travail.svg"
+  image: "/covers/425KrpeQXCk.jpg"
   alt: "5 Hacks Psychologiques pour Booster Votre Productivité au Travail"
   caption: "IA & Travail"
 draft: false

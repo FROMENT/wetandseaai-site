@@ -13,7 +13,7 @@ categories: ["Lifestyle"]
 tags: ["lifestyle"]
 summary: "Découvrez les secrets des créateurs qui cartonnent sur les réseaux sociaux ! Cette vidéo révèle 5 techniques concrètes pour transformer vos contenus lifestyle en véritables aimants à engagement. De l'optimisation des overlays de texte aux…"
 cover:
-  image: "/covers/theme_lifestyle.svg"
+  image: "/covers/lvr_8V9ua2M.jpg"
   alt: "5 Astuces PRO pour Améliorer Vos Vidéos Courtes Lifestyle"
   caption: "Lifestyle"
 draft: false

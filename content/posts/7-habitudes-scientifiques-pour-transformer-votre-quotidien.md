@@ -13,7 +13,7 @@ categories: ["Lifestyle"]
 tags: ["lifestyle"]
 summary: "Découvrez comment rewirer votre cerveau pour le bonheur grâce à des routines matinales et nocturnes basées sur la psychologie comportementale."
 cover:
-  image: "/covers/theme_lifestyle.svg"
+  image: "/covers/g3_iD8qDMNA.jpg"
   alt: "7 Habitudes Scientifiques pour Transformer Votre Quotidien"
   caption: "Lifestyle"
 draft: false

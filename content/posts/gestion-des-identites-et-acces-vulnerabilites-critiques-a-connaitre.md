@@ -13,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "🔐 Les dispositifs de sécurité périmétrique subissent une vague d'attaques sans précédent ! Entre 2023 et 2024, les passerelles VPN et pare-feu sont devenus les cibles prioritaires des cybercriminels et acteurs étatiques. Cette analyse…"
 cover:
-  image: "/covers/theme_cybersecurity.svg"
+  image: "/covers/_ipXrAM-cIg.jpg"
   alt: "Gestion des Identités et Accès : Vulnérabilités Critiques à Connaître"
   caption: "Cybersécurité"
 draft: false

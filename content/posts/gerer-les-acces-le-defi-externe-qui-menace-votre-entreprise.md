@@ -13,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "🚨 Les attaques contre les dispositifs de frontière réseau explosent ! VPN, pare-feu : ces équipements critiques deviennent la cible privilégiée des cybercriminels."
 cover:
-  image: "/covers/theme_cybersecurity.svg"
+  image: "/covers/7n6AowOWlkc.jpg"
   alt: "Gérer les accès : Le défi externe qui menace votre entreprise"
   caption: "Cybersécurité"
 draft: false

@@ -13,7 +13,7 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "🚨 Comment un seul papier de recherche IA de Google a fait perdre 90 milliards $ aux semiconducteurs ! L'affaire TurboQuant révèle les manipulations possibles dans la recherche IA. Entre optimisations truquées et benchmarks biaisés, cette…"
 cover:
-  image: "/covers/theme_ia-travail.svg"
+  image: "/covers/FdZVrYDnPZY.jpg"
   alt: "90 milliards perdus : le scandale du papier IA de Google"
   caption: "IA & Travail"
 draft: false

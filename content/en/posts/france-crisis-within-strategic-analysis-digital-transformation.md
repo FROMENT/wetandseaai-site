@@ -13,7 +13,7 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "Deep dive into France's internal challenges and their impact on digital transformation strategies. This comprehensive analysis explores the intersection of national crisis management, technological adaptation, and strategic planning for…"
 cover:
-  image: "/covers/theme_prospective.svg"
+  image: "/covers/neierzbGBIo.jpg"
   alt: "France Crisis Within: Strategic Analysis & Digital Transformation"
   caption: "Prospective"
 draft: false
