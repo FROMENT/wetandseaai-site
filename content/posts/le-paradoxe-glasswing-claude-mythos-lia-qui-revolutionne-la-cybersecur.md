@@ -49,6 +49,14 @@ Sources :
 - [Building AI defenses at scale: Before the threats emerge — AWS Security Blog](https://aws.amazon.com/blogs/security/building-ai-defenses-at-scale-before-the-threats-emerge/)
 - [Claude Mythos Preview on Vertex AI — Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai)
 - [Project Glasswing, Claude Mythos and what "Secure AI" really means for organisations — Version1](https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/)
+## Chapitres
+
+- `0:00` — Introduction
+- `0:40` — Le Paradoxe Glasswing
+- `1:17` — Le Projet Glasswing
+- `1:52` — Coalition Tech Américaine
+- `2:30` — Face Cachée Dangereuse
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360

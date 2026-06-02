@@ -39,6 +39,14 @@ La publication d'un article de recherche de Google portant sur l'optimisation m�
 - **Vérification communautaire décentralisée** — Face aux doutes exprimés, des développeurs sur des plateformes comme GitHub engagent des efforts indépendants pour reproduire les résultats mathématiques et intégrer l'algorithme dans des outils open-source (llama.cpp), servant de contre-validation.
 
 - **Tension entre publication académique et rigueur scientifique** — L'incident met au jour les risques de conclusions prématurées ou méthodiquement défectueuses dans un écosystème où les annonces de recherche ont des répercussions économiques immédiates et disproportionnées.
+## Chapitres
+
+- `0:00` — Introduction au scandale
+- `0:33` — Le papier TurboQuant
+- `1:05` — Accusations de plagiat
+- `1:38` — Tests communautaires révélateurs
+- `2:18` — Leçons du hype IA
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360

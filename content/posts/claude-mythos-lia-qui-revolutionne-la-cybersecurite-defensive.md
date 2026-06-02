@@ -3,10 +3,10 @@ title: "Claude Mythos : L'IA qui révolutionne la cybersécurité défensive"
 date: 2026-04-17
 youtube_url: "https://youtu.be/N8VVSWjaWTk"
 youtube_video_id: "N8VVSWjaWTk"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -46,9 +46,17 @@ Anthropic a lancé le **Project Glasswing**, une initiative défensive restricti
 - [Project Glasswing \ Anthropic](https://www.anthropic.com/project/glasswing?utm_source=chatgpt.com)
 - [Claude Mythos Preview on Vertex AI | Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai)
 - [Project Glasswing, Claude Mythos and what "Secure AI" really means for organisat](https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/)
+## Chapitres
+
+- `0:00` — Introduction
+- `0:35` — L'urgence cybersécuritaire actuelle
+- `1:09` — Nouvelle vitesse des menaces
+- `1:41` — Le projet Glasswing
+- `2:15` — Claude Mythos Preview
+
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

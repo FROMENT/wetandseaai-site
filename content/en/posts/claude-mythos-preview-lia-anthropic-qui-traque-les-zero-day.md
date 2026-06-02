@@ -48,6 +48,13 @@ Anthropic has launched **Project Glasswing**, a controlled-access cybersecurity 
 - [Claude Mythos Preview on Vertex AI | Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai)
 - [Project Glasswing, Claude Mythos and what "Secure AI" really means for organisations](https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/)
 - [Anthropic–United States Department of Defense dispute - Wikipedia](https://en.wikipedia.org/wiki/Anthropic%E2%80%93United_States_Department_of_Defense_dispute)
+## Chapters
+
+- `0:00` — Introduction
+- `1:07` — Core Mission Overview
+- `2:11` — Access Requirements
+- `4:04` — Deployment and Safety
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360

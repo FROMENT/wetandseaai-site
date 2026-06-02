@@ -52,6 +52,14 @@ Sources :
 - [The New Stack — Anthropic's Claude Mythos is now available, but not for you](https://thenewstack.io/anthropic-claude-mythos-cybersecurity/)
 - [Webotit — Anthropic Glasswing : l'IA qui traque les zero-day](https://www.webotit.ai/blog/agents-ia/securite/anthropic-glasswing-claude-mythos-cybersecurite-zero-day)
 - [Version1 — Project Glasswing, Claude Mythos and Secure AI](https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/)
+## Chapitres
+
+- `0:00` — Introduction Discover 360
+- `0:34` — Programme et accès limité
+- `1:07` — Déploiement technique Mythos
+- `1:40` — Paradoxe sécurité-danger
+- `2:20` — Conseils pour l'industrie
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360

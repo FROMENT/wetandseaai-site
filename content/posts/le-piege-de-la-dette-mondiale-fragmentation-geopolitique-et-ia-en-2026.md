@@ -41,6 +41,14 @@ L'article examine les interactions entre accumulation de dette souveraine, redé
 - **Limitation analytique majeure** — Les rapports ne quantifient pas précisément les seuils de rupture systémique ni les mécanismes de contagion inter-blocs ; l'hypothèse de "transition verte compensatoire" reste insuffisamment documentée
 
 - **Implications opérationnelles** — Volatilité accrue des marchés de financement souverain, besoin critique de souveraineté technologique en IA défense, risque de fragmentation des normes cybersécurité internationales, dépendances critiques en infrastructures de calcul et données géolocalisées
+## Chapitres
+
+- `0:00` — Introduction générale
+- `0:33` — Le paradoxe planétaire
+- `1:47` — Architecture invisible mondiale
+- `2:21` — Naissance dette souveraine
+- `3:34` — Libération monétaire Nixon
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

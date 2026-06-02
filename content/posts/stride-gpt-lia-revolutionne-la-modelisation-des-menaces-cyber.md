@@ -3,10 +3,10 @@ title: "STRIDE GPT : L'IA révolutionne la modélisation des menaces cyber"
 date: 2026-04-16
 youtube_url: "https://youtu.be/2O0fgENs9Qg"
 youtube_video_id: "2O0fgENs9Qg"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -56,7 +56,7 @@ Sources :
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

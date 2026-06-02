@@ -3,10 +3,10 @@ title: "Secrets of Your Access Card: Hidden Vulnerabilities & Cyber Threats"
 date: 2026-04-16
 youtube_url: "https://youtu.be/rVeKCQSPZSg"
 youtube_video_id: "rVeKCQSPZSg"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -60,7 +60,7 @@ Access cards—whether RFID-based, smartcard, or hybrid architectures—represen
 
 ## Wet & Sea Tech Resources
 
-**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Shop :** https://wetseatech.etsy.com
 

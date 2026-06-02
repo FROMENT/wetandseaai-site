@@ -48,6 +48,14 @@ L'émergence des agents IA autonomes redéfinit le paysage des menaces contre le
 - [Encoded Prompt Injection: Why LLM Guardrails Are at the Wrong Layer - Cequence](https://www.cequence.ai/blog/ai/encoded-prompt-injection-action-layer/)
 - [Cybersecurity in 2026: Agentic AI, Cloud Chaos, and the Human Factor - Proofpoint](https://www.proofpoint.com/us/blog/ciso-perspectives/cybersecurity-2026-agentic-ai-cloud-chaos-and-human-factor)
 - [How Prompt Injection Attacks Compromise AI Agents in 2026 - Atlan](https://atlan.com/know/prompt-injection-attacks-ai-agents/)
+## Chapitres
+
+- `0:00` — Introduction générale
+- `0:33` — Attaques par injection
+- `1:45` — Exploitation des pipelines
+- `2:19` — Infection npm malveillante
+- `3:33` — Défenses et résilience
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

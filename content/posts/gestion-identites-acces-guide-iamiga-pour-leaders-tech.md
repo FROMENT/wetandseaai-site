@@ -44,6 +44,15 @@ Sources :
 - [Azure Active Directory Fundamentals](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/)
 - [NIST Special Publication on Identity Management](https://csrc.nist.gov/publications)
 ```
+## Chapitres
+
+- `0:00` — Introduction
+- `0:33` — Comptes orphelins et risques
+- `1:06` — Identité numérique et cycle
+- `1:40` — Authentification vs autorisation
+- `2:20` — Provisioning et automatisation
+- `2:54` — Moindre privilège et SoD
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

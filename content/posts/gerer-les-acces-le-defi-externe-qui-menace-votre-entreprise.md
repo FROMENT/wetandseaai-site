@@ -49,6 +49,15 @@ La gestion des accès externes représente un vecteur d'attaque critique pour le
 Sources :
 - [CERT-FR / ANSSI — Bulletin d'alerte sur les attaques contre les équipements de frontière réseau](https://www.cert.ssi.gouv.fr/)
 - [OpenID Connect Foundation — Spécification OpenID Connect 1.0](https://openid.net/connect/)
+## Chapitres
+
+- `0:00` — Introduction
+- `0:32` — Analogie du bâtiment sécurisé
+- `1:44` — Cycle de vie identité
+- `3:32` — Processus JML interne
+- `4:44` — Défis accès externes
+- `5:16` — Solutions et bonnes pratiques
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

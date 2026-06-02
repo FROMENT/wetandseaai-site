@@ -46,6 +46,14 @@ Anthropic released Claude Opus 4.7, an AI model designed to address computationa
 
 - [Introducing Claude Opus 4.7 — Anthropic](https://www.anthropic.com/news/claude-opus-4-7)
 - [Prompting Best Practices — Claude API Documentation](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
+## Chapters
+
+- `0:00` — Introduction to Claude Opus 4.7
+- `1:05` — Key Architecture and Capabilities
+- `1:39` — Coding Performance Breakthrough
+- `2:12` — Benchmark Results and Real Impact
+- `2:44` — Vision Capabilities Revolution
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360

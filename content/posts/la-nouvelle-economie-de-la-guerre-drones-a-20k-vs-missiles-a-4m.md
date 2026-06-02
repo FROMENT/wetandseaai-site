@@ -3,10 +3,10 @@ title: "La Nouvelle Économie de la Guerre : Drones à $20K vs Missiles à $4M"
 date: 2026-04-16
 youtube_url: "https://youtu.be/S7I-bNq9KRc"
 youtube_video_id: "S7I-bNq9KRc"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
@@ -60,7 +60,7 @@ La guerre moderne révèle une asymétrie économique structurelle : des systèm
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

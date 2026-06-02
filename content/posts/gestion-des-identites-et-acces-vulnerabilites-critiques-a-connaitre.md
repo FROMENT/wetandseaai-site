@@ -39,6 +39,13 @@ La gestion des identités et des accès constitue le socle de la posture de séc
 - **Limitation des protocoles seuls** — La robustesse d'OpenID Connect dépend entièrement de son déploiement correct et des contrôles environnementaux encadrant son utilisation ; un standard bien documenté ne corrige pas une architecture de segmentation déficiente.
 
 - **Enjeux opérationnels critiques** — La segmentation réseau stricte, la journalisation centralisée des événements d'authentification et d'accès, et la gestion proactive des correctifs constituent les piliers opérationnels pour réduire le délai entre découverte de vulnérabilité et remédiation.
+## Chapitres
+
+- `0:00` — Introduction générale
+- `0:33` — Gestion identités et accès
+- `1:04` — L'identité numérique expliquée
+- `2:10` — Authentification et sécurité
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

@@ -39,6 +39,13 @@ La cybersécurité se caractérise comme un "wicked problem" — un problème co
 - **Fragmentation de l'autorité gouvernante** — La cybersécurité échappe à la souveraineté exclusive des États : acteurs privés (fournisseurs, plateformes), organisations internationales et collectifs décentralisés partagent ou concurrencent le contrôle normatif et opérationnel.
 
 - **Asymétrie offensif-défensif** — Les attaquants bénéficient d'une inertie opérationnelle supérieure ; la défense reste réactive et fragmentée entre entités, secteurs et juridictions, créant des discontinuités exploitables dans la résilience globale.
+## Chapitres
+
+- `0:00` — Introduction
+- `1:09` — Problèmes Complexes Cybersécurité
+- `2:18` — Forces Technologiques Politiques
+- `2:52` — Zone Grise Numérique
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

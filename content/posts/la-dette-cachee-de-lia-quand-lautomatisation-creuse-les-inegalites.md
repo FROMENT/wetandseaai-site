@@ -3,10 +3,10 @@ title: "La Dette Cachée de l'IA : Quand l'Automatisation Creuse les Inégalité
 date: 2026-04-17
 youtube_url: "https://youtu.be/9oYAiZsCPLA"
 youtube_video_id: "9oYAiZsCPLA"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
@@ -50,9 +50,17 @@ L'intelligence artificielle, bien que prometteuse sur le plan productif, masque 
 - [Revenu de base — Wikipédia](https://fr.wikipedia.org/wiki/Revenu_de_base)
 
 - [AI Index Report 2025 - Chapter 4](https://hai.stanford.edu/assets/files/hai_ai-index-report-2025_chapter4_final.pdf)
+## Chapitres
+
+- `0:00` — Introduction
+- `0:36` — Le Coût de l'IA
+- `1:43` — Crise de la Vérification
+- `2:15` — Fossé de Mesurabilité
+- `3:15` — Économie Creuse
+
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

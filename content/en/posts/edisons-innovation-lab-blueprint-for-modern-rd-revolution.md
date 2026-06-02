@@ -46,6 +46,14 @@ Thomas Edison's establishment of the first systematic industrial research labora
 
 - [Thomas Edison National Historical Park — Official Historical Records](https://www.nps.gov/edis/index.htm)
 - [Smithsonian Institution — History of American Industrial Research](https://www.si.edu/)
+## Chapters
+
+- `0:00` — Introduction
+- `0:32` — Edison Light Bulb Myth
+- `1:06` — Genius Theory Debunked
+- `2:18` — Building on Giants
+- `3:33` — Menlo Park Collaboration
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

@@ -55,6 +55,14 @@ L'informatique quantique représente une menace structurelle pour les standards 
 - [NIST finalizes Cybersecurity Whitepaper 39 - considerations for crypto agility](https://pqshield.com/nist-finalizes-cybersecurity-whitepaper-39-considerations-for-crypto-agility/)
 
 - [Se préparer pour la cryptographie post-quantique (CPQ) : impacts sur les opérations de cybersécurité classiques des PME](https://insecm.ca/infolettre/se-preparer-pour-la-cryptographie-post-quantique-cpq-impacts-sur-les-operations-de-cybersecurite-classiques-des-pme/)
+## Chapitres
+
+- `0:00` — Introduction
+- `0:34` — Le Paradoxe Post-Quantique
+- `1:11` — Menace Quantique Actuelle
+- `1:47` — Piratage Temporel
+- `2:25` — Compte à Rebours
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

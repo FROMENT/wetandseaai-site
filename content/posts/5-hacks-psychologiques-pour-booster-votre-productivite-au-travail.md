@@ -43,6 +43,15 @@ Cet article synthétise cinq stratégies psychologiques destinées à augmenter 
 - **Limite identifiée** — L'efficacité de ces techniques repose fortement sur l'adhésion individuelle et l'environnement professionnel ; les organisations imposant des interruptions fréquentes ou des métriques de productivité court-termiste peuvent neutraliser les bénéfices attendus.
 
 - **Impact opérationnel** — Ces approches réduisent les dysfonctionnements liés à la charge cognitive excessive, améliorant la qualité décisionnelle et la résilience des équipes sans dépendre d'investissements technologiques ; pertinent pour les environnements DevOps à forte charge décisionnelle ou les équipes en télétravail.
+## Chapitres
+
+- `0:00` — Introduction
+- `0:33` — Pourquoi votre cerveau sabote
+- `1:46` — Reprogrammer votre cerveau
+- `2:20` — Hack 1: La phrase moche
+- `3:34` — Neuroscience de la créativité
+- `4:36` — Technique de l'imperfection
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360

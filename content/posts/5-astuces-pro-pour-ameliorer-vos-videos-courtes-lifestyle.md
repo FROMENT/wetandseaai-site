@@ -41,6 +41,14 @@ La production de vidéos courtes lifestyle requiert une maîtrise technique des 
 - **Limite opérationnelle** — L'application simultanée de ces cinq techniques sans priorisation selon audience et plateforme génère surcharge visuelle. Une hiérarchisation en fonction du contexte géographique et démographique demeure impérative.
 
 - **Impact gouvernance contenu** — La standardisation de ces éléments techniques à l'échelle d'une équipe de production crée des directives reproductibles et mesurables (taux de rétention, temps de visionnage). Cette formalization soutient l'audit qualité et la cohérence éditoriale.
+## Chapitres
+
+- `0:00` — Introduction
+- `1:04` — Parler sans son
+- `2:42` — Maîtriser l'ambiance visuelle
+- `4:00` — Raconter en 3 secondes
+- `5:00` — Optimiser la première image
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360

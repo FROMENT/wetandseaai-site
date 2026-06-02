@@ -3,10 +3,10 @@ title: "Claude Mythos : L'IA révolutionnaire qui traque les zero-day"
 date: 2026-04-17
 youtube_url: "https://youtu.be/XNmKm22N-3A"
 youtube_video_id: "XNmKm22N-3A"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -49,9 +49,18 @@ Sources :
 - [Building AI defenses at scale: Before the threats emerge](https://aws.amazon.com/blogs/security/building-ai-defenses-at-scale-before-the-threats-emerge/) — AWS Security Blog
 - [Claude Mythos Preview on Vertex AI](https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai) — Google Cloud Blog
 - [Project Glasswing, Claude Mythos and what "Secure AI" really means for organisations](https://www.version1.com/blog/project-glasswing-claude-mythos-and-what-secure-ai-really-means-for-organisations/) — Version 1
+## Chapitres
+
+- `0:00` — Introduction cybersécurité IA
+- `0:38` — Accélération des menaces numériques
+- `1:15` — Acteurs malveillants et IA
+- `1:53` — Claude Mythos défenseur
+- `2:33` — Capacités techniques avancées
+- `3:48` — Performance et endurance
+
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

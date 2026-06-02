@@ -54,6 +54,14 @@ Sources :
 - [Vertex AI — Plateforme d'apprentissage automatique](https://cloud.google.com/vertex-ai/docs)
 - [Cloud Build — Intégration et déploiement continus](https://cloud.google.com/build/docs)
 - [Secret Manager — Gestion des données sensibles](https://cloud.google.com/secret-manager/docs)
+## Chapitres
+
+- `0:00` — Introduction Firebase
+- `0:33` — Problématique du déploiement moderne
+- `1:45` — Firebase App Hosting expliqué
+- `2:19` — Architecture dynamique vs statique
+- `3:31` — Différences avec hébergement classique
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

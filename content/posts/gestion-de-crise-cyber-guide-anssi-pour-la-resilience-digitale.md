@@ -39,6 +39,13 @@ La gestion de crise cybersécurité repose sur une articulation claire entre ré
 - **Implication des décideurs** — Nécessité d'une prise de décision structurée en crise (allocation de ressources, communication, arbitrage opérationnel) distincte des phases de planification
 
 - **Limite : dépendance au contexte architectural** — L'efficacité des frameworks reste tributaire de la documentation préalable des actifs, de la segmentation réseau existante et de la maturité des processus de configuration management au sein de l'organisation
+## Chapitres
+
+- `0:00` — Introduction
+- `0:33` — Trois axes de réponse
+- `1:07` — Stratégies de remédiation
+- `1:20` — Résilience et opportunités
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

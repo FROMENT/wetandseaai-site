@@ -45,6 +45,14 @@ L'exposition de code source issu de Claude Opus 4.7 révèle une classe de vuln�
 ## Références (Golden Sources)
 
 - [Wet & Sea & IA](https://wetandseaai.pascal-froment.workers.dev/)
+## Chapitres
+
+- `0:00` — Introduction
+- `0:33` — La Fuite Claude Code
+- `1:46` — L'Incident de 2026
+- `2:19` — Impact et Conséquences
+- `3:31` — Sécurité Logique Fondamentale
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

@@ -43,6 +43,14 @@ Cybercriminal operations are undergoing structural professionalization in 2024, 
 - **Operational limitation**: Current AI systems remain dependent on human-directed objectives; fully autonomous malware capabilities remain constrained by control-flow complexity and environmental variability.
 
 - **Small business exposure asymmetry**: Resource-constrained organizations face elevated risk due to limited detection infrastructure and reduced attacker targeting costs, yet remain underrepresented in security investment discussions.
+## Chapters
+
+- `0:00` — Introduction
+- `0:34` — Criminal Mindset Evolution
+- `1:40` — New Ransomware Tactics
+- `3:20` — AI in Cybercrime
+- `4:40` — Defense Strategies
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

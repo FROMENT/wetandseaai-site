@@ -39,6 +39,14 @@ The Strangler Fig pattern represents a risk-mitigation approach to legacy system
 - **Organizational constraint**: Success requires sustained parallel operations of legacy and new systems during transition phases, extending infrastructure costs and operational overhead; timeline compression to reduce this period often compromises migration quality and increases production incidents.
 
 - **Governance impact**: Incremental migration demands continuous architectural decision-making regarding which components migrate first, service boundary definitions, and data consistency strategies between old and new systems—responsibilities often unclear across DevOps, architecture, and product teams.
+## Chapters
+
+- `0:00` — Introduction
+- `0:39` — The Legacy Problem
+- `2:00` — Hidden Business Risks
+- `2:35` — Strangler Fig Pattern
+- `3:55` — Natural Migration Strategy
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

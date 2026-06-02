@@ -43,6 +43,14 @@ Cet article synthétise une approche comportementale du bien-être quotidien bas
 - **Limitation identifiée** — L'approche suppose une autonomie environnementale et une flexibilité horaire qui ne sont pas universelles dans les contextes professionnels contraints (horaires imposés, espaces partagés, charges imprévisibles).
 
 - **Impact opérationnel** — Pour les collectifs et organisations, cette grille améliore la stabilité cognitive des équipes, réduit la fatigue décisionnelle et crée des points d'ancrage pour la qualité du travail systématique plutôt qu'exceptionnelle.
+## Chapitres
+
+- `0:00` — Introduction
+- `0:35` — Le tapis roulant hédonique
+- `1:08` — La formule du bonheur
+- `1:40` — Habitude 1: Rituel matinal
+- `2:12` — Habitude 2: Pratique gratitude
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360

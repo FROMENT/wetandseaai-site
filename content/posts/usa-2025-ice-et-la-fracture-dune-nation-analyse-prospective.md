@@ -39,6 +39,14 @@ L'agence fédérale américaine ICE (Immigration and Customs Enforcement), fond�
 - **Incidents publics et contestations judiciaires** — Incidents incluant des décès de citoyens américains causant une fragmentation du consensus public et générant des conflits entre niveaux institutionnels (judiciaire vs. exécutif), limitant la capacité d'exécution des mandats d'application.
 
 - **Impact de gouvernance cybersécuritaire** — Absence de mécanismes de contrôle transversaux documentés sur les infrastructures de données ; risques de dérive technologique sans audit externe régulier, établissant un précédent de capacité de surveillance d'État non soumise à supervision démocratique institutionnalisée.
+## Chapitres
+
+- `0:00` — Introduction
+- `0:32` — Changement radical 2025
+- `1:44` — Politique d'immigration
+- `2:18` — Révolte culturelle
+- `3:31` — Polarisation nationale
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

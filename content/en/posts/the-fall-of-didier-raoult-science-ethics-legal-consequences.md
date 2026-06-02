@@ -39,6 +39,15 @@ The Didier Raoult case represents a watershed moment in French academic governan
 - **Open Science as Corrective**: Implementation of open data-sharing requirements aims to enable peer validation and reduce falsification opportunities, though adoption compliance rates remain variable across French research institutions.
 
 - **Governance Implication**: Prospectively, the precedent establishes that individual researcher misconduct now triggers mandatory institutional audits, resource allocation reviews, and third-party governance restructuring—affecting research infrastructure investment and multi-site collaboration protocols.
+## Chapters
+
+- `0:00` — Introduction
+- `0:32` — Polarizing Pandemic Figure
+- `1:04` — Scientific Verdict Begins
+- `1:39` — Avalanche of Retractions
+- `2:10` — Ethics Violations Exposed
+- `2:44` — Expressions of Concern
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

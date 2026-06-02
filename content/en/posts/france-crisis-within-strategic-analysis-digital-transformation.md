@@ -43,6 +43,14 @@ France's institutional and economic instability presents a dual-edged scenario f
 
 - **Operational reality**: Sustainable transformation requires decoupling crisis response from long-term roadmaps; organizations conflating both typically experience technical debt accumulation and delayed modernization gains.
 ```
+## Chapters
+
+- `0:00` — Introduction
+- `0:32` — France's Critical Juncture
+- `1:05` — France on the Edge
+- `2:11` — The Provider State Promise
+- `4:04` — Welfare State Foundation
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

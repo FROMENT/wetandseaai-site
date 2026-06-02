@@ -47,6 +47,13 @@ La course à l'Intelligence Artificielle Générale révèle un paradoxe straté
 - [A new era of intelligence with Gemini 3 - Google Blog](https://blog.google/products/gemini/gemini-3/)
 - [A glimpse of the next generation of AlphaFold - Isomorphic Labs](https://www.isomorphiclabs.com/articles/a-glimpse-of-the-next-generation-of-alphafold)
 - [60 of our biggest AI announcements in 2025 - The Keyword](https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/)
+## Chapitres
+
+- `0:00` — Introduction du canal
+- `0:32` — L'AGI selon DeepMind
+- `1:06` — Le revenu universel
+- `1:38` — Nos choix collectifs
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

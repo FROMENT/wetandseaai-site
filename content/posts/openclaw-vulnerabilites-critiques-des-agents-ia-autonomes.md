@@ -3,10 +3,10 @@ title: "OpenClaw : Vulnérabilités Critiques des Agents IA Autonomes"
 date: 2026-04-16
 youtube_url: "https://youtu.be/MG7lIGDPeuU"
 youtube_video_id: "MG7lIGDPeuU"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -57,7 +57,7 @@ OpenClaw, assistant IA autonome open-source conçu pour orchestrer des workflows
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

@@ -53,6 +53,14 @@ Les déploiements conteneurisés des réseaux cœur 5G intègrent eBPF (Extended
 - [CLI Command Reference - checkov](https://www.checkov.io/2.Basics/CLI%20Command%20Reference.html)
 
 - [Verify a Docker Hardened Image or chart](https://docs.docker.com/dhi/how-to/verify/)
+## Chapitres
+
+- `0:00` — Introduction
+- `0:37` — Mécanismes techniques eBPF
+- `1:13` — Infrastructure 5G conteneurisée
+- `1:50` — Défaillance isolation mémoire
+- `2:25` — Exploitation inter-conteneurs
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

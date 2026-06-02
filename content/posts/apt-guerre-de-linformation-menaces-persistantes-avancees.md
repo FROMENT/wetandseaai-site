@@ -39,6 +39,13 @@ Les menaces persistantes avancées (APT) représentent une évolution stratégiq
 - **Limitation des modèles de confiance implicite** — Les architectures réseau conventionnelles supposent que les utilisateurs internes et dispositifs validés au périmètre ne constituent pas de menace, présomption invalidée par les breaches de grande ampleur.
 
 - **Impératif d'architecture Zero Trust** — Implique une vérification continue de chaque accès, une segmentation réseau granulaire et une authentification multi-facteurs systématique, augmentant significativement le coût opérationnel des défenseurs mais réduisant les vecteurs d'exploitation persistants.
+## Chapitres
+
+- `0:00` — Introduction aux APT
+- `1:05` — Définition des APT
+- `2:16` — Méthodes d'attaque typiques
+- `2:50` — Cas Stuxnet
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
