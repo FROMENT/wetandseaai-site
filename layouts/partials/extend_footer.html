@@ -1,4 +1,34 @@
 {{- /*
+  Compteur de vues GoatCounter — affiché uniquement sur les articles (IsPage).
+  Requiert params.goatcounterCode dans hugo.yaml.
+  L'API publique /counter/<path>.json ne nécessite pas de token.
+*/ -}}
+{{- if and .IsPage .Site.Params.goatcounterCode }}
+<div class="view-counter" id="view-counter-wrap" style="display:none">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+       stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+    <circle cx="12" cy="12" r="3"/>
+  </svg>
+  <span class="view-counter__count" id="gc-count">—</span>
+</div>
+<script>
+(function(){
+  var code = "{{ .Site.Params.goatcounterCode }}";
+  var path = encodeURIComponent(window.location.pathname);
+  fetch("https://" + code + ".goatcounter.com/counter/" + path + ".json")
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      if (!d.count) return;
+      document.getElementById("gc-count").textContent = d.count + " vue" + (parseInt(d.count) > 1 ? "s" : "");
+      document.getElementById("view-counter-wrap").style.display = "flex";
+    })
+    .catch(function(){});
+})();
+</script>
+{{- end }}
+
+{{- /*
   extend_footer.html — WetAndSeaAI.fr
 
   Hook officiel PaperMod (inclus avant le footer du thème).

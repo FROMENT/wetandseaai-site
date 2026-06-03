@@ -1,0 +1,19 @@
+/* view-counter.css — Compteur de vues GoatCounter sur les articles */
+
+.view-counter {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  color: var(--secondary);
+  margin-bottom: 1.5rem;
+  opacity: 0.8;
+}
+
+.view-counter svg {
+  flex-shrink: 0;
+}
+
+.view-counter__count {
+  font-variant-numeric: tabular-nums;
+}

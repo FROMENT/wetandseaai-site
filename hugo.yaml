@@ -62,6 +62,7 @@ taxonomies:
 # ── PaperMod params ────────────────────────────────────────────────────────
 params:
   env: production
+  goatcounterCode: "VOTRE_CODE"  # À remplacer : code choisi lors inscription goatcounter.com
   author: Pascal Froment
   defaultTheme: auto
   ShowReadingTime: true
