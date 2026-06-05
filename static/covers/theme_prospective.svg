@@ -43,7 +43,7 @@
   <!-- Sous-titre branding -->
   <text x="600" y="640" font-family="Inter, -apple-system, sans-serif"
         font-size="48" font-weight="400" fill="#bb8fce" opacity="0.95">
-    Wet & Sea AI · wetandseaai.fr
+    Wet &amp; Sea AI · wetandseaai.fr
   </text>
 
   <!-- Tag thème en bas à droite -->

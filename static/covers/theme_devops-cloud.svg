@@ -37,13 +37,13 @@
   <text x="600" y="540" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif"
         font-size="120" font-weight="700" fill="#ffffff"
         filter="url(#shadow-devops-cloud)">
-    DevOps & Cloud
+    DevOps &amp; Cloud
   </text>
 
   <!-- Sous-titre branding -->
   <text x="600" y="640" font-family="Inter, -apple-system, sans-serif"
         font-size="48" font-weight="400" fill="#5dade2" opacity="0.95">
-    Wet & Sea AI · wetandseaai.fr
+    Wet &amp; Sea AI · wetandseaai.fr
   </text>
 
   <!-- Tag thème en bas à droite -->
