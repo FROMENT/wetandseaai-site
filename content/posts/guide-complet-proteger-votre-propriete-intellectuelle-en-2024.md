@@ -40,6 +40,15 @@ La sécurisation de la propriété intellectuelle en environnement cloud et IA r
 - **Limite identifiée : responsabilité partagée implicite** — Le modèle repose sur l'hypothèse que les clients configurent correctement les contrôles disponibles ; une mauvaise implémentation des politiques d'accès ou du chiffrement transfère le risque vers l'organisation cliente, sans automatisation obligatoire.
 
 - **Impact opérationnel** — La mise en place de DevSecOps intégré augmente la latence de déploiement de 15 à 30 % initialement, nécessitant une réorganisation des workflows CI/CD. Cependant, elle réduit les coûts de remédiation post-incident en éliminant les vulnérabilités en amont du déploiement.
+## Chapitres
+
+- `0:00` — Introduction
+- `0:32` — Le dilemme développeur
+- `1:07` — Risques et précautions
+- `1:39` — Configuration sécurisée
+- `2:11` — Responsabilité partagée
+- `2:43` — Gestion des logs
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

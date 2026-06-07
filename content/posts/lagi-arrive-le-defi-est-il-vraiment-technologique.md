@@ -13,7 +13,7 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "L'Intelligence Artificielle Générale (AGI) n'est plus une question de si, mais de quand. Mais le véritable défi pour dominer cette révolution technologique ne réside peut-être pas là où on le pense."
 cover:
-  image: "/covers/theme_prospective.svg"
+  image: "/covers/7rZNuthzOds.jpg"
   alt: "L'AGI arrive : Le défi est-il vraiment technologique ?"
   caption: "Prospective"
 draft: false

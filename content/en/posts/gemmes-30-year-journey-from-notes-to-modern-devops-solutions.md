@@ -40,6 +40,14 @@ Gemme's three-decade trajectory from IBM Lotus Notes infrastructure specialist t
 - **Geographic Expansion Limitation**: Leadership interest in architectural roles within Asia signals growth ambition, yet no documented regional presence—suggests consultancy remains France-anchored with limited multinational delivery infrastructure.
 
 - **Risk**: Legacy expertise concentration may limit competitive positioning against cloud-native consultancies without similar Notes archaeology depth; modernization narrative requires demonstrated production deployments in Kubernetes, infrastructure-as-code, and CI/CD pipelines.
+## Chapters
+
+- `0:00` — Channel Introduction
+- `0:31` — Pascal's Digital Time Capsule
+- `1:04` — Gemme's 1994 Origins
+- `1:38` — IBM Lotus Notes Expertise
+- `2:44` — Development and Software Solutions
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

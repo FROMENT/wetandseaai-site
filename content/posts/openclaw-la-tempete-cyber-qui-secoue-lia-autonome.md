@@ -3,10 +3,10 @@ title: "OpenClaw : La Tempête Cyber qui Secoue l'IA Autonome"
 date: 2026-04-16
 youtube_url: "https://youtu.be/69WgyJDf-oI"
 youtube_video_id: "69WgyJDf-oI"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -59,7 +59,7 @@ OpenClaw, assistant IA autonome conçu pour orchestrer des workflows complexes s
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

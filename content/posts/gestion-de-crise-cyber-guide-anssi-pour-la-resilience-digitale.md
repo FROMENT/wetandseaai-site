@@ -13,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "🛡️ Découvrez les méthodes éprouvées de l'ANSSI pour gérer efficacement les incidents cybersécurité et construire une résilience organisationnelle durable."
 cover:
-  image: "/covers/theme_cybersecurity.svg"
+  image: "/covers/HXdbVPXPeFo.jpg"
   alt: "Gestion de Crise Cyber : Guide ANSSI pour la Résilience Digitale"
   caption: "Cybersécurité"
 draft: false

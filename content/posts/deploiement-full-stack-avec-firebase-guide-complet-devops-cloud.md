@@ -13,7 +13,7 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "🚀 Maîtrisez le déploiement d'applications IA full stack avec Google Cloud et Firebase !"
 cover:
-  image: "/covers/theme_devops-cloud.svg"
+  image: "/covers/hIKA0FIdWlQ.jpg"
   alt: "Déploiement Full Stack avec Firebase : Guide Complet DevOps Cloud"
   caption: "DevOps & Cloud"
 draft: false

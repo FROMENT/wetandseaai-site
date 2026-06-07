@@ -38,6 +38,13 @@ La construction d'une identité numérique cohérente pour une plateforme techni
 - **Contradiction ou limite majeure** — La juxtaposition de contenus hautement techniques (GitLab CI, cybersécurité avancée) avec des narratives de voyage crée un risque de dispersion perçue. Un lecteur cherchant une expertise DevOps profonde peut trouver le signal dilué par la présence dominante de contenu lifestyle.
 
 - **Impact sur la gouvernance et la rétention** — Une architecture de contenu claire (catégorisation hiérarchique, tagging sémantique, archétypes d'audience) devient critique pour maintenir la crédibilité éditoriale et maximiser le taux de conversion vers les ressources de formation payantes (guides Pluralsight).
+## Chapitres
+
+- `0:00` — Introduction générale
+- `0:31` — Analyse de l'article technique
+- `1:06` — La contradiction du nom
+- `2:19` — Le grand écart contenu
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

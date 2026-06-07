@@ -49,6 +49,14 @@ Sources :
 - [Introduction to Data Poisoning: A 2026 Perspective — Lakera](https://www.lakera.ai/blog/training-data-poisoning)
 - [TeamPCP and the Cascading AI/ML Supply Chain Campaign — Cloud Security Alliance](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/03/CSA_research_note_ai_pypi_supply_chain_campaign_20260329-csa-styled.pdf)
 - [OWASP Top 10 for LLMs 2025: Key Risks and Mitigation Strategies — Invicti](https://www.invicti.com/blog/web-security/owasp-top-10-risks-llm-security-2025)
+## Chapitres
+
+- `0:00` — Introduction
+- `0:31` — Défenses cybersécurité dépassées
+- `1:44` — Programme détaillé
+- `2:17` — IA agentique moderne
+- `3:30` — Évolution modèles langage
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

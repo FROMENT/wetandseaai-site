@@ -13,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "L'informatique quantique va-t-elle briser tous nos systèmes de chiffrement ? Découvrez pourquoi la cryptographie post-quantique (PQC) est devenue urgente pour toutes les entreprises, y compris les PME."
 cover:
-  image: "/covers/theme_cybersecurity.svg"
+  image: "/covers/3w2tRt4HOtE.jpg"
   alt: "Le Paradoxe Post-Quantique : Cybersécurité Face à la Menace Quantique"
   caption: "Cybersécurité"
 draft: false

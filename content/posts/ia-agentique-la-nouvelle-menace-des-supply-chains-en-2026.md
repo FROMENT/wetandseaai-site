@@ -13,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "L'attaque Mini Shai-Hulud révèle comment l'IA agentique transforme la cybersécurité en 2026."
 cover:
-  image: "/covers/theme_cybersecurity.svg"
+  image: "/covers/NOD82kaIc8Y.jpg"
   alt: "IA Agentique : La Nouvelle Menace des Supply Chains en 2026"
   caption: "Cybersécurité"
 draft: false

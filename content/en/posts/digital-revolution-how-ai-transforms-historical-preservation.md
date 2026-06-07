@@ -38,6 +38,14 @@ Artificial intelligence is reshaping historical preservation by automating digit
 - **Data Governance and Bias Risk**: Training datasets for historical AI systems often reflect archival collection biases, underrepresenting marginalized communities and non-dominant cultural narratives; model outputs risk reinforcing institutional historical perspectives unless explicitly audited for representational gaps.
 
 - **Infrastructure Dependencies**: AI-driven preservation systems create institutional lock-in around proprietary cloud platforms, API dependencies, and compute costs—organizations must establish explicit data export protocols and open-format preservation standards to avoid vendor dependency during organizational transitions or funding constraints.
+## Chapters
+
+- `0:00` — Introduction to Hidden Infrastructure
+- `0:36` — Modern Guangzhou Streets
+- `1:56` — Revolutionary Building Discovery
+- `2:36` — Yang Paoan's Secret Headquarters
+- `3:54` — Southern Wind Enlightenment Movement
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

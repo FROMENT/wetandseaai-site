@@ -49,6 +49,14 @@ Sources :
 - [7 Steps to Implement ISO 42001 with AI Governance Tools](https://elevateconsult.com/insights/iso-42001-implementation-7-steps/)
 - [A first look at NIST's new cyber AI framework](https://www.fmglaw.com/cyber-privacy-security/a-first-look-at-nists-new-cyber-ai-framework/)
 - [87% of Organizations Are Running Software With Known, Exploitable Vulnerabilities — Datadog State of DevSecOps 2026](https://www.datadoghq.com/about/latest-news/press-releases/datadog-state-of-devsecops-report-2026/)
+## Chapitres
+
+- `0:00` — Introduction
+- `1:06` — Vague Réglementaire 2025
+- `2:16` — IA Double Tranchant
+- `2:49` — Nouvelles Vulnérabilités IA
+- `3:49` — Menaces Internes
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

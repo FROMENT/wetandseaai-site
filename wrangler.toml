@@ -6,9 +6,18 @@
 
 name = "wetandseaai"
 compatibility_date = "2025-04-01"
+workers_dev = true       # conserve wetandseaai.pascal-froment.workers.dev (dev/test)
 
 # Servir le dossier `public/` (généré par Hugo) comme assets statiques.
 # Cloudflare gère automatiquement : ETag, gzip/brotli, edge cache, HTTPS.
+# ── Custom domains — wst-tech.org ──────────────────────────────────────────
+# Cloudflare provisionne DNS + TLS automatiquement (domaine déjà dans CF).
+# Sous-domaines futurs (api.wst-tech.org, mcp.wst-tech.org…) → Workers séparés.
+routes = [
+  { pattern = "wst-tech.org", custom_domain = true },
+  { pattern = "www.wst-tech.org", custom_domain = true }
+]
+
 [assets]
 directory = "./public"
 # Mode "single-page-application" reste valable pour Hugo si pas de fallback HTML 404.
