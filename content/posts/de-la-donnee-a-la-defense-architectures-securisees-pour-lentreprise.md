@@ -1,8 +1,9 @@
 ---
 title: "De la Donnée à la Défense : Architectures Sécurisées pour l'Entreprise"
-date: 2026-04-02
-youtube_url: "https://youtu.be/lvrwFUNJcAw"
-youtube_video_id: "lvrwFUNJcAw"
+date: 2026-06-13
+publishDate: "2026-06-14T09:00:00"
+youtube_url: "https://youtu.be/lpzdc3SHCD8"
+youtube_video_id: "lpzdc3SHCD8"
 youtube_channel: "B"
 youtube_channel_handle: "@wetseatech"
 youtube_channel_url: "https://www.youtube.com/@wetseatech"
@@ -12,7 +13,7 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "🔒 Transformez vos données en rempart défensif grâce aux frameworks modernes de gouvernance et d'architecture sécurisée."
 cover:
-  image: "/covers/lvrwFUNJcAw.jpg"
+  image: "/covers/lpzdc3SHCD8.jpg"
   alt: "De la Donnée à la Défense : Architectures Sécurisées pour l'Entreprise"
   caption: "Cybersécurité"
 draft: false
@@ -20,7 +21,7 @@ catalogue_id: "5e6de649"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/lvrwFUNJcAw" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/lpzdc3SHCD8" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary
@@ -54,11 +55,10 @@ Sources :
 - [Gouvernance des données pour protection sociale numérique — SPDCI](https://spdci.org/wp-content/uploads/2025/11/251124_DCI_Data_Governance_framework_publication.pdf)
 ## Chapitres
 
-- `0:00` — Introduction
-- `0:35` — Valeur stratégique des données
-- `1:08` — Propriété et responsabilité
-- `1:40` — Data ownership expliqué
-- `2:13` — Rôle du gardien
+- `0:00` — Introduction & présentation
+- `0:32` — Les données, nouvel or noir
+- `1:38` — Propriété et responsabilité des données
+- `2:11` — Le rôle du data owner
 
 ## Ressources Wet & Sea Tech
 
