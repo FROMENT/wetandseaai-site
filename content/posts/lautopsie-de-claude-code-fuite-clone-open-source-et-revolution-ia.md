@@ -48,6 +48,15 @@ La fuite accidentelle du code source de Claude Code sur npm en 2025 a catalysé 
 - [AI Governance & Security Platform | Harmonic Security](https://www.harmonic.security/resources/security-lessons-from-claude-codes-first-year)
 - [After Anthropic Open-Sourced Its Source Code, It Issued Over 8,000 Copyright Takedown Notices](https://www.techflowpost.com/en-US/article/30966)
 - [Anthropic vs OpenAI vs Google: Three Different Bets on the Future of AI Agents](https://www.mindstudio.ai/blog/anthropic-vs-openai-vs-google-agent-strategy)
+## Chapitres
+
+- `0:00` — Introduction et contexte
+- `0:34` — La fuite accidentelle d'Anthropic
+- `1:09` — 512 000 lignes exposées
+- `1:41` — L'erreur de packaging expliquée
+- `2:14` — Performances de Claude Code
+- `3:34` — Impact et révolution IA
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

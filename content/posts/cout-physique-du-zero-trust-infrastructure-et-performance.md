@@ -49,6 +49,15 @@ L'adoption d'une architecture Zero Trust impose un surcoût matériel et computa
 - [Kubernetes pour les DSI : Bonnes pratiques, Sécurité et Multi-Cloud - DEEP](https://www.deep.eu/fr/ressources/articles-blog/cloud/au-quotidien/kubernetes-pour-les-dsi)
 - [Multi-Cloud Kubernetes Security: Challenges and Best Practices - ARMO Platform](https://www.armosec.io/blog/multi-cloud-kubernetes-security/)
 - [security whitepaper - Cloud Native Computing Foundation](https://www.cncf.io/wp-content/uploads/2022/06/CNCF_cloud-native-security-whitepaper-May2022-v2.pdf)
+## Chapitres
+
+- `0:00` — Introduction
+- `0:39` — Charge physique du Zero Trust
+- `1:19` — Paradigme : zéro confiance implicite
+- `1:54` — Mécanismes cachés du service mesh
+- `2:34` — Impact CPU et latence
+- `3:54` — Compromis sécurité et performance
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

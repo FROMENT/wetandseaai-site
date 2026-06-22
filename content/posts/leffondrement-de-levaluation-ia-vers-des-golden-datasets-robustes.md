@@ -55,6 +55,16 @@ Les méthodes d'évaluation traditionnelles des modèles d'IA montrent des lacun
 - [From production traces to better AI agents: Automating the LLMOps feedback loop](https://arize.com/blog/from-production-traces-to-better-ai-agents-automating-the-llmops-feedback-loop/)
 
 - [HKMA GenAI Sandbox Use Cases Summary](https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/251024-hsbc-hkma-genai-sandbox-use-cases-summary.pdf?sc_lang=en-GB)
+## Chapitres
+
+- `0:00` — Introduction et contexte
+- `1:07` — Fin du développement LGTM
+- `2:15` — Vers des pipelines automatisés
+- `2:48` — Effondrement de l'infrastructure d'évaluation
+- `6:30` — Pièges des traces mémoire
+- `7:30` — CI/CD strict pour les LLMs
+- `8:15` — L'ère des agents de code
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

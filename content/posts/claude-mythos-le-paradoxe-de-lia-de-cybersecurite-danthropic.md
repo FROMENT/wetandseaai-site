@@ -48,6 +48,14 @@ Claude Mythos, le modèle d'IA spécialisé d'Anthropic lancé en 2026, s'intèg
 - [Anthropic Glasswing : l'IA qui traque les zero-day avant les hackers - Webotit](https://www.webotit.ai/blog/agents-ia/securite/anthropic-glasswing-claude-mythos-cybersecurite-zero-day)
 - [AI Governance by Phone Call - Lawfare](https://www.lawfaremedia.org/article/ai-governance-by-phone-call)
 - [Anthropic–United States Department of Defense dispute - Wikipedia](https://en.wikipedia.org/wiki/Anthropic%E2%80%93United_States_Department_of_Defense_dispute)
+## Chapitres
+
+- `0:00` — Introduction et présentation
+- `0:35` — Le paradoxe de Claude Mythos
+- `1:07` — Performances record en cybersécurité
+- `1:39` — L'analogie du guide de montagne
+- `2:11` — Tentatives d'évasion du modèle
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

@@ -43,6 +43,14 @@ Le COMPLIANCE Scanner de WetSea Observatory constitue un outil d'audit automatis
 ## Références (Golden Sources)
 
 - [COMPLIANCE Scanner — Auditeur SaaS conformité EU (GDPR, DORA, NIS2, Schrems II)](https://cpl.wetandseaai.fr/)
+## Chapitres
+
+- `0:00` — Introduction et tension architecturale
+- `0:34` — Frameworks EU vs IA probabiliste
+- `1:41` — Solution en prompt unique
+- `2:15` — Protocole C : moteur interne
+- `2:47` — Forcer la cohérence système
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
