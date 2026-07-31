@@ -64,4 +64,4 @@ Access cards—whether RFID-based, smartcard, or hybrid architectures—represen
 
 **Shop :** https://wetseatech.etsy.com
 
-**More articles — Cybersecurity :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/
+**More articles — Cybersecurity :** https://wst-tech.org/tags/cybersecurity/

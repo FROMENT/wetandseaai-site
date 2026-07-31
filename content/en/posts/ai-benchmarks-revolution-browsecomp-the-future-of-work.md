@@ -66,4 +66,4 @@ BrowseComp represents a fundamental shift in AI evaluation methodology, moving b
 
 **Shop :** https://wetseatech.etsy.com
 
-**More articles — Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/
+**More articles — Prospective :** https://wst-tech.org/tags/prospective/

@@ -68,4 +68,4 @@ Sources :
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles DevOps & Cloud :** https://wetandseaai.pascal-froment.workers.dev/tags/devops-cloud/
+**Tous les articles DevOps & Cloud :** https://wst-tech.org/tags/devops-cloud/

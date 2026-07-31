@@ -55,4 +55,4 @@ La production de vidéos courtes lifestyle requiert une maîtrise technique des 
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles Lifestyle :** https://wetandseaai.pascal-froment.workers.dev/tags/lifestyle/
+**Tous les articles Lifestyle :** https://wst-tech.org/tags/lifestyle/

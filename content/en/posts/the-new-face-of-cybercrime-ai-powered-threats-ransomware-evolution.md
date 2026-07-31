@@ -57,4 +57,4 @@ Cybercriminal operations are undergoing structural professionalization in 2024, 
 
 **Shop :** https://wetseatech.etsy.com
 
-**More articles — Cybersecurity :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/
+**More articles — Cybersecurity :** https://wst-tech.org/tags/cybersecurity/

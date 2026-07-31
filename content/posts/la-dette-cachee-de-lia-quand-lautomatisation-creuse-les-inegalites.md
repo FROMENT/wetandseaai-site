@@ -64,4 +64,4 @@ L'intelligence artificielle, bien que prometteuse sur le plan productif, masque 
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/
+**Tous les articles Prospective :** https://wst-tech.org/tags/prospective/

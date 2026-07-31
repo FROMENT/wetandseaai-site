@@ -53,4 +53,4 @@ The Strangler Fig pattern represents a risk-mitigation approach to legacy system
 
 **Shop :** https://wetseatech.etsy.com
 
-**More articles — DevOps & Cloud :** https://wetandseaai.pascal-froment.workers.dev/tags/devops-cloud/
+**More articles — DevOps & Cloud :** https://wst-tech.org/tags/devops-cloud/

@@ -60,4 +60,4 @@ Sources :
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles Cybersécurité :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/
+**Tous les articles Cybersécurité :** https://wst-tech.org/tags/cybersecurity/

@@ -52,4 +52,4 @@ Artificial intelligence is reshaping historical preservation by automating digit
 
 **Shop :** https://wetseatech.etsy.com
 
-**More articles — Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/
+**More articles — Prospective :** https://wst-tech.org/tags/prospective/

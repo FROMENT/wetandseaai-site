@@ -60,4 +60,4 @@ L'Institut de sécurité de l'IA (AISI) a conduit une étude approfondie sur la 
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles Cybersécurité :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/
+**Tous les articles Cybersécurité :** https://wst-tech.org/tags/cybersecurity/

@@ -44,7 +44,7 @@ L'exposition de code source issu de Claude Opus 4.7 révèle une classe de vuln�
 
 ## Références (Golden Sources)
 
-- [Wet & Sea & IA](https://wetandseaai.pascal-froment.workers.dev/)
+- [Wet & Sea & IA](https://wst-tech.org/)
 ## Chapitres
 
 - `0:00` — Introduction
@@ -59,4 +59,4 @@ L'exposition de code source issu de Claude Opus 4.7 révèle une classe de vuln�
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles DevOps & Cloud :** https://wetandseaai.pascal-froment.workers.dev/tags/devops-cloud/
+**Tous les articles DevOps & Cloud :** https://wst-tech.org/tags/devops-cloud/

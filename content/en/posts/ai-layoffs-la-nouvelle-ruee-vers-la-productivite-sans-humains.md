@@ -60,4 +60,4 @@ Corporate workforce reductions justified by AI adoption represent a competitive 
 
 **Shop :** https://wetseatech.etsy.com
 
-**More articles — AI & Work :** https://wetandseaai.pascal-froment.workers.dev/tags/ia-travail/
+**More articles — AI & Work :** https://wst-tech.org/tags/ia-travail/

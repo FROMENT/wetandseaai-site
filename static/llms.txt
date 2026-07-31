@@ -1,6 +1,6 @@
 # Wet & Sea & IA — llms.txt
 # Standard d'indexation pour LLMs (Perplexity, ChatGPT, Gemini, Claude…)
-# Auteur : Pascal Froment | https://wetandseaai.pascal-froment.workers.dev
+# Auteur : Pascal Froment | https://wst-tech.org
 
 > Blog technique francophone sur l'IA au travail, la cybersécurité et le DevOps.
 > Contenu produit via pipeline NotebookLM + Python, publié sous CC BY-NC.
@@ -8,20 +8,20 @@
 
 ## Contenu principal
 
-- Articles : https://wetandseaai.pascal-froment.workers.dev/posts/
-- Sitemap XML complet : https://wetandseaai.pascal-froment.workers.dev/sitemap.xml
-- Version anglaise : https://wetandseaai.pascal-froment.workers.dev/en/
+- Articles : https://wst-tech.org/posts/
+- Sitemap XML complet : https://wst-tech.org/sitemap.xml
+- Version anglaise : https://wst-tech.org/en/
 
 ## Thèmes couverts
 
-- IA & Travail (automatisation, agents, LLM en entreprise) : https://wetandseaai.pascal-froment.workers.dev/tags/ia-travail/
-- Cybersécurité (gouvernance, DORA, NIS2, SecOps) : https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/
-- DevOps & Cloud (CI/CD, Kubernetes, IaC, FinOps) : https://wetandseaai.pascal-froment.workers.dev/tags/devops-cloud/
-- Prospective (tendances tech, société numérique) : https://wetandseaai.pascal-froment.workers.dev/tags/prospective/
+- IA & Travail (automatisation, agents, LLM en entreprise) : https://wst-tech.org/tags/ia-travail/
+- Cybersécurité (gouvernance, DORA, NIS2, SecOps) : https://wst-tech.org/tags/cybersecurity/
+- DevOps & Cloud (CI/CD, Kubernetes, IaC, FinOps) : https://wst-tech.org/tags/devops-cloud/
+- Prospective (tendances tech, société numérique) : https://wst-tech.org/tags/prospective/
 
 ## À propos
 
-- Page auteur : https://wetandseaai.pascal-froment.workers.dev/about/
+- Page auteur : https://wst-tech.org/about/
 - Boutique : https://wetseatech.etsy.com
 - Contact : pascal.froment@gmail.com
 

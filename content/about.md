@@ -24,7 +24,7 @@ La chaîne YouTube et ce blog sont **co-rédigés avec [NotebookLM](https://note
 
 ## Où nous retrouver
 
-- 🌐 **Site principal** — [wetandseaai.fr](https://wetandseaai.fr/)
+- 🌐 **Site principal** — [wst-tech.org](https://wst-tech.org/)
 - 📺 **Chaîne YouTube** — [Discover All-In 360](https://www.youtube.com/@DISCOVER-ALLIN360)
 - 🎧 **Podcast Spotify** — [Wet & Sea & IA](https://open.spotify.com/show/0oYaiUgc05GR03ERhV9uEr)
 

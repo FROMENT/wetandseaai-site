@@ -54,4 +54,4 @@ The Didier Raoult case represents a watershed moment in French academic governan
 
 **Shop :** https://wetseatech.etsy.com
 
-**More articles — Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/
+**More articles — Prospective :** https://wst-tech.org/tags/prospective/

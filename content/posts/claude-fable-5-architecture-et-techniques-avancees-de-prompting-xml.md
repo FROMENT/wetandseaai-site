@@ -62,4 +62,4 @@ Claude Fable 5 d'Anthropic introduit une architecture optimisée pour les charge
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles DevOps & Cloud :** https://wetandseaai.pascal-froment.workers.dev/tags/devops-cloud/
+**Tous les articles DevOps & Cloud :** https://wst-tech.org/tags/devops-cloud/

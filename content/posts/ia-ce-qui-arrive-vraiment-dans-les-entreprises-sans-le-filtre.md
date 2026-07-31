@@ -55,4 +55,4 @@ L'adoption de l'IA dans les entreprises en 2025 se caractérise par une transiti
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles IA & Travail :** https://wetandseaai.pascal-froment.workers.dev/tags/ia-travail/
+**Tous les articles IA & Travail :** https://wst-tech.org/tags/ia-travail/

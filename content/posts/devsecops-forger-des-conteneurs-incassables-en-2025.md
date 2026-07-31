@@ -69,4 +69,4 @@ La sécurisation des conteneurs en 2025 repose sur l'intégration systématique 
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles DevOps & Cloud :** https://wetandseaai.pascal-froment.workers.dev/tags/devops-cloud/
+**Tous les articles DevOps & Cloud :** https://wst-tech.org/tags/devops-cloud/

@@ -58,4 +58,4 @@ Sources :
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles IA & Travail :** https://wetandseaai.pascal-froment.workers.dev/tags/ia-travail/
+**Tous les articles IA & Travail :** https://wst-tech.org/tags/ia-travail/

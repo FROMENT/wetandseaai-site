@@ -24,7 +24,7 @@ The YouTube channel and this blog are **co-authored with [NotebookLM](https://no
 
 ## Where to find us
 
-- 🌐 **Main site** — [wetandseaai.fr](https://wetandseaai.fr/)
+- 🌐 **Main site** — [wst-tech.org](https://wst-tech.org/)
 - 📺 **YouTube channel** — [Discover All-In 360](https://www.youtube.com/@DISCOVER-ALLIN360)
 - 🎧 **Spotify podcast** — [Wet & Sea & AI](https://open.spotify.com/show/0oYaiUgc05GR03ERhV9uEr)
 

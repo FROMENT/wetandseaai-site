@@ -44,7 +44,7 @@ La sécurité logique constitue un pilier du développement logiciel moderne, bi
 ## Références (Golden Sources)
 
 Sources :
-- [La Sécurité Logique : Bouclier, Forteresse Et Loupe Pour Votre Développement](https://wetandseaai.fr/la-securite-logique-bouclier-forteresse-et-loupe-pour-votre-developpement/)
+- [La Sécurité Logique : Bouclier, Forteresse Et Loupe Pour Votre Développement](https://wst-tech.org/la-securite-logique-bouclier-forteresse-et-loupe-pour-votre-developpement/)
 ## Chapitres
 
 - `0:00` — Introduction
@@ -58,4 +58,4 @@ Sources :
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles Cybersécurité :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/
+**Tous les articles Cybersécurité :** https://wst-tech.org/tags/cybersecurity/

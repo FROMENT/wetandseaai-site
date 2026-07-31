@@ -57,4 +57,4 @@ Cet article synthétise une approche comportementale du bien-être quotidien bas
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles Lifestyle :** https://wetandseaai.pascal-froment.workers.dev/tags/lifestyle/
+**Tous les articles Lifestyle :** https://wst-tech.org/tags/lifestyle/

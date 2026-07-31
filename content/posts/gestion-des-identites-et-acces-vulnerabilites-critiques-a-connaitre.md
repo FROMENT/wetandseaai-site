@@ -52,4 +52,4 @@ La gestion des identités et des accès constitue le socle de la posture de séc
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles Cybersécurité :** https://wetandseaai.pascal-froment.workers.dev/tags/cybersecurity/
+**Tous les articles Cybersécurité :** https://wst-tech.org/tags/cybersecurity/

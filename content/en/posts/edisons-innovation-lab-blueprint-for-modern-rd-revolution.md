@@ -60,4 +60,4 @@ Thomas Edison's establishment of the first systematic industrial research labora
 
 **Shop :** https://wetseatech.etsy.com
 
-**More articles — Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/
+**More articles — Prospective :** https://wst-tech.org/tags/prospective/

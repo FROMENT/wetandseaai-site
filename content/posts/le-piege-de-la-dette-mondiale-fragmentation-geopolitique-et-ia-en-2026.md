@@ -55,4 +55,4 @@ L'article examine les interactions entre accumulation de dette souveraine, redé
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/
+**Tous les articles Prospective :** https://wst-tech.org/tags/prospective/

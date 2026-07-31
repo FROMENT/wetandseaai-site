@@ -57,4 +57,4 @@ France's institutional and economic instability presents a dual-edged scenario f
 
 **Shop :** https://wetseatech.etsy.com
 
-**More articles — Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/
+**More articles — Prospective :** https://wst-tech.org/tags/prospective/

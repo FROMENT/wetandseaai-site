@@ -53,4 +53,4 @@ La publication d'un article de recherche de Google portant sur l'optimisation m√
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles IA & Travail :** https://wetandseaai.pascal-froment.workers.dev/tags/ia-travail/
+**Tous les articles IA & Travail :** https://wst-tech.org/tags/ia-travail/

@@ -63,4 +63,4 @@ L'automatisation par l'IA transforme l'organisation physique et fonctionnelle de
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles IA & Travail :** https://wetandseaai.pascal-froment.workers.dev/tags/ia-travail/
+**Tous les articles IA & Travail :** https://wst-tech.org/tags/ia-travail/

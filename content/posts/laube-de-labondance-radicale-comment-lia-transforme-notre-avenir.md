@@ -65,4 +65,4 @@ Google DeepMind consolide sa position de leader en intelligence artificielle par
 
 **Boutique :** https://wetseatech.etsy.com
 
-**Tous les articles Prospective :** https://wetandseaai.pascal-froment.workers.dev/tags/prospective/
+**Tous les articles Prospective :** https://wst-tech.org/tags/prospective/
