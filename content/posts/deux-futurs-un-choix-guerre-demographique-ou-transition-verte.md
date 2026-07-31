@@ -3,10 +3,10 @@ title: "Deux futurs, un choix : guerre démographique ou transition verte ?"
 date: 2026-04-02
 youtube_url: "https://youtu.be/HhTozl4tu34"
 youtube_video_id: "HhTozl4tu34"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
@@ -63,7 +63,7 @@ La vidéo explore un dilemme prospectif fondamental : comment les sociétés mod
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

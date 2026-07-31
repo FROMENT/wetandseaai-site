@@ -3,10 +3,10 @@ title: "L'Aube de l'Abondance Radicale : Comment l'IA Transforme Notre Avenir"
 date: 2026-04-01
 youtube_url: "https://youtu.be/AqTDo_8qDVA"
 youtube_video_id: "AqTDo_8qDVA"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
@@ -59,7 +59,7 @@ Google DeepMind consolide sa position de leader en intelligence artificielle par
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

@@ -3,10 +3,10 @@ title: "L'Humanité face à l'IA : Deux Futurs Possibles selon DeepMind"
 date: 2026-04-01
 youtube_url: "https://youtu.be/J48o2gd7OyM"
 youtube_video_id: "J48o2gd7OyM"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
@@ -58,7 +58,7 @@ Sources :
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

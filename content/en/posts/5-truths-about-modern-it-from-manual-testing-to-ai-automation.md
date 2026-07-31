@@ -3,10 +3,10 @@ title: "5 Truths About Modern IT: From Manual Testing to AI Automation"
 date: 2026-04-02
 youtube_url: "https://youtu.be/eCCRInF9rm4"
 youtube_video_id: "eCCRInF9rm4"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
@@ -56,7 +56,7 @@ Modern IT organizations face a critical paradox: while automation frameworks and
 
 ## Wet & Sea Tech Resources
 
-**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Shop :** https://wetseatech.etsy.com
 

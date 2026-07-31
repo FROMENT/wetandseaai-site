@@ -3,10 +3,10 @@ title: "DevSecOps Container Security: Complete Guide to Secure Pipelines"
 date: 2026-04-02
 youtube_url: "https://youtu.be/5tyXztj-bEE"
 youtube_video_id: "5tyXztj-bEE"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
@@ -59,7 +59,7 @@ Container security within DevSecOps pipelines represents a critical operational 
 
 ## Wet & Sea Tech Resources
 
-**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Shop :** https://wetseatech.etsy.com
 

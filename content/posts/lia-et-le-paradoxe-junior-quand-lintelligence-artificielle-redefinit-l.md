@@ -3,10 +3,10 @@ title: "L'IA et le Paradoxe Junior : Quand l'Intelligence Artificielle Redéfini
 date: 2026-03-29
 youtube_url: "https://youtu.be/eH9wxA5SNA8"
 youtube_video_id: "eH9wxA5SNA8"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
@@ -61,7 +61,7 @@ L'IA redéfinit structurellement les emplois juniors en France et mondialement. 
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

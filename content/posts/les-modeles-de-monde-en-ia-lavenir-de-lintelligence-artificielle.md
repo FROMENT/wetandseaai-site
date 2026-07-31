@@ -1,8 +1,8 @@
 ---
 title: "Les Modèles de Monde en IA : L'Avenir de l'Intelligence Artificielle"
-date: 2026-03-29
-youtube_url: "https://youtu.be/q8bC5nvOsKU"
-youtube_video_id: "q8bC5nvOsKU"
+date: 2026-06-15
+youtube_url: "https://youtu.be/IyhNU4nwIEQ"
+youtube_video_id: "IyhNU4nwIEQ"
 youtube_channel: "B"
 youtube_channel_handle: "@wetseatech"
 youtube_channel_url: "https://www.youtube.com/@wetseatech"
@@ -12,7 +12,7 @@ categories: ["Prospective"]
 tags: ["prospective"]
 summary: "🚀 Découvrez comment Google DeepMind révolutionne l'IA avec ses modèles de monde et systèmes d'usage général ! De AlphaGo à AlphaFold, explorons les avancées qui façonnent notre futur technologique. Cette analyse prospective examine…"
 cover:
-  image: "/covers/q8bC5nvOsKU.jpg"
+  image: "/covers/IyhNU4nwIEQ.jpg"
   alt: "Les Modèles de Monde en IA : L'Avenir de l'Intelligence Artificielle"
   caption: "Prospective"
 draft: false
@@ -20,7 +20,7 @@ catalogue_id: "42959cc9"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/q8bC5nvOsKU" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/IyhNU4nwIEQ" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary
@@ -45,10 +45,12 @@ Les modèles de monde en intelligence artificielle représentent une évolution 
 - [60 of our biggest AI announcements in 2025 - The Keyword](https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/)
 ## Chapitres
 
-- `0:00` — Introduction
-- `0:35` — Plan de la vidéo
-- `1:08` — Limites des LLM actuels
-- `2:12` — Les modèles de monde
+- `0:00` — Introduction et présentation
+- `0:33` — La promesse des World Models
+- `1:04` — Plan de la vidéo
+- `1:38` — Limites des LLM actuels
+- `2:10` — Signal de Yann LeCun
+- `2:50` — Hallucinations et failles des LLM
 
 ## Ressources Wet & Sea Tech
 

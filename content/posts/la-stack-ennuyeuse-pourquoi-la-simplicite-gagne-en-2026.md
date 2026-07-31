@@ -3,10 +3,10 @@ title: "La Stack Ennuyeuse : Pourquoi la Simplicité Gagne en 2026"
 date: 2026-03-29
 youtube_url: "https://youtu.be/ExpA4oefT5Q"
 youtube_video_id: "ExpA4oefT5Q"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
@@ -60,7 +60,7 @@ En 2026, l'industrie DevOps abandonne progressivement les architectures complexe
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

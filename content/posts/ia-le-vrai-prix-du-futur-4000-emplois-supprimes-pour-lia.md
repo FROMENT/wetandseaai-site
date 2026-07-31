@@ -3,10 +3,10 @@ title: "IA : Le Vrai Prix du Futur - 4000 Emplois Supprimés pour l'IA"
 date: 2026-03-29
 youtube_url: "https://youtu.be/toy_3179KHY"
 youtube_video_id: "toy_3179KHY"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
@@ -57,7 +57,7 @@ La transformation numérique accélérée par l'IA redessine les modèles écono
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

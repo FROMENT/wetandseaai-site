@@ -3,10 +3,10 @@ title: "AI Benchmarks Revolution: BrowseComp & the Future of Work"
 date: 2026-03-29
 youtube_url: "https://youtu.be/Vkca7epglB8"
 youtube_video_id: "Vkca7epglB8"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
@@ -60,7 +60,7 @@ BrowseComp represents a fundamental shift in AI evaluation methodology, moving b
 
 ## Wet & Sea Tech Resources
 
-**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Shop :** https://wetseatech.etsy.com
 

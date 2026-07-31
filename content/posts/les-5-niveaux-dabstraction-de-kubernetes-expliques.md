@@ -1,8 +1,8 @@
 ---
 title: "Les 5 Niveaux d'Abstraction de Kubernetes Expliqués"
-date: 2026-04-01
-youtube_url: "https://youtu.be/VkrroaIVUHc"
-youtube_video_id: "VkrroaIVUHc"
+date: 2026-06-18
+youtube_url: "https://youtu.be/7C9LEnHSX6o"
+youtube_video_id: "7C9LEnHSX6o"
 youtube_channel: "B"
 youtube_channel_handle: "@wetseatech"
 youtube_channel_url: "https://www.youtube.com/@wetseatech"
@@ -12,7 +12,7 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "🎯 Maîtrisez Kubernetes en comprenant ses 5 niveaux d'abstraction fondamentaux !"
 cover:
-  image: "/covers/VkrroaIVUHc.jpg"
+  image: "/covers/7C9LEnHSX6o.jpg"
   alt: "Les 5 Niveaux d'Abstraction de Kubernetes Expliqués"
   caption: "DevOps & Cloud"
 draft: false
@@ -20,7 +20,7 @@ catalogue_id: "acb5f08c"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/VkrroaIVUHc" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/7C9LEnHSX6o" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 # Les 5 Niveaux d'Abstraction de Kubernetes Expliqués
@@ -57,9 +57,10 @@ Sources :
 ## Chapitres
 
 - `0:00` — Introduction
-- `0:35` — Platform Engineering - Niveau 1
-- `1:08` — Automatisation complète - Niveau 2
-- `2:14` — Sécurité intégrée - Niveau 3
+- `0:31` — Objectif : masquer la complexité
+- `1:04` — Niveau 1 : Platform Engineering
+- `1:37` — Niveau 2 : Automatisation & CI/CD
+- `2:10` — GitOps et source de vérité
 
 ## Ressources Wet & Sea Tech
 

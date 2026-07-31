@@ -1,8 +1,8 @@
 ---
 title: "IA : Menace ou Mentor ? Choisir la bonne posture face à l'IA"
-date: 2026-03-29
-youtube_url: "https://youtu.be/eZRYx-TWxsk"
-youtube_video_id: "eZRYx-TWxsk"
+date: 2026-06-15
+youtube_url: "https://youtu.be/dFzadJSU9q8"
+youtube_video_id: "dFzadJSU9q8"
 youtube_channel: "A"
 youtube_channel_handle: "@discover-allin360"
 youtube_channel_url: "https://www.youtube.com/@discover-allin360"
@@ -12,7 +12,7 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "Face à l'IA, deux postures dominent : la crainte de la substitution, ou l'enthousiasme naïf de la promesse. La réalité est plus nuancée — et ceux qui réussissent le mieux sont ceux qui traitent l'IA comme un mentor exigeant plutôt qu'une…"
 cover:
-  image: "/covers/eZRYx-TWxsk.jpg"
+  image: "/covers/dFzadJSU9q8.jpg"
   alt: "IA : Menace ou Mentor ? Choisir la bonne posture face à l'IA"
   caption: "IA & Travail"
 draft: false
@@ -20,7 +20,7 @@ catalogue_id: "bc749884"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/eZRYx-TWxsk" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/dFzadJSU9q8" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary
@@ -51,10 +51,10 @@ La relation des organisations et des individus à l'IA se cristallise autour de 
 - [AI and the New Metrics of Work Performance](https://www.techclass.com/resources/learning-and-development-articles/ai-and-new-metrics-of-work-what-should-we-measure-now)
 ## Chapitres
 
-- `0:00` — Introduction Discover 360
-- `0:36` — Décharge cognitive : menace cachée
-- `1:09` — Nouveau modèle collaboratif
-- `1:36` — Compétences de jugement
+- `0:00` — Introduction & présentation
+- `0:36` — La décharge cognitive expliquée
+- `1:09` — L'IA comme partenaire d'apprentissage
+- `1:42` — Le jugement : compétence du futur
 
 ## Ressources Wet & Sea Tech
 
