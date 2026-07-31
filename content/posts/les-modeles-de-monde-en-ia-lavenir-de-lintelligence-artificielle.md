@@ -1,6 +1,8 @@
 ---
 title: "Les Modèles de Monde en IA : L'Avenir de l'Intelligence Artificielle"
 date: 2026-06-15
+aliases:
+  - /2026/03/les-modeles-de-monde-la-cle-de-lia-generale-selon-les-chercheurs/
 youtube_url: "https://youtu.be/IyhNU4nwIEQ"
 youtube_video_id: "IyhNU4nwIEQ"
 youtube_channel: "B"

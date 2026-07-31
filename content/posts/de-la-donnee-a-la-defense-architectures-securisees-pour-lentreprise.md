@@ -1,6 +1,8 @@
 ---
 title: "De la Donnée à la Défense : Architectures Sécurisées pour l'Entreprise"
 date: 2026-06-13
+aliases:
+  - /2026/04/de-la-donnee-a-la-defense-guide-cybersecurite-complete-2024/
 publishDate: "2026-06-14T09:00:00"
 youtube_url: "https://youtu.be/lpzdc3SHCD8"
 youtube_video_id: "lpzdc3SHCD8"

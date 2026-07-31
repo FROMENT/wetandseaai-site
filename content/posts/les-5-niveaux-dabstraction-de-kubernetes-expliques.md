@@ -1,6 +1,8 @@
 ---
 title: "Les 5 Niveaux d'Abstraction de Kubernetes Expliqués"
 date: 2026-06-18
+aliases:
+  - /2026/04/les-5-niveaux-dabstraction-de-kubernetes-expliques-clairement/
 youtube_url: "https://youtu.be/7C9LEnHSX6o"
 youtube_video_id: "7C9LEnHSX6o"
 youtube_channel: "B"
