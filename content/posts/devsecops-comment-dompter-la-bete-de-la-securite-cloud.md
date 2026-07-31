@@ -1,6 +1,8 @@
 ---
 title: "DevSecOps : Comment Dompter la Bête de la Sécurité Cloud"
 date: 2026-04-02
+aliases:
+  - /2026/04/dompter-la-bete-devops-cloud-conteneurs-et-automatisation/
 youtube_url: "https://youtu.be/netbe0Xb7VU"
 youtube_video_id: "netbe0Xb7VU"
 youtube_channel: "A"

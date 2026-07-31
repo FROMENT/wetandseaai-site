@@ -1,6 +1,8 @@
 ---
 title: "Authentification Numérique : Vulnérabilités & Solutions Modernes"
 date: 2026-03-29
+aliases:
+  - /2026/03/authentification-numerique-enjeux-et-menaces-en-2025/
 youtube_url: "https://youtu.be/nCdtLxLrmws"
 youtube_video_id: "nCdtLxLrmws"
 youtube_channel: "A"

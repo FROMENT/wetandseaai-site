@@ -1,6 +1,8 @@
 ---
 title: "Sécuriser vos Conteneurs Java : Guide DevSecOps Complet"
 date: 2026-04-02
+aliases:
+  - /2026/04/conteneurisation-java-docker-kubernetes-pour-devops/
 youtube_url: "https://youtu.be/LfuCtnEWUew"
 youtube_video_id: "LfuCtnEWUew"
 youtube_channel: "A"

@@ -1,6 +1,8 @@
 ---
 title: "Le Vrai Coût de l'Automatisation des Tests : ROI et Pièges à Éviter"
 date: 2026-04-02
+aliases:
+  - /2026/04/le-vrai-cout-de-lautomatisation-devops-roi-et-pieges-a-eviter/
 youtube_url: "https://youtu.be/d0A6MaFqRGo"
 youtube_video_id: "d0A6MaFqRGo"
 youtube_channel: "A"

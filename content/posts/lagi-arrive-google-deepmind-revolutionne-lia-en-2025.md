@@ -1,6 +1,8 @@
 ---
 title: "L'AGI arrive : Google DeepMind révolutionne l'IA en 2025"
 date: 2026-04-01
+aliases:
+  - /2026/04/la-revolution-agi-calendriers-scenarios-et-ce-quelle-change-vraiment/
 youtube_url: "https://youtu.be/05cSmQbu_B8"
 youtube_video_id: "05cSmQbu_B8"
 youtube_channel: "A"

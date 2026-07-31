@@ -1,6 +1,8 @@
 ---
 title: "OpenClaw : l'IA qui agit — les risques de l'autonomie non contrôlée"
 date: 2026-04-01
+aliases:
+  - /2026/04/openclaw-lia-autonome-qui-revolutionne-et-inquiete/
 youtube_url: "https://youtu.be/W7ndEUdrw58"
 youtube_video_id: "W7ndEUdrw58"
 theme: "cybersecurity"

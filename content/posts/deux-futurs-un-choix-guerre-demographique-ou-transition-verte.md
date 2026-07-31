@@ -1,6 +1,8 @@
 ---
 title: "Deux futurs, un choix : guerre démographique ou transition verte ?"
 date: 2026-04-02
+aliases:
+  - /2026/04/deux-futurs-un-choix-lia-va-t-elle-nous-sauver-ou-nous-detruire/
 youtube_url: "https://youtu.be/HhTozl4tu34"
 youtube_video_id: "HhTozl4tu34"
 youtube_channel: "A"

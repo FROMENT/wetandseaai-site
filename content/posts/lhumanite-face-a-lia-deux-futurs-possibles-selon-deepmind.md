@@ -1,6 +1,8 @@
 ---
 title: "L'Humanité face à l'IA : Deux Futurs Possibles selon DeepMind"
 date: 2026-04-01
+aliases:
+  - /2026/04/lhumanite-face-a-deux-futurs-quel-scenario-allons-nous-choisir-avec-li/
 youtube_url: "https://youtu.be/J48o2gd7OyM"
 youtube_video_id: "J48o2gd7OyM"
 youtube_channel: "A"

@@ -1,6 +1,8 @@
 ---
 title: "AI Benchmarks Revolution: BrowseComp & the Future of Work"
 date: 2026-03-29
+aliases:
+  - /2026/03/future-proofing-your-career-survivre-et-prosperer-a-lere-de-lia/
 youtube_url: "https://youtu.be/Vkca7epglB8"
 youtube_video_id: "Vkca7epglB8"
 youtube_channel: "A"

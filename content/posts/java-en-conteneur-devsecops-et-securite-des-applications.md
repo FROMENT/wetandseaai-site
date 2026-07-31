@@ -1,6 +1,8 @@
 ---
 title: "Java en Conteneur : DevSecOps et Sécurité des Applications"
 date: 2026-04-02
+aliases:
+  - /2026/04/java-en-conteneurs-guide-devops-cloud-pour-lentreprise/
 youtube_url: "https://youtu.be/aaQCBLxwUxg"
 youtube_video_id: "aaQCBLxwUxg"
 youtube_channel: "A"

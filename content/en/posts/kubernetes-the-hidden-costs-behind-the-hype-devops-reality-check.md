@@ -1,6 +1,8 @@
 ---
 title: "Kubernetes: The Hidden Costs Behind the Hype - DevOps Reality Check"
 date: 2026-03-29
+aliases:
+  - /2026/03/kubernetes-le-cout-cache-du-hype-technologique/
 youtube_url: "https://youtu.be/sgpgG8ooQd4"
 youtube_video_id: "sgpgG8ooQd4"
 youtube_channel: "A"

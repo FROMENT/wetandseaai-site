@@ -1,6 +1,8 @@
 ---
 title: "La Stack Ennuyeuse : Pourquoi la Simplicité Gagne en 2026"
 date: 2026-03-29
+aliases:
+  - /2026/03/la-stack-ennuyeuse-pourquoi-les-techs-eprouvees-gagnent-toujours/
 youtube_url: "https://youtu.be/ExpA4oefT5Q"
 youtube_video_id: "ExpA4oefT5Q"
 youtube_channel: "A"

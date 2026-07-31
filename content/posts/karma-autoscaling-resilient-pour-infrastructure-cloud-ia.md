@@ -1,6 +1,8 @@
 ---
 title: "KARMA : Autoscaling Résilient pour Infrastructure Cloud IA"
 date: 2026-04-01
+aliases:
+  - /2026/04/karma-autoscaling-kubernetes-resilient-sous-contrainte-de-cout/
 youtube_url: "https://youtu.be/O8XKWonwH-I"
 youtube_video_id: "O8XKWonwH-I"
 youtube_channel: "A"

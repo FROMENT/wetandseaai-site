@@ -1,6 +1,8 @@
 ---
 title: "DevSecOps : Sécurité du Code au Cloud - Pipeline & Outils 2025"
 date: 2026-04-02
+aliases:
+  - /2026/04/securite-devops-du-code-au-cloud-guide-complet-2024/
 youtube_url: "https://youtu.be/kXJHDizx1Ng"
 youtube_video_id: "kXJHDizx1Ng"
 youtube_channel: "B"

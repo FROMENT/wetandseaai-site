@@ -1,6 +1,8 @@
 ---
 title: "IA : Le Vrai Prix du Futur - 4000 Emplois Supprimés pour l'IA"
 date: 2026-03-29
+aliases:
+  - /2026/03/ia-le-vrai-prix-du-futur-ce-que-personne-ne-calcule/
 youtube_url: "https://youtu.be/toy_3179KHY"
 youtube_video_id: "toy_3179KHY"
 youtube_channel: "A"

@@ -1,6 +1,8 @@
 ---
 title: "DevSecOps : Forger des Conteneurs Incassables en 2025"
 date: 2026-04-02
+aliases:
+  - /2026/04/forger-le-conteneur-incassable-securite-devops-cloud/
 youtube_url: "https://youtu.be/PbF2WljK5mg"
 youtube_video_id: "PbF2WljK5mg"
 youtube_channel: "A"

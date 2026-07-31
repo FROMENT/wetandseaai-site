@@ -1,6 +1,8 @@
 ---
 title: "Sécurité Logique : 3 Métaphores pour Développer Sans Vulnérabilités"
 date: 2026-04-04
+aliases:
+  - /2026/04/securite-logique-fondamentaux-et-meilleures-pratiques/
 youtube_url: "https://youtu.be/EsHE3n3Skyc"
 youtube_video_id: "EsHE3n3Skyc"
 youtube_channel: "B"

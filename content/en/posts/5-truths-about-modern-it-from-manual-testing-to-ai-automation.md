@@ -1,6 +1,8 @@
 ---
 title: "5 Truths About Modern IT: From Manual Testing to AI Automation"
 date: 2026-04-02
+aliases:
+  - /2026/04/5-verites-choquantes-sur-lit-moderne-que-personne-nose-dire/
 youtube_url: "https://youtu.be/eCCRInF9rm4"
 youtube_video_id: "eCCRInF9rm4"
 youtube_channel: "A"

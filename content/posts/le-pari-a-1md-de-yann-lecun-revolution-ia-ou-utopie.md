@@ -1,6 +1,8 @@
 ---
 title: "Le pari à 1Md$ de Yann LeCun : révolution IA ou utopie ?"
 date: 2026-04-01
+aliases:
+  - /2026/04/le-pari-a-1-md-de-lecun-lia-sans-transformers-va-t-elle-gagner/
 youtube_url: "https://youtu.be/AbA7EpUgIds"
 youtube_video_id: "AbA7EpUgIds"
 youtube_channel: "A"

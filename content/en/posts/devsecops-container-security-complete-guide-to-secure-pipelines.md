@@ -1,6 +1,8 @@
 ---
 title: "DevSecOps Container Security: Complete Guide to Secure Pipelines"
 date: 2026-04-02
+aliases:
+  - /2026/04/guide-complet-securite-des-conteneurs-docker-en-devops/
 youtube_url: "https://youtu.be/5tyXztj-bEE"
 youtube_video_id: "5tyXztj-bEE"
 youtube_channel: "A"

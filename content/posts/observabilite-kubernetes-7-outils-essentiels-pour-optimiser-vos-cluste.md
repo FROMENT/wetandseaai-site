@@ -1,6 +1,8 @@
 ---
 title: "Observabilité Kubernetes : 7 Outils Essentiels pour Optimiser vos Clusters"
 date: 2026-03-29
+aliases:
+  - /2026/03/observabilite-kubernetes-voir-dans-vos-clusters/
 youtube_url: "https://youtu.be/7C_dPRegk2U"
 youtube_video_id: "7C_dPRegk2U"
 youtube_channel: "A"

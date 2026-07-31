@@ -1,6 +1,8 @@
 ---
 title: "Le Paradoxe OpenClaw : quand la sécurité freine l'utilité de l'IA"
 date: 2026-04-01
+aliases:
+  - /2026/04/le-paradoxe-openclaw-ia-autonome-ou-menace-cyber/
 youtube_url: "https://youtu.be/JxxQKelgmE8"
 youtube_video_id: "JxxQKelgmE8"
 theme: "cybersecurity"

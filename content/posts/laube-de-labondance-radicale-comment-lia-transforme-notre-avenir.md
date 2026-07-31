@@ -1,6 +1,8 @@
 ---
 title: "L'Aube de l'Abondance Radicale : Comment l'IA Transforme Notre Avenir"
 date: 2026-04-01
+aliases:
+  - /2026/04/laube-de-labondance-radicale-lia-va-t-elle-tout-changer-pour-tous/
 youtube_url: "https://youtu.be/AqTDo_8qDVA"
 youtube_video_id: "AqTDo_8qDVA"
 youtube_channel: "A"

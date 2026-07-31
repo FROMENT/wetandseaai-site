@@ -1,6 +1,8 @@
 ---
 title: "L'IA et le Paradoxe Junior : Quand l'Intelligence Artificielle Redéfinit l'Emploi"
 date: 2026-03-29
+aliases:
+  - /2026/03/lia-et-le-paradoxe-junior-apprendre-sans-faire/
 youtube_url: "https://youtu.be/eH9wxA5SNA8"
 youtube_video_id: "eH9wxA5SNA8"
 youtube_channel: "A"

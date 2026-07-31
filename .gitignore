@@ -48,3 +48,6 @@ __pycache__/
 *.pyc
 *.log
 # <<< sync-repos managed block <<<
+
+# Quarantaine dédoublonnage 2026-07-31 (hors build Hugo)
+_quarantaine_*/

@@ -1,6 +1,8 @@
 ---
 title: "The ROI of Cybersecurity : mesurer ce qui ne s'est pas passé"
 date: 2026-04-01
+aliases:
+  - /2026/04/the-roi-of-cybersecurity-cost-effective-defense-strategies/
 youtube_url: "https://youtu.be/rgrnqWINT_0"
 youtube_video_id: "rgrnqWINT_0"
 theme: "cybersecurity"
