@@ -1,6 +1,6 @@
 ---
 title: "About"
-summary: "The Wet & Sea & AI project — how it's made, where to find us, how to support it."
+summary: "The WST — Wet & Sea Tech project — how it's made, where to find us, how to support it."
 ShowReadingTime: false
 ShowToc: false
 ShowBreadCrumbs: false
@@ -8,7 +8,7 @@ hideMeta: true
 draft: false
 ---
 
-## Wet & Sea & AI
+## WST — Wet & Sea Tech
 
 A personal monitoring space across four themes: **AI & Work**, **DevOps & Cloud**, **Cybersecurity** and **Foresight**. Short videos and concise articles to keep up with these topics without drowning in them.
 
@@ -25,8 +25,8 @@ The YouTube channel and this blog are **co-authored with [NotebookLM](https://no
 ## Where to find us
 
 - 🌐 **Main site** — [wst-tech.org](https://wst-tech.org/)
-- 📺 **YouTube channel** — [Discover All-In 360](https://www.youtube.com/@DISCOVER-ALLIN360)
-- 🎧 **Spotify podcast** — [Wet & Sea & AI](https://open.spotify.com/show/0oYaiUgc05GR03ERhV9uEr)
+- 📺 **YouTube channel** — [Wet & Sea Tech](https://www.youtube.com/@wetseatech)
+- 🎧 **Spotify podcast** — [WST — Wet & Sea Tech](https://open.spotify.com/show/0oYaiUgc05GR03ERhV9uEr)
 
 ## Support
 

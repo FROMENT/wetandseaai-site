@@ -44,7 +44,7 @@ L'exposition de code source issu de Claude Opus 4.7 révèle une classe de vuln�
 
 ## Références (Golden Sources)
 
-- [Wet & Sea & IA](https://wst-tech.org/)
+- [WST — Wet & Sea Tech](https://wst-tech.org/)
 ## Chapitres
 
 - `0:00` — Introduction
