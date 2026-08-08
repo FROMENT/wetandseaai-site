@@ -1,11 +1,14 @@
 /* ============================================================
    WST Observatory — extended/wst-home.css
-   Bloc éditorial de la page d'accueil (layouts/index.html).
+   Header sur mesure + bloc éditorial de la page d'accueil.
 
-   Palette et typographie : charte wetsea-observatory, identiques à
-   wst-theme.css — les variables --wst-* y sont déjà déclarées sur :root
-   et les polices (Spectral / IBM Plex Sans / IBM Plex Mono) déjà importées.
-   Ce fichier n'ajoute AUCUNE dépendance ni import.
+   PALETTE — arbitrage 2026-08-08, révisé le même jour.
+   La maquette WST (cyan saturé sur quasi-noir) est désormais la référence
+   pour le header et la home. Les tokens de la charte wetsea-observatory
+   (--wst-cyan, --wst-deep-navy…) sont VOLONTAIREMENT LAISSÉS INTACTS : les
+   pages /tags/ (wst-theme.css) s'appuient dessus et seraient repeintes.
+   Les couleurs de la maquette vivent donc dans de NOUVEAUX tokens --wst-ink*
+   et --wst-cyan-bright, utilisés seulement ici.
 
    Redéclaration défensive : Hugo concatène les feuilles de extended/ par
    ordre alphabétique — wst-home.css passe AVANT wst-theme.css. Les variables
@@ -13,24 +16,187 @@
    ============================================================ */
 
 :root {
+  /* Charte wetsea-observatory — ne pas modifier, partagé avec wst-theme.css */
   --wst-deep-navy:   #0A1A2B;
   --wst-graphite:    #2A2F36;
   --wst-cyan:        #5E8FA3;
   --wst-ocean-green: #1D3A3A;
   --wst-off-white:   #F2F1EC;
   --wst-mineral:     #C9BDA8;
+
+  /* Maquette WST — header + home uniquement */
+  --wst-ink:         #05080D;   /* fond quasi noir */
+  --wst-ink-2:       #0B121A;   /* panneaux, cartouches */
+  --wst-cyan-bright: #12BFE3;   /* accent saturé */
+  --wst-cyan-dim:    rgba(18, 191, 227, 0.42);
+  --wst-line:        rgba(140, 170, 190, 0.20);
+  --wst-text:        #E8ECF0;
+  --wst-text-soft:   rgba(232, 236, 240, 0.62);
 }
 
-/* ── Hero ──────────────────────────────────────────────────────────────── */
+/* ═══ Header ═══════════════════════════════════════════════════════════════
+   Sombre en permanence, thème clair compris : c'est l'identité de la maquette.
+   Une variante claire à moitié réussie serait pire que l'inversion assumée. */
+
+.wst-header {
+  background: var(--wst-ink);
+  border-bottom: 1px solid var(--wst-line);
+  color: var(--wst-text);
+}
+
+.wst-header__inner {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 4vw, 3rem);
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.1rem clamp(1.25rem, 4vw, 2.5rem);
+}
+
+/* ── Mot-marque ────────────────────────────────────────────────────────── */
+
+.wst-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  text-decoration: none;
+  color: var(--wst-text);
+  flex: 0 0 auto;
+}
+
+.wst-brand__mark {
+  display: block;
+  width: 34px;
+  height: 34px;
+  color: var(--wst-cyan-bright);
+}
+.wst-brand__mark svg { display: block; width: 100%; height: 100%; }
+
+.wst-brand__text {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.wst-brand__tech {
+  color: var(--wst-cyan-bright);
+  margin-left: 0.5em;
+}
+
+/* ── Navigation ────────────────────────────────────────────────────────── */
+
+.wst-nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.1rem, 3vw, 2.6rem);
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.wst-nav__link {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--wst-text-soft);
+  white-space: nowrap;
+  transition: color 0.18s ease;
+}
+.wst-nav__link:hover,
+.wst-nav__link:focus-visible,
+.wst-nav__link.is-active { color: var(--wst-text); }
+
+/* ── Zone droite ───────────────────────────────────────────────────────── */
+
+.wst-header__aside {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+.wst-header__yt {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.05rem;
+  border: 1px solid var(--wst-line);
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 0.84rem;
+  text-decoration: none;
+  color: var(--wst-text);
+  white-space: nowrap;
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+.wst-header__yt:hover,
+.wst-header__yt:focus-visible {
+  border-color: var(--wst-cyan-bright);
+  color: var(--wst-cyan-bright);
+}
+.wst-header__ext { font-size: 0.85em; opacity: 0.85; }
+
+/* Bascules thème + langue — héritées de PaperMod, recolorées pour le fond sombre */
+.wst-header__switches {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.wst-header .theme-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  color: var(--wst-text-soft);
+  transition: color 0.18s ease;
+}
+.wst-header .theme-toggle:hover { color: var(--wst-cyan-bright); }
+.wst-header__lang {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wst-header__lang a {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.76rem;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: var(--wst-text-soft);
+  transition: color 0.18s ease;
+}
+.wst-header__lang a:hover { color: var(--wst-cyan-bright); }
+
+@media (max-width: 900px) {
+  .wst-header__inner { flex-wrap: wrap; gap: 0.9rem 1.5rem; }
+  .wst-nav { order: 3; width: 100%; margin: 0; overflow-x: auto; }
+  .wst-header__aside { margin-left: auto; }
+}
+@media (max-width: 520px) {
+  .wst-brand__text { letter-spacing: 0.14em; font-size: 0.84rem; }
+  .wst-header__yt { padding: 0.5rem 0.8rem; font-size: 0.78rem; }
+}
+
+/* ═══ Hero pleine hauteur ══════════════════════════════════════════════════
+   Full-bleed : la home vit dans .main, borné par --main-width. La paire
+   width:100vw + margin-inline:calc(50% - 50vw) sort le hero de ce cadre. */
 
 .wst-hero {
   position: relative;
-  margin: 1.5rem 0 3rem;
-  padding: clamp(2rem, 5vw, 3.5rem) clamp(1.25rem, 4vw, 3rem);
-  border-radius: 6px;
-  background: var(--wst-deep-navy);
-  color: var(--wst-off-white);
-  overflow: hidden;
+  width: 100vw;
+  max-width: 100vw;
+  margin-inline: calc(50% - 50vw);
+  margin-block: 0 3.5rem;
+  padding: clamp(2.5rem, 6vw, 5rem) clamp(1.25rem, 4vw, 2.5rem) 0;
+  background: var(--wst-ink);
+  color: var(--wst-text);
+  overflow: hidden;   /* garde-fou : 100vw inclut la barre de défilement */
 }
 
 /* Profondeur secondaire — dégradé sobre, sans blob ni halo. */
@@ -38,44 +204,67 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(160deg, rgba(29, 58, 58, 0.55) 0%, rgba(10, 26, 43, 0) 62%);
+  background: radial-gradient(120% 90% at 78% 45%, rgba(18, 191, 227, 0.07) 0%, rgba(5, 8, 13, 0) 60%);
   pointer-events: none;
 }
 
-.wst-hero > * { position: relative; }
+.wst-hero__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(2rem, 5vw, 4rem);
+  max-width: 1440px;
+  min-height: min(74vh, 720px);
+  margin: 0 auto;
+}
+
+/* ── Colonne éditoriale ────────────────────────────────────────────────── */
 
 .wst-hero__eyebrow {
-  margin: 0 0 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin: 0 0 1.6rem;
   font-family: "IBM Plex Mono", ui-monospace, monospace;
   font-size: 0.76rem;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: var(--wst-cyan);
+  color: var(--wst-text-soft);
+}
+.wst-hero__rule {
+  display: block;
+  width: 46px;
+  height: 1px;
+  background: var(--wst-cyan-bright);
+  flex: 0 0 auto;
 }
 
 .wst-hero__title {
-  margin: 0 0 1.1rem;
-  max-width: 18ch;
-  font-family: "Spectral", Georgia, serif;
-  font-weight: 600;
-  font-size: clamp(2.1rem, 6vw, 3.6rem);
-  line-height: 1.08;
-  letter-spacing: -0.018em;
-  color: var(--wst-off-white);
+  margin: 0 0 1.5rem;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.4rem, 6.4vw, 5.2rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
 }
-
+/* « debout. » — seul mot en Spectral italique, comme la maquette */
 .wst-hero__title em {
-  font-style: normal;
-  color: var(--wst-cyan);
+  font-family: "Spectral", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--wst-cyan-bright);
 }
 
 .wst-hero__lede {
-  margin: 0 0 2rem;
-  max-width: 58ch;
+  margin: 0 0 2.6rem;
+  max-width: 46ch;
   font-family: "IBM Plex Sans", system-ui, sans-serif;
-  font-size: clamp(1rem, 1.6vw, 1.12rem);
-  line-height: 1.7;
-  color: var(--wst-mineral);
+  font-size: clamp(1rem, 1.5vw, 1.22rem);
+  line-height: 1.65;
+  color: var(--wst-text-soft);
 }
 
 /* ── Boutons ───────────────────────────────────────────────────────────── */
@@ -83,111 +272,173 @@
 .wst-hero__actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .wst-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  padding: 0.72rem 1.4rem;
+  gap: 0.6rem;
+  padding: 0.95rem 1.7rem;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 0;              /* angles vifs — maquette */
   font-family: "IBM Plex Sans", system-ui, sans-serif;
-  font-size: 0.94rem;
+  font-size: 0.95rem;
   font-weight: 500;
-  letter-spacing: 0.01em;
   text-decoration: none;
   transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
 }
 
 .wst-btn--primary {
-  background: var(--wst-cyan);
-  color: var(--wst-deep-navy);
+  background: var(--wst-cyan-bright);
+  color: var(--wst-ink);
 }
 .wst-btn--primary:hover,
 .wst-btn--primary:focus-visible {
-  background: var(--wst-off-white);
-  color: var(--wst-deep-navy);
+  background: #FFFFFF;
+  color: var(--wst-ink);
 }
 
 .wst-btn--ghost {
-  border-color: rgba(242, 241, 236, 0.34);
-  color: var(--wst-off-white);
+  border-color: var(--wst-line);
+  color: var(--wst-text);
 }
 .wst-btn--ghost:hover,
 .wst-btn--ghost:focus-visible {
-  border-color: var(--wst-cyan);
-  color: var(--wst-cyan);
+  border-color: var(--wst-cyan-bright);
+  color: var(--wst-cyan-bright);
 }
 
-.wst-btn:focus-visible {
-  outline: 2px solid var(--wst-off-white);
-  outline-offset: 3px;
+.wst-btn:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 3px; }
+.wst-btn__arrow,
+.wst-btn__ext { font-size: 0.9em; }
+
+/* ── Radar « SYSTEMS MAP » ─────────────────────────────────────────────────
+   Conteneur carré : les cartouches sont positionnées en % de ce carré, donc
+   elles suivent le cercle quelle que soit la largeur. */
+
+.wst-hero__map { display: flex; justify-content: center; }
+
+.wst-map {
+  position: relative;
+  width: min(100%, 560px);
+  aspect-ratio: 1;
+  color: var(--wst-cyan-bright);
 }
 
-.wst-btn__ext { font-size: 0.85em; opacity: 0.8; }
-
-/* ── Cartographie décorative ───────────────────────────────────────────── */
-
-.wst-hero__map {
-  height: clamp(84px, 13vw, 140px);
-  margin: 2.1rem 0 0;
-  color: var(--wst-cyan);
-  opacity: 0.5;
-}
-.wst-hero__map svg { display: block; width: 100%; height: 100%; }
-.wst-map__links path { opacity: 0.45; }
-.wst-map__nodes circle {
-  opacity: 0.85;
-  animation: wst-node-pulse 5.5s ease-in-out infinite;
-  animation-delay: calc(var(--i, 0) * 0.7s);
+.wst-map__svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation: wst-map-in 1.1s ease-out both;
 }
 
-@keyframes wst-node-pulse {
-  0%, 100% { opacity: 0.85; }
-  50%      { opacity: 0.35; }
+@keyframes wst-map-in {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
 }
 
-/* ── Bandeau thématique ────────────────────────────────────────────────── */
+/* Noyau central */
+.wst-map__core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  width: 40%;
+  aspect-ratio: 1;
+  border: 1px solid var(--wst-cyan-dim);
+  background: rgba(11, 18, 26, 0.55);
+}
+.wst-map__mark {
+  width: 26px;
+  height: 26px;
+  color: var(--wst-cyan-bright);
+  opacity: 0.9;
+}
+.wst-map__mark svg { display: block; width: 100%; height: 100%; }
+.wst-map__title {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: clamp(0.95rem, 2vw, 1.3rem);
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-indent: 0.3em;
+  color: #FFFFFF;
+}
+.wst-map__sub {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--wst-text-soft);
+}
 
-.wst-band { margin: 0 0 3.5rem; }
+/* Cartouches — vrais liens vers les pages tag */
+.wst-map__node {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.85rem;
+  border-left: 2px solid var(--wst-cyan-bright);
+  background: rgba(11, 18, 26, 0.92);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: clamp(0.66rem, 1.15vw, 0.8rem);
+  text-decoration: none;
+  color: var(--wst-text);
+  white-space: nowrap;
+  transition: background-color 0.18s ease, color 0.18s ease;
+}
+.wst-map__node:hover,
+.wst-map__node:focus-visible {
+  background: rgba(18, 191, 227, 0.16);
+  color: #FFFFFF;
+}
+.wst-map__num { color: var(--wst-cyan-bright); }
 
-.wst-band__list {
+.wst-map__node--01 { top: 14%; left: -4%; }
+.wst-map__node--02 { top: 4%;  right: -8%; }
+.wst-map__node--03 { bottom: 16%; left: -8%; }
+.wst-map__node--04 { bottom: 4%;  right: -6%; }
+
+/* ── Ticker ────────────────────────────────────────────────────────────── */
+
+.wst-ticker {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 0 clamp(1.5rem, 5vw, 4rem);
+  max-width: 1440px;
+  margin: clamp(2rem, 5vw, 3.5rem) auto 0;
+  padding: 1.15rem 0;
+  border-top: 1px solid var(--wst-line);
   list-style: none;
 }
-
-.wst-band__item a {
+.wst-ticker__item {
   display: inline-flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  padding: 0.5rem 0.95rem;
-  border: 1px solid rgba(94, 143, 163, 0.38);
-  border-radius: 3px;
+  align-items: center;
   font-family: "IBM Plex Sans", system-ui, sans-serif;
-  font-size: 0.88rem;
-  text-decoration: none;
-  color: inherit;
-  transition: border-color 0.18s ease, background-color 0.18s ease;
+  font-size: 0.74rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--wst-text-soft);
 }
-.wst-band__item a:hover,
-.wst-band__item a:focus-visible {
-  border-color: var(--wst-cyan);
-  background: rgba(94, 143, 163, 0.10);
-}
-
-.wst-band__count {
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 0.76rem;
-  color: var(--wst-cyan);
+.wst-ticker__item + .wst-ticker__item::before {
+  content: "◆";
+  margin-right: clamp(1.5rem, 5vw, 4rem);
+  font-size: 0.55em;
+  letter-spacing: 0;
+  color: var(--wst-cyan-bright);
 }
 
-/* ── Manifeste ─────────────────────────────────────────────────────────── */
+/* ═══ Sections sous le hero ════════════════════════════════════════════════
+   Elles vivent dans le flux normal de .main et suivent le thème PaperMod. */
 
 .wst-manifest { margin: 0 0 3.5rem; }
 
@@ -196,8 +447,7 @@
   width: 56px;
   height: 1px;
   margin: 0 0 1.25rem;
-  background: var(--wst-cyan);
-  opacity: 0.6;
+  background: var(--wst-cyan-bright);
 }
 
 .wst-manifest__title {
@@ -228,7 +478,7 @@
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--wst-cyan);
+  color: var(--wst-cyan-bright);
 }
 
 .wst-territories__grid {
@@ -245,16 +495,24 @@
   flex-direction: column;
   height: 100%;
   padding: 1.4rem 1.3rem;
-  border: 1px solid rgba(94, 143, 163, 0.26);
-  border-radius: 4px;
+  border: 1px solid var(--wst-line);
   text-decoration: none;
   color: inherit;
   transition: border-color 0.18s ease, transform 0.18s ease;
 }
 .wst-territory__link:hover,
 .wst-territory__link:focus-visible {
-  border-color: var(--wst-cyan);
+  border-color: var(--wst-cyan-bright);
   transform: translateY(-2px);
+}
+
+.wst-territory__num {
+  display: block;
+  margin: 0 0 0.6rem;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--wst-cyan-bright);
 }
 
 .wst-territory__name {
@@ -278,7 +536,7 @@
   font-family: "IBM Plex Mono", ui-monospace, monospace;
   font-size: 0.76rem;
   letter-spacing: 0.06em;
-  color: var(--wst-cyan);
+  opacity: 0.75;
 }
 
 /* ── Titre « Dernières publications » ──────────────────────────────────── */
@@ -286,32 +544,34 @@
 .wst-latest__title {
   margin: 0 0 1.2rem;
   padding-top: 1.6rem;
-  border-top: 1px solid rgba(94, 143, 163, 0.24);
+  border-top: 1px solid var(--wst-line);
   font-family: "IBM Plex Mono", ui-monospace, monospace;
   font-size: 0.78rem;
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--wst-cyan);
+  color: var(--wst-cyan-bright);
 }
 
-/* ── Thème clair PaperMod ──────────────────────────────────────────────── */
-/* Le hero garde son fond sombre (bloc éditorial autonome, contraste vérifié).
-   Le reste s'aligne sur le fond de page pour rester lisible. */
+/* ── Thème clair PaperMod ──────────────────────────────────────────────────
+   Header et hero gardent leur fond sombre (blocs autonomes). Seuls les accents
+   des sections en flux sont assombris pour rester lisibles sur fond clair. */
 
-:root:not([data-theme="dark"]) .wst-band__item a { border-color: rgba(32, 75, 115, 0.30); }
-:root:not([data-theme="dark"]) .wst-band__count,
 :root:not([data-theme="dark"]) .wst-territories__title,
-:root:not([data-theme="dark"]) .wst-territory__count,
-:root:not([data-theme="dark"]) .wst-latest__title { color: #3C6F84; }
+:root:not([data-theme="dark"]) .wst-latest__title,
+:root:not([data-theme="dark"]) .wst-territory__num { color: #0E7E97; }
+:root:not([data-theme="dark"]) .wst-manifest__rule { background: #0E7E97; }
 :root:not([data-theme="dark"]) .wst-territory__link { border-color: rgba(10, 26, 43, 0.14); }
+:root:not([data-theme="dark"]) .wst-territory__link:hover { border-color: #0E7E97; }
+:root:not([data-theme="dark"]) .wst-latest__title { border-top-color: rgba(10, 26, 43, 0.14); }
 
 /* ── Accessibilité : mouvement réduit ──────────────────────────────────── */
 
 @media (prefers-reduced-motion: reduce) {
-  .wst-map__nodes circle { animation: none; opacity: 0.8; }
+  .wst-map__svg { animation: none; }
   .wst-btn,
-  .wst-band__item a,
+  .wst-nav__link,
+  .wst-map__node,
   .wst-territory__link { transition: none; }
   .wst-territory__link:hover,
   .wst-territory__link:focus-visible { transform: none; }
@@ -319,9 +579,24 @@
 
 /* ── Responsive ────────────────────────────────────────────────────────── */
 
+@media (max-width: 1024px) {
+  .wst-hero__grid { grid-template-columns: 1fr; min-height: 0; }
+  .wst-hero__map { margin-top: 1rem; }
+  .wst-map { width: min(100%, 440px); }
+  /* Les cartouches débordaient hors du carré : on les ramène à l'intérieur. */
+  .wst-map__node--01 { left: 0; }
+  .wst-map__node--02 { right: 0; }
+  .wst-map__node--03 { left: 0; }
+  .wst-map__node--04 { right: 0; }
+}
+
 @media (max-width: 560px) {
-  .wst-hero { padding: 2rem 1.25rem; }
-  .wst-hero__map { margin-top: 2rem; opacity: 0.4; }
+  .wst-hero { padding-top: 2rem; }
   .wst-hero__actions .wst-btn { flex: 1 1 100%; justify-content: center; }
   .wst-territories__grid { grid-template-columns: 1fr; }
+  /* Sous 560px les cartouches se chevauchent : la carte redevient décorative,
+     les quatre territoires restent accessibles par la section plus bas. */
+  .wst-map__node { display: none; }
+  .wst-ticker { gap: 0.5rem 1.5rem; }
+  .wst-ticker__item + .wst-ticker__item::before { margin-right: 1.5rem; }
 }
