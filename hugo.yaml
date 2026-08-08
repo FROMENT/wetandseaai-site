@@ -62,7 +62,11 @@ taxonomies:
 # ── PaperMod params ────────────────────────────────────────────────────────
 params:
   env: production
-  goatcounterCode: "VOTRE_CODE"  # À remplacer : code choisi lors inscription goatcounter.com
+  # goatcounterCode: ""   # DÉSACTIVÉ 2026-08-08 — le placeholder "VOTRE_CODE" était
+  #   truthy : extend_head.html injectait <script data-goatcounter=
+  #   "https://VOTRE_CODE.goatcounter.com/count"> sur chaque page et extend_footer.html
+  #   y faisait un fetch(). Zéro mesure + une requête externe en échec par page vue.
+  #   Décommenter AVEC un vrai code obtenu sur goatcounter.com pour réactiver les deux.
   author: Pascal Froment
   defaultTheme: auto
   ShowReadingTime: true

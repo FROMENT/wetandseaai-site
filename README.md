@@ -80,7 +80,7 @@ Tout dans `hugo.yaml` :
 `wrangler.toml` à la racine :
 
 ```toml
-name = "wetandseaai-site"
+name = "wetandseaai"
 compatibility_date = "2025-04-01"
 
 [assets]
@@ -208,9 +208,9 @@ Sections corps :
 | Service | URL |
 |---|---|
 | **Dashboard Cloudflare** | https://dash.cloudflare.com/b9a839dbd21aa26dc8e50a35c57187d8/home |
-| **Projet Workers** | https://dash.cloudflare.com/b9a839dbd21aa26dc8e50a35c57187d8/workers/services/view/wetandseaai-site/production |
-| **Builds** | https://dash.cloudflare.com/b9a839dbd21aa26dc8e50a35c57187d8/workers/services/view/wetandseaai-site/production/builds |
-| **Settings (custom domain)** | https://dash.cloudflare.com/b9a839dbd21aa26dc8e50a35c57187d8/workers/services/view/wetandseaai-site/production/settings |
+| **Projet Workers** | https://dash.cloudflare.com/b9a839dbd21aa26dc8e50a35c57187d8/workers/services/view/wetandseaai/production |
+| **Builds** | https://dash.cloudflare.com/b9a839dbd21aa26dc8e50a35c57187d8/workers/services/view/wetandseaai/production/builds |
+| **Settings (custom domain)** | https://dash.cloudflare.com/b9a839dbd21aa26dc8e50a35c57187d8/workers/services/view/wetandseaai/production/settings |
 | **Repo GitHub** | https://github.com/FROMENT/wetandseaai-site |
 | **Panel o2switch (DNS wetandseaai.fr)** | https://www.o2switch.fr/clients/ |
 | **YouTube Studio** | https://studio.youtube.com/ |
