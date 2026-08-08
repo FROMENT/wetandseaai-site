@@ -1,9 +1,8 @@
 ---
 title: "Claude Opus 4.7 : La révolution de l'IA autonome d'Anthropic"
-date: 2026-04-17
-publishDate: "2026-06-05T17:00:00"
-youtube_url: "https://youtu.be/iNyDLHpqfwg"
-youtube_video_id: "iNyDLHpqfwg"
+date: 2026-07-17
+youtube_url: "https://youtu.be/7IvLMrzszqA"
+youtube_video_id: "7IvLMrzszqA"
 youtube_channel: "A"
 youtube_channel_handle: "@discover-allin360"
 youtube_channel_url: "https://www.youtube.com/@discover-allin360"
@@ -13,7 +12,7 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "Claude Opus 4.7 marque une révolution dans l'IA autonome avec ses capacités avancées en codage, ingénierie logicielle et gestion de tâches complexes."
 cover:
-  image: "/covers/iNyDLHpqfwg.jpg"
+  image: "/covers/7IvLMrzszqA.jpg"
   alt: "Claude Opus 4.7 : La révolution de l'IA autonome d'Anthropic"
   caption: "IA & Travail"
 draft: false
@@ -21,7 +20,7 @@ catalogue_id: "560cd5ce"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/iNyDLHpqfwg" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/7IvLMrzszqA" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary
@@ -43,12 +42,11 @@ Sources :
 - [Prompting Best Practices — Claude API Documentation](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
 ## Chapitres
 
-- `0:00` — Introduction
-- `1:06` — Nouveau niveau d'autonomie
+- `0:00` — Introduction et présentation
+- `0:35` — Témoignage terrain de Devin
+- `1:06` — Le travail agentique expliqué
+- `1:39` — Les capacités d'autonomie
 - `2:12` — Avancées techniques majeures
-- `4:24` — Expérience développeurs
-- `5:30` — Cybersécurité et fiabilité
-- `6:06` — Avenir collaboration IA
 
 ## Ressources Wet & Sea Tech
 

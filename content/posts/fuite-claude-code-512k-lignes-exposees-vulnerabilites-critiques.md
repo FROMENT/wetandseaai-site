@@ -1,8 +1,8 @@
 ---
 title: "Fuite Claude Code : 512k lignes exposées, vulnérabilités critiques"
-date: 2026-04-16
-youtube_url: "https://youtu.be/1Lq0iTq0Czs"
-youtube_video_id: "1Lq0iTq0Czs"
+date: 2026-07-17
+youtube_url: "https://youtu.be/chN74X3BJ_4"
+youtube_video_id: "chN74X3BJ_4"
 youtube_channel: "A"
 youtube_channel_handle: "@discover-allin360"
 youtube_channel_url: "https://www.youtube.com/@discover-allin360"
@@ -12,7 +12,7 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "🚨 Anthropic face à sa plus grave faille de sécurité : 512 000 lignes du code source de Claude accidentellement exposées via un fichier npm mal configuré !"
 cover:
-  image: "/covers/1Lq0iTq0Czs.jpg"
+  image: "/covers/chN74X3BJ_4.jpg"
   alt: "Fuite Claude Code : 512k lignes exposées, vulnérabilités critiques"
   caption: "IA & Travail"
 draft: false
@@ -20,7 +20,7 @@ catalogue_id: "d7a35d7c"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/1Lq0iTq0Czs" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/chN74X3BJ_4" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary
@@ -47,10 +47,10 @@ Sources :
 ## Chapitres
 
 - `0:00` — Introduction
-- `0:33` — Constitution Claude d'Anthropic
-- `1:46` — Fuite de code accidentelle
-- `2:46` — Vulnérabilités critiques découvertes
-- `4:06` — Conséquences et leçons
+- `0:33` — La Constitution Claude d'Anthropic
+- `1:41` — La fuite de 512k lignes de code
+- `2:46` — L'ironie du mode undercover
+- `3:46` — Vulnérabilités critiques découvertes
 
 ## Ressources Wet & Sea Tech
 
