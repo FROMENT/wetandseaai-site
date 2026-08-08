@@ -42,7 +42,7 @@ Installer Hugo et Node 20+ (Wrangler requirement) :
 ```bash
 brew install hugo node@20
 export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
-hugo version           # 0.160.1 ou plus récent
+hugo version           # 0.164.0 ou plus récent
 node --version         # v20.x.x
 ```
 
@@ -92,7 +92,7 @@ Variables d'environnement build (à définir dans le dashboard Cloudflare) :
 
 | Nom | Valeur |
 |---|---|
-| `HUGO_VERSION` | `0.160.1` |
+| `HUGO_VERSION` | `0.164.0` |
 
 ---
 
@@ -129,7 +129,7 @@ Cloudflare détecte le push et déclenche un build :
 
 ```
 1. Clone repo
-2. Installe Hugo 0.160.1
+2. Installe Hugo 0.164.0
 3. Exécute `hugo --gc --minify` → génère public/
 4. Exécute `npx wrangler deploy` → upload public/ vers edge
 5. Site live en ~30 secondes
