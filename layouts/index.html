@@ -1,0 +1,248 @@
+{{- /*
+  layouts/index.html — Page d'accueil WST (override PaperMod _default/list.html)
+  ─────────────────────────────────────────────────────────────────────────────
+  Objectif : hero pleine hauteur conforme à la maquette (bandeau d'accroche,
+  radar « SYSTEMS MAP », ticker), suivi du manifeste, des territoires et de la
+  liste d'articles.
+
+  CONTRAINTE DE ROUTES — la home est paginée (12 pages FR, 3 EN au 2026-08-08).
+  Le bloc éditorial n'est rendu que sur `$paginator.PageNumber == 1` ; la liste
+  et la pagination reproduisent list.html à l'identique, donc /page/2/ … /page/N/
+  restent générées et indexables. Ne pas transformer cette page en landing non
+  paginée : cela supprimerait des URL déjà référencées.
+
+  Données : uniquement des valeurs réelles issues des taxonomies du site.
+  Aucun compte, article ou service n'est écrit en dur — un territoire dont le
+  tag est vide n'est pas rendu, cartouche du radar comprise.
+
+  Palette : maquette WST (arbitrage Pascal 2026-08-08, révisé le même jour —
+  la palette saturée de la maquette EST reprise, via les tokens --wst-ink et
+  --wst-cyan-bright ajoutés dans wst-home.css. Les tokens de la charte
+  wetsea-observatory restent inchangés pour ne pas repeindre /tags/).
+  Styles : assets/css/extended/wst-home.css
+*/ -}}
+{{- define "main" }}
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+{{- $paginator := .Paginate $pages }}
+{{- $isFR := eq .Site.Language.Lang "fr" }}
+
+{{- if eq $paginator.PageNumber 1 }}
+{{- /* ── Territoires éditoriaux : comptes RÉELS lus dans la taxonomie ──────
+       `num` sert de coordonnée au radar (01…04) et de classe de position. */ -}}
+{{- $territoires := slice
+      (dict "num" "01" "tag" "ia-travail"    "fr" "Intelligence artificielle" "en" "Artificial intelligence"
+            "dfr" "Modèles, agents, usages au travail." "den" "Models, agents, workplace uses.")
+      (dict "num" "02" "tag" "cybersecurity" "fr" "Cybersécurité"             "en" "Cybersecurity"
+            "dfr" "Surfaces d'attaque, incidents, conformité." "den" "Attack surfaces, incidents, compliance.")
+      (dict "num" "03" "tag" "devops-cloud"  "fr" "Cloud & DevOps"            "en" "Cloud & DevOps"
+            "dfr" "Infrastructures, chaînes de livraison, exploitation." "den" "Infrastructure, delivery chains, operations.")
+      (dict "num" "04" "tag" "prospective"   "fr" "Prospective"               "en" "Foresight"
+            "dfr" "Trajectoires longues, souveraineté, ruptures." "den" "Long trajectories, sovereignty, disruptions.")
+}}
+
+{{- /* ══ Hero pleine hauteur ═══════════════════════════════════════════════ */ -}}
+<section class="wst-hero" aria-labelledby="wst-hero-title">
+  <div class="wst-hero__grid">
+
+    {{- /* ── Colonne éditoriale ───────────────────────────────────────── */ -}}
+    <div class="wst-hero__copy">
+      <p class="wst-hero__eyebrow">
+        <span class="wst-hero__rule" aria-hidden="true"></span>
+        {{ if $isFR }}Veille · Analyse · Transmission{{ else }}Monitoring · Analysis · Transmission{{ end }}
+      </p>
+
+      <h1 class="wst-hero__title" id="wst-hero-title">
+        {{- if $isFR -}}
+          La technologie<br>qui tient <em>debout</em>.
+        {{- else -}}
+          Technology<br>that <em>stands</em>.
+        {{- end -}}
+      </h1>
+
+      <p class="wst-hero__lede">
+        {{- if $isFR -}}
+          Comprendre les systèmes qui structurent le monde — avant qu'ils ne
+          deviennent invisibles.
+        {{- else -}}
+          Understanding the systems that shape the world — before they become
+          invisible.
+        {{- end -}}
+      </p>
+
+      <div class="wst-hero__actions">
+        <a class="wst-btn wst-btn--primary" href="{{ "posts/" | relLangURL }}">
+          {{ if $isFR }}Lire les analyses{{ else }}Read the analyses{{ end }}
+          <span class="wst-btn__arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="wst-btn wst-btn--ghost" href="https://www.youtube.com/@wetseatech"
+           target="_blank" rel="noopener noreferrer">
+          {{ if $isFR }}Voir les vidéos{{ else }}Watch the videos{{ end }}
+          <span class="wst-btn__ext" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
+
+    {{- /* ── Radar « SYSTEMS MAP » ─────────────────────────────────────────
+           Le SVG est purement décoratif (aria-hidden) : cercles, réticule et
+           noyau central. Les quatre cartouches sont de VRAIS liens HTML posés
+           par-dessus en CSS — jamais du texte dans le SVG, qui ne serait ni
+           sélectionnable, ni traduisible, ni lisible par un lecteur d'écran. */ -}}
+    <div class="wst-hero__map">
+      <div class="wst-map">
+        <svg class="wst-map__svg" viewBox="0 0 520 520" aria-hidden="true"
+             role="presentation" focusable="false" preserveAspectRatio="xMidYMid meet">
+          <g fill="none" stroke="currentColor">
+            <circle cx="260" cy="260" r="248" stroke-width="1"
+                    stroke-dasharray="3 7" opacity="0.35" />
+            <circle cx="260" cy="260" r="150" stroke-width="1" opacity="0.28" />
+            <line x1="12"  y1="260" x2="508" y2="260" stroke-width="1" opacity="0.22" />
+            <line x1="260" y1="12"  x2="260" y2="508" stroke-width="1" opacity="0.22" />
+          </g>
+        </svg>
+
+        <span class="wst-map__core" aria-hidden="true">
+          <span class="wst-map__mark">
+            <svg viewBox="0 0 44 44" focusable="false" role="presentation">
+              <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+                <line x1="15" y1="26" x2="18" y2="18" />
+                <line x1="21" y1="27" x2="24" y2="17" />
+                <line x1="27" y1="26" x2="30" y2="19" />
+              </g>
+            </svg>
+          </span>
+          <span class="wst-map__title">WST</span>
+          <span class="wst-map__sub">Systems map</span>
+        </span>
+
+        {{- range $territoires }}
+        {{- $count := 0 }}
+        {{- with index site.Taxonomies.tags .tag }}{{ $count = len .Pages }}{{ end }}
+        {{- if gt $count 0 }}
+        <a class="wst-map__node wst-map__node--{{ .num }}"
+           href="{{ (printf "tags/%s/" .tag) | relLangURL }}">
+          <span class="wst-map__num">{{ .num }}</span>
+          <span class="wst-map__label">{{ if $isFR }}{{ .fr }}{{ else }}{{ .en }}{{ end }}</span>
+        </a>
+        {{- end }}
+        {{- end }}
+      </div>
+    </div>
+
+  </div>
+
+  {{- /* ── Ticker bas de hero ──────────────────────────────────────────── */ -}}
+  <ul class="wst-ticker" aria-hidden="true">
+    {{- $ticker := cond $isFR
+          (slice "Intelligence" "Infrastructure cloud" "Souveraineté numérique" "Futurs")
+          (slice "Intelligence" "Cloud infrastructure" "Digital sovereignty" "Futures") }}
+    {{- range $ticker }}
+    <li class="wst-ticker__item">{{ . }}</li>
+    {{- end }}
+  </ul>
+</section>
+
+{{- /* ── Manifeste ───────────────────────────────────────────────────────── */ -}}
+<section class="wst-manifest" aria-labelledby="wst-manifest-title">
+  <span class="wst-manifest__rule" aria-hidden="true"></span>
+  <h2 class="wst-manifest__title" id="wst-manifest-title">
+    {{ if $isFR }}Pas de bruit. Des mécanismes.{{ else }}No noise. Mechanisms.{{ end }}
+  </h2>
+  <p class="wst-manifest__body">
+    {{ if $isFR -}}
+      Un système ne se comprend pas par ses communiqués. Chaque analyse part de
+      sources primaires — documentation, incidents, textes réglementaires — et
+      s'arrête là où la preuve s'arrête. Ce qui relève de l'hypothèse est signalé
+      comme tel.
+    {{- else -}}
+      A system is not understood through its press releases. Every analysis starts
+      from primary sources — documentation, incidents, regulatory texts — and stops
+      where the evidence stops. What is hypothesis is labelled as such.
+    {{- end }}
+  </p>
+</section>
+
+{{- /* ── Territoires éditoriaux ──────────────────────────────────────────── */ -}}
+<section class="wst-territories" aria-labelledby="wst-territories-title">
+  <h2 class="wst-territories__title" id="wst-territories-title">
+    {{ if $isFR }}Quatre territoires{{ else }}Four territories{{ end }}
+  </h2>
+  <ul class="wst-territories__grid">
+    {{- range $territoires }}
+    {{- $count := 0 }}
+    {{- with index site.Taxonomies.tags .tag }}{{ $count = len .Pages }}{{ end }}
+    {{- if gt $count 0 }}
+    <li class="wst-territory">
+      <a class="wst-territory__link" href="{{ (printf "tags/%s/" .tag) | relLangURL }}">
+        <span class="wst-territory__num">{{ .num }}</span>
+        <h3 class="wst-territory__name">{{ if $isFR }}{{ .fr }}{{ else }}{{ .en }}{{ end }}</h3>
+        <p class="wst-territory__desc">{{ if $isFR }}{{ .dfr }}{{ else }}{{ .den }}{{ end }}</p>
+        <p class="wst-territory__count">
+          {{ $count }}
+          {{ if $isFR }}{{ if gt $count 1 }}analyses{{ else }}analyse{{ end }}{{ else }}{{ if gt $count 1 }}analyses{{ else }}analysis{{ end }}{{ end }}
+        </p>
+      </a>
+    </li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</section>
+
+{{- /* ── Dernières publications : en-tête de la liste réelle ci-dessous ──── */ -}}
+<h2 class="wst-latest__title">
+  {{ if $isFR }}Dernières publications{{ else }}Latest publications{{ end }}
+</h2>
+{{- end }}{{/* end PageNumber 1 */}}
+
+{{- /* ═══ Liste + pagination — reproduction fidèle de PaperMod list.html ═══ */ -}}
+{{- $term := .Data.Term }}
+{{- range $index, $page := $paginator.Pages }}
+
+{{- $class := "post-entry" }}
+{{- if $term }}{{ $class = "post-entry tag-entry" }}{{ end }}
+
+<article class="{{ $class }}">
+  {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+  {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{ .Title }}</h2>
+  </header>
+  {{- if (ne (.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+  {{- if not (.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      «&nbsp;{{ i18n "prev_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
+      {{- end }}
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      {{- i18n "next_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
+      {{- end }}&nbsp;»
+    </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}

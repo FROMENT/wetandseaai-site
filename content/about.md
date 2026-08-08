@@ -1,6 +1,6 @@
 ---
 title: "À propos"
-summary: "Le projet Wet & Sea & IA en quelques mots — comment il est fabriqué, où le retrouver, comment le soutenir."
+summary: "Le projet WST — Wet & Sea Tech en quelques mots — comment il est fabriqué, où le retrouver, comment le soutenir."
 ShowReadingTime: false
 ShowToc: false
 ShowBreadCrumbs: false
@@ -8,7 +8,7 @@ hideMeta: true
 draft: false
 ---
 
-## Wet & Sea & IA
+## WST — Wet & Sea Tech
 
 Un espace de veille personnel sur quatre thèmes : **IA & Travail**, **DevOps & Cloud**, **Cybersécurité** et **Prospective**. Vidéos courtes et articles synthétiques pour suivre l'évolution de ces sujets sans s'y noyer.
 
@@ -25,8 +25,8 @@ La chaîne YouTube et ce blog sont **co-rédigés avec [NotebookLM](https://note
 ## Où nous retrouver
 
 - 🌐 **Site principal** — [wst-tech.org](https://wst-tech.org/)
-- 📺 **Chaîne YouTube** — [Discover All-In 360](https://www.youtube.com/@DISCOVER-ALLIN360)
-- 🎧 **Podcast Spotify** — [Wet & Sea & IA](https://open.spotify.com/show/0oYaiUgc05GR03ERhV9uEr)
+- 📺 **Chaîne YouTube** — [Wet & Sea Tech](https://www.youtube.com/@wetseatech)
+- 🎧 **Podcast Spotify** — [WST — Wet & Sea Tech](https://open.spotify.com/show/0oYaiUgc05GR03ERhV9uEr)
 
 ## Soutenir
 

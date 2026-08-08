@@ -1,9 +1,10 @@
-# Wet & Sea & IA — Site
+# WST — Wet & Sea Tech — Site
 
-Site compagnon de la chaîne YouTube [@wetandseaai](https://www.youtube.com/@wetandseaai).
+Site compagnon des chaînes YouTube [@wetseatech](https://www.youtube.com/@wetseatech) (Cyber/DevOps)
+et [@discover-allin360](https://www.youtube.com/@discover-allin360) (IA & Travail).
 Articles auto-générés depuis le pipeline vidéo `~/Documents/Media/Videos/_cowork/`.
 
-**URL prod (cible)** : https://next.wetandseaai.fr (en cours de bascule DNS)
+**URL prod** : https://wst-tech.org
 **URL staging Cloudflare** : https://wetandseaai-site.pascal-froment.workers.dev
 
 ---
@@ -12,11 +13,11 @@ Articles auto-générés depuis le pipeline vidéo `~/Documents/Media/Videos/_co
 
 | Composant | Détail |
 |---|---|
-| Générateur | Hugo `0.160.1+extended` (binaire unique, Go) |
+| Générateur | Hugo `0.164.0+extended` (binaire unique, Go) |
 | Thème | [PaperMod](https://github.com/adityatelange/hugo-PaperMod) (submodule Git) |
 | Hébergement | Cloudflare Workers + Static Assets |
 | Build CI | Cloudflare automatique sur `git push origin main` |
-| Domaine | `next.wetandseaai.fr` (sous-domaine, root reste chez o2switch) |
+| Domaine | `wst-tech.org` |
 | Repo | https://github.com/FROMENT/wetandseaai-site |
 
 ---
@@ -41,7 +42,7 @@ Installer Hugo et Node 20+ (Wrangler requirement) :
 ```bash
 brew install hugo node@20
 export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
-hugo version           # 0.160.1 ou plus récent
+hugo version           # 0.164.0 ou plus récent
 node --version         # v20.x.x
 ```
 
@@ -65,7 +66,7 @@ Tout dans `hugo.yaml` :
 
 | Paramètre | Valeur |
 |---|---|
-| `baseURL` | `https://next.wetandseaai.fr/` (URL canonique pour SEO/RSS/og) |
+| `baseURL` | `https://wst-tech.org/` (URL canonique pour SEO/RSS/og) |
 | `defaultContentLanguage` | `fr` |
 | `theme` | `PaperMod` |
 | `permalinks.posts` | `/:year/:month/:slug/` |
@@ -91,7 +92,7 @@ Variables d'environnement build (à définir dans le dashboard Cloudflare) :
 
 | Nom | Valeur |
 |---|---|
-| `HUGO_VERSION` | `0.160.1` |
+| `HUGO_VERSION` | `0.164.0` |
 
 ---
 
@@ -128,7 +129,7 @@ Cloudflare détecte le push et déclenche un build :
 
 ```
 1. Clone repo
-2. Installe Hugo 0.160.1
+2. Installe Hugo 0.164.0
 3. Exécute `hugo --gc --minify` → génère public/
 4. Exécute `npx wrangler deploy` → upload public/ vers edge
 5. Site live en ~30 secondes

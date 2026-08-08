@@ -2,7 +2,7 @@
 # Stack : Hugo + PaperMod | Multilangue FR/EN | Build Cloudflare Pages
 
 baseURL: "https://wst-tech.org/"
-title: "Wet & Sea & IA"
+title: "WST — Wet & Sea Tech"
 theme: PaperMod
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
@@ -10,12 +10,12 @@ defaultContentLanguageInSubdir: false
 # ── Multilangue (aligné sur video_language du catalogue) ───────────────────
 languages:
   fr:
-    languageName: "Français"
-    languageCode: fr-FR
+    label: "Français"
+    locale: fr-FR
     weight: 1
-    title: "Wet & Sea & IA"
+    title: "WST — Wet & Sea Tech"
     params:
-      description: "Veille IA, DevOps, Cybersécurité et Prospective — par Pascal Froment"
+      description: "La tech qui tient debout — analyses IA, cybersécurité, cloud & DevOps et prospective, par Pascal Froment"
       keywords: ["IA","DevOps","Cybersécurité","Prospective","NotebookLM"]
     menu:
       main:
@@ -32,12 +32,12 @@ languages:
           url: /about/
           weight: 3
   en:
-    languageName: "English"
-    languageCode: en-US
+    label: "English"
+    locale: en-US
     weight: 2
-    title: "Wet & Sea & AI"
+    title: "WST — Wet & Sea Tech"
     params:
-      description: "AI, DevOps, Cybersecurity and Foresight — by Pascal Froment"
+      description: "Technology that stands — analyses on AI, cybersecurity, cloud & DevOps and foresight, by Pascal Froment"
     menu:
       main:
         - identifier: posts
@@ -79,7 +79,7 @@ params:
   hideMeta: false
   socialIcons:
     - name: youtube
-      url: "https://www.youtube.com/@DISCOVER-ALLIN360"
+      url: "https://www.youtube.com/@wetseatech"
     - name: spotify
       url: "https://open.spotify.com/show/0oYaiUgc05GR03ERhV9uEr"
     - name: rss

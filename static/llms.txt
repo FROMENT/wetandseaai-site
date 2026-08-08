@@ -1,4 +1,4 @@
-# Wet & Sea & IA — llms.txt
+# WST — Wet & Sea Tech — llms.txt
 # Standard d'indexation pour LLMs (Perplexity, ChatGPT, Gemini, Claude…)
 # Auteur : Pascal Froment | https://wst-tech.org
 
