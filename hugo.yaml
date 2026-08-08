@@ -62,11 +62,12 @@ taxonomies:
 # ── PaperMod params ────────────────────────────────────────────────────────
 params:
   env: production
-  # goatcounterCode: ""   # DÉSACTIVÉ 2026-08-08 — le placeholder "VOTRE_CODE" était
-  #   truthy : extend_head.html injectait <script data-goatcounter=
-  #   "https://VOTRE_CODE.goatcounter.com/count"> sur chaque page et extend_footer.html
-  #   y faisait un fetch(). Zéro mesure + une requête externe en échec par page vue.
-  #   Décommenter AVEC un vrai code obtenu sur goatcounter.com pour réactiver les deux.
+  # Code du compte goatcounter.com → https://wsttechorg.goatcounter.com/
+  # Toute valeur non vide active DEUX partials : le script de comptage dans
+  # extend_head.html et le compteur de vues des articles dans extend_footer.html.
+  # Ne jamais y laisser un placeholder : il serait truthy et enverrait chaque page
+  # vers un sous-domaine inexistant (cas rencontré le 2026-08-08 avec "VOTRE_CODE").
+  goatcounterCode: "wsttechorg"
   author: Pascal Froment
   defaultTheme: auto
   ShowReadingTime: true
