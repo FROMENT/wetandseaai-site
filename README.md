@@ -9,6 +9,25 @@ Articles auto-générés depuis le pipeline vidéo `~/Documents/Media/Videos/_co
 
 ---
 
+## État au 2026-08-08
+
+Repères à jour, vérifiés en production ce jour-là. Tout le reste du README détaille.
+
+| Quoi | Valeur | Où ça vit |
+|---|---|---|
+| Hugo | `extended_0.164.0` | local (brew) **et** `HUGO_VERSION` au dashboard Cloudflare |
+| Worker Cloudflare | **`wetandseaai`** | ⚠️ le dépôt GitHub, lui, s'appelle `wetandseaai-site` |
+| Branche de déploiement | `main` | build auto ; **pas de build de preview** sur les autres branches |
+| Audience | GoatCounter, compte `wsttechorg` | `params.goatcounterCode` dans `hugo.yaml` |
+| Thème | PaperMod `d376885` | submodule ; surcharges dans `layouts/` |
+| Home | header sur mesure + hero maquette WST | `layouts/partials/header.html`, `layouts/index.html`, `assets/css/extended/wst-home.css` |
+
+Trois pièges coûtent du temps si on les ignore — voir « Pièges connus » en fin de
+fichier : le nom du Worker, le bon bloc de variables au dashboard, et le fait
+qu'une valeur non vide dans `goatcounterCode` suffit à activer le tracking.
+
+---
+
 ## Stack
 
 | Composant | Détail |
