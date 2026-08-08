@@ -88,11 +88,23 @@ directory = "./public"
 not_found_handling = "404-page"
 ```
 
-Variables d'environnement build (à définir dans le dashboard Cloudflare) :
+Variables d'environnement build — **dashboard uniquement**, Cloudflare ne lit
+aucun fichier de version pour Hugo (ne pas poser de `.tool-versions` à la racine :
+le build tourne sur `asdf` et échouerait) :
 
 | Nom | Valeur |
 |---|---|
-| `HUGO_VERSION` | `0.164.0` |
+| `HUGO_VERSION` | `extended_0.164.0` |
+
+Le préfixe `extended_` n'est pas décoratif : sans lui, Cloudflare installe Hugo
+**standard** et PaperMod désactive silencieusement la génération des WebP
+(`hugo.IsExtended`). Le local, lui, est en `+extended` — sans le préfixe, prod et
+local ne produisent pas les mêmes images.
+
+Où : **Settings → section `Build` → `Variables and secrets`**. Attention, la page
+porte *deux* blocs « Variables and secrets » : celui du haut est le runtime,
+désactivé pour un Worker à assets statiques, et une variable posée là est ignorée
+sans message d'erreur.
 
 ---
 
@@ -129,7 +141,7 @@ Cloudflare détecte le push et déclenche un build :
 
 ```
 1. Clone repo
-2. Installe Hugo 0.164.0
+2. Installe Hugo `extended_0.164.0` (valeur de `HUGO_VERSION`)
 3. Exécute `hugo --gc --minify` → génère public/
 4. Exécute `npx wrangler deploy` → upload public/ vers edge
 5. Site live en ~30 secondes
@@ -226,6 +238,9 @@ Sections corps :
 | `lang:` dans frontmatter | Déprécié Hugo 0.144+, géré par placement `content/<lang>/` |
 | 404 sur `/posts/<slug>/` | Permalink `/:year/:month/:slug/` actif → URL = `/<year>/<month>/<slug>/` |
 | Vidéo YT « non disponible » sur le site | `embeddable=true` requis sur YT Studio. Batch via `_cowork/tools/youtube_enable_embed.py --apply` |
+| WebP absents en prod alors qu'ils sortent en local | `HUGO_VERSION` sans le préfixe `extended_` → Hugo standard côté Cloudflare. Vérifier la ligne de version dans le log de build : elle doit afficher `+extended` |
+| Une valeur non vide dans `params.goatcounterCode` suffit à activer le tracking | Un placeholder y est *truthy* : `extend_head.html` et `extend_footer.html` pointent alors vers un sous-domaine inexistant, sur chaque page. Laisser la clé commentée plutôt qu'une valeur bidon |
+| URL dashboard en `wetandseaai-site` → « Failed to find Worker » | Le Worker s'appelle **`wetandseaai`** ; seul le dépôt GitHub s'appelle `wetandseaai-site` |
 
 ---
 
@@ -239,4 +254,4 @@ Sections corps :
 
 ---
 
-*Dernière mise à jour : 2026-04-26*
+*Dernière mise à jour : 2026-08-08*
