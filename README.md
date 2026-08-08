@@ -96,10 +96,12 @@ le build tourne sur `asdf` et échouerait) :
 |---|---|
 | `HUGO_VERSION` | `extended_0.164.0` |
 
-Le préfixe `extended_` n'est pas décoratif : sans lui, Cloudflare installe Hugo
-**standard** et PaperMod désactive silencieusement la génération des WebP
-(`hugo.IsExtended`). Le local, lui, est en `+extended` — sans le préfixe, prod et
-local ne produisent pas les mêmes images.
+Le préfixe `extended_` aligne la prod sur le local (qui est en `+extended`).
+Attention à ne pas en attendre de gain : PaperMod teste `hugo.IsExtended` pour
+ajouter `webp` à la liste des formats acceptés **en entrée** — ça ne fait pas
+*produire* du WebP. Les covers du site étant en JPEG/SVG, le nombre d'images
+traitées est identique dans les deux modes (340, mesuré). L'intérêt réel est la
+parité local/prod, et la disponibilité de Sass/SCSS et des sources WebP.
 
 Où : **Settings → section `Build` → `Variables and secrets`**. Attention, la page
 porte *deux* blocs « Variables and secrets » : celui du haut est le runtime,
@@ -238,7 +240,7 @@ Sections corps :
 | `lang:` dans frontmatter | Déprécié Hugo 0.144+, géré par placement `content/<lang>/` |
 | 404 sur `/posts/<slug>/` | Permalink `/:year/:month/:slug/` actif → URL = `/<year>/<month>/<slug>/` |
 | Vidéo YT « non disponible » sur le site | `embeddable=true` requis sur YT Studio. Batch via `_cowork/tools/youtube_enable_embed.py --apply` |
-| WebP absents en prod alors qu'ils sortent en local | `HUGO_VERSION` sans le préfixe `extended_` → Hugo standard côté Cloudflare. Vérifier la ligne de version dans le log de build : elle doit afficher `+extended` |
+| Croire qu'`extended` va générer des WebP | Faux : `hugo.IsExtended` n'ajoute WebP qu'aux formats acceptés **en entrée**. Vérifier la ligne de version du log (`+extended`) pour la parité local/prod, mais « Processed images » ne bouge pas |
 | Une valeur non vide dans `params.goatcounterCode` suffit à activer le tracking | Un placeholder y est *truthy* : `extend_head.html` et `extend_footer.html` pointent alors vers un sous-domaine inexistant, sur chaque page. Laisser la clé commentée plutôt qu'une valeur bidon |
 | URL dashboard en `wetandseaai-site` → « Failed to find Worker » | Le Worker s'appelle **`wetandseaai`** ; seul le dépôt GitHub s'appelle `wetandseaai-site` |
 
