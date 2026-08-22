@@ -2,8 +2,8 @@
 title: "DeepSeek Harness : démystifier l'architecture des agents IA"
 date: 2026-08-22
 publishDate: "2026-08-25T09:00:00"
-youtube_url: "https://youtu.be/j3GE0X4hrNc"
-youtube_video_id: "j3GE0X4hrNc"
+youtube_url: "https://youtu.be/-RRP_OJMKyM"
+youtube_video_id: "-RRP_OJMKyM"
 youtube_channel: "B"
 youtube_channel_handle: "@wetseatech"
 youtube_channel_url: "https://www.youtube.com/@wetseatech"
@@ -13,7 +13,7 @@ categories: ["IA & Travail"]
 tags: ["ia-travail"]
 summary: "DeepSeek Harness et les agents IA autonomes décortiqués : architecture modulaire, plugins interchangeables et traçabilité totale des actions dans le développement logiciel."
 cover:
-  image: "/covers/j3GE0X4hrNc.jpg"
+  image: "/covers/-RRP_OJMKyM.jpg"
   alt: "DeepSeek Harness : démystifier l'architecture des agents IA"
   caption: "IA & Travail"
 draft: false
@@ -21,7 +21,7 @@ catalogue_id: "a98acc82"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/j3GE0X4hrNc" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/-RRP_OJMKyM" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Contexte
