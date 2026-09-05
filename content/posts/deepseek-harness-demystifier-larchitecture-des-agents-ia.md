@@ -1,7 +1,6 @@
 ---
 title: "DeepSeek Harness : démystifier l'architecture des agents IA"
 date: 2026-08-26
-publishDate: "2026-08-27T09:00:00"
 youtube_url: "https://youtu.be/jD3Qp1bkao4"
 youtube_video_id: "jD3Qp1bkao4"
 youtube_channel: "B"

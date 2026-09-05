@@ -1,7 +1,6 @@
 ---
 title: "Sécurité des agents IA : bacs à sable, MCP & défense en profondeur"
 date: 2026-08-22
-publishDate: "2026-08-25T09:00:00"
 youtube_url: "https://youtu.be/J1sc_kWU4Xk"
 youtube_video_id: "J1sc_kWU4Xk"
 youtube_channel: "B"
@@ -24,60 +23,32 @@ catalogue_id: "b07058a6"
   <iframe src="https://www.youtube.com/embed/J1sc_kWU4Xk" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Contexte
+## Executive Summary
 
-Ces sources traitent des défis de **sécurité** liés aux agents d'intelligence 
-artificielle et des solutions techniques pour limiter leur **rayon d'action**. 
-Les entreprises comme **Anthropic** et **Always Further** soulignent les risques
-d'accès non autorisé aux fichiers et aux réseaux, proposant l'utilisation de 
-**bacs à sable** au niveau du noyau pour isoler les processus. Des outils comme 
-**nono** et le protocole **MCP** permettent d'encadrer l'exécution de code tout 
-en optimisant la consommation de jetons grâce à une architecture modulaire. 
-L'approche privilégie une **défense en profondeur** combinant l'isolation 
-logicielle, l'audit cryptographique et une gestion stricte des permissions. 
-Enfin, ces documents illustrent une transition vers des systèmes **autonomes** 
-mais sécurisés, où le contrôle humain est soutenu par des barrières techniques 
-déterministes.
+Les agents d'intelligence artificielle introduisent des risques de sécurité distincts : accès non autorisé à des ressources sensibles, exécution de code incontrôlée et exposition accidentelle de credentials. Face à ces menaces, les équipes d'ingénierie chez Anthropic et Always Further implémentent une stratégie défensive multi-couches combinant l'isolation au niveau noyau, la gestion granulaire des permissions et l'audit cryptographique. Le protocole MCP (Model Context Protocol) et des outils comme nono permettent d'encadrer l'exécution du code générée par les agents tout en optimisant les coûts computationnels. Cette approche reconnaît que la confinement technique seul ne suffit pas : une défense efficace repose sur l'articulation entre sandboxing logiciel, contrôle d'accès strict et vérification continue.
+
+## Principaux points abordés
+
+- **Isolation au niveau noyau** — Les bacs à sable (sandbox) exploitent les primitives du noyau pour séparer complètement les processus d'agent des ressources système critiques, contenant ainsi les dégâts en cas de compromission.
+
+- **Gestion des identités et credentials** — L'utilisation de services IAM (comme AWS IAM Identity Center) permet de limiter les droits d'accès par rôle et de délivrer des tokens temporaires plutôt que des clés persistantes, réduisant la surface d'exposition.
+
+- **Protocole MCP pour l'exécution encadrée** — MCP établit un canal de communication standardisé entre agents et outils tiers, permettant à la fois la validation des appels et une facturation granulaire sans pénalité de latence.
+
+- **Outil nono et audit de code** — Solutions comme nono inspectent le code généré avant exécution, détectant les patterns suspects et appliquant une vérification cryptographique des artefacts sensibles.
+
+- **Limitation des permissions vs. flexibilité opérationnelle** — Bien que l'approche par moindre privilège renforce la sécurité, elle complique le déploiement en environnement d'entreprise où les équipes métier réclament des capacités étendues ; la granularité des rôles IAM offre un compromis partiel.
+
+- **Enjeu de gouvernance multi-tenants** — En contexte d'hébergement mutualisé, l'isolation devient critique : une faille dans un agent d'un client ne doit pas compromettre les données des autres ; Docker et la virtualisation complètent le sandboxing noyau.
 
 ## Références (Golden Sources)
 
-- [AI Agent Security & Kernel Sandboxing | Always Further](https://alwaysfurther.ai/)
-- [API keys - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/api-keys.html)
-- [API keys for AWS services - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_api_keys_for_aws_services.html)
-- [AWS IAM Identity Center concepts for the AWS CLI - AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso-concepts.html)
-- [Always Further · GitHub](https://github.com/always-further)
-- [Amazon Web Services Documentation](https://docs.aws.amazon.com/solutions/latest/guidance-for-claude-code-with-amazon-bedrock/)
-- [Authentication - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/iam)
-- [Claude Code deployment patterns and best practices with Amazon Bedrock | Artificial Intelligence](https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/)
-- [Claude Code on Amazon Bedrock - Claude Code Docs](https://code.claude.com/docs/en/amazon-bedrock)
-- [Claude Code settings - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/settings)
 - [Code execution with MCP: building more efficient AI agents \ Anthropic](https://www.anthropic.com/engineering/code-execution-with-mcp)
-- [Configuring IAM Identity Center authentication with the AWS CLI - AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html)
+- [AI Agent Security & Kernel Sandboxing | Always Further](https://alwaysfurther.ai/)
+- [Authentication - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/iam)
 - [Connect Claude Code to tools via MCP - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/mcp)
-- [Docker Docs](https://docs.docker.com/)
-- [Enterprise deployment overview - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/enterprise-setup)
-
-<details>
-<summary>Voir les 15 sources restantes</summary>
-
-- [Enterprise-Managed Authorization - Model Context Protocol](https://modelcontextprotocol.io/extensions/auth/enterprise-managed-authorization)
-- [Get started with the API - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/getting-started-api.html)
-- [GitHub - always-further/nono: Sandbox any AI agent in seconds - zero setup, zero latency. · GitHub](https://github.com/always-further/nono)
-- [GitHub - anthropic-experimental/sandbox-runtime: A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container. · GitHub](https://github.com/anthropic-experimental/sandbox-runtime)
-- [GitHub - aws-solutions-library-samples/guidance-for-claude-code-with-amazon-bedrock: This Guidance demonstrates how organizations can implement secure enterprise authentication for Amazon Bedrock using industry-standard protocols and AWS services · GitHub](https://github.com/aws-solutions-library-samples/guidance-for-claude-code-with-amazon-bedrock)
-- [Hooks reference - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/hooks)
-- [How Amazon Bedrock works with IAM - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/security_iam_service-with-iam.html)
-- [How IAM Identity Center authentication is resolved for AWS SDKs and tools - AWS SDKs and Tools](https://docs.aws.amazon.com/sdkref/latest/guide/understanding-sso.html)
-- [How we contain Claude across products \ Anthropic](https://www.anthropic.com/engineering/how-we-contain-claude)
-- [IAM Identity Center credential provider - AWS SDKs and Tools](https://docs.aws.amazon.com/sdkref/latest/guide/feature-sso-credentials.html)
-- [Identity and access management for Amazon Bedrock - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/security-iam.html)
-- [Kubernetes Documentation | Kubernetes](https://kubernetes.io/docs/)
-- [Landlock: unprivileged access control — The Linux Kernel documentation](https://docs.kernel.org/userspace-api/landlock.html)
-- [Making Claude Code more secure and autonomous with sandboxing \ Anthropic](https://www.anthropic.com/engineering/claude-code-sandboxing)
-- [Overview - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/)
-
-</details>
-
+- [AWS IAM Identity Center concepts for the AWS CLI - AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso-concepts.html)
+- [Claude Code deployment patterns and best practices with Amazon Bedrock | Artific](https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/)
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

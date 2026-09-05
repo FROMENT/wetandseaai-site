@@ -23,22 +23,23 @@ catalogue_id: "50b9eb03"
   <iframe src="https://www.youtube.com/embed/T1svpIF3PEA" title="Watch the video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Context
+## Executive Summary
 
-Ce texte explore la nature unique de la **dette technique dans les architectures
-d'intelligence artificielle**, en soulignant qu'elle s'aggrave naturellement 
-avec l'obsolescence des modèles et la dérive des données. L'auteur compare les 
-modèles de déploiement sur **poste de travail et sur serveur**, démontrant que 
-le choix dépend moins de la performance que du type de passif que l'organisation
-accepte de gérer. Tandis que l'usage local favorise la **confidentialité** mais 
-complexifie la maintenance d'un parc hétérogène, la centralisation simplifie la 
-**mesure et la mise à jour** au prix d'une plus grande dépendance envers les 
-fournisseurs. L'analyse conclut que la pérennité d'un projet d'IA repose sur la 
-capacité à **documenter et réévaluer les décisions** architecturales de manière 
-proactive. La véritable menace n'est pas le choix technique lui-même, mais 
-l'accumulation d'une **dette invisible et subie** qui finit par paralyser toute 
-évolution future.
+AI technical debt differs fundamentally from conventional software debt: it accumulates irreversibly through model obsolescence and data drift rather than code complexity alone. Organizations face a binary choice between edge deployment—preserving privacy and autonomy at the cost of distributed maintenance complexity—and centralized server architectures that simplify governance and updates but increase vendor dependency. The sustainability of AI systems depends less on initial performance metrics than on institutional capacity to document architectural decisions, measure model degradation, and execute periodic re-evaluation cycles. This governance gap represents a critical blind spot in DevOps infrastructure planning.
 
+## Key Points
+
+- **Model obsolescence as irreversible debt**: Unlike code refactoring, deprecated AI models cannot simply be patched. Data distribution shifts, training data aging, and algorithmic drift create compounding liabilities that require full model retraining or replacement—a decision point with long-term cost implications.
+
+- **Deployment topology determines liability ownership**: Edge/local deployment transfers maintenance burden to heterogeneous client infrastructure but preserves data isolation and reduces external dependencies. Server-centric architectures centralize observability and reduce fragmentation but create organizational lock-in and single points of governance failure.
+
+- **Data governance outweighs algorithmic optimization**: The governance burden shifts from code quality to data pipeline reliability. Tracking data provenance, identifying distribution shifts, and maintaining retraining schedules require infrastructure investments often overlooked in initial architectural decisions.
+
+- **Missing documentation amplifies irreversibility**: Many AI deployments lack formal decision records on model selection criteria, acceptable performance thresholds, or retraining triggers. This absence makes pivot decisions costlier and extends debt accumulation periods.
+
+- **Operational contradiction**: Centralized architectures promise governance simplicity but require sustained vendor relationships and external audit capabilities; edge models promise autonomy but demand internal expertise and distributed observability infrastructure—neither eliminates debt, only displaces its form.
+
+- **Governance as risk mitigation**: DevOps teams must establish measurable model performance baselines, version control training datasets separately from inference pipelines, and implement regular decision-review cycles tied to business objectives rather than technical metrics alone.
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

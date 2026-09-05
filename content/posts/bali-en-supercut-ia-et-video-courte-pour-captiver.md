@@ -1,7 +1,6 @@
 ---
 title: "Bali en supercut : IA et vidéo courte pour captiver"
 date: 2026-08-12
-publishDate: "2026-08-16T09:00:00"
 youtube_url: "https://youtu.be/roVEipFxsY8"
 youtube_video_id: "roVEipFxsY8"
 youtube_channel: "A"

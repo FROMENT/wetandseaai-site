@@ -23,20 +23,25 @@ catalogue_id: "606d1d17"
   <iframe src="https://www.youtube.com/embed/t-eH8MtBwFo" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-## Contexte
+## Executive Summary
 
-Ce guide présente une méthode structurée pour optimiser l'organisation de 
-l'espace de travail sur **macOS 15 et versions ultérieures**. L'auteur y expose 
-une hiérarchie claire divisée en quatre niveaux : **les gestes du trackpad**, 
-**la mosaïque de fenêtres**, **les bureaux virtuels** et **la gestion du double 
-écran**. Le document détaille les nombreux **raccourcis clavier natifs** 
-introduits pour manipuler les fenêtres sans recourir à des applications tierces.
-Il propose également des conseils stratégiques, comme la désactivation de la 
-réorganisation automatique des espaces, afin de créer un **environnement de 
-production stable**. L'objectif final est de transformer la navigation de 
-l'utilisateur en un système cohérent où chaque outil possède une fonction 
-précise et logique.
+macOS 15+ introduit une hiérarchie systématique pour la gestion de l'espace de travail, structurée en quatre niveaux : gestes tactiles, mosaïque de fenêtres, bureaux virtuels et double écran. Cette approche élimine les inefficacités dues à l'utilisation d'outils au mauvais niveau de granularité. L'article synthétise l'ensemble des raccourcis natifs documentés par Apple, permettant une organisation cohérente sans dépendre d'applications tierces. Pour les environnements de production collaboratifs ou multi-projets, cette méthode stratifiée réduit les conflits de navigation et stabilise le flux de travail en désactivant la réorganisation automatique des espaces.
 
+## Principaux points abordés
+
+- **Hiérarchie à quatre niveaux** : geste (trackpad Multi-Touch) → fenêtre (mosaïque native) → bureau (contextes virtuels) → écran (configuration physique). Chaque niveau répond à une granularité spatiale différente ; l'usage au mauvais niveau génère confusion et perte de productivité.
+
+- **Gestes du trackpad natifs** : Mission Control (trois doigts vers le haut), Exposé (trois doigts vers le bas), changement de bureau (trois doigts latéralement). Ces gestes opèrent au niveau de la conscience spatiale, sans nécessiter d'input clavier.
+
+- **Mosaïque de fenêtres** : utilisation des combinaisons `Fn + Contrôle` documentées par Apple pour fragmenter l'écran. Contrairement aux applications tierces, l'implémentation native demeure stable et évite les conflits de rendu.
+
+- **Bureaux virtuels et contextes** : un bureau représente un contexte de travail (projet, réunion, recherche) plutôt qu'une application. Mission Control centralise cette gestion ; la désactivation de la « réorganisation automatique des espaces » prévient la redistribution involontaire lors du changement d'écran.
+
+- **Double écran et persistance spatiale** : la stabilisation des bureaux sur chaque écran physique exige une configuration explicite. Désactiver l'ajustement automatique garantit que les fenêtres conservent leur placement entre sessions.
+
+- **Limite opérationnelle** : cette approche suppose une discipline utilisateur dans la distinction geste/fenêtre/bureau. Absence de automation centralisée pour imposer des règles transversales. Pas de synchronisation native avec les outils collaboratifs (calendrier, notifications).
+
+- **Impact pour les équipes de production** : stabilité du poste de travail, réduction des manipulations manuelles répétitives, et diminution des incidents liés à la perte de contexte ou à la mauvaise fenêtrage lors de sessions longues.
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
