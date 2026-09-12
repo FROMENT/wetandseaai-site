@@ -3,10 +3,10 @@ title: "OpenClaw : Agent IA Autonome ou Bombe à Retardement Cyber ?"
 date: 2026-04-16
 youtube_url: "https://youtu.be/XupKvIOQEl0"
 youtube_video_id: "XupKvIOQEl0"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -17,6 +17,7 @@ cover:
   caption: "Cybersécurité"
 draft: false
 catalogue_id: "6a2d182b"
+translationKey: "6a2d182b"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -57,7 +58,7 @@ OpenClaw, assistant IA autonome open-source conçu pour orchestrer des workflows
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

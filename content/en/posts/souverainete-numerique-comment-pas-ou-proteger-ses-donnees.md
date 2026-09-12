@@ -3,10 +3,10 @@ title: "Souveraineté Numérique : Comment (Pas Où) Protéger ses Données"
 date: 2026-04-17
 youtube_url: "https://youtu.be/mVJ0w_Kdi8s"
 youtube_video_id: "mVJ0w_Kdi8s"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "prospective"
 categories: ["Prospective"]
 tags: ["prospective"]
@@ -17,6 +17,7 @@ cover:
   caption: "Prospective"
 draft: false
 catalogue_id: "fbeae4d5"
+translationKey: "fbeae4d5"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -52,9 +53,18 @@ Sources :
 - [BSI C5: Establishing itself as a cross-industry standard for cloud security – Röd & Partner](https://www.roedl.com/en/insights/bsi-c5-establishing-itself-as-a-cross-industry-standard-for-cloud-security/)
 - [A practical guide to cloud security labels - The trusted cloud – Cloud Temple](https://www.cloud-temple.com/en/practical-guide-to-cloud-security-labels/)
 - [Confidential Computing and Privacy – Future of Privacy Forum](https://fpf.org/wp-content/uploads/2025/04/FPF_Confidential_Computing_Digital_R3_-_2025_Update.pdf)
+## Chapters
+
+- `0:00` — Introduction
+- `1:08` — Legal Cloud Conflicts
+- `2:13` — Jurisdiction vs Geography
+- `4:06` — Microsoft's EU Admission
+- `5:40` — Technical Solution Blueprint
+- `7:30` — Practical Implementation Playbook
+
 ## Wet & Sea Tech Resources
 
-**YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Shop :** https://wetseatech.etsy.com
 

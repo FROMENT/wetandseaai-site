@@ -15,7 +15,7 @@ cover:
   image: "/covers/0DbbzjZYjss.jpg"
   alt: "Claude Opus 4.7 : L'IA Autonome qui Révolutionne le Code"
   caption: "IA & Travail"
-draft: false
+draft: true
 catalogue_id: "ede96f25"
 ---
 

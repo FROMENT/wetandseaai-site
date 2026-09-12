@@ -13,7 +13,7 @@ cover:
   image: "/covers/rgrnqWINT_0.jpg"
   alt: "The ROI of Cybersecurity : mesurer ce qui ne s'est pas passé"
   caption: "Cybersécurité"
-draft: false
+draft: true
 catalogue_id: "de3314a2"
 ---
 

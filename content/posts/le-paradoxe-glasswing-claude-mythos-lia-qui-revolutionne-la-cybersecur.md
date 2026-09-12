@@ -16,7 +16,7 @@ cover:
   image: "/covers/uC1tU5YgumM.jpg"
   alt: "Le Paradoxe Glasswing : Claude Mythos, l'IA qui révolutionne la cybersécurité"
   caption: "IA & Travail"
-draft: false
+draft: true
 catalogue_id: "ce7c05f0"
 ---
 

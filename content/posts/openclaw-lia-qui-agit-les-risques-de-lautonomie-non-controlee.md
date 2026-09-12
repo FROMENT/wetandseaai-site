@@ -13,7 +13,7 @@ cover:
   image: "/covers/W7ndEUdrw58.jpg"
   alt: "OpenClaw : l'IA qui agit — les risques de l'autonomie non contrôlée"
   caption: "Cybersécurité"
-draft: false
+draft: true
 catalogue_id: "4134e2ee"
 ---
 

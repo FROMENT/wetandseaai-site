@@ -1,14 +1,12 @@
 ---
 title: "DevSecOps : Sécurité du Code au Cloud - Pipeline & Outils 2025"
 date: 2026-04-02
-aliases:
-  - /2026/04/securite-devops-du-code-au-cloud-guide-complet-2024/
 youtube_url: "https://youtu.be/kXJHDizx1Ng"
 youtube_video_id: "kXJHDizx1Ng"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -19,6 +17,9 @@ cover:
   caption: "Cybersécurité"
 draft: false
 catalogue_id: "ae46a5b2"
+translationKey: "ae46a5b2"
+aliases:
+  - /2026/04/securite-devops-du-code-au-cloud-guide-complet-2024/
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -60,7 +61,7 @@ DevSecOps intègre la sécurité en continu dans les pipelines de livraison logi
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

@@ -3,10 +3,10 @@ title: "CLOUD Act : Enjeux de souveraineté numérique et alternatives français
 date: 2026-04-17
 youtube_url: "https://youtu.be/957Dg1GN1ZM"
 youtube_video_id: "957Dg1GN1ZM"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
@@ -17,6 +17,7 @@ cover:
   caption: "DevOps & Cloud"
 draft: false
 catalogue_id: "b76a9c1e"
+translationKey: "b76a9c1e"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -49,9 +50,16 @@ Le CLOUD Act américain de 2018 confère aux autorités fédérales des États-U
 - [BSI C5: Mastering Germany's Cloud Security Framework for Compliance](https://www.kiteworks.com/regulatory-compliance/bsi-c5-germanys-cloud-security-framework-requirements/)
 - [Cloud Act américain : impacts et stratégies de protection](https://www.lockself.com/blog/cloud-act-americain-risques-protection-donnees)
 - [A practical guide to cloud security labels - The trusted cloud](https://www.cloud-temple.com/en/practical-guide-to-cloud-security-labels/)
+## Chapitres
+
+- `0:00` — Introduction
+- `0:35` — Mythe de la localisation
+- `1:46` — Trois niveaux de souveraineté
+- `2:20` — Cloud Act et extraterritorialité
+
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

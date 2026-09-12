@@ -15,7 +15,7 @@ cover:
   image: "/covers/6v7JxsAZTms.jpg"
   alt: "Claude Fable 5 : puissance, blocage US et souveraineté IA"
   caption: "Prospective"
-draft: false
+draft: true
 catalogue_id: "d57d1a2d"
 ---
 

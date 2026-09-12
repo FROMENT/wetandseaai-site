@@ -16,7 +16,7 @@ cover:
   image: "/covers/TWLubLYefn8.jpg"
   alt: "SaaS et conformité EU : l'audit instantané qui change tout"
   caption: "Cybersécurité"
-draft: false
+draft: true
 catalogue_id: "120840be"
 ---
 

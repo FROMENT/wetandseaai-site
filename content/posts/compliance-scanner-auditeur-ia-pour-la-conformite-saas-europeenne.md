@@ -3,10 +3,10 @@ title: "COMPLIANCE Scanner : Auditeur IA pour la conformité SaaS européenne"
 date: 2026-04-17
 youtube_url: "https://youtu.be/G_xlMBI5Ass"
 youtube_video_id: "G_xlMBI5Ass"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -17,6 +17,7 @@ cover:
   caption: "Cybersécurité"
 draft: false
 catalogue_id: "b2cdff94"
+translationKey: "b2cdff94"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -45,9 +46,16 @@ COMPLIANCE Scanner est un service web d'audit automatisé conçu pour évaluer r
 
 Sources :
 - [COMPLIANCE Scanner — Auditeur SaaS conformité EU](https://cpl.wetandseaai.fr/)
+## Chapitres
+
+- `0:00` — Introduction du scanner
+- `0:32` — Fonctionnement et processus
+- `1:07` — Caractéristiques techniques uniques
+- `1:40` — Positionnement et limites
+
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

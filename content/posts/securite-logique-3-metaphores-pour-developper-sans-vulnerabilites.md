@@ -1,14 +1,12 @@
 ---
 title: "Sécurité Logique : 3 Métaphores pour Développer Sans Vulnérabilités"
 date: 2026-04-04
-aliases:
-  - /2026/04/securite-logique-fondamentaux-et-meilleures-pratiques/
 youtube_url: "https://youtu.be/EsHE3n3Skyc"
 youtube_video_id: "EsHE3n3Skyc"
-youtube_channel: "B"
-youtube_channel_handle: "@wetseatech"
-youtube_channel_url: "https://www.youtube.com/@wetseatech"
-youtube_channel_name: "Wet & Sea Tech"
+youtube_channel: "A"
+youtube_channel_handle: "@discover-allin360"
+youtube_channel_url: "https://www.youtube.com/@discover-allin360"
+youtube_channel_name: "Voyage Discovery 360 · IA & Aventures"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
@@ -19,6 +17,9 @@ cover:
   caption: "Cybersécurité"
 draft: false
 catalogue_id: "da49d50d"
+translationKey: "da49d50d"
+aliases:
+  - /2026/04/securite-logique-fondamentaux-et-meilleures-pratiques/
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -44,7 +45,7 @@ La sécurité logique constitue un pilier du développement logiciel moderne, bi
 ## Références (Golden Sources)
 
 Sources :
-- [La Sécurité Logique : Bouclier, Forteresse Et Loupe Pour Votre Développement](https://wst-tech.org/la-securite-logique-bouclier-forteresse-et-loupe-pour-votre-developpement/)
+- [La Sécurité Logique : Bouclier, Forteresse Et Loupe Pour Votre Développement](https://wetandseaai.fr/la-securite-logique-bouclier-forteresse-et-loupe-pour-votre-developpement/)
 ## Chapitres
 
 - `0:00` — Introduction
@@ -54,7 +55,7 @@ Sources :
 
 ## Ressources Wet & Sea Tech
 
-**Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
+**Chaîne YouTube (@discover-allin360) :** https://www.youtube.com/@discover-allin360
 
 **Boutique :** https://wetseatech.etsy.com
 

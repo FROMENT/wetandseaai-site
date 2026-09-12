@@ -15,7 +15,7 @@ cover:
   image: "/covers/T1svpIF3PEA.jpg"
   alt: "AI Debt Trap: Governing the Irreversible"
   caption: "DevOps & Cloud"
-draft: false
+draft: true
 catalogue_id: "50b9eb03"
 ---
 

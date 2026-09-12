@@ -13,7 +13,7 @@ cover:
   image: "/covers/JxxQKelgmE8.jpg"
   alt: "Le Paradoxe OpenClaw : quand la sécurité freine l'utilité de l'IA"
   caption: "Cybersécurité"
-draft: false
+draft: true
 catalogue_id: "d539669c"
 ---
 

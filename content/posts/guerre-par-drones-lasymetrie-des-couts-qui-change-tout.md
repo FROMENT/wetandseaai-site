@@ -15,7 +15,7 @@ cover:
   image: "/covers/Ca1nyHbrj4s.jpg"
   alt: "Guerre par Drones : L'Asymétrie des Coûts qui Change Tout"
   caption: "Prospective"
-draft: false
+draft: true
 catalogue_id: "45644fd4"
 ---
 
