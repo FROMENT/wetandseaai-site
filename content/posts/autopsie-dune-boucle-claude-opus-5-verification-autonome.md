@@ -15,7 +15,7 @@ cover:
   image: "/covers/RzvIhtwdawI.jpg"
   alt: "Autopsie d'une boucle : Claude Opus 5 & vérification autonome"
   caption: "DevOps & Cloud"
-draft: false
+draft: true
 catalogue_id: "a301c407"
 ---
 

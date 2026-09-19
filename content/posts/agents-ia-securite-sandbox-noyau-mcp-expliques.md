@@ -15,7 +15,7 @@ cover:
   image: "/covers/Fx9waxEM00M.jpg"
   alt: "Agents IA : sécurité, sandbox noyau & MCP expliqués"
   caption: "DevOps & Cloud"
-draft: false
+draft: true
 catalogue_id: "3895c4d3"
 ---
 

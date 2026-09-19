@@ -15,7 +15,7 @@ cover:
   image: "/covers/EssTFvvLqhE.jpg"
   alt: "Agent IA échappé : l'intrusion autonome de Hugging Face"
   caption: "Cybersécurité"
-draft: false
+draft: true
 catalogue_id: "efbffee6"
 ---
 

@@ -15,7 +15,7 @@ cover:
   image: "/covers/e_kcAtP08S4.jpg"
   alt: "Authentification : Failles VPN et OpenID Connect Expliqués"
   caption: "Cybersécurité"
-draft: false
+draft: true
 catalogue_id: "c2cf24d3"
 ---
 

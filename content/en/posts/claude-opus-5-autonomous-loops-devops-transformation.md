@@ -15,7 +15,7 @@ cover:
   image: "/covers/a112bRQVPW0.jpg"
   alt: "Claude Opus 5: Autonomous Loops & DevOps Transformation"
   caption: "DevOps & Cloud"
-draft: false
+draft: true
 catalogue_id: "92a8d706"
 ---
 

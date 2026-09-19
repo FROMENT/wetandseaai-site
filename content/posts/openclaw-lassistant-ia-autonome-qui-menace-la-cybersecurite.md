@@ -15,7 +15,7 @@ cover:
   image: "/covers/A6p5g6_K9U4.jpg"
   alt: "OpenClaw : L'Assistant IA Autonome qui Menace la Cybersécurité"
   caption: "Cybersécurité"
-draft: false
+draft: true
 catalogue_id: "5a4e46de"
 ---
 

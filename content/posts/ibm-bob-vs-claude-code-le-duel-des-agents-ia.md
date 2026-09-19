@@ -15,7 +15,7 @@ cover:
   image: "/covers/If80VJ8M6qY.jpg"
   alt: "IBM Bob vs Claude Code : le duel des agents IA"
   caption: "IA & Travail"
-draft: false
+draft: true
 catalogue_id: "5a127f2b"
 ---
 

@@ -15,7 +15,7 @@ cover:
   image: "/covers/siZ2h2Ha1OM.jpg"
   alt: "The Industrialization of Intelligence: Open vs Closed AI Models"
   caption: "Prospective"
-draft: false
+draft: true
 catalogue_id: "eb449810"
 ---
 

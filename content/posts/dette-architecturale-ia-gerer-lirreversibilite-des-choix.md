@@ -15,7 +15,7 @@ cover:
   image: "/covers/8ePIIGYb53Y.jpg"
   alt: "Dette architecturale IA : gérer l'irréversibilité des choix"
   caption: "DevOps & Cloud"
-draft: false
+draft: true
 catalogue_id: "cda2ae82"
 ---
 

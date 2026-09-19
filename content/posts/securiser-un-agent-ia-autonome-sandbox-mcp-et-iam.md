@@ -15,7 +15,7 @@ cover:
   image: "/covers/QrgsflOerhw.jpg"
   alt: "Sécuriser un agent IA autonome : sandbox, MCP et IAM"
   caption: "Cybersécurité"
-draft: false
+draft: true
 catalogue_id: "cdd0df8d"
 ---
 
