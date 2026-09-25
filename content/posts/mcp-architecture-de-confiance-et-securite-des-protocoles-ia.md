@@ -1,7 +1,6 @@
 ---
 title: "MCP : Architecture de confiance et sécurité des protocoles IA"
 date: 2026-09-18
-publishDate: "2026-09-22T09:00:00"
 youtube_url: "https://youtu.be/Ahra20Ih-vA"
 youtube_video_id: "Ahra20Ih-vA"
 youtube_channel: "B"
@@ -13,7 +12,7 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "MCP et sécurité des protocoles IA : découvrez l'architecture de confiance du Model Context Protocol et les vulnérabilités critiques à maîtriser."
 cover:
-  image: "/covers/theme_devops-cloud.svg"
+  image: "/covers/Ahra20Ih-vA.jpg"
   alt: "MCP : Architecture de confiance et sécurité des protocoles IA"
   caption: "DevOps & Cloud"
 draft: false

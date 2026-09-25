@@ -1,7 +1,6 @@
 ---
 title: "MCP Security: Tool Poisoning & AI Trust Architecture"
 date: 2026-09-18
-publishDate: "2026-09-22T11:00:00"
 youtube_url: "https://youtu.be/2o6Y3r48eAE"
 youtube_video_id: "2o6Y3r48eAE"
 youtube_channel: "B"
@@ -13,7 +12,7 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "Model Context Protocol security vulnerabilities and trust mechanisms in AI systems. Discover how tool poisoning attacks compromise AI assistants and the architectural safeguards protecting external integrations."
 cover:
-  image: "/covers/theme_devops-cloud.svg"
+  image: "/covers/2o6Y3r48eAE.jpg"
   alt: "MCP Security: Tool Poisoning & AI Trust Architecture"
   caption: "DevOps & Cloud"
 draft: false
