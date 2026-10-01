@@ -1,8 +1,9 @@
 ---
 title: "Sécuriser un agent IA autonome : sandbox, MCP et IAM"
-date: 2026-08-22
-youtube_url: "https://youtu.be/QrgsflOerhw"
-youtube_video_id: "QrgsflOerhw"
+date: 2026-09-28
+publishDate: "2026-10-06T09:00:00"
+youtube_url: "https://youtu.be/MszVwXwgNSs"
+youtube_video_id: "MszVwXwgNSs"
 youtube_channel: "B"
 youtube_channel_handle: "@wetseatech"
 youtube_channel_url: "https://www.youtube.com/@wetseatech"
@@ -12,15 +13,16 @@ categories: ["Cybersécurité"]
 tags: ["cybersecurity"]
 summary: "Agents IA autonomes et sécurité kernel : comment isoler, contrôler et protéger vos LLM en production."
 cover:
-  image: "/covers/QrgsflOerhw.jpg"
+  image: "/covers/MszVwXwgNSs.jpg"
   alt: "Sécuriser un agent IA autonome : sandbox, MCP et IAM"
   caption: "Cybersécurité"
-draft: true
+draft: false
 catalogue_id: "cdd0df8d"
+translationKey: "cdd0df8d"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/QrgsflOerhw" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/MszVwXwgNSs" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary

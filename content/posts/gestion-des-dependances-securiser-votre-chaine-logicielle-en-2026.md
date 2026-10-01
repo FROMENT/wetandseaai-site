@@ -1,7 +1,6 @@
 ---
 title: "Gestion des dépendances : sécuriser votre chaîne logicielle en 2026"
 date: 2026-09-20
-publishDate: "2026-09-27T09:00:00"
 youtube_url: "https://youtu.be/AlQe-rrPnuE"
 youtube_video_id: "AlQe-rrPnuE"
 youtube_channel: "B"
@@ -51,6 +50,15 @@ La gestion des dépendances logicielles en 2026 s'inscrit dans un contexte de te
 - [OpenSSF Scorecard](https://scorecard.dev/)
 - [Exploit Prediction Scoring System (EPSS)](https://www.first.org/epss/)
 - [NIST.SP.800-218](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf)
+## Chapitres
+
+- `0:00` — Introduction et contexte
+- `0:33` — Statistiques et problématique 2026
+- `1:05` — Paradoxe de l'automatisation
+- `1:38` — Épinglage : protection ou dette ?
+- `2:45` — Reproductibilité et sécurité SLSA
+- `3:45` — Équilibre épinglage et fraîcheur
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

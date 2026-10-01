@@ -1,8 +1,9 @@
 ---
 title: "Agents IA : sécurité, sandbox noyau & MCP expliqués"
-date: 2026-08-22
-youtube_url: "https://youtu.be/Fx9waxEM00M"
-youtube_video_id: "Fx9waxEM00M"
+date: 2026-09-28
+publishDate: "2026-10-08T09:00:00"
+youtube_url: "https://youtu.be/8ryhRXR4XJs"
+youtube_video_id: "8ryhRXR4XJs"
 youtube_channel: "B"
 youtube_channel_handle: "@wetseatech"
 youtube_channel_url: "https://www.youtube.com/@wetseatech"
@@ -12,15 +13,16 @@ categories: ["DevOps & Cloud"]
 tags: ["devops-cloud"]
 summary: "Agents IA autonomes : comment le sandbox noyau et le protocole MCP sécurisent leur déploiement DevOps."
 cover:
-  image: "/covers/Fx9waxEM00M.jpg"
+  image: "/covers/8ryhRXR4XJs.jpg"
   alt: "Agents IA : sécurité, sandbox noyau & MCP expliqués"
   caption: "DevOps & Cloud"
-draft: true
+draft: false
 catalogue_id: "3895c4d3"
+translationKey: "3895c4d3"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
-  <iframe src="https://www.youtube.com/embed/Fx9waxEM00M" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+  <iframe src="https://www.youtube.com/embed/8ryhRXR4XJs" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
 ## Executive Summary

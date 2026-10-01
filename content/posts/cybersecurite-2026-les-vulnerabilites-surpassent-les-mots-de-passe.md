@@ -47,6 +47,14 @@ Le rapport DBIR 2026 de Verizon établit un diagnostic stratégique majeur : l'e
 - [Critical 0day in Oracle E-Business Suite exploited in-the-wild](https://www.rapid7.com/blog/post/etr-cve-2025-61882-critical-0day-in-oracle-e-business-suite-exploited-in-the-wild/)
 - [Verizon DBIR 2026: Vulnerability Exploitation Overtakes Credential Theft as Top](https://www.securityweek.com/verizon-dbir-2026-vulnerability-exploitation-overtakes-credential-theft-as-top-breach-vector/)
 - [Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257](https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/)
+## Chapitres
+
+- `0:00` — Introduction et thèse centrale
+- `0:34` — La dette technique expliquée
+- `1:47` — Les trois régimes de dette
+- `2:47` — Exemples concrets de dettes
+- `4:07` — Mesure et arithmétique de la dette
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

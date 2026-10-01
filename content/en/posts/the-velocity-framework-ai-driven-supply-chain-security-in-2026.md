@@ -53,6 +53,15 @@ The Velocity Framework addresses a critical operational blind spot in 2026 softw
 - [SLSA • Security levels](https://slsa.dev/spec/v1.0/levels)
 - [Policy Language | Open Policy Agent](https://www.openpolicyagent.org/docs/policy-language)
 - [NIST.SP.800-218](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf)
+## Chapters
+
+- `0:00` — Introduction & Overview
+- `0:34` — Dependency Pinning Explained
+- `1:09` — Lib Years & Technical Debt
+- `2:16` — Alert Fatigue & Batched Updates
+- `2:49` — Cooldown Periods & Grouping
+- `3:29` — Critical Vulnerability Fast Track
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

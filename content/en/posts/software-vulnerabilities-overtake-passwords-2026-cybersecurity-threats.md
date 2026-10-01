@@ -1,7 +1,6 @@
 ---
 title: "Software Vulnerabilities Overtake Passwords: 2026 Cybersecurity Threats"
 date: 2026-09-20
-publishDate: "2026-09-25T09:00:00"
 youtube_url: "https://youtu.be/1lDWiNXbFHU"
 youtube_video_id: "1lDWiNXbFHU"
 youtube_channel: "B"
@@ -51,6 +50,15 @@ The 2026 cybersecurity threat landscape has undergone a fundamental shift in att
 - [Explore The Persistence of OSS Vulnerabilities and Avoidable Risk](https://www.sonatype.com/blog/unnecessary-risk-the-persistence-of-open-source-vulnerabilities)
 - [Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257](https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/)
 - [Verizon DBIR 2026: Vulnerability Exploitation Overtakes Credential Theft as Top Breach Vector](https://www.securityweek.com/verizon-dbir-2026-vulnerability-exploitation-overtakes-credential-theft-as-top-breach-vector/)
+## Chapters
+
+- `0:00` — Introduction
+- `0:34` — Vulnerability Exploitation Overtakes Credentials
+- `1:07` — AI Accelerates Attack Techniques
+- `1:40` — Patch Gap & Security Debt
+- `2:48` — Edge Appliances Under Attack
+- `3:48` — Critical CVEs Case Studies
+
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
