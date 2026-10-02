@@ -29,30 +29,29 @@ aliases:
 
 ## Executive Summary
 
-Les modèles de monde (world models) émergent comme alternative architecturale aux grands modèles de langage, dont les limitations en raisonnement physique et logique génèrent hallucinations récurrentes. Contrairement aux LLM fondés sur la prédiction de tokens, ces systèmes construisent une représentation interne de la causalité et de la physique. Google DeepMind progresse sur cette voie à travers AlphaFold, AlphaEvolve et Gemini 3, intégrant progressivement une compréhension structurelle du monde plutôt qu'une agrégation statistique. L'enjeu stratégique porte sur le passage d'une IA réactive à une IA prédictive capable de planning et de découverte scientifique autonome.
+Les modèles de monde (world models) représentent une évolution architecturale destinée à pallier les limitations intrinsèques des grands modèles de langage actuels, notamment leurs hallucinations et leur absence de compréhension physique véritable. Contrairement aux LLM basés sur la prédiction statistique de tokens, les world models cherchent à construire une représentation interne cohérente de la dynamique causale du monde réel. Google DeepMind, par ses travaux depuis AlphaGo jusqu'à AlphaFold et AlphaEvolve, démontre une progression vers des systèmes d'usage général capables de résoudre des problèmes scientifiques complexes. La question centrale reste : ces architectures parviendront-elles à surpasser les LLM en capacité généraliste, ou constitueront-elles plutôt des systèmes spécialisés complémentaires ?
 
 ## Principaux points abordés
 
-- **Architecture fondamentale des world models** : contrairement aux LLM basés sur la succession de tokens, les world models construisent une représentation causale de l'environnement, permettant une simulation interne avant action ou réponse.
+- **Architecture fondamentale des world models** : contrairement aux LLM qui prédisent le token suivant, les world models construisent un modèle explicite de l'environnement et de ses lois physiques, permettant une planification et une inférence causale plutôt que statistique.
 
-- **Hallucinations des LLM et manque de grounding physique** : l'absence de modèle du monde physique explique pourquoi les LLM actuels génèrent réponses factuellement incorrectes, car ils opèrent sur des corrélations statistiques sans compréhension mécanique sous-jacente.
+- **Limitation des LLM actuelle** : hallucinations, raisonnement logique fragile et incapacité à modéliser les conséquences physiques d'une action constituent des failles structurelles reconnues par les chercheurs comme Yann LeCun.
 
-- **Avancées DeepMind : AlphaFold et AlphaEvolve** : AlphaFold résout le repliement protéique par prédiction structurelle ; AlphaEvolve étend cette logique aux algorithmes eux-mêmes, utilisant Gemini comme moteur pour explorer l'espace des codes optimisés.
+- **Trajectoire de Google DeepMind** : progression documentée d'AlphaGo (jeux compétitifs) vers AlphaFold (repliement protéique), puis AlphaEvolve (algorithmes informatiques) et Gemini 3, illustrant une montée en généralité des systèmes multi-domaines.
 
-- **Gemini 3 comme intégration multimodale** : la génération 3 combine vision, langage et capacités de planification, marquant une progression vers des systèmes hybrides associant prédiction statistique et modélisation causale.
+- **Applications en recherche scientifique** : les world models, en incarnant des lois physiques ou biologiques, accélèrent la découverte par simulation et itération plutôt que par énumération brute de possibilités.
 
-- **Limitation du dépassement rapide** : les world models exigent annotation de données massives (marché estimé à 17,37 milliards USD en 2034) et restent spécialisés par domaine ; leur généralisation demeure une question ouverte sans consensus sur calendrier réaliste.
+- **Contradiction fondamentale** : aucune preuve empirique actuellement publiée ne démontre qu'un world model dépasse un LLM sur des tâches générales de compréhension du langage ou de raisonnement multidomain ; la comparaison reste théorique et prospective.
 
-- **Impact opérationnel** : pour la recherche scientifique et la découverte, les world models offrent gains d'efficacité mesurables (AlphaEvolve), tandis que pour les tâches linguistiques générales, la complémentarité LLM/world models prévaut sur le remplacement pur.
+- **Enjeu d'infrastructure et gouvernance** : l'adoption de world models exigerait un investissement massif en annotation de données, modélisation de domaines et validation causale, contrairement au paradigme d'apprentissage par scaling des LLM.
 
 ## Références (Golden Sources)
 
-- [About Google DeepMind](https://deepmind.google/about/)
+- [A new era of intelligence with Gemini 3](https://blog.google/products/gemini/gemini-3/)
 - [AI as a research partner: Advancing theoretical computer science with AlphaEvolve](https://research.google/blog/ai-as-a-research-partner-advancing-theoretical-computer-science-with-alphaevolve/)
-- [A new era of intelligence with Gemini 3 - Google Blog](https://blog.google/products/gemini/gemini-3/)
 - [A glimpse of the next generation of AlphaFold - Isomorphic Labs](https://www.isomorphiclabs.com/articles/a-glimpse-of-the-next-generation-of-alphafold)
-- [AI Annotation Market Size | CAGR of 28.60%](https://market.us/report/ai-annotation-market/)
-- [AMI and Nabla Advance 'World Models' to Power Agentic ... - HLTH](https://hlth.com/insights/news/ami-and-nabla-advance-world-models-to-power-agentic-healthcare-ai-2026-03-11)
+- [About Google DeepMind](https://deepmind.google/about/)
+- [60 of our biggest AI announcements in 2025 - The Keyword](https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/)
 ## Chapitres
 
 - `0:00` — Introduction et présentation

@@ -27,27 +27,36 @@ translationKey: "648b6a48"
 
 ## Executive Summary
 
-L'IA agentique introduit une mutation architecturale majeure : les modèles de langage transitent d'interfaces conversationnelles vers des systèmes autonomes exécutant des actions sur les infrastructures. Cette évolution multiplexe les surfaces d'attaque existantes et en génère de nouvelles, particulièrement sur les chaînes d'approvisionnement logiciel. L'incident TeamPCP de mars 2026 incarne cette menace concrète : une compromission de Trivy suivie de celle de LiteLLM a exposé les clés API de plus de 100 fournisseurs d'IA. Les vecteurs d'empoisonnement de données structurent désormais chaque étape du cycle de vie, tandis que les cadres de gouvernance restent en retard sur la complexité des risques déployés. Cette prospective examine les implications opérationnelles et les dispositifs architecturaux d'atténuation.
+L'IA agentique — où les modèles exécutent des actions autonomes sur les systèmes d'information — introduit une nouvelle classe de surfaces d'attaque. Au-delà des risques classiques de sécurité des modèles, les agents opérationnels font face à des vulnérabilités d'empoisonnement de données à chaque étape du cycle de vie, ainsi qu'aux attaques en cascade au sein des chaînes d'approvisionnement logicielles. L'incident TeamPCP de mars 2026, qui a compris le compromis de Trivy puis de LiteLLM en huit jours, a exposé les clés API de plus de 100 fournisseurs d'IA. Parallèlement, les évaluations de sécurité industrielle révèlent un écart structurel entre l'accélération des capacités d'IA et la mise en œuvre de cadres de conformité crédibles. Cette prospective examine les vecteurs d'attaque émergents et les implications de gouvernance associées.
 
 ## Principaux points abordés
 
-- **Mutation architecturale et surfaces d'attaque élargies** — L'IA agentique dépasse les requêtes stateless en déléguant des actions exécutives aux modèles. Cela étend la surface d'attaque au-delà de l'inférence : gestion des identifiants, gouvernance des autorisations, traçabilité des actions effectuées. L'hypothèse de confiance zéro devient obligatoire dès la conception.
+- **Empoisonnement de données en environnement agentique** : contrairement aux modèles statelesss, les agents agentiques intègrent des boucles d'apprentissage et d'exécution continus, multipliant les points d'injection de données malveillantes (données d'entraînement, requêtes d'utilisateurs, sorties de systèmes externes).
 
-- **Empoisonnement de données multi-étapes** — Les vecteurs d'empoisonnement ne se limitent plus au corpus d'entraînement initial. L'intégration continue de données de feedback, le fine-tuning adaptatif et l'ingestion de contexte externe via API constituent des points d'injection critiques. Une donnée malveillante peut propager ses effets en cascade.
+- **Attaque en cascade TeamPCP (mars 2026)** : compromission initiale d'un scanner de sécurité (Trivy), exploitation pour accéder à LiteLLM en huit jours, exposition subséquente des credentials API de plus de 100 fournisseurs d'IA—démonstration que les outils de sécurité eux-mêmes forment des maillons faibles dans la chaîne de confiance.
 
-- **Incident TeamPCP : modèle d'attaque en chaîne** — La compromission coordonnée de Trivy (outil de scan de vulnérabilités) suivi de LiteLLM (couche d'orchestration d'API) illustre l'attaque par couches de dépendances. Les clés API exposées habilitent un accès indirect à plus de 100 fournisseurs, amplifiant l'impact par effet réseau.
+- **Souveraineté des modèles vs. dépendance API** : les organisations font face à un dilemme entre auto-hébergement (overhead opérationnel et risque de misconfiguration) et délégation à des API distantes (dépendance à des tiers et perte de contrôle des données).
 
-- **Inadéquation des cadres évaluatifs actuels** — L'AI Safety Index de la Future of Life Institute documente un écart significatif entre l'ambition technologique des éditeurs majeurs et l'effectivité de leurs cadres de sécurité. Les entreprises avancent plus vite que ne se déploient les garanties de conformité.
+- **Évolution du Top 10 OWASP pour LLM** : mise à jour 2025 intégrant les vecteurs d'attaque spécifiques à l'IA agentique, incluant les injections de prompts indirectes, le détournement d'outils et les exfiltrations de données via les sorties du modèle.
 
-- **Architecture SeGaDev et empreinte cryptographique du matériel** — Les travaux en empreintage I/O de clusters IA proposent une contre-mesure architecturale : tracer cryptographiquement chaque communication physique et protocolaire sans imposer la confiance mutuelle des processeurs. Cette approche adresse le contexte des centres de données multi-tenants.
+- **Insuffisance des cadres de conformité** : l'AI Safety Index révèle un écart significatif entre l'ambition technologique des entreprises leaders et l'implémentation effective de mécanismes de vérification, audit et isolation des données sensibles.
+
+- **Limite de détection** : les architectures de vérification comme SeGaDev (fingerprinting cryptographique des communications matérielles) restent au stade de propositions conceptuelles et ne s'appliquent pas aux exfiltrations logiques au niveau applicatif ou API.
+
+- **Impact opérationnel** : les équipes DevOps et de cybersécurité doivent redéfinir les chaînes de confiance autour des agents IA, impliquant la segmentation réseau, la rotation des credentials, et l'audit des flux de données en temps réel.
 
 ## Références (Golden Sources)
 
-- [Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors](https://aigi.ox.ac.uk/wp-content/uploads/2026/04/Fingerprinting_All_AI_Cluster_IO.pdf)
-- [AI Safety Index - Future of Life Institute](https://futureoflife.org/wp-content/uploads/2025/12/AI-Safety-Index-Report_131225_Full_Report_Digital.pdf)
-- [Introduction to Data Poisoning: A 2026 Perspective | Lakera](https://www.lakera.ai/blog/training-data-poisoning)
 - [TeamPCP and the Cascading AI/ML Supply Chain Campaign - Lab Space](https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/03/CSA_research_note_ai_pypi_supply_chain_campaign_20260329-csa-styled.pdf)
+
+- [Introduction to Data Poisoning: A 2026 Perspective | Lakera – Protecting AI team](https://www.lakera.ai/blog/training-data-poisoning)
+
 - [OWASP Top 10 for LLMs 2025: Key Risks and Mitigation Strategies - Invicti](https://www.invicti.com/blog/web-security/owasp-top-10-risks-llm-security-2025)
+
+- [Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors](https://aigi.ox.ac.uk/wp-content/uploads/2026/04/Fingerprinting_All_AI_Cluster_IO.pdf)
+
+- [AI Safety Index - Future of Life Institute](https://futureoflife.org/wp-content/uploads/2025/12/AI-Safety-Index-Report_131225_Full_Report_Digital.pdf)
+
 - [From Stateless Queries to Autonomous Actions: A Layered Security Framework for A](https://arxiv.org/pdf/2604.23338)
 ## Chapitres
 

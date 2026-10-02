@@ -27,30 +27,32 @@ translationKey: "a98acc82"
 
 ## Executive Summary
 
-DeepSeek Harness, lancé en août 2026 en préversion développeur, propose une architecture modulaire distinguant le modèle IA du runtime d'exécution. Contrairement aux systèmes propriétaires fermés (Claude Code, Codex), cette approche décompose chaque brique fonctionnelle en plugins interchangeables, du cycle d'exécution aux protocoles de sécurité. Les quatre modes d'exécution disponibles (Standard, Minimal, Code, Creator) répondent à des profils opérationnels distincts : observation et traçabilité complète versus légèreté computationnelle. Cette séparation « cerveau-corps » transforme l'inspectabilité des agents autonomes et réinstaure la gouvernance sur des systèmes jusque-là opaques, enjeu critique pour les déploiements en production.
+DeepSeek Harness, lancé en août 2026 avec le modèle V4 Pro, introduit une architecture modulaire où le modèle d'IA (« cerveau ») se dissocie du moteur d'exécution (« harness »). Cette séparation permet aux équipes DevOps et aux responsables d'infrastructure d'inspecter, configurer et contrôler chaque étape du cycle d'exécution des agents. Contrairement aux systèmes fermés comme Claude ou Codex, DeepSeek Harness expose quatre modes d'exécution distincts — Standard, Minimal, Code et Creator — adaptés à des contraintes opérationnelles différentes. Le choix du mode impacte directement la traçabilité, la consommation de ressources et la conformité de sécurité, ce qui place le harness au cœur de la stratégie de déploiement.
 
 ## Principaux points abordés
 
-- **Architecture plugin du harness** : chaque composant (boucle d'exécution, gestion des ressources, protocoles de communication) fonctionne comme un élément remplaçable, permettant personnalisation et auditabilité sans modifier le modèle sous-jacent.
+- **Architecture décentralisée basée sur les plugins** : chaque composant du runtime (cycle d'exécution, protocoles de sécurité, gestion des appels externes) fonctionne comme un plugin interchangeable, permettant une personnalisation sans modification du modèle sous-jacent.
 
-- **Quatre modes d'exécution distincts** : le mode Standard balance performance et observabilité ; Minimal réduit l'empreinte computationnelle pour environnements contraints ; Code optimise l'exécution de tâches de développement logiciel ; Creator étend les capacités avec plugins supplémentaires pour cas d'usage spécialisés.
+- **Mode Standard : équilibre polyvalent** — configuration par défaut pour la plupart des cas d'usage ; offre journalisation complète et gestion intégrale des ressources sans surcharge opérationnelle significative.
 
-- **Traçabilité intégrale et journalisation** : contrairement aux boîtes noires propriétaires, Harness enregistre systématiquement les états d'exécution, les décisions de l'agent et les appels aux dépendances, restaurant la conformité réglementaire et le débogage post-mortem.
+- **Mode Minimal : économie de ressources** — réduit la charge de calcul et la mémoire en supprimant composants secondaires ; adapté aux déploiements sur VPS ou environnements contraints, au prix d'une traçabilité amoindrie.
 
-- **Licence MIT et écosystème ouvert** : le modèle open-source favorise contributions et interopérabilité via le répertoire Awesome Pi Coding Agent (milliers d'extensions), mais implique une responsabilité accrue sur la sécurité des plugins tiers intégrés.
+- **Mode Code : optimisation pour le développement logiciel** — enrichit le harness avec des boucles de feedback spécialisées pour l'inspection de code, l'analyse statique intégrée et l'accès granulaire aux arbres syntaxiques ; ciblage des projets de génération et refactorisation automatisée.
 
-- **Limite fondamentale** : la modularité complète augmente la surface d'attaque en chaîne d'approvisionnement (plugin malveillant) et requiert expertise en orchestration runtime pour exploiter pleinement la flexibilité sans dégradation de performance.
+- **Mode Creator : créativité et itération complexe** — configuration étendue pour les tâches multi-étapes d'exploration algorithmique ou conception ; augmente les ressources allouées aux cycles de raisonnement non linéaire.
 
-- **Impact gouvernance et DevOps** : restaure le contrôle opérationnel sur les agents autonomes en production, essentiel pour audit interne, conformité sectorialisée (fintech, santé) et isolation des workloads sensibles.
+- **Limite critique : dépendance à la chaîne de plugins** — une configuration modulaire exige une maintenance rigoureuse et une documentation des dépendances entre plugins ; le gain de flexibilité introduit des risques de divergence entre environnements de développement et production si les versions ne sont pas épinglées.
+
+- **Enjeu de gouvernance et cybersécurité** — la journalisation intégrale et l'accessibilité des boucles d'exécution permettent un audit complet des décisions de l'agent, facilitant la conformité réglementaire (RGPD, ISO 27001) et le contrôle interne ; inversement, l'exposition des artefacts d'exécution nécessite des politiques de chiffrement et d'accès strictes.
 
 ## Références (Golden Sources)
 
 - [DeepSeek Harness developer preview: Everything is a plugin](https://deepseek.com/harness/en/)
-- [DeepSeek Harness Explained: How Open Agent Runtimes Change AI](https://www.turingpost.com/p/deepseek-harness-explained)
 - [DeepSeek Harness Has 4 Modes: Standard, Code, Minimal, and Creator Explained](https://shop.zimaspace.com/blogs/tech-ai-hub/de-minimal-and-creator-explained)
-- [DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agen](https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/)
+- [DeepSeek Harness Explained: How Open Agent Runtimes Change AI](https://www.turingpost.com/p/deepseek-harness-explained)
 - [DeepSeek Harness turns every part of an agent runtime into a swappable plugin](https://www.i-scoop.eu/deepseek-harness-turns-every-part-of-an-agent-runtime-into-a-swappable-plugin/)
-- [Awesome Pi Coding Agent - GitHub](https://github.com/shaftoe/awesome-pi-coding-agent)
+- [DeepSeek Harness on a VPS: keep it private - SSD Nodes](https://www.ssdnodes.com/learn/deepseek-harness-on-a-vps)
+- [DeepSeek Harness Review: Is the Plugin Stack Production-Ready? - Wavect](https://wavect.io/blog/deepseek-harness-enterprise-review/)
 ## Chapitres
 
 - `0:00` — Architectural Analysis of DeepSeek Harness: A Spatiotempora…

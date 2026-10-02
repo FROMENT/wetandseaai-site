@@ -28,26 +28,30 @@ translationKey: "cdd0df8d"
 
 ## Executive Summary
 
-Les agents d'intelligence artificielle autonomes introduisent des risques de sécurité majeurs au niveau système : exfiltration de données, accès non contrôlés aux ressources, exploitation de dépendances externes. La sécurisation en production repose sur trois piliers complémentaires : l'isolation au niveau noyau via des bacs à sable, la normalisation des protocoles d'intégration (Model Context Protocol), et la gestion granulaire des identités et permissions (IAM). Cette approche multicouche s'impose comme prérequis opérationnel pour les équipes DevOps et cybersécurité déployant des LLM en environnement critique, réduisant à la fois la surface d'attaque et la complexité de gouvernance.
+L'autonomie croissante des agents IA en production génère des risques de sécurité systémiques : accès non contrôlés aux fichiers, exfiltration de données, exploitation de ressources réseau. Le confinement au niveau du noyau (kernel sandboxing) constitue une réponse technique directe, complétée par des protocoles standardisés comme le Model Context Protocol (MCP) et des politiques d'identité granulaires (IAM). Les organisations doivent arbitrer entre isolation stricte et utilité opérationnelle des agents, en s'appuyant sur des bacs à sable, des machines virtuelles et des mécanismes d'authentification décentralisés pour limiter les vecteurs d'attaque tout en préservant les capacités d'intégration aux données externes.
 
 ## Principaux points abordés
 
-- **Confinement au niveau noyau (kernel sandboxing)** : mécanisme d'isolation système qui limite strictement les interactions des agents IA avec les fichiers, le réseau et les ressources système, implémenté par des outils spécialisés comme nono pour prévenir les accès non autorisés
-- **Model Context Protocol (MCP)** : standard ouvert Anthropic facilitant l'intégration sécurisée et structurée des modèles aux données externes, réduisant la surface d'exposition lors de connexions à ressources tierces
-- **Bacs à sable et virtualisation** : utilisation de conteneurs (Docker) et machines virtuelles pour isoler l'exécution d'agents, limitant les dégâts potentiels d'une compromission locale au périmètre défini
-- **Gestion des identités et credentials (IAM)** : authentification et autorisation granulaires via AWS Identity Center, API keys chiffrées et rotation périodique pour contrôler l'accès aux services externes (Bedrock, données sensibles)
-- **Exécution de code sécurisée** : limitation des capacités système de l'agent, audit des appels système, timeout d'exécution et ressources allouées pour contenir les comportements malveillants ou erratiques
-- **Limite observée** : la sécurité multicouche augmente la complexité opérationnelle et peut réduire la réactivité des agents ; l'équilibre entre confinement et fonctionnalité reste un défi de conception spécifique à chaque contexte métier
-- **Impact gouvernance et infrastructure** : impose un cycle de révision régulier des permissions IAM, une instrumentation observabilité renforcée pour détecter comportements anormaux, et une architecture réseau segmentée limitant la propagation latérale
+- **Confinement au niveau du noyau** : le kernel sandboxing limite les interactions non autorisées des agents IA avec le système de fichiers et la couche réseau, réduisant de facto les surfaces d'attaque directes sur l'infrastructure sous-jacente.
+
+- **Model Context Protocol (MCP) comme standard d'intégration sécurisée** : MCP fournit un cadre normalisé pour connecter les modèles aux ressources externes (données, outils) sans exposer directement les credentials ou les chemins système critiques.
+
+- **Bacs à sable et machines virtuelles** : Anthropic et les fournisseurs cloud privilégient l'isolation par conteneurisation ou hyperviseur pour segmenter l'exécution des agents et prévenir les débordements de privilèges.
+
+- **Gestion des identités et des accès (IAM)** : AWS IAM Identity Center et les mécanismes d'authentification décentralisés permettent de contrôler finement les permissions des agents sur les ressources cloud, éliminant la nécessité de stocker des clés API statiques en dur.
+
+- **Tension entre isolation et utilité** : un confinement maximal (refus de tous les accès réseau, limitation des I/O disque) peut rendre l'agent inutilisable pour certains cas d'usage ; la sécurité dépend donc d'une calibration contextuelle des politiques.
+
+- **Impact gouvernance et conformité** : l'absence de contrôles d'exécution d'agent expose les organisations à des violations de données, des fuites de configurations sensibles et des responsabilités légales accrues.
 
 ## Références (Golden Sources)
 
 - [AI Agent Security & Kernel Sandboxing | Always Further](https://alwaysfurther.ai/)
 - [Code execution with MCP: building more efficient AI agents](https://www.anthropic.com/engineering/code-execution-with-mcp)
 - [Connect Claude Code to tools via MCP - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/mcp)
-- [Claude Code deployment patterns and best practices with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/)
 - [API keys for AWS services - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_api_keys_for_aws_services.html)
-- [Docker Docs](https://docs.docker.com/)
+- [Claude Code deployment patterns and best practices with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/)
+- [Enterprise deployment overview - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/enterprise-setup)
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

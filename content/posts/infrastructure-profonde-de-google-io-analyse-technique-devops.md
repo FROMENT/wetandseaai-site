@@ -27,23 +27,23 @@ translationKey: "0142afe7"
 
 ## Executive Summary
 
-Google I/O 2026 marque une transition architecturale majeure : les modèles d'IA transitent d'une logique réactive (réponse à requête) vers des agents autonomes continus. Antigravity 2 fournit l'infrastructure d'orchestration pour systèmes multi-agents avec gestion d'événements asynchrones et hooks système. Gemini Spark introduit la persistance computationnelle sur Google Cloud indépendamment de l'état du terminal utilisateur. Cette évolution implique des transformations opérationnelles en DevOps et infrastructure, ainsi que des défis critiques de sécurité et de gouvernance des agents non surveillés.
+Google I/O 2026 marque une inflexion architecturale majeure : le passage d'une IA conversationnelle à des agents autonomes exécutant des tâches en continu sur les infrastructures Google Cloud. Trois composants incarnent ce changement structurel : Gemini 3.5 Flash (réduction de latence de 75%), Antigravity 2 (framework d'orchestration pour agents multi-tâches), et Gemini Spark (persistance des processus au-delà de l'arrêt client). Cette transition soulève des enjeux critiques de visibilité opérationnelle, de gouvernance d'agents décentralisés et d'exposition de surface d'attaque étendue dans les environnements cloud d'entreprise.
 
 ## Principaux points abordés
 
-- **Gemini 3.5 Flash** — quatrième multiplication de la vélocité de traitement, réduisant les latences pour les workflows temps réel et tâches asynchrones sur infrastructure cloud distribuée.
+- **Gemini 3.5 Flash** : réduction de la latence d'inférence par facteur 4, optimisé pour les appels récursifs et les tâches de courte durée, impact direct sur la scalabilité des pipelines d'agents.
 
-- **Antigravity 2 comme moteur d'orchestration** — architecture pensée pour systèmes multi-agents : gestion de sous-agents, hooks d'interception système, exécution asynchrone de tâches longues durée, sans intervention utilisateur.
+- **Antigravity 2 comme runtime d'agents** : architecture supportant les sous-agents, hooks système, et tâches asynchrones ; déplacement du modèle du query-response vers l'exécution continue et décentralisée.
 
-- **Gemini Spark et persistance cloud** — exécution de tâches sur instances Google Cloud même après extinction du terminal client, impliquant une inversion du modèle requête-réponse traditionnel.
+- **Gemini Spark et la persistence hors-session** : agents continuant les tâches sur Google Cloud VM après fermeture du client applicatif, supprimant la limite cliente et consolidant le contrôle côté infrastructure.
 
-- **CodeMender** — outil d'assistance au debugging intégré, signalant une automatisation partielle de boucles d'itération développement.
+- **CodeMender et boucles d'automatisation** : outils de refactoring et correction de code intégrés nativement, réduisant l'intervention humaine mais complexifiant l'audit des modifications générées.
 
-- **« Panier universel » (universal basket)** — système fédéré pour agrégation inter-services et inter-clouds, complexifiant la gouvernance des données distribuées.
+- **Tension gouvernance/autonomie** : agents invisibles exécutant des opérations infrastructurelles sans intervention directe ; exigence forte de logging exhaustif, de méchanismes de révocation et de boundaries explicites entre actions permises et interdites.
 
-- **Limite structurelle** — documentation limitée sur traçabilité d'exécution des agents autonomes et responsabilité de décisions prises hors contexte de supervision directe.
+- **Enjeu de cybersécurité critique** : surface d'attaque démultipliée (compromission d'un agent = accès aux tâches héritées) ; besoin de mécanismes d'authentification et d'autorisation granulaire au niveau de chaque agent et sous-agent.
 
-- **Enjeux DevOps-Infrastructure** — nécessité de redéfinir observabilité, audit trails, isolation réseau, quotas de ressources, et RBAC pour systèmes d'agents décentralisés opérant sans demande explicite utilisateur.
+- **Absence de documentation d'interopérabilité déclarée** : unclear how Antigravity 2 integrates with existing observability stacks (OpenTelemetry, Prometheus) ; risque de dark agents échappant à la monitoring conventionnelle.
 ## Chapitres
 
 - `0:00` — Introduction

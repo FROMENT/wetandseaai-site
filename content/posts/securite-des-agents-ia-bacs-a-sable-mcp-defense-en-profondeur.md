@@ -27,30 +27,30 @@ translationKey: "b07058a6"
 
 ## Executive Summary
 
-Les agents d'intelligence artificielle ouvrent de nouvelles surfaces de risque en cybersécurité : accès non autorisé aux fichiers, exécution de code incontrôlée et mouvements latéraux sur les réseaux. Pour limiter ces risques, Anthropic et Always Further préconisent une stratégie d'isolation au niveau du noyau du système d'exploitation. Cette approche combine des bacs à sable kernel (implémentés par des outils comme nono), une gestion granulaire des permissions IAM, et l'utilisation du protocole MCP pour cadrer l'exécution de code. L'enjeu opérationnel consiste à maintenir la fonctionnalité des agents autonomes tout en réduisant la surface d'attaque lors du déploiement en environnement sensible.
+Les agents d'intelligence artificielle capables d'exécuter du code, d'accéder aux fichiers et de se connecter aux réseaux représentent une surface de risque critique en cybersécurité. Anthropic et Always Further proposent une stratégie d'isolation au niveau du noyau via des bacs à sable (sandbox) pour contenir les compromissions potentielles. Cette approche technique combine plusieurs couches : isolation des processus au niveau système, gestion granulaire des permissions via IAM, et vérification cryptographique. L'enjeu opérationnel porte sur la nécessité de limiter l'exposition des agents sans sacrifier leur capacité d'action légitime, particulièrement en environnement d'entreprise où les accès non autorisés aux données critiques constituent une menace directe.
 
 ## Principaux points abordés
 
-- **Isolation au niveau kernel** : les bacs à sable noyau (kernel sandboxing) contiennent une compromission en limitant l'accès aux ressources système, indépendamment de l'authentification applicative. L'outil nono incarne cette approche en restricting l'accès aux fichiers et au réseau au plus bas niveau du système.
+- **Isolation au niveau du noyau via l'outil nono** : les bacs à sable noyau contiennent les exfiltrations de données et les exécutions de code malveillantes en créant une frontière système imperméable, isolant les processus de l'agent de l'accès direct aux ressources hôte.
 
-- **MCP (Model Context Protocol) pour l'exécution de code** : ce protocole encadre l'exécution de code à travers une architecture modulaire qui réduit simultanément la consommation de tokens et centralise le contrôle des opérations. Les serveurs MCP agissent comme intermédiaires de confiance entre l'agent et les ressources.
+- **Architecture MCP (Model Context Protocol) pour l'exécution sandboxée** : le protocole MCP encadre l'exécution de code dans des conteneurs ou environnements isolés, tout en réduisant la consommation de tokens par une architecture modulaire et l'appel sélectif de fonctions.
 
-- **Défense en profondeur par permissions IAM** : au-delà de l'isolation technique, l'attribution de droits minimaux (least privilege) aux identités AWS, via IAM Identity Center et les API keys, constitue un deuxième étage de défense. Ceci limite les dégâts même en cas de contournement du bac à sable.
+- **Gestion stricte des permissions IAM** : l'authentification et les droits d'accès doivent être configurés au niveau grain fin (API keys, SSO, Identity Center) pour limiter la portée des agents aux ressources absolument nécessaires, avec audit cryptographique.
 
-- **Déploiement sécurisé de Claude Code** : Amazon Bedrock propose des patterns de déploiement validés incluant l'authentification, la gestion des secrets et l'audit cryptographique. Les équipes doivent configurer ces paramètres au niveau entreprise, pas par défaut.
+- **Déploiement sécurisé de Claude via Amazon Bedrock** : les patterns de déploiement en entreprise impliquent une authentification forte (IAM, SSO), une configuration explicite des outils accessibles et une séparation nette entre développement et production.
 
-- **Contradiction potentielle** : l'isolation kernel augmente la complexité opérationnelle et peut réduire les performances en comparaison d'une exécution non contrôlée. Le trade-off entre sécurité et latence nécessite une évaluation contextuelle par cas d'usage.
+- **Limite majeure : le contrôle n'est jamais absolu** : même avec bacs à sable, les chaînes d'approvisionnement logicielles (dépendances, plugins MCP) et les erreurs de configuration des droits demeurent des vecteurs d'attaque. La défense en profondeur est obligatoire, pas optionnelle.
 
-- **Impact gouvernance et infrastructure** : cette approche impose une architecture d'isolation implicite dès la phase de conception, non comme correctif post-déploiement. Elle exige également un audit continu des logs et des permissions IAM pour détecter les écarts.
+- **Impact opérationnel** : les entreprises doivent arbitrer entre l'automatisation (agents autonomes) et la sécurité. L'adoption d'agents IA nécessite une révision des architectures de sécurité existantes et une gouvernance stricte des accès, sous peine d'augmenter de façon exponentielle la surface d'attaque.
 
 ## Références (Golden Sources)
 
-- [Code execution with MCP: building more efficient AI agents](https://www.anthropic.com/engineering/code-execution-with-mcp)
-- [AI Agent Security & Kernel Sandboxing](https://alwaysfurther.ai/)
-- [Claude Code deployment patterns and best practices with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/)
-- [Authentication - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/iam)
+- [AI Agent Security & Kernel Sandboxing | Always Further](https://alwaysfurther.ai/)
+- [Code execution with MCP: building more efficient AI agents \ Anthropic](https://www.anthropic.com/engineering/code-execution-with-mcp)
+- [Claude Code deployment patterns and best practices with Amazon Bedrock | Artific](https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/)
 - [Connect Claude Code to tools via MCP - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/mcp)
-- [Enterprise deployment overview - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/enterprise-setup)
+- [Authentication - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/iam)
+- [AWS IAM Identity Center concepts for the AWS CLI - AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso-concepts.html)
 ## Chapitres
 
 - `0:00` — Introduction & contexte

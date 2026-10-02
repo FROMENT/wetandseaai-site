@@ -27,34 +27,31 @@ translationKey: "d0237fc5"
 
 ## Executive Summary
 
-La gestion des identités et des accès (IAM) constitue un pilier fondamental de la posture de sécurité organisationnelle. Cette vidéo articule les risques concrets liés aux comptes orphelins—comptes actifs appartenant à d'anciens employés—et décrit les mécanismes de contrôle d'accès basé sur les rôles (RBAC) et les attributs (ABAC). Le cycle de vie des identités numériques, du provisioning à la suppression, détermine directement la surface d'exposition aux compromissions. Les frameworks d'automatisation comme Joiner-Mover-Leaver (JML) réduisent les délais de déprovisioning et l'escalade de privilèges, tandis que les principes du moindre privilège et de la séparation des tâches encadrent l'architecture des droits d'accès. Comprendre ces éléments s'avère critique pour les responsables de la sécurité et les auditeurs internes.
+La gestion des identités et des accès (IAM) constitue un pilier fondamental de la sécurité informatique d'entreprise, souvent négligé au profit de solutions perceptrales. Les comptes orphelins — identités numériques toujours actives après le départ d'un collaborateur — incarnent une exposition majeure, particulièrement lorsqu'aucun processus de révocation n'existe. Au-delà de cette vulnérabilité, les organisations doivent maîtriser le cycle de vie complet des identités (création, évolution, suppression), distinguer authentification et autorisation, et implémenter des modèles de contrôle d'accès adaptés à leur architecture. L'escalade de privilèges, l'accumulation progressive de droits non justifiés, et la violation du principe du moindre privilège figurent parmi les vecteurs d'exploitation les plus courants en réponse à incident. Les approches RBAC et ABAC, fondamentalement différentes, répondent à des contextes d'infrastructure et de gouvernance distincts.
 
 ## Principaux points abordés
 
-- **Comptes orphelins et escalade de privilèges** — Les comptes d'utilisateurs non supprimés après un départ conservent potentiellement des droits étendus accumulés au fil du temps. Cette situation crée des vecteurs d'attaque directes exploitables sans modification des configurations de sécurité.
+- **Comptes orphelins et escalade de privilèges** — Une identité non révoquée demeure accessible longtemps après la fin de la relation emploi ou partenaire, créant une porte d'entrée persistante. L'escalade intervient lorsque des permissions s'accumulent sans audit régulier, transformant un compte standard en vecteur de mouvement latéral.
 
-- **Cycle de vie des identités numériques** — Chaque identité traverse quatre phases : création (jointure), modification (mobilité interne), gestion courante (accès différencié) et suppression (départ). Les ruptures dans ce cycle amplifient les risques de non-conformité réglementaire et de fuite d'accès.
+- **Cycle de vie des identités numériques** — Suivant le modèle Joiner-Mover-Leaver, chaque identité traverse des états distincts : création à l'onboarding, modifications lors de changements de rôle ou équipe, révocation à la résiliation. L'absence d'orchestration de ces transitions expose l'organisation à des droits résiduels et à des incohérences de gouvernance.
 
-- **Distinction authentification / autorisation** — L'authentification établit l'identité de l'utilisateur (qui êtes-vous), tandis que l'autorisation définit les ressources accessibles (quels droits). Ces mécanismes relèvent de domaines distincts et nécessitent des approches techniques séparées.
+- **Distinction authentification / autorisation** — L'authentification valide l'identité (« êtes-vous bien qui vous prétendez être ? ») via MFA ou SSO. L'autorisation définit les ressources accessibles après authentification. Confondre ces deux niveaux compromet la sécurité du contrôle d'accès.
 
-- **RBAC versus ABAC** — RBAC (Role-Based Access Control) attribue les droits par rôle préaffecté ; ABAC (Attribute-Based Access Control) évalue dynamiquement les attributs utilisateur, contextuels et informationnels pour chaque demande d'accès. ABAC offre une granularité supérieure mais complexifie la gouvernance.
+- **RBAC (Role-Based Access Control)** — Modèle d'autorisation structuré par rôles prédéfinis auxquels sont attachées des permissions. Scalable dans les environnements classiques, il offre une granularité insuffisante en environnement cloud multi-tenant ou avec ressources hétérogènes. Son rigidité limite l'adaptabilité à des politiques contextuelles.
 
-- **Provisioning automatisé et framework JML** — L'automatisation du provisioning via des règles Joiner-Mover-Leaver réduit les délais de déploiement des droits et accélère le déprovisioning lors des transitions d'emploi, diminuant ainsi les fenêtres d'exposition.
+- **ABAC (Attribute-Based Access Control)** — Approche décisionnelle fondée sur les attributs (utilisateur, ressource, contexte, action). Permet une granularité fine mais introduit une complexité opérationnelle accrue : gestion des attributs, moteurs de politiques, coûts de déploiement et maintenance supérieurs. Mieux adapté aux architectures cloud et aux besoins dynamiques.
 
-- **Principes du moindre privilège et séparation des tâches** — Chaque utilisateur reçoit le minimum de droits requis pour exercer sa fonction ; la séparation des tâches empêche une même personne de détenir des permissions contradictoires (validation et approbation, par exemple).
+- **Moindre privilège et séparation des tâches** — Principes de gouvernance exigeant que chaque compte dispose uniquement des permissions minimales pour exercer ses fonctions, et que les tâches sensibles soient réparties entre plusieurs identités. L'audit régulier des droits (access review) constitue le mécanisme de conformité à ces principes.
 
-- **Limite opérationnelle : scalabilité ABAC** — Bien que plus fin, ABAC nécessite une maintenance d'attributs rigoureuse et peut générer une surcharge décisionnelle en environnement cloud hyperscalaire ; RBAC reste plus simple à gérer dans les organisations de taille modérée.
+- **Provisioning automatisé** — Intégration des systèmes d'information RH, annuaires et plateformes IAM pour générer, modifier et révoquer les accès sans intervention manuelle. Réduit les délais d'erreur humaine mais exige une synchronisation des données fiable et un contrôle des règles de business.
 
-- **Impact gouvernance et audit** — La traçabilité des cycles de vie et l'audit des droits d'accès deviennent obligatoires pour la conformité réglementaire (RGPD, SOC 2, ISO 27001). Les plateformes IAM/IGA centralisées facilitent cette démonstration de conformité.
+- **Limite opérationnelle : complexité vs. sécurité** — L'ABAC offre une sécurité fine-grained au prix d'une complexité de gestion élevée ; les petites structures manquent souvent de ressources pour exploiter cette granularité. Le RBAC reste plus simple à opérer mais moins adaptable aux contextes volatiles. Le choix dépend de la maturité, de la taille et de l'architecture cible, non d'une supériorité absolue.
+
+- **Impact gouvernance et compliance** — Un IAM mal conçu expose l'organisation à des risques de conformité réglementaire (RGPD, NIS2, SOC2), d'audit de contrôle d'accès échoués, et d'incidents de sécurité amplifiés par un contexte de privilèges excessifs ou périmés.
 
 ## Références (Golden Sources)
 
-- [ABAC vs. RBAC: What's The Difference?](https://www.wiz.io/academy/cloud-security/abac-vs-rbac)
-- [Complete Guide to Identity Governance and Administration (IGA) - Opti](https://www.opti.ai/articles/complete-guide-to-identity-governance-and-administration)
-- [A Defender's Guide to Privileged Account Monitoring | Google Cloud Blog](https://cloud.google.com/blog/topics/threat-intelligence/privileged-account-monitoring)
-- [CIEM vs. IAM: How Do They Compare? | Wiz](https://www.wiz.io/academy/cloud-security/ciem-vs-iam)
-- [Federated Identity Governance & Zero Trust Identity and Access - Sequretek](https://www.sequretek.com/products/identity-and-access-governance)
-- [How to Detect Lateral Movement Before Attackers Reach Critical Assets - Daylight](https://daylight.ai/blog/lateral-movement-detection)
+- [ABAC vs. RBAC: What's The Difference? - Wiz](https://www.wiz.io/academy/cloud-security/
 ## Chapitres
 
 - `0:00` — Introduction

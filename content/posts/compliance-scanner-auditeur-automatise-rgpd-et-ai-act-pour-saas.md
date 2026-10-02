@@ -27,19 +27,25 @@ translationKey: "08f4b850"
 
 ## Executive Summary
 
-Le COMPLIANCE Scanner de Wet & Sea AI automatise l'audit de conformité des outils SaaS face aux cadres réglementaires européens : RGPD, DORA, NIS2, Schrems II et AI Act. Cette vidéo expose le fonctionnement du moteur « Protocol C », qui stabilise les prédictions probabilistes d'un modèle de langage via un cache de 30 jours pour produire des évaluations structurées. Elle problématise la tension centrale : peut-on déléguer à une machine statistique une tâche qui exige certitude juridique ? Le résultat proposé est présenté comme triage de premier passage, non comme preuve légale—distinction stratégique pour l'usage en gouvernance des risques de conformité.
+Le COMPLIANCE Scanner de Wet & Sea AI propose une approche automatisée pour évaluer la conformité des outils SaaS contre cinq cadres réglementaires européens : RGPD, DORA, NIS2, Schrems II et AI Act. Cet auditeur utilise un moteur dit « Protocol C » fondé sur des modèles de langage non-déterministes stabilisés par un cache de 30 jours, transformant des prédictions probabilistes en évaluations structurées. L'enjeu central réside dans le décalage entre la nature statistique des modèles d'IA générative et les exigences de certitude des régulations. Le dispositif se positionne comme un outil de triage initial plutôt que de preuve juridique, adressant un besoin de gouvernance technique dans les organisations contraintes de documenter la conformité de leurs dépendances logicielles.
 
 ## Principaux points abordés
 
-- **Fonctionnement du moteur Protocol C** : l'outil accepte le nom d'un outil tiers (Notion, Slack, etc.) et retourne une évaluation structurée contre cinq cadres réglementaires, réduisant le friction d'onboarding à zéro
-- **Stabilisation de la non-déterminance** : un système de cache de 30 jours convertit les prédictions non-déterministes inhérentes aux modèles de langage en résultats reproductibles, résolvant partiellement le problème de cohérence
-- **Périmètre limité à la triage** : le scanner fonctionne en première passe diagnostique, pas en certification ou avis juridique exécutoire—distinction cruciale pour éviter surcharge de responsabilité
-- **Limite épistémologique majeure** : l'écart irréductible entre la probabilité (nature du LLM) et la certitude (exigence réglementaire) subsiste; le scanner abaisse risque opérationnel mais n'élimine pas le besoin d'expertise légale
-- **Implications de gouvernance** : l'automatisation rend le triage des conformités multi-cadres accessible aux PME et intégrateurs, déplaçant le point de décision de l'absence vers la validation qualifiée
+- **Architecture du scanner** — Un point d'entrée unique (nom de l'outil SaaS) génère une évaluation structurée contre les cinq cadres sans configuration préalable, réduisant la friction d'audit à zéro.
+
+- **Stabilisation non-déterministe** — Le Protocol C lève une contradiction fondamentale : les LLM sont probabilistes, or la conformité réglementaire exige de la cohérence. Un mécanisme de cache 30 jours crée une trace déterministe sans sacrifier l'adaptabilité.
+
+- **Scope réglementaire** — Le COMPLIANCE Scanner couvre GDPR (traitement de données), DORA (résilience opérationnelle), NIS2 (cybersécurité critique), Schrems II (transferts de données) et AI Act (évaluation des systèmes IA), reflétant le paysage fragmenté des obligations européennes.
+
+- **Positionnement épistémologique** — L'outil clarifie son statut : triage de première passe, non validation légale. Il produit des artefacts documentaires utiles à la gouvernance, mais ne remplace pas l'analyse juridique professionnelle.
+
+- **Limite structurelle** — Un LLM predicting compliance against deterministic law introduces aleatory risk. Le output reste une recommandation instrumentale, pas une garantie de conformité légale.
+
+- **Impact opérationnel** — Automatiser le mapping entre outillage tiers et régulations réduit la charge d'audit manuel, accélère les cycles de risk assessment, et maîtrise le coût de la gouvernance technique dans les écosystèmes d'outils fragmentés (Notion, Slack, etc.).
 
 ## Références (Golden Sources)
 
-- [COMPLIANCE Scanner — Auditeur SaaS conformité EU (GDPR, DORA, NIS2, Schrems II)](https://cpl.wetandseaai.fr/)
+- [COMPLIANCE Scanner — Auditeur SaaS conformité EU](https://cpl.wetandseaai.fr/)
 ## Chapitres
 
 - `0:00` — Introduction et tension architecturale

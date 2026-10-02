@@ -27,27 +27,28 @@ translationKey: "f6ace488"
 
 ## Executive Summary
 
-La trajectoire vers une intelligence artificielle générale (AGI) mobilise aujourd'hui les plus grands laboratoires, notamment Google DeepMind sous la direction de Demis Hassabis. Cependant, les échéances techniques annoncées occultent un enjeu fondamental : la transformation socio-économique requise pour absorber une automatisation massive. Le défi n'est pas d'atteindre l'AGI sur le plan computationnel, mais de concevoir des modèles de distribution des richesses et des structures sociales viables lorsque le travail cesse d'être le principal mécanisme d'allocation des revenus. Cette prospective impose un diagnostic collectif et des choix politiques au-delà des propositions technophiles comme le revenu universel.
+La perspective d'une intelligence artificielle générale (AGI) soulève un débat souvent cristallisé sur les obstacles technologiques. Cependant, les déclarations de Demis Hassabis (Google DeepMind) concernant des échéances d'AGI révèlent que le véritable enjeu réside dans la dimension socio-économique. Si le modèle de répartition des richesses fondé sur l'échange travail-revenu devient obsolète, les réponses institutionnelles et politiques actuelles — notamment le revenu universel — demeurent partielles. Cette vidéo explore pourquoi la convergence technologique vers l'AGI impose d'abord un diagnostic collectif et des choix structurels de gouvernance économique et sociale, loin de l'optimisme technophile dominant.
 
 ## Principaux points abordés
 
-- **Calendrier technique déclaré** : Les responsables de DeepMind publient des horizons temporels pour l'AGI, signalant une confiance accrue quant à la faisabilité technique des systèmes d'intelligence générale, soutenus par des avancées récentes en modèles de langage (Gemini) et en résolution de problèmes (AlphaFold).
+- **Chronologie réaliste de l'AGI** : Google DeepMind articule des étapes mesurables vers l'AGI plutôt que des spéculations abstraites, déplaçant le débat du domaine purement théorique vers une temporalité opérationnelle.
 
-- **Déconnexion travail-revenu** : L'automatisation progressive supprime le cadre historique où la participation au travail constituait le vecteur principal de distribution des revenus, rendant inopérant le modèle économique classique sans solutions alternatives structurées.
+- **Insuffisance du revenu universel seul** : Un mécanisme de redistribution unidimensionnel ne résout pas l'équation socio-économique si le cadre du travail comme vecteur identitaire et d'utilité sociale s'effondre parallèlement.
 
-- **Insuffisance des réponses technologiques** : Le revenu universel, souvent présenté comme panacée, n'adresse que partiellement les enjeux de statut social, de sens et de participation citoyenne découlant de l'absence d'emploi généralisée.
+- **Talent technologique et compétitivité nationale** : Les sources mettent en exergue que les progrès en IA dépendent fortement des flux de talent immigrant, particulièrement aux États-Unis, où les obstacles administratifs menacent cette dynamique face à la concurrence mondiale.
 
-- **Nécessité d'une gouvernance partagée** : Les choix relatifs à la répartition des gains de productivité, à la fiscalité de l'automatisation et aux modèles de participation sociale ne relèvent pas de l'ingénierie mais de décisions politiques collectives et de débat démocratique.
+- **Modèle d'innovation Google DeepMind** : Les percées en jeux compétitifs, repliage protéique et modèles de langage démontrent une accélération algorithmique, mais illustrent aussi une concentration du pouvoir technologique et computationnel chez quelques entités.
 
-- **Limite du cadre technologique** : Concentrer l'attention sur les performances des algorithmes détourne des vraies tensions sociales, immobilières et institutionnelles qui conditionnent l'acceptabilité d'une transition AGI.
+- **Limite identifiée** : La documentation disponible ne détaille pas les mécanismes alternatifs de distribution des valeurs ajoutées post-AGI, ni ne propose des architectures institutionnelles testées au-delà de hypothèses théoriques.
+
+- **Impact gouvernance et infrastructure** : L'avancée vers l'AGI exige une refonte des politiques d'immigration de talent, de fiscalité technologique, et de régulation algorithmique, impliquant une gouvernance horizontale et non technocratique.
 
 ## Références (Golden Sources)
 
 - [About Google DeepMind](https://deepmind.google/about/)
-- [A new era of intelligence with Gemini 3 - Google Blog](https://blog.google/products/gemini/gemini-3/)
-- [A glimpse of the next generation of AlphaFold - Isomorphic Labs](https://www.isomorphiclabs.com/articles/a-glimpse-of-the-next-generation-of-alphafold)
 - [60 of our biggest AI announcements in 2025 - The Keyword](https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/)
 - [A Chat About AI, Immigration, and Trump | Educational Technology and Change Jour](https://etcjournal.com/2025/07/25/a-chat-about-ai-immigration-and-trump/)
+- [AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
 ## Chapitres
 
 - `0:00` — Introduction du canal

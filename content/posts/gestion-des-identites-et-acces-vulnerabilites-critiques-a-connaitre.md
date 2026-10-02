@@ -27,35 +27,31 @@ translationKey: "b52d50cd"
 
 ## Executive Summary
 
-Entre 2023 et 2024, les attaques contre les équipements de sécurité périmétrique (VPN et pare-feu) se sont intensifiées, modifiant profondément les priorités de défense. Le CERT-FR documente une exploitation systématique de ces failles par des acteurs étatiques et des groupes criminels pour obtenir un accès persistant aux réseaux. Cette tendance révèle une limitation majeure : les dispositifs frontières, bien que critiques, ne suffisent plus à garantir la protection des identités et des accès. Les organisations doivent réorienter leur stratégie vers une gestion des identités stricte, combinant authentification standardisée (OpenID Connect 1.0), segmentation réseau et logging exhaustif. L'enjeu dépasse la simple correction de failles techniques : il porte sur la reconstruction d'une architecture de confiance zéro, où chaque accès est validé indépendamment de la position réseau de l'utilisateur.
+Entre 2023 et 2024, les équipements de sécurité périmétrique — VPN et pare-feu — ont connu une montée significative d'attaques ciblées. Le CERT-FR documente cette tendance en mettant l'accent sur l'exploitation de vulnérabilités zéro-day et de configurations défaillantes par des acteurs étatiques et cybercriminels. Cette évolution redéfinit les priorités de gestion des identités et des accès (IAM). L'authentification standardisée, la segmentation réseau rigoureuse et l'application du modèle Zero Trust deviennent des impératifs opérationnels plutôt que des bonnes pratiques optionnelles. Les organisations doivent repenser leur approche au-delà du seul périmètre réseau, en intégrant l'authentification forte, la gestion des privilèges et la micro-segmentation.
 
 ## Principaux points abordés
 
-- **Vague d'attaques ciblées sur la sécurité périmétrique** — Le CERT-FR identifie une augmentation substantielle des compromissions de passerelles VPN et pare-feu sur la période 2023-2024, exploitées comme vecteurs d'entrée initial par des acteurs sophistiqués (états et cybercriminels).
+- **Augmentation des intrusions via équipements périmétriques** — Le rapport d'expérience du CERT-FR identifie une escalade des attaques contre passerelles VPN et pare-feu exploitant des failles non patchées et des faibles configurations d'authentification.
 
-- **Accès persistant et mouvement latéral** — Une fois les équipements de frontière neutralisés, les attaquants établissent une présence durable permettant l'exfiltration de données et le pivotage interne, selon le retour d'expérience du CERT-FR sur les incidents du secteur social.
+- **Nécessité d'une authentification standardisée** — OpenID Connect 1.0, construit sur OAuth 2.0, fournit un cadre d'authentification interopérable et sécurisé. L'implémentation d'ID Tokens et de flux d'interaction normalisés renforce la vérification d'identité au-delà des contrôles périmétriques.
 
-- **Standardisation de l'authentification via OpenID Connect 1.0** — Cette couche d'identité bâtie sur OAuth 2.0 fournit des mécanismes normalisés (ID Tokens, interaction flows) pour sécuriser l'authentification utilisateur, réduisant la dépendance aux seules barrières réseau.
+- **Segmentation réseau et logging exhaustif** — Le CERT-FR préconise une isolation stricte des flux réseau et un enregistrement granulaire des accès pour détecter les mouvements latéraux post-compromission.
 
-- **Segmentation réseau comme rempart supplémentaire** — La documentation ANSSI préconise une microsegmentation rigoureuse et un logging centralisé pour détecter les mouvements anormaux post-compromission, complément indispensable au contrôle d'identité.
+- **Accès privilégiés comme vecteur critique** — La gestion des comptes privilégiés (PAM) et les systèmes de gouvernance des identités (IGA) doivent maintenir une visibilité complète sur les droits d'accès et les modifications de permissions.
 
-- **Limite majeure : confusion entre périmètre et accès** — Les organisations ayant tablé exclusivement sur des pare-feu robustes ne disposent pas des mécanismes d'authentification granulaire ni du Zero Trust nécessaires ; la sécurité du VPN/pare-feu ne compense pas l'absence de gouvernance des identités.
-
-- **Impact opérationnel** — Les équipes de sécurité doivent intégrer : audit continu des accès (Privileged Access Manager), vérification des identités à chaque requête (FIDO Alliance), conformité aux modèles de maturité Zero Trust (CISA), et gestion centralisée des comptes (SCIM).
+- **Limitation du modèle de confiance périmétrique** — La confiance implicite basée sur le périmètre réseau s'avère insuffisante ; le modèle Zero Trust impose une vérification continue de l'identité et du contexte, indépendamment de la localisation de l'utilisateur.
 
 ## Références (Golden Sources)
 
-- [Failles sur les équipements de sécurité : retour d'expérience du CERT-FR - ANSSI](https://www.cert.ssi.gouv.fr/uploads/20240612_NP_ANSSI-SDO_Retex-Vuln_vf.pdf)
-
-- [Cloud Computing - CERT-FR - ANSSI](https://www.cert.ssi.gouv.fr/uploads/CERTFR-2025-CTI-001.pdf)
+- [FAILLES SUR LES ÉQUIPEMENTS DE SECURITE : RETOUR D'EXPERIENCE DU CERT-FR - ANSSI](https://www.cert.ssi.gouv.fr/uploads/20240612_NP_ANSSI-SDO_Retex-Vuln_vf.pdf)
 
 - [OpenID Connect Core 1.0 incorporating errata set 2](https://openid.net/specs/openid-connect-core-1_0.html)
 
+- [Privileged Access Manager - Self-Hosted Architecture - CyberArk Docs](https://docs.cyberark.com/pam-self-hosted/latest/en/content/pasimp/privileged-account-security-solution-architecture.htm)
+
 - [Zero Trust Maturity Model Version 2.0 - CISA](https://www.cisa.gov/sites/default/files/2023-04/zero_trust_maturity_model_v2_508.pdf)
 
-- [Exfiltration de données du secteur social : retour d'expérience du CERT-FR](https://www.cert.ssi.gouv.fr/uploads/CERTFR-2024-CTI-009.pdf)
-
-- [Privileged Access Manager - Self-Hosted Architecture - CyberArk Docs](https://docs.cyberark.com/pam-self-hosted/latest/en/content/pasimp/privileged-account-security-solution-architecture.htm)
+- [How to Evaluate Identity Governance & Administration (IGA) Systems - Saviynt](https://saviynt.com/blog/how-to-evaluate-identity-governance-administration-iga-solutions)
 ## Chapitres
 
 - `0:00` — Introduction générale

@@ -27,27 +27,27 @@ translationKey: "ea7c67d7"
 
 ## Executive Summary
 
-L'administration Trump 2025 redéfinit les capacités opérationnelles de l'agence fédérale ICE (Immigration and Customs Enforcement) selon une doctrine d'application migratoire intensifiée. Au-delà du mandat criminel historique, la mutation inclut un recours accru aux technologies de surveillance, une réorganisation des protocoles de coordination interagences via la réactivation des accords 287(g), et une augmentation substantielle des allocations budgétaires. Cette transformation provoque une fragmentation institutionnelle et civile, générant des contentieux judiciaires et exposant des tensions dans l'architecture de gouvernance fédérale-locale. Les enjeux cybersécuritaires émergent autour de l'intégration de systèmes de surveillance numériques et du partage de données entre entités publiques.
+L'agence américaine ICE (Immigration and Customs Enforcement) subit depuis 2025 une transformation structurelle marquée par l'intensification des opérations de déportation, l'adoption de technologies de surveillance avancées et une militarisation des tactiques opérationnelles. Cette mutation, intervenue sous la deuxième administration Trump, redéfinit les capacités de l'État fédéral en matière d'application du droit de l'immigration et génère des frictions institutionnelles avec les tribunaux, certains États et organisations de la société civile. Les enjeux techno-sécuritaires—notamment le déploiement de systèmes de surveillance basés sur l'IA et l'intégration des accords 287(g) revisités—croisent des problématiques de gouvernance démocratique et de fragmentation politique régionale.
 
 ## Principaux points abordés
 
-- **Reconfiguration structurelle et financière** : ICE, créée en 2003 comme agence de lutte contre la criminalité transnationale, bascule vers une mission dominante de contrôle migratoire massif sous la direction de Tom Homan, nommé responsable de l'exécution des politiques d'immigration fédérales.
+- **Réactivation des opérations massives** : ICE accélère les raids d'immigration et coordonne les arrestations à l'échelle nationale selon un modèle d'exécution centralisée, contraste marqué avec les phases précédentes.
 
-- **Réactivation des mécanismes 287(g)** : La relance des accords de délégation aux autorités locales amplifie la décentralisation de l'application des lois migratoires, créant des disparités régionales et des risques de surinterprétation légale par les forces de police municipales.
+- **Infrastructure de surveillance et données** : Déploiement d'outils de surveillance assistée par IA pour le repérage des cibles, soulevant des questions de proportionnalité et de conformité avec les droits civiques.
 
-- **Déploiement technologique et surveillance** : L'intégration d'outils informatiques de détection et de traçabilité structure une architecture de surveillance croisée (données biométriques, géolocalisation, bases de données intégrées), soulevant des questions de conformité aux protections constitutionnelles.
+- **Renouvellement des partenariats fédéraux-locaux** : Le modèle 287(g) revisité renforce l'implication des forces de police locales et étatiques dans l'exécution fédérale, compliquant les chaînes de responsabilité et amplifiant les résistances municipales.
 
-- **Contentieux judiciaires récurrents** : Les incidents mortels impliquant des agents ICE et des citoyens américains génèrent des litiges fédéraux et compromettent la légitimité opérationnelle locale de l'agence, fragmentant le consensus politique sur l'exécution.
+- **Tensions institutionnelles** : Les contentieux judiciaires et les blocages législatifs au niveau des États démontrent une fragmentation du consensus autour de ces méthodes, réduisant l'effectivité opérationnelle réelle.
 
-- **Impact de gouvernance critique** : La polarisation nationale autour des politiques d'immigration déstabilise les coalitions institutionnelles traditionnelles, réduisant la capacité de coordination horizontale entre agences fédérales et créant des blocages administratifs.
+- **Impact opérationnel et de gouvernance** : La militarisation d'ICE modifie les équilibres des pouvoirs fédéraux-locaux, réoriente les allocations budgétaires sécuritaires et crée des risques de dérive procédurale liés à l'automatisation décisionnelle basée sur des données biaisées.
 
 ## Références (Golden Sources)
 
-- [Abolish ICE? What It Really Means—and What Comes Next](https://ohrh.law.ox.ac.uk/abolish-ice-what-it-really-means-and-what-comes-next/)
-- [Immigration policy of the second Trump administration](https://en.wikipedia.org/wiki/Immigration_policy_of_the_second_Trump_administration)
+- [United States Immigration and Customs Enforcement - Wikipedia](https://en.wikipedia.org/wiki/United_States_Immigration_and_Customs_Enforcement)
+- [Immigration policy of the second Trump administration - Wikipedia](https://en.wikipedia.org/wiki/Immigration_policy_of_the_second_Trump_administration)
+- [List of immigration raids and arrests in the second Trump presidency - Wikipedia](https://en.wikipedia.org/wiki/List_of_immigration_raids_and_arrests_in_the_second_Trump_presidency)
 - [Reviving 287(g) Agreements Under the New Administration: Implementation, Concern](https://forumtogether.org/article/reviving-the-287g-agreements-under-the-new-administration-implementation-concerns-and-implications/)
-- [United States Immigration and Customs Enforcement](https://en.wikipedia.org/wiki/United_States_Immigration_and_Customs_Enforcement)
-- [Tom Homan](https://en.wikipedia.org/wiki/Tom_Homan)
+- [Abolish ICE? What It Really Means—and What Comes Next | OHRH](https://ohrh.law.ox.ac.uk/abolish-ice-what-it-really-means-and-what-comes-next/)
 ## Chapitres
 
 - `0:00` — Introduction

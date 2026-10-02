@@ -27,29 +27,29 @@ translationKey: "0c87c782"
 
 ## Executive Summary
 
-L'ANSSI (Agence nationale de la sécurité des systèmes d'information) propose un cadre structuré pour la remédiation post-attaque, dépassant la seule dimension technique. Une cyberattaque constitue une crise d'entreprise multidimensionnelle exigeant une coordination entre investigation forensique, gestion de crise et stratégies de remédiation. L'agence définit trois axes indissociables et trois stratégies de remédiation permettant aux organisations d'arbitrer entre vitesse de reprise opérationnelle et reconstruction solide des systèmes. Cet approche vise la résilience : capacité à encaisser l'incident, se redresser rapidement et capitaliser sur l'apprentissage. Ce cadre s'adresse aux responsables techniques et aux décideurs exécutifs pour assurer une réponse coordonnée et pérenne.
+L'ANSSI propose un cadre structuré de remédiation post-cyberattaque articulé autour de trois axes interdépendants : investigation technique, gestion de crise et remédiation opérationnelle. Cette approche reconnaît que les cyberattaques constituent des crises d'entreprise engageant la direction, au-delà de simples incidents informatiques. Les organisations font face à un arbitrage critique : privilégier la vitesse de reprise ou construire une solidité à long terme. L'ANSSI identifie trois stratégies de remédiation adaptées à cet arbitrage, chacune balançant entre continuité de service et renforcement durable des défenses. L'enjeu principal réside dans la capacité à encaisser le choc, se redresser et apprendre des dysfonctionnements exposés, tout en impliquant l'ensemble des niveaux décisionnels dans la réaction.
 
 ## Principaux points abordés
 
-- **Trois axes de remédiation de l'ANSSI** : investigation (reconstruction de la chronologie et identification des vecteurs d'attaque), gestion de crise (activation du pilotage stratégique et communication), remédiation (restauration et durcissement des systèmes). Ces axes opèrent simultanément et non séquentiellement.
+- **Trois axes indissociables de réaction** : investigation technique pour établir l'étendue de la compromission, gestion de crise pour coordonner les acteurs internes et externes, et remédiation pour restaurer les systèmes — ces trois dimensions doivent être pilotées simultanément et non séquentiellement.
 
-- **Arbitrage vitesse vs. solidité** : les trois stratégies de remédiation offrent un continuum entre récupération rapide (priorité opérationnelle immédiate) et reconstruction renforcée (prévention long terme). Cette dichotomie reflète une contrainte réelle : chaque choix implique des compromis en matière de coûts, délais et robustesse future.
+- **Arbitrage vitesse versus solidité** : chaque stratégie de remédiation proposée par l'ANSSI positionne différemment le curseur entre une reprise rapide des services critiques et un renforcement durable de la posture de sécurité, sans sacrifier ni l'un ni l'autre selon les contextes.
 
-- **Résilience comme finalité** : au-delà de la continuité de service, l'ANSSI positionne l'apprentissage organisationnel comme composante structurelle. Les exercices de simulation de crise et les retours d'expérience (REX) formalisés deviennent des dispositifs de prévention active.
+- **Remédiation comme processus piloté** : l'ANSSI souligne que la remédiation n'est pas une succession de tactiques techniques isolées, mais un processus cohérent exigeant un pilotage clair, des responsabilités assignées et des étapes de validation — cette coordination s'adresse autant aux équipes techniques qu'aux décideurs.
 
-- **Gouvernance crisis management** : la distinction nette entre pilotage technique (incident response) et pilotage exécutif (crisis management) implique des canaux de décision décentralisés mais coordonnés. Les guides ANSSI précisent les rôles et escalades.
+- **Limitation observée** : le cadre de l'ANSSI privilégie une approche générique applicable à de nombreux contextes, ce qui peut nécessiter une adaptation fine selon le secteur d'activité, la maturité de l'organisation et les contraintes réglementaires propres (secteur critique, données personnelles, etc.).
 
-- **Limite méthodologique** : l'application des stratégies dépend fortement du contexte organisationnel (PME vs. groupe, secteur critique vs. secteur civil). Le cadre ANSSI reste générique et nécessite une contextualisation sectorielle ou métier.
-
-- **Impact opérationnel** : une remédiation mal arbitrée expose à deux risques symétriques — reprise hâtive sans durcissement (rechute probable) ou reconstruction trop lente (perte de compétitivité). La gouvernance de crise devient un facteur de différenciation competitive et de conformité réglementaire.
+- **Impact gouvernance et résilience** : placer la direction au cœur de la crise cyber modifie le modèle de pilotage traditionnel — cela requiert des exercices de simulation réguliers, une documentation des procédures d'escalade et une clarté sur les critères de décision (basculement de services, communication externa, etc.).
 
 ## Références (Golden Sources)
 
 - [Comment remédier à une cyberattaque ? L'ANSSI publie sa collection de guide dédi](https://www.globalsecuritymag.fr/comment-remedier-a-une-cyberattaque-l-anssi-publie-sa-collection-de-guide.html)
-- [Piloter la remédiation d'un incident cyber — ANSSI](https://cyber.gouv.fr/securisation/gestion-de-crise/piloter-la-rem%C3%A9diation-dun-incident-cyber/)
+
 - [Guides ANSSI | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/cyberattaques-et-remediation-preparer-la-remedation)
+
 - [L'ANSSI étoffe le volet opérationnel de son corpus sur la remédiation — ANSSI](https://cyber.gouv.fr/actualites/lanssi-etoffe-le-volet-operationnel-de-son-corpus-sur-la-remediation/)
-- [anssi-guide-organising_a_cyber_crisis_management_exercise-v1.0](https://messervices.cyber.gouv.fr/documents-guides/anssi-guide-organising_a_cyber_crisis_management_exercise-v1.0.pdf)
+
+- [Piloter la remédiation d'un incident cyber — ANSSI](https://cyber.gouv.fr/securisation/gestion-de-crise/piloter-la-rem%C3%A9diation-dun-incident-cyber/)
 ## Chapitres
 
 - `0:00` — Introduction

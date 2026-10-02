@@ -27,27 +27,30 @@ translationKey: "b2a3f893"
 
 ## Executive Summary
 
-L'intégration d'eBPF dans les architectures 5G conteneurisées introduit un vecteur d'attaque critique : l'isolation mémoire insuffisante entre conteneurs colocalisés permet une compromission inter-conteneurs exploitant les privilèges kernel d'eBPF. Ce risque s'intensifie avec les vecteurs adjacents — sockets Docker exposées, vulnérabilités runC, systèmes ICS/SCADA conteneurisés — où une unique défaillance d'isolation offre au attaquant un accès latéral au cœur de réseau ou à l'infrastructure critique. Les contre-mesures reposent sur une triple approche : segmentation logique (RBAC, namespaces), validation d'intégrité des images et télémétrie continue pour détecter les écarts d'exécution.
+L'intégration croissante d'eBPF dans les architectures 5G conteneurisées introduit un vecteur d'attaque méconnu : la compromission inter-conteneurs via défaillance d'isolation mémoire. Une étude récente documente comment l'accès direct au kernel par eBPF peut contourner les barrières logiques entre conteneurs colocalisés. Combinée à des expositions classiques comme les sockets Docker non sécurisées et les vulnérabilités runC, cette faille impacte directement la robustesse des cœurs de réseau 5G. Les systèmes ICS/SCADA conteneurisés présentent des risques similaires. Les contre-mesures reposent sur une segmentation stricte (RBAC, namespaces), le durcissement d'images et la vérification d'attestations en continu.
 
 ## Principaux points abordés
 
-- **Mécanisme d'exploitation eBPF** : Les programmes eBPF s'exécutent en kernel space avec accès direct à la mémoire; l'absence de cloisonnement strict entre conteneurs colocalisés permet de franchir les frontières logiques et d'accéder aux données ou d'exécuter du code dans le contexte d'un conteneur voisin.
+- **eBPF comme surface d'attaque en 5G** : Les programmes eBPF bénéficiant d'accès kernel pour des raisons de performance réseau créent une faille d'isolation mémoire entre conteneurs voisins, contournant les protections par namespace.
 
-- **Sockets Docker et accès root implicite** : L'exposition de `/var/run/docker.sock` sur le système hôte confère un accès administrateur au démon Docker; tout conteneur obtenant ce socket acquiert la capacité de piloter l'infrastructure conteneurisée entière, court-circuitant l'isolation.
+- **Socket Docker exposée : vecteur de persistance** : L'accès non contrôlé à `/var/run/docker.sock` confère des droits root sur l'hôte ; une exposition fréquente dans les architectures cloud-natives faiblement configurées.
 
-- **Vulnérabilités runC et évasion conteneur** : Les défauts de sécurité identifiés dans runC permettent à un attaquant privilégié au sein d'un conteneur de rompre l'isolation du runtime et d'accéder au système hôte; les cœurs 5G et systèmes ICS/SCADA conteneurisés demeurent particulièrement exposés faute de mises à jour régulières.
+- **Chaîne d'exploitation multi-vecteurs** : Une compromission eBPF initiale peut se combiner avec des vulnérabilités runC pour réaliser une évasion de conteneur complète vers l'hôte ou les conteneurs voisins.
 
-- **Insuffisance des configurations par défaut** : Les déploiements Kubernetes et Docker tirent rarement parti des capacités de segmentation avancées (namespaces, AppArmor, SELinux); cette configuration minimale crée des zones grises où les privilèges kernel et l'accès mémoire restent insuffisamment cloisonnés.
+- **Criticalité accrue en environnement ICS/SCADA** : Les systèmes de contrôle conteneurisés amplifieront l'impact d'une telle défaillance, passant d'une compromission logique à une dégradation de disponibilité critique.
 
-- **Riposte multi-couches requise** : Le durcissement doit combiner le contrôle d'accès basé sur les rôles (RBAC), l'isolation par namespaces au niveau kernel, la vérification d'intégrité des images (signatures d'attestation) et la surveillance active des anomalies d'exécution pour valider la chaîne de construction.
+- **Limite des seuls contrôles d'accès** : RBAC et namespaces seuls ne bloquent pas les attaques eBPF au niveau mémoire ; une approche en couches (image durcies, vérification d'attestations, telémétrie) reste indispensable.
+
+- **Impact opérationnel** : Les équipes DevOps 5G doivent basculer d'un modèle « conteneurs = isolés par défaut » à un modèle « vérification continue de l'intégrité des couches kernel et de l'image ».
 
 ## Références (Golden Sources)
 
-- [Vulnerability Analysis of eBPF-enabled Containerized Deployments of 5G Core Network](https://arxiv.org/pdf/2603.19867)
+- [Vulnerability Analysis of eBPF-enabled Containerized Deployments of 5G Core Networks](https://arxiv.org/pdf/2603.19867)
 - [Containerized Security for ICS/SCADA Systems: From PLC Simulation to Kubernetes](https://www.iiis.org/CDs2025/CD2025Summer//papers/SA545CT.pdf)
 - [Docker socket security: why /var/run/docker.sock is root access](https://www.netdata.cloud/guides/docker/docker-socket-security/)
 - [New runC Vulnerabilities Enable Container Escape](https://orca.security/resources/blog/new-runc-vulnerabilities-allow-container-escape/)
 - [Verify a Docker Hardened Image or chart](https://docs.docker.com/dhi/how-to/verify/)
+- [CLI Command Reference - checkov](https://www.checkov.io/2.Basics/CLI%20Command%20Reference.html)
 ## Chapitres
 
 - `0:00` — Introduction

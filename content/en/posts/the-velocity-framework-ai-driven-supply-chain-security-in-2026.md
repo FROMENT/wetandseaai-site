@@ -28,32 +28,30 @@ translationKey: "6adc89de"
 
 ## Executive Summary
 
-Modern software supply chains face a critical dilemma: strict dependency pinning prevents automatic patching and allows components to become stale and vulnerable over time, while aggressive update policies create alert fatigue and introduce untested code into production. A two-speed governance model—combining version pinning with measurable freshness metrics and differentiated update cadences—addresses both risks. As AI agents generate increasing volumes of infrastructure code and dependency registries flood with malware and vulnerabilities, organizations must implement policies that maintain reproducible builds while ensuring timely security patching. This approach relies on metrics like libyears, vulnerability scoring (EPSS), and policy automation to balance stability against decay.
+Modern software supply chains face a critical tension: strict dependency pinning prevents unexpected breaks but allows security decay, while continuous updates expose teams to alert fatigue and reproducibility loss. The two-speed dependency management model addresses this by separating routine updates from security-critical patches. AI-driven infrastructure code generation and registry flooding with vulnerabilities demand governance structures—SBOMs, provenance verification, and policy-as-code—to maintain both build stability and security posture without sacrificing operational velocity.
 
 ## Key Points
 
-- **Pinning dependency versions ensures build reproducibility but creates technical debt**: Frozen dependencies isolate code from security patches, pushing maintenance burden into the future and increasing exploitation window exposure across entire ecosystems.
+- **Pinning creates stability debt**: Locking dependencies to known versions prevents build rot and reproducibility issues, but components age without security updates, accumulating hidden vulnerabilities over time.
 
-- **Libyears measure the age of dependencies in human-readable units**: This metric quantifies how far behind current versions a project lags, enabling risk assessment without drowning teams in raw update notifications.
+- **Freshness measurement via libyears**: The libyear metric quantifies dependency age by counting how many years behind the latest release a component sits; combined with EPSS scores, it enables risk-stratified update scheduling rather than blanket policies.
 
-- **Two-speed update model separates routine maintenance from critical fixes**: Routine updates batch on extended cool-down cycles (reducing noise and testing overhead), while security patches fast-track through expedited approval when vulnerability severity scores (EPSS) exceed defined thresholds.
+- **Two-speed update cadence**: Batch routine updates on a cool-down schedule (e.g., monthly) while fast-tracking patches addressing active exploits, detected via Exploit Prediction Scoring System or vulnerability advisories, balances alert fatigue against rapid response.
 
-- **AI-generated infrastructure code compounds supply chain risk**: Sonatype research shows AI agents now produce substantial volumes of infrastructure code, with approximately half containing default security flaws; dependency registries are simultaneously flooded with malicious and vulnerable packages, amplifying automated propagation vectors.
+- **AI agents amplify supply chain risk**: Automated infrastructure code generation now dominates deployments; Sonatype data shows approximately half of AI-generated code contains security flaws by default, requiring upstream policy enforcement and SBOM generation at commit time.
 
-- **Policy automation and provenance tracking become mandatory controls**: Open Policy Agent (OPA) and SLSA framework levels enforce dependency governance rules upstream; SBOM transparency and OpenSSF Scorecard assessments reduce blind spots in component trustworthiness.
+- **Provenance and policy gaps**: SLSA levels, OpenSSF Scorecard, and Open Policy Agent enable control, but governance adoption remains inconsistent; NIST.SP.800-218 and OWASP CI/CD risks outline frameworks, yet manual verification bottlenecks still exist in most teams.
 
-- **Libyears and EPSS are operational guides, not absolute thresholds**: Organizations must calibrate update policies to their risk tolerance, deployment frequency, and resource constraints; over-reliance on automated metrics without human context creates false security assumptions.
-
-- **Governance impact**: Implementing differentiated update strategies reduces security alert fatigue by 40–60% in mature DevOps environments while maintaining the ability to respond to critical exploits within hours rather than weeks.
+- **Limitation of libyears alone**: Freshness scores ignore severity distribution and false positives in vulnerability databases; complementary signals (EPSS, scorecard checks, transitive dependency risk) are necessary to avoid either premature or delayed patching.
 
 ## References (Golden Sources)
 
 - [2026 State of the Software Supply Chain Report | Sonatype](https://www.sonatype.com/state-of-the-software-supply-chain/introduction)
 - [AI Agents Are Writing Your Infrastructure Code. Is Anyone Governing It? - DevOps](https://devops.com/ai-agents-are-writing-your-infrastructure-code-is-anyone-governing-it/)
 - [Tame Dependabot: Group your updates, slow the cadence, keep security fast - The GitHub Blog](https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/)
-- [Caveats around using Libyears · Jamie Tanna | Software Engineer](https://www.jvt.me/posts/2026/05/14/caveat-libyear/)
-- [SLSA • Security levels](https://slsa.dev/spec/v1.0/levels)
 - [Exploit Prediction Scoring System (EPSS)](https://www.first.org/epss/)
+- [SLSA • Security levels](https://slsa.dev/spec/v1.0/levels)
+- [libyear](https://libyear.com/)
 ## Chapters
 
 - `0:00` — Introduction & Overview

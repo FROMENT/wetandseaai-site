@@ -27,32 +27,35 @@ translationKey: "3d567ac7"
 
 ## Executive Summary
 
-L'informatique quantique représente une menace asymétrique pour le chiffrement asymétrique actuel (RSA, ECC). Bien que l'avènement de calculateurs quantiques suffisamment puissants reste incertain, une stratégie de compromission existe déjà : collecter les données chiffrées aujourd'hui pour les déchiffrer demain. Cette approche « piratage temporel » rend la transition post-quantique urgente, même pour les petites structures. Le NIST a standardisé de nouveaux algorithmes (ML-KEM, ML-DSA) conçus pour résister aux attaques quantiques. La migration impose une refonte progressive des infrastructures et une mise en œuvre de la crypto-agilité — capacité à basculer rapidement entre standards cryptographiques sans interrompter les opérations. Pour les PME, l'enjeu combine réalité technique immédiate et planification stratégique.
+L'informatique quantique constitue une menace concrète pour les données chiffrées actuellement en circulation. Les algorithmes de chiffrement asymétrique (RSA, ECC) que les organisations utilisent massivement peuvent être compromis par des ordinateurs quantiques suffisamment puissants. Le scénario du « piratage temporel » — collecter des données chiffrées aujourd'hui pour les déchiffrer demain une fois les capacités quantiques disponibles — représente un risque immédiat, même si le déploiement massif de machines quantiques demeure incertain. La transition vers la cryptographie post-quantique constitue donc un enjeu opérationnel urgent pour les entreprises de toutes tailles. Les standards émergents ML-KEM et ML-DSA offrent une alternative, mais leur intégration nécessite une refonte des architectures de sécurité et une approche de crypto-agilité pour adapter rapidement les protocoles futurs.
 
 ## Principaux points abordés
 
-- **Vulnérabilité du chiffrement actuel** — Les algorithmes asymétriques dominants (RSA 2048, courbes elliptiques) seraient cassables par un ordinateur quantique disposant de quelques millions de qubits logiques. Aucun horizon précis n'existe, mais la fenêtre de vulnérabilité est ouverte dès maintenant.
+- **Menace asymétrique du chiffrement actuel** — RSA et ECC demeurent vulnérables aux attaques quantiques, créant une fenêtre d'exposition pour les données sensibles stockées ou transmises aujourd'hui.
 
-- **Collecte rétroactive des données** — Le scénario « Store Now, Decrypt Later » décrit des acteurs malveillants qui archiviste données chiffrées actuelles en attente de capacités quantiques futures. Les données sensibles (brevets, données personnelles, secrets d'État) restent exposées rétroactivement.
+- **Stratégie « Store Now, Decrypt Later »** — Des acteurs malveillants collectent actuellement des données chiffrées avec l'intention de les déchiffrer une fois qu'un ordinateur quantique suffisamment puissant sera disponible, imposant une urgence de migration dès maintenant.
 
-- **Standards post-quantiques finalisés** — NIST a normalisé ML-KEM (chiffrement asymétrique) et ML-DSA (signature numérique) basés sur problèmes mathématiques supposément résistants aux attaques quantiques. Ces algorithmes entrent progressivement dans les produits commerciaux.
+- **Standards post-quantiques NIST** — ML-KEM (chiffrement) et ML-DSA (signature numérique) représentent les nouveaux algorithmes standardisés conçus pour résister aux attaques quantiques et hybrides.
 
-- **Crypto-agilité comme infrastructure** — La transition ne consiste pas à remplacer brutalement les systèmes existants, mais à construire une flexibilité cryptographique native permettant de basculer entre plusieurs algorithmes sans redéploiement complet.
+- **Crypto-agilité comme cadre stratégique** — La capacité à remplacer rapidement les protocoles cryptographiques sans refonte complète devient critique pour maintenir la résilience face à l'évolution de la menace quantique.
 
-- **Calendrier de migration pour les PME** — Les recommandations convergent vers 2026-2030 pour débuter l'inventaire des actifs cryptographiques. Les PME disposent d'une fenêtre tactique avant que la pression réglementaire (conformité, assurance cyber) devienne contraignante, mais le délai se rétrécit.
+- **Calendrier de migration incertain** — Bien que NIST ait finalisé ses recommandations, le déploiement réel chez les PME et grandes entreprises s'étale sur plusieurs années, créant un décalage entre l'urgence reconnue et la capacité d'exécution opérationnelle.
 
-- **Limites opérationnelles** — Les algorithmes post-quantiques consomment plus de ressources (clés plus volumineuses, calculs intensifs) et imposent des upgrades matériels. L'intégration dans les chaînes de signature, les certificats PKI et les protocoles hérités (TLS 1.2) présente des défis de compatibilité non triviaux.
-
-- **Impact gouvernance et cybersécurité** — La migration post-quantique devient un élément du programme de sécurité globale, impliquant risque, conformité réglementaire (NIS2 en Europe), audit d'inventaire cryptographique et formation des équipes infrastructure/sécurité.
+- **Complexité technique pour les PME** — L'absence de ressources dédiées et la dépendance à des fournisseurs tiers compliquent l'adoption pour les petites et moyennes entreprises, risquant d'accentuer les inégalités de sécurité sectorielles.
 
 ## Références (Golden Sources)
 
-- [Chiffrement Post-Quantique : Urgence pour les PME Africaines | Weltaare-tech](https://weltaare-tech.com/blog/chiffrement-post-quantique-lurgence-pour-les-pme-africaines-face-a-la-menace-quantique)
+- [Chiffrement Post-Quantique : Urgence pour les PME Africaines](https://weltaare-tech.com/blog/chiffrement-post-quantique-lurgence-pour-les-pme-africaines-face-a-la-menace-quantique)
+
 - [Cryptographie post-quantique - Bpifrance](https://www.bpifrance.fr/download/media-file/74330)
-- [How Small Businesses Should Approach Cybersecurity in the Post-Quantum Era](https://biztechmagazine.com/article/2024/11/how-small-businesses-should-approach-cybersecurity-post-quantum-era)
+
 - [Menace quantique - Orange Cyberdefense](https://www4.orangecyberdefense.com/fr_quantum_report)
+
 - [Migration post-quantique PME : que faire concrètement en 2026 - CyberPilot](https://cyberpilot.fr/quantique/migration-post-quantique-pme/)
+
 - [NIST finalizes Cybersecurity Whitepaper 39 - considerations for crypto agility](https://pqshield.com/nist-finalizes-cybersecurity-whitepaper-39-considerations-for-crypto-agility/)
+
+- [Se préparer pour la cryptographie post-quantique (CPQ) : impacts sur les opérations de cybersécurité classiques des PME](https://insecm.ca/infolettre/se-preparer-pour-la-cryptographie-post-quantique-cpq-impacts-sur-les-operations-de-cybersecurite-classiques-des-pme/)
 ## Chapitres
 
 - `0:00` — Introduction

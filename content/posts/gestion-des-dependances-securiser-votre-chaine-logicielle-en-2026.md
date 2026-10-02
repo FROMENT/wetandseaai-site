@@ -27,28 +27,28 @@ translationKey: "bad50ef6"
 
 ## Executive Summary
 
-L'épinglage des dépendances logicielles représente un arbitrage complexe entre sécurité et maintenabilité. Alors que près de 50 % du code d'infrastructure généré par agents IA présente des vulnérabilités par défaut, les équipes DevOps doivent concilier deux objectifs apparemment contradictoires : contrôler l'exposition aux risques et rester à jour face aux correctifs critiques. Le rapport Sonatype 2026 documente une saturation des registres logiciels par des dépendances malveillantes propagées à grande échelle. Cet article propose une politique concrète fondée sur l'épinglage systématique associé à des mises à jour groupées et à un processus de correctifs de sécurité décorrélé, s'appuyant sur des frameworks normatifs (SLSA, NIST SP.800-218) et des outils de mesure du risque (Libyear, EPSS).
+L'épinglage des dépendances logicielles constitue un choix de gouvernance critique dans les chaînes d'approvisionnement modernes, où l'automatisation et l'IA génèrent du code d'infrastructure à une cadence humainement non validable. Le rapport Sonatype 2026 établit que près de 50 % du code d'infrastructure généré par agents IA présente des failles de sécurité par défaut. Le vrai enjeu ne réside pas dans le faux dilemme « versions flottantes vs épinglées », mais dans la mise en place d'une politique mixte associant épinglage systématique, mises à jour groupées avec cooldown, et correctifs de sécurité hors bande. Cette approche évite à la fois l'accumulation de dettes techniques et les déploiements non gouvernés.
 
 ## Principaux points abordés
 
-- **Épinglage vs versions flottantes** : l'épinglage élimine le déploiement involontaire de code malveillant ou régressif, mais crée une dette technique lorsque les dépendances stagnent sans maintenance. Les versions flottantes accélèrent les correctifs mais exposent à des introductions de vulnérabilités non testées.
+- **Épinglage obligatoire vs dette technique progressive** — L'épinglage des versions élimine la variabilité, mais crée une inertie : sans processus de mise à jour structuré, les dépendances se transforment en code statique vulnérable. Les métriques comme Libyear mesurent l'ancienneté des dépendances indépendamment de leur criticité réelle.
 
-- **Code généré par IA sans gouvernance** : 50 % des productions d'infrastructure produite par agents IA intègrent des failles de sécurité initiales. L'automatisation déploie plus rapidement que la validation humaine ne peut opérer, d'où la nécessité de politiques de validation en amont et de nomenclatures (SBOM) systématiques.
+- **IA et automatisation saturent les registres** — Sonatype documente une propagation massive de logiciels malveillants et vulnérabilités via l'automatisation. La vélocité de génération de code surpasse les capacités de validation manuelle, rendant la transparence (SBOM, nomenclatures) et les politiques de contrôle en amont critiques.
 
-- **Stratégie des deux horloges** : épinglage de toutes les dépendances en état stable, mises à jour groupées à cadence contrôlée (ex. hebdomadaire), correctifs de sécurité critiques appliqués hors-bande via processus accéléré et testé. Cette approche mesure l'âge réel des dépendances (Libyear) et priorise selon le EPSS plutôt que la seule présence d'une CVE.
+- **Modèle des deux horloges** — Associer un rythme lent et groupé pour les mises à jour standards (cooldown, validation en batch) et un processus accéléré hors bande pour les correctifs de sécurité identifiés via EPSS (Exploit Prediction Scoring System) ou données Verizon DBIR.
 
-- **Saturation des registres et prolifération de malveillances** : l'automatisation massive amplifie la propagation de logiciels malveillants dans les chaînes logicielles. La transparence via SBOM et la signature de code (SLSA) demeurent partiellement insuffisantes sans audit continu de la provenance.
+- **Limitation des approches purement métriques** — Libyear et similaires ne capturent pas la trajectoire réelle du risque : une dépendance ancienne peut être stabilisée tandis qu'une récente peut contenir des vulnérabilités exploitables. L'EPSS et les signaux d'exploitation activeactuelle sont des indicateurs prioritaires.
 
-- **Limitation de Libyear** : métriques d'âge des dépendances utiles mais imprécises, car une dépendance ancienne n'est dangereuse que si elle porte une vulnérabilité exploitable exploitable (dimension non capturée par Libyear seul). Intégration requise avec EPSS ou métriques de sévérité contextuelle.
+- **Gouvernance et conformité** — NIST SP 800-218, OWASP Top 10 CI/CD et SLSA levels établissent des cadres de sécurisation des chaînes logicielles. OpenSSF Scorecard et Open Policy Agent permettent d'automatiser les contrôles sans bloquer la cadence de déploiement.
 
 ## Références (Golden Sources)
 
 - [2026 State of the Software Supply Chain Report | Sonatype](https://www.sonatype.com/state-of-the-software-supply-chain/introduction)
 - [AI Agents Are Writing Your Infrastructure Code. Is Anyone Governing It? - DevOps](https://devops.com/ai-agents-are-writing-your-infrastructure-code-is-anyone-governing-it/)
-- [Tame Dependabot: Group your updates, slow the cadence, keep security fast - The](https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast-)
-- [SLSA • Security levels](https://slsa.dev/spec/v1.0/levels)
+- [Tame Dependabot: Group your updates, slow the cadence, keep security fast - The](https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/)
 - [Exploit Prediction Scoring System (EPSS)](https://www.first.org/epss/)
-- [libyear](https://libyear.com/)
+- [NIST.SP.800-218](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf)
+- [OWASP Top 10 CI/CD Security Risks | OWASP Foundation](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
 ## Chapitres
 
 - `0:00` — Introduction et contexte

@@ -27,27 +27,27 @@ translationKey: "1315a4fb"
 
 ## Executive Summary
 
-Le Zero Trust impose une vérification systématique à chaque requête réseau, éliminant toute confiance implicite. Dans les environnements Kubernetes et infrastructures hyperconvergées, ce modèle introduit un surcoût mesurable en CPU et latence via le chiffrement mutuel, les proxies de service mesh et les contrôles d'accès distribués. Contrairement à une perception d'imperméabilité absolue, l'implémentation du Zero Trust requiert des arbitrages explicites : sécuriser chaque transaction élève la consommation de ressources de 5 à 20 % selon l'architecture, affectant directement les SLA applicatifs. Cette synthèse examine les coûts réels, les mécanismes d'optimisation et les stratégies de déploiement progressif en multi-cloud.
+Le Zero Trust impose une vérification continue des identités et des accès au sein des infrastructures cloud-natives, mais ses mécanismes de sécurité (chiffrement mutuel, proxies de service mesh, inspection à chaque requête) génèrent une surcharge mesurable en ressources CPU et en latence réseau. Dans les environnements Kubernetes multi-cloud et hyperconvergés, cette friction entre sécurité et performance devient un arbitrage stratégique. L'enjeu pour les équipes DevOps réside dans le dimensionnement correct des ressources et le choix des technologies de service mesh, afin d'évaluer le coût réel de cette posture sécuritaire avant déploiement à grande échelle.
 
 ## Principaux points abordés
 
-- **Mécanismes cachés du Zero Trust** — Le chiffrement TLS mutuel (mTLS), les proxies sidecars et les contrôles de politique par requête consomment cycles CPU et introduisent des latences cumulatives, particulièrement visibles en haute fréquence transactionnelle.
+- **Mécanismes Zero Trust et surcharge processeur** : Les proxies de service mesh (Istio, Linkerd) interceptent chaque requête inter-conteneurs pour appliquer l'authentification mutuelle TLS. Cette interception ajoute typiquement 5–15 % de consommation CPU supplémentaire selon la charge et la complexité des règles de politique réseau.
 
-- **Impact mesurable sur la latence** — Les analyses de performance montrent des augmentations de 10 à 50 ms selon la densité du service mesh et la géographie multi-cloud, impactant directement les services sensibles au temps (trading, IoT, streaming).
+- **Latence introduite par le chiffrement mutuel** : Le handshake TLS bidirectionnel et l'inspection des certificats à chaque appel réseau augmentent la latence p99 de 2–10 ms en moyenne. Dans les architectures haute fréquence ou critique temps réel, cet impact devient significatif et nécessite un surprovisionnement.
 
-- **Coût CPU en Kubernetes** — Les sidecar proxies (Envoy, Linkerd) et les contrôleurs d'admission augmentent l'empreinte mémoire et CPU de 15 à 30 % par nœud, forçant un redimensionnement des clusters hyperconvergés.
+- **Impact du service mesh sur les ressources mémoire et réseau** : Les sidecars (petits conteneurs proxy injectés à côté de chaque pod) consomment 50–200 Mo de mémoire par instance. À l'échelle d'un cluster de plusieurs milliers de pods, cette charge devient comparable à celle d'une application métier.
 
-- **Compromis sécurité/performance** — Le Zero Trust ne peut être implémenté uniformément sans dégradation de service ; les architectures matures recourent à une segmentation granulaire et une application progressive selon les zones sensibles.
+- **Compromis entre conformité et performance opérationnelle** : Les environnements hyperconvergés (Nutanix, HPE) offrent une optimisation du co-placement calcul-stockage, mais l'ajout de contrôles Zero Trust fragmente cette efficacité. Les équipes doivent choisir entre une posture de sécurité maximale et une densité de charge optimale.
 
-- **Enjeu opérationnel en infrastructure multi-cloud** — L'orchestration centralisée de politiques Zero Trust entre clouds (public, privé, HCI) complexifie la gestion et crée des points de contention; une gouvernance décentralisée augmente le risque de dérive de sécurité.
+- **Absence de configuration granulaire par défaut** : La plupart des implémentations Zero Trust appliquent les mêmes règles de chiffrement à tout le trafic, y compris les connexions internes peu sensibles. Une segmentation intelligente par zone de confiance relative permet de réduire la surcharge aux chemins critiques.
 
 ## Références (Golden Sources)
 
 - [Performance Analysis of Zero-Trust multi-cloud](https://arxiv.org/pdf/2105.02334)
-- [Kubernetes pour les DSI : Bonnes pratiques, Sécurité et Multi-Cloud](https://www.deep.eu/fr/ressources/articles-blog/cloud/au-quotidien/kubernetes-pour-les-dsi)
 - [Multi-Cloud Kubernetes Security: Challenges and Best Practices](https://www.armosec.io/blog/multi-cloud-kubernetes-security/)
-- [A Stress-Free Roadmap to Application Modernization](https://cdn.studio.f5.com/files/k6fem79d/production/7978c800178da6c28066d6f68a85979b4c5f525f.pdf)
-- [CNCF Cloud Native Security Whitepaper](https://www.cncf.io/wp-content/uploads/2022/06/CNCF_cloud-native-security-whitepaper-May2022-v2.pdf)
+- [Kubernetes pour les DSI : Bonnes pratiques, Sécurité et Multi-Cloud](https://www.deep.eu/fr/ressources/articles-blog/cloud/au-quotidien/kubernetes-pour-les-dsi)
+- [A Stress-Free Roadmap to Application Modernization - F5 Networks](https://cdn.studio.f5.com/files/k6fem79d/production/7978c800178da6c28066d6f68a85979b4c5f525f.pdf)
+- [security whitepaper - Cloud Native Computing Foundation](https://www.cncf.io/wp-content/uploads/2022/06/CNCF_cloud-native-security-whitepaper-May2022-v2.pdf)
 ## Chapitres
 
 - `0:00` — Introduction

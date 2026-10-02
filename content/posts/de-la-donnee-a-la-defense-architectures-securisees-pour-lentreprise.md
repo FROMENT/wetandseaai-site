@@ -29,30 +29,32 @@ aliases:
 
 ## Executive Summary
 
-La responsabilité des données en entreprise dépasse le simple stockage technique : elle engage une clarification des rôles, des cadres de gouvernance et des architectures de sécurité. Le data owner apparaît comme le garant de la propriété et de la conformité des données, en articulation avec les cadres normatifs (DAMA-DMBOK, COBIT) et les impératifs de souveraineté des données. Dans un contexte de cybermenaces croissantes, cette responsabilité devient un enjeu stratégique de cybersécurité, nécessitant une séparation claire entre propriété, intendance et contrôle technique. Les architectures modernes, notamment Zero Trust, redéfinissent cette gouvernance autour de la protection des données comme actif critique.
+La question de la responsabilité des données en entreprise dépasse le cadre technique : elle engage la cybersécurité, la conformité réglementaire et la création de valeur métier. Le data owner émerge comme acteur clé de cette responsabilité partagée, structurant la gouvernance entre propriété formelle, gestion opérationnelle et protection. Les cadres comme DAMA-DMBOK et COBIT fournissent les structures nécessaires pour clarifier les rôles, tandis que les principes Zero Trust et la souveraineté des données deviennent des impératifs de sécurité face aux risques de conformité et d'exposition. Comprendre qui porte réellement la responsabilité permet de transformer les données d'un passif organisationnel en actif protégé.
 
 ## Principaux points abordés
 
-- **Propriété versus intendance** — Le data owner détient l'autorité décisionnelle et la responsabilité métier sur les données, tandis que le data steward assure leur qualité opérationnelle et leur conformité. Cette distinction, souvent floue, conditionne l'efficacité de la gouvernance.
+- **Distinction propriété/responsabilité** : La propriété des données relève souvent du métier (business owner), tandis que la responsabilité opérationnelle incombe au data owner, garant de la qualité, de l'accès et de la conformité.
 
-- **Rôle opérationnel du data owner** — Définition des règles d'accès, arbitrage des usages métier, validation de conformité réglementaire (RGPD notamment), alignement des données avec les objectifs stratégiques. C'est un acteur métier, non technique.
+- **Rôle du data owner en cybersécurité** : Au-delà de la gestion administrative, le data owner définit les niveaux de classification, les règles d'accès et valide les mesures de protection alignées aux risques métier.
 
-- **Cadres normatifs comme structure** — DAMA-DMBOK propose un référentiel global de disciplines (gouvernance, qualité, intégration, architectures) ; COBIT articule la gouvernance informatique avec la maîtrise des risques et la conformité. Ces deux approches définissent le périmètre opérationnel du data owner.
+- **Cadres de gouvernance structurants** : DAMA-DMBOK pose les principes fondamentaux de gestion des données (collecte, stockage, utilisation), tandis que COBIT fournit le lien entre gouvernance IT et objectifs métier, incluant la gestion des risques.
 
-- **Architecture de données moderne et chaîne de responsabilité** — Une architecture standardisée (collecte, intégration, stockage, distribution) exige un propriétaire de données pour chaque domaine métier, assurant la traçabilité et la qualité en amont de tout usage.
+- **Architecture de données moderne** : Une architecture standardisée et documentée répartit clairement les flux, les responsabilités et les points de sécurité, facilitant l'identification des propriétaires et des gardiens.
 
-- **Souveraineté des données comme impératif de cybersécurité** — Localisation, contrôle légal et technique des données, maîtrise des flux transfrontaliers deviennent des éléments essentiels de la posture de sécurité, notamment sous Zero Trust.
+- **Zero Trust et souveraineté** : L'approche Zero Trust refuse la confiance implicite et impose une vérification continue des accès aux données. La souveraineté des données—maîtrise de la localisation et du traitement—devient un élément de différenciation concurrentielle et un impératif réglementaire.
 
-- **Tension entre flexibilité et contrôle** — Accorder une responsabilité claire au data owner peut ralentir l'agilité métier ; néanmoins, cette centralité reste nécessaire pour éviter la prolifération de silos de données non gouvernés et vulnérables.
+- **Tension pratique** : En réalité, les rôles de data owner et data steward se chevauchent souvent, créant des ambiguïtés sur qui valide finalement les décisions d'accès ou de suppression, particulièrement en environnements matriciels ou critiques.
+
+- **Impact opérationnel** : L'absence de clarification des responsabilités ralentit les décisions de conformité (RGPD, secteur réglementé), augmente les risques d'exposition non détectée et complique l'audit des accès aux données sensibles.
 
 ## Références (Golden Sources)
 
 - [Data ownership : définition, gestion, enjeux et bonnes pratiques](https://www.softyflow.io/data-ownership-definition-gestion-enjeux-bonnes-pratiques/)
-- [Le Data Owner : fonction clé de la gouvernance des données | Les actualités du Freelance](https://www.freelance-informatique.fr/actualites/data-owner)
 - [DAMA® Data Management Body of Knowledge (DAMA-DMBOK®)](https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/)
-- [Data sovereignty is now a cybersecurity imperative - Tech Monitor](https://www.techmonitor.ai/comment-2/data-sovereignty-cybersecurity-imperative/)
-- [How Data Ownership and Stewardship Differ in Practice](https://www.actian.com/blog/data-management/data-owner-vs-data-steward/)
 - [Comment une architecture de données moderne rend l'entreprise plus performante](https://www.talend.com/fr/resources/what-is-data-architecture/)
+- [Data sovereignty is now a cybersecurity imperative](https://www.techmonitor.ai/comment-2/data-sovereignty-cybersecurity-imperative/)
+- [How Data Ownership and Stewardship Differ in Practice](https://www.actian.com/blog/data-management/data-owner-vs-data-steward/)
+- [A data governance framework for digital social protection systems](https://spdci.org/wp-content/uploads/2025/11/251124_DCI_Data_Governance_framework_publication.pdf)
 ## Chapitres
 
 - `0:00` — Introduction & présentation

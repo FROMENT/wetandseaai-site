@@ -27,23 +27,23 @@ translationKey: "eadd0f59"
 
 ## Executive Summary
 
-La fuite de code source représente un risque critique en contexte DevOps moderne, particulièrement lorsque des systèmes d'intelligence artificielle avancée sont impliqués. Ce scénario fictif — mais techniquement plausible — explore comment une erreur de configuration simple peut exposer des milliers de lignes de code propriétaire. Au-delà de l'incident technique lui-même, l'enjeu central réside dans l'intégration de la sécurité en amont du cycle de développement, plutôt que comme contrôle tardif. DevSecOps impose de repenser la gouvernance de sécurité comme un problème architectural, où chaque étape — planification, développement, déploiement, production — intègre des contrôles de protection du code et des secrets.
+La fuite de code source constitue l'un des vecteurs de risque majeurs en environnement cloud-natif. Ce scénario fictif, mais techniquement plausible, met en lumière comment une erreur de configuration simple — oubli d'un fichier `.env` ou misconfiguration de repository — peut exposer 512 000 lignes de code propriétaire. L'incident sert de cas d'usage pour démontrer l'insuffisance des approches de sécurité réactives (modèle du vigile) face aux architectures DevOps modernes. Il illustre pourquoi l'intégration de la sécurité dès la planification (approche architecturale) et tout au long du pipeline CI/CD devient nécessaire pour réduire la surface d'attaque. Les implications couvrent non seulement la propriété intellectuelle, mais aussi la conformité réglementaire et la continuité opérationnelle.
 
 ## Principaux points abordés
 
-- **Anatomie d'une fuite plausible** — Une erreur humaine isolée (configuration incorrecte d'un fichier, permissions mal configurées) peut exposer massivement le code source, contredisant l'hypothèse que les incidents majeurs résultent nécessairement d'attaques coordonnées sophistiquées
+- **Vecteur d'exposition courant** — Les fuites de code résultent rarement d'attaques sophistiquées, mais plutôt de négligences opérationnelles : secrets en dur, tokens d'accès visibles, fichiers de configuration versionnés sans filtrage.
 
-- **Sécurité logique vs. sécurité périmétrique** — L'approche traditionnelle (vigile/pare-feu) cède face aux modèles DevOps modernes ; la sécurité doit être pensée comme un architecte intégrant des barrières à chaque couche (contrôle d'accès, chiffrement, audit)
+- **Intégration sécurité-infrastructure** — Le modèle DevSecOps positionne la cybersécurité comme responsabilité partagée, intégrée aux stages de conception, développement, déploiement et surveillance, plutôt que comme contrôle externe final.
 
-- **Cycle DevSecOps complet** — Intégration de la sécurité de la phase de conception (threat modeling) jusqu'à la surveillance en production (détection d'anomalies, forensics)
+- **Différenciation sécurité logique vs réactive** — Une architecture défensive anticipe les risques pendant la conception des systèmes ; une approche réactive intervient uniquement après détection d'incident, multipliant les dégâts potentiels.
 
-- **Tension pratique** : l'intégration précoce de contrôles de sécurité peut ralentir les itérations DevOps ; la résolution exige une automatisation poussée des vérifications et une culture de responsabilité partagée
+- **Chaîne de responsabilité fragmentée** — En absence de processus clair, la responsabilité de la gestion des secrets se diffuse entre équipes développement, infrastructure et sécurité, créant des angles morts.
 
-- **Impact opérationnel** — Une fuite de cette ampleur crée des défis en matière de traçabilité du code, de conformité réglementaire et de reconstruction de confiance auprès des utilisateurs et partenaires ; elle impose une revue forensique complète et un renforcement des politiques de gestion des secrets
+- **Impact organisationnel direct** — Une fuite expose non seulement les algorithmes propriétaires, mais compromet aussi les dépendances, les architectures système et les clés d'accès aux services tiers, générant une cascade de risques.
 
 ## Références (Golden Sources)
 
-- Wet & Sea & IA — https://wetandseaai.pascal-froment.workers.dev/
+- [Wet & Sea & IA](https://wetandseaai.pascal-froment.workers.dev/)
 ## Chapitres
 
 - `0:00` — Introduction

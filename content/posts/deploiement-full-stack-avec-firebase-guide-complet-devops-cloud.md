@@ -27,30 +27,30 @@ translationKey: "1586919a"
 
 ## Executive Summary
 
-Le déploiement d'applications d'IA modernes nécessite une orchestration précise entre plusieurs composants Google Cloud : Firebase App Hosting offre une couche d'abstraction pour les frameworks dynamiques (Next.js, React), tandis que Cloud Run assure l'exécution serverless de conteneurs. Cette architecture découple l'infrastructure statique de la logique métier exécutée sur GPU ou CPU selon les besoins. La vidéo traite de l'assemblage fonctionnel de ces briques — intégration Vertex AI pour l'inférence, pipeline CI/CD via Cloud Build, et gestion des secrets — essentiel pour les équipes DevOps gérant des workloads IA en production. L'enjeu principal réside dans la configuration sécurisée et la scalabilité des déploiements sans surcoût d'infrastructure.
+Le déploiement d'applications d'intelligence artificielle sur Google Cloud et Firebase requiert l'orchestration de plusieurs briques technologiques : Firebase App Hosting offre une couche d'abstraction pour les frameworks dynamiques (Next.js, etc.), tandis que Cloud Run fournit l'environnement d'exécution serverless containerisé. Cette architecture décentralisée combine Vertex AI pour l'inférence, Cloud Build pour l'automatisation CI/CD et Secret Manager pour la sécurisation des variables sensibles. Les équipes DevOps doivent évaluer le positionnement stratégique entre hébergement natif (App Hosting) et déploiement conteneurisé (Cloud Run), en tenant compte des contraintes de scalabilité, de latence et de gestion des modèles IA.
 
 ## Principaux points abordés
 
-- **Firebase App Hosting vs. Hosting classique** : App Hosting supporte les frameworks fullstack avec backend dynamique intégré, contrairement à l'offre Hosting historique limitée au contenu statique et aux fonctions Cloud de seconde génération. Cette distinction détermine le choix architectural pour une application IA interactive.
+- **Firebase App Hosting versus Hosting classique** : App Hosting cible spécifiquement les applications dynamiques et les frameworks modernes (Next.js, Nuxt, SvelteKit), alors que Hosting traditionnel privilégie le contenu statique. Cette distinction conditionne le choix d'infrastructure et les capacités de déploiement continu.
 
-- **Séparation frontend/backend et orchestration** : le frontend (Next.js, React) s'exécute sur App Hosting tandis que les modèles IA et traitements intensifs délégués à Cloud Run offrent isolation des ressources et facturation décorrélée de la complexité côté client.
+- **Cloud Run comme socle d'exécution IA** : La plateforme offre un environnement de conteneurs sans état, optimisé pour les workloads d'inférence avec support GPU, permettant le scaling automatique des modèles Gemini ou des pipelines personnalisés via Vertex AI.
 
-- **Intégration Vertex AI et inférence** : la plateforme Vertex AI fournit les modèles entraînés et l'inférence ; Cloud Run invoque ces services via API REST/gRPC, permettant l'implémentation de patterns comme Retrieval-Augmented Generation (RAG) sans gérer les serveurs de modèles.
+- **Pipeline CI/CD avec Cloud Build** : L'intégration native autorise la construction, les tests et le déploiement automatisés depuis les dépôts sources, avec possibilité de sécuriser les identifiants via Secret Manager plutôt que des variables d'environnement en clair.
 
-- **Pipeline CI/CD sécurisé avec Cloud Build** : automatisation du build, test et déploiement depuis un dépôt Git ; Secret Manager stocke les variables sensibles (clés API, tokens d'authentification) en dehors du code, injecées au runtime dans l'environnement de conteneur.
+- **Intégration Firestore et authentification** : Google AI Studio peut être augmentée avec Firestore pour la persistance et Firebase Authentication, créant un écosystème cohérent de données et d'identité sans fragmentation d'outils tiers.
 
-- **Coûts et gouvernance** : Firebase App Hosting facture à l'usage (requêtes dynamiques), Cloud Run facture au temps d'exécution (100 ms minimum). L'absence de serveur dédié réduit les dépenses idle, mais demande une tuning fin du provisioning et de la mémoire allouée pour éviter les dépassements lors de pics d'inférence.
+- **Limitation : couplage écosystème Google** : L'approche favorise une dépendance croissante aux services Google Cloud (Vertex AI, Firestore, Secret Manager), réduisant l'interopérabilité avec des stacks multi-cloud ou open source.
 
-- **Limite : complexité d'observabilité** : l'architecture distribuée requiert une instrumentation coordonnée (Cloud Logging, Cloud Trace) ; les dépannages de latence IA impliquent de croiser les traces de plusieurs services. Vertex AI et Cloud Run offrent des métriques natives, mais l'absence d'APM unifié peut compliquer le diagnostique en production.
+- **Enjeu opérationnel de gouvernance des modèles** : La multiplication des points de déploiement (App Hosting, Cloud Run, Vertex AI) complique le suivi des versions de modèles, des coûts d'inférence et de l'audit des requêtes sensibles.
 
 ## Références (Golden Sources)
 
 - [App Hosting vs. the original Hosting: Which one do I use? - The Firebase Blog](https://firebase.blog/posts/2024/05/app-hosting-vs-hosting/)
 - [Configure and manage App Hosting backends | Firebase App Hosting](https://firebase.google.com/docs/app-hosting/configure)
-- [Cloud Run AI Cookbook - Google Cloud Documentation](https://docs.cloud.google.com/run/docs/ai/cookbook)
 - [Building an automated serverless deployment pipeline with Cloud Build - Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/building-automated-serverless-deployment-pipeline-cloud-build)
+- [Cloud Run AI Cookbook - Google Cloud Documentation](https://docs.cloud.google.com/run/docs/ai/cookbook)
 - [Configure secrets with Secret Manager | Vertex AI - Google Cloud Documentation](https://docs.cloud.google.com/vertex-ai/docs/pipelines/secret-manager)
-- [Cloud Build serverless CI/CD platform | Google Cloud](https://cloud.google.com/build)
+- [Add Cloud Firestore and Authentication to your Google AI Studio app | Develop with Firebase](https://firebase.google.com/docs/ai-assistance/ai-studio-integration)
 ## Chapitres
 
 - `0:00` — Introduction Firebase

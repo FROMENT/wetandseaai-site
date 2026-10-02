@@ -27,26 +27,25 @@ translationKey: "536c6bee"
 
 ## Executive Summary
 
-The Strangler Fig pattern addresses a critical challenge in enterprise modernization: replacing monolithic legacy systems without incurring the operational risk and business disruption of a "big bang" rewrite. Rather than attempting complete system replacement, this approach introduces a mediating proxy layer that gradually routes traffic from legacy components to newly built cloud-native services. This incremental migration strategy aligns with the 6R framework—which categorizes transitions from rehosting through rearchitecting—enabling organizations to balance modernization velocity against cost, risk, and organizational capacity. The pattern proves particularly valuable in regulated industries and mission-critical environments where downtime or system failure carries substantial business consequence.
+The Strangler Fig pattern addresses a critical challenge in enterprise modernization: replacing legacy systems without the catastrophic failure risk of complete rewrites. This incremental migration approach deploys a mediating proxy that gradually routes traffic from legacy components to new cloud-native services, allowing organizations to retire old infrastructure incrementally while maintaining operational continuity. The pattern works alongside the 6R migration framework—rehost, replatform, refactor, repurchase, retire, retain—enabling teams to select appropriate modernization strategies based on technical debt, cost constraints, and business criticality. This methodology reduces financial exposure, minimizes service interruption, and permits phased skill development in cloud environments.
 
 ## Key Points
 
-- **Strangler Fig mechanism:** A proxy layer intercepts requests directed to legacy systems, progressively routing subsets of functionality to replacement microservices while maintaining fallback to the original system. This architecture permits parallel operation, reducing deployment risk and enabling gradual cutover validation.
+- **Strangler Fig mechanics**: A reverse proxy or adapter layer intercepts requests intended for legacy systems and selectively routes them to replacement services. As new services mature, traffic percentage gradually shifts until the legacy component becomes obsolete and can be decommissioned.
 
-- **6R migration model alignment:** The pattern facilitates movement across the spectrum—from rehosting (lift-and-shift to cloud infrastructure) through refactoring (code optimization), re-platforming (managed services), rearchitecting (microservices redesign), and retirement (selective decommissioning). Organizations need not commit to a single strategy globally; components can follow different paths based on technical debt, business value, and dependency complexity.
+- **6R decision framework**: Rehosting (lift-and-shift) suits stable workloads with minimal refactoring; replatforming optimizes existing applications for cloud infrastructure; refactoring restructures code for cloud-native benefits; repurchasing replaces custom systems with SaaS; retiring eliminates underutilized applications; retaining preserves systems where migration cost exceeds value.
 
-- **Risk mitigation through incremental validation:** Unlike monolithic rewrites, the Strangler Fig approach enables continuous monitoring of new service performance, data consistency, and integration stability. Failure in a newly deployed component affects only the subset of traffic routed to it, while legacy systems continue serving remaining users.
+- **Risk mitigation**: Incremental rollout enables rapid rollback if issues emerge in production. Parallel operation of old and new systems provides circuit-breaker protection and validates functionality before full cutover, reducing organizational and financial exposure.
 
-- **Organizational and financial constraint:** The pattern requires maintaining dual systems throughout transition, increasing operational complexity and infrastructure costs in the intermediate phase. Long-running migrations demand sustained engineering capacity and clear decommissioning timelines to avoid indefinite technical debt burden.
+- **Limitation**: The pattern introduces operational complexity during transition periods. Maintaining two parallel systems demands additional infrastructure investment, monitoring overhead, and engineering coordination. Data synchronization between old and new components requires careful state management.
 
-- **Infrastructure and governance implications:** Successful implementation depends on robust proxy configuration, observability across legacy and modern stack layers, and defined ownership models for shared data consistency. DevOps practices—particularly infrastructure-as-code, automated testing, and deployment orchestration—become essential to manage transition complexity at scale.
+- **Governance and infrastructure impact**: Teams must establish clear ownership boundaries, implement distributed tracing across legacy-to-cloud boundaries, and design fallback mechanisms. Cloud cost optimization depends on decommissioning legacy infrastructure promptly; extended dual-run periods erode ROI projections.
 
 ## References (Golden Sources)
 
 - [Strangler Fig Pattern - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig)
-- [Strangler Fig Pattern in Microservices: A Complete Guide to Modernizing Legacy A](https://www.springfuse.com/strangler-fig-pattern-in-microservices/)
-- [https://arxiv.org/pdf/1906.04702](https://arxiv.org/pdf/1906.04702)
-- [https://arxiv.org/pdf/2205.04467](https://arxiv.org/pdf/2205.04467)
+- [Strangler Fig Pattern in Microservices: A Complete Guide to Modernizing Legacy Applications](https://www.springfuse.com/strangler-fig-pattern-in-microservices/)
+- [WJAETS-2025-0622](https://journalwjaets.com/sites/default/files/fulltext_pdf/WJAETS-2025-0622.pdf)
 - [oea-case-study-phh-445735](https://www.oracle.com/technetwork/articles/entarch/oea-case-study-phh-445735.pdf)
 ## Chapters
 

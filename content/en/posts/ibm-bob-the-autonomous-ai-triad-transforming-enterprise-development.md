@@ -27,28 +27,26 @@ translationKey: "793aec8b"
 
 ## Executive Summary
 
-AI coding agents operating in enterprise environments inherit full system permissions by default—SSH keys, cloud credentials, and administrative access are all exposed to the agent's execution context. This architectural vulnerability requires a layered security model. IBM Bob addresses governance and policy enforcement at the orchestration level, Claude Code provides the coding execution velocity, and nono introduces kernel-level process isolation to contain agent actions within restricted filesystem and capability boundaries. The three-layer approach—governance, execution, and containment—represents the operational necessity for deploying autonomous coding agents in production environments without catastrophic credential exposure or lateral movement risk.
+AI coding agents executing in terminal environments inherit unrestricted access to sensitive credentials—SSH keys, cloud tokens, administrative directories—by default. This video examines the three-layer security model addressing this risk: Claude Code as the execution layer prioritizing developer velocity, nono as kernel-level containment using Landlock (Linux) and Seatbelt (macOS) sandboxing, and IBM Bob as the governance orchestration platform enforcing policy, audit trails, and request routing. The layered approach reflects enterprise requirements to balance automation gains against credential exposure and unauthorized infrastructure access during AI-assisted development workflows.
 
 ## Key Points
 
-- **Credential exposure at execution**: AI coding agents running in local terminals inherit parent process permissions, including SSH keys, AWS/Azure tokens, and environment variables, creating a direct attack surface if the agent or its dependencies are compromised.
+- **Claude Code execution risk**: AI coding agents running terminal commands inherit full user permissions, creating exposure vectors for leaked credentials and unauthorized access to protected resources without explicit containment mechanisms.
 
-- **IBM Bob governance layer**: Routes agentic requests through policy engines, enforces approval workflows, maintains immutable audit trails, and orchestrates specialized model routing for different development tasks—from greenfield feature development to legacy modernization (Java, COBOL).
+- **Kernel-level sandboxing with nono**: Open-source sandbox framework implements OS-level isolation (Landlock on Linux, Seatbelt on macOS) to restrict file system and network access from agentic processes, preventing credential exfiltration at the kernel boundary.
 
-- **Claude Code execution velocity**: Optimized for inline code generation and terminal execution; trades off isolation for development speed. Without containment, this velocity becomes a liability when handling untrusted input or executing in permissioned environments.
+- **IBM Bob governance layer**: Enterprise platform orchestrates multi-agent workflows with integrated policy enforcement, audit logging of all agentic actions, and cost optimization—enabling legacy modernization (Java, COBOL systems) while maintaining compliance and traceability across development lifecycle.
 
-- **nono kernel-level isolation**: Implements Landlock-based sandboxing on Linux and Seatbelt confinement on macOS, restricting filesystem access, network egress, and system capabilities at the OS level. Operates independently of application-layer controls.
+- **Absence of single-layer sufficiency**: Neither velocity (Claude Code alone), nor containment (nono in isolation), nor governance (Bob without runtime isolation) adequately addresses the complete threat model—all three layers operate in complementary rather than redundant fashion.
 
-- **Layering complexity trade-off**: Stacking governance, execution, and containment layers introduces operational overhead (policy configuration, audit log management, sandbox rule tuning) versus monolithic "all-or-nothing" agent deployment. Enterprises must balance security hardening against DevOps velocity.
-
-- **Audit trail continuity**: Multi-layer architectures create distributed logging surfaces; maintaining correlatable audit trails across Bob's governance decisions, Claude Code's execution logs, and nono's syscall interception requires centralized observability infrastructure.
+- **Operational tradeoff**: Comprehensive sandboxing reduces agent flexibility and may require architecture changes to OpenShift/container deployments; governance overhead increases with audit scope, demanding infrastructure investment proportional to deployment scale and regulatory requirements.
 
 ## References (Golden Sources)
 
 - [AI coding agent | IBM](https://www.ibm.com/products/ai-coding-agent)
-- [Introducing nono: A Secure Sandbox for AI Agents](https://huggingface.co/blog/lukehinds/nono-agent-sandbox)
 - [From 'oh no' to nono - building apps on OpenShift with nono and Claude Code](https://www.stb.id.au/blog/openshift-claude-nono)
-- [IBM Bob Takes AI Coding Assistants to the Next Level - DevOps.com](https://devops.com/ibm-bob-takes-ai-coding-assistants-to-the-next-level/)
+- [Introducing nono: A Secure Sandbox for AI Agents](https://huggingface.co/blog/lukehinds/nono-agent-sandbox)
+- [IBM Bob: Enterprise AI Coding Assistant Complete Guide (2026) | WOWHOW](https://wowhow.cloud/blogs/ibm-bob-enterprise-ai-coding-assistant-complete-guide-2026)
 - [Overview - Claude Code Docs](https://docs.claude.com/en/docs/claude-code/overview)
 ## Wet & Sea Tech Resources
 
