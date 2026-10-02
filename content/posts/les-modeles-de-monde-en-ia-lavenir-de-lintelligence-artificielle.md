@@ -1,8 +1,7 @@
 ---
-title: "Les Modèles de Monde en IA : L'Avenir de l'Intelligence Artificielle"
+title: "World models : l'IA qui comprend le monde va-t-elle dépasser les LLM ?"
 date: 2026-06-15
-aliases:
-  - /2026/03/les-modeles-de-monde-la-cle-de-lia-generale-selon-les-chercheurs/
+slug: "les-modèles-de-monde-en-ia-lavenir-de-lintelligence-artificielle"
 youtube_url: "https://youtu.be/IyhNU4nwIEQ"
 youtube_video_id: "IyhNU4nwIEQ"
 youtube_channel: "B"
@@ -11,14 +10,17 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
-tags: ["prospective"]
-summary: "🚀 Découvrez comment Google DeepMind révolutionne l'IA avec ses modèles de monde et systèmes d'usage général ! De AlphaGo à AlphaFold, explorons les avancées qui façonnent notre futur technologique. Cette analyse prospective examine…"
+tags: ["prospective", "DeepMind", "IA", "ModelesDeMonde", "ProspectiveTech", "TransformationDigitale", "formation intelligence artificielle", "midjourney"]
+summary: "Les LLM hallucinent parce qu'ils ne comprennent pas le monde physique. Les « world models » promettent de changer ça : où en est-on vraiment ?"
 cover:
   image: "/covers/IyhNU4nwIEQ.jpg"
-  alt: "Les Modèles de Monde en IA : L'Avenir de l'Intelligence Artificielle"
+  alt: "World models : l'IA qui comprend le monde va-t-elle dépasser les LLM ?"
   caption: "Prospective"
 draft: false
 catalogue_id: "42959cc9"
+translationKey: "42959cc9"
+aliases:
+  - /2026/03/les-modeles-de-monde-la-cle-de-lia-generale-selon-les-chercheurs/
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -27,24 +29,30 @@ catalogue_id: "42959cc9"
 
 ## Executive Summary
 
-Les modèles de monde en intelligence artificielle représentent une évolution stratégique majeure dans la conception des systèmes IA généraux. Google DeepMind, via des projets comme AlphaFold et la série Gemini, démontre comment ces architectures intègrent la compréhension comportementale et prédictive de domaines complexes—biologie computationnelle, recherche scientifique, génération vidéo—pour dépasser les approches sectorialisées. Cette transition vers des systèmes holistiques pose des enjeux critiques en matière de gouvernance des données, d'annotation à grande échelle et d'infrastructure de calcul. L'écosystème IA global dépend désormais de la capacité à structurer le savoir en représentations exploitables par des modèles neuronaux, modifiant profondément les workflows de recherche et d'innovation technologique.
+Les modèles de monde (world models) émergent comme alternative architecturale aux grands modèles de langage, dont les limitations en raisonnement physique et logique génèrent hallucinations récurrentes. Contrairement aux LLM fondés sur la prédiction de tokens, ces systèmes construisent une représentation interne de la causalité et de la physique. Google DeepMind progresse sur cette voie à travers AlphaFold, AlphaEvolve et Gemini 3, intégrant progressivement une compréhension structurelle du monde plutôt qu'une agrégation statistique. L'enjeu stratégique porte sur le passage d'une IA réactive à une IA prédictive capable de planning et de découverte scientifique autonome.
 
 ## Principaux points abordés
 
-- **Architecture des modèles de monde** — AlphaFold et ses successeurs encodent des dynamiques biologiques sans programmation explicite, passant de la prédiction de structure à la modélisation de processus complexes, établissant un standard pour les systèmes généraux adaptables
-- **Diversification des applications DeepMind** — Au-delà du gaming, les outils Gemini et le générateur vidéo Veo illustrent le déploiement de ces modèles en recherche scientifique et création de contenu, élargissant le champ des cas d'usage viables
-- **Économie de l'annotation IA** — Le marché de l'annotation IA devrait atteindre 17,37 milliards USD en 2034 avec un TCAC de 28,60%, créant une dépendance critique envers des pipelines de labélisation à l'échelle mondiale
-- **Tension ressources/compétences** — L'accélération des déploiements IA accentue la concurrence pour le talent spécialisé et l'infrastructure computationnelle, impactant directement la viabilité des initiatives en DevOps et MLOps
-- **Limites actuelles** — Les modèles de monde restent contraints par la qualité des données d'entraînement et leur généralisation demeure incertaine en contextes hors-domaine, limitant leur applicabilité à titre universel
+- **Architecture fondamentale des world models** : contrairement aux LLM basés sur la succession de tokens, les world models construisent une représentation causale de l'environnement, permettant une simulation interne avant action ou réponse.
+
+- **Hallucinations des LLM et manque de grounding physique** : l'absence de modèle du monde physique explique pourquoi les LLM actuels génèrent réponses factuellement incorrectes, car ils opèrent sur des corrélations statistiques sans compréhension mécanique sous-jacente.
+
+- **Avancées DeepMind : AlphaFold et AlphaEvolve** : AlphaFold résout le repliement protéique par prédiction structurelle ; AlphaEvolve étend cette logique aux algorithmes eux-mêmes, utilisant Gemini comme moteur pour explorer l'espace des codes optimisés.
+
+- **Gemini 3 comme intégration multimodale** : la génération 3 combine vision, langage et capacités de planification, marquant une progression vers des systèmes hybrides associant prédiction statistique et modélisation causale.
+
+- **Limitation du dépassement rapide** : les world models exigent annotation de données massives (marché estimé à 17,37 milliards USD en 2034) et restent spécialisés par domaine ; leur généralisation demeure une question ouverte sans consensus sur calendrier réaliste.
+
+- **Impact opérationnel** : pour la recherche scientifique et la découverte, les world models offrent gains d'efficacité mesurables (AlphaEvolve), tandis que pour les tâches linguistiques générales, la complémentarité LLM/world models prévaut sur le remplacement pur.
 
 ## Références (Golden Sources)
 
 - [About Google DeepMind](https://deepmind.google/about/)
-- [A glimpse of the next generation of AlphaFold - Isomorphic Labs](https://www.isomorphiclabs.com/articles/a-glimpse-of-the-next-generation-of-alphafold)
+- [AI as a research partner: Advancing theoretical computer science with AlphaEvolve](https://research.google/blog/ai-as-a-research-partner-advancing-theoretical-computer-science-with-alphaevolve/)
 - [A new era of intelligence with Gemini 3 - Google Blog](https://blog.google/products/gemini/gemini-3/)
-- [AI Annotation Global Market Insights 2025, Analysis and Forecast to 2030, by Mar](https://www.researchandmarkets.com/reports/6177866/ai-annotation-global-market-insights-analysis)
-- [AI as a research partner: Advancing theoretical computer science with AlphaEvolv](https://research.google/blog/ai-as-a-research-partner-advancing-theoretical-computer-science-with-alphaevolve/)
-- [60 of our biggest AI announcements in 2025 - The Keyword](https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/)
+- [A glimpse of the next generation of AlphaFold - Isomorphic Labs](https://www.isomorphiclabs.com/articles/a-glimpse-of-the-next-generation-of-alphafold)
+- [AI Annotation Market Size | CAGR of 28.60%](https://market.us/report/ai-annotation-market/)
+- [AMI and Nabla Advance 'World Models' to Power Agentic ... - HLTH](https://hlth.com/insights/news/ami-and-nabla-advance-world-models-to-power-agentic-healthcare-ai-2026-03-11)
 ## Chapitres
 
 - `0:00` — Introduction et présentation

@@ -1,6 +1,7 @@
 ---
-title: "Sécurité des agents IA : bacs à sable, MCP & défense en profondeur"
+title: "Agents IA : pourquoi les enfermer dans un bac à sable noyau"
 date: 2026-08-22
+slug: "sécurité-des-agents-ia-bacs-à-sable-mcp-défense-en-profondeur"
 youtube_url: "https://youtu.be/J1sc_kWU4Xk"
 youtube_video_id: "J1sc_kWU4Xk"
 youtube_channel: "B"
@@ -9,14 +10,15 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
-tags: ["cybersecurity"]
-summary: "Agents IA et cybersécurité : comment limiter leur rayon d'action avec les bacs à sable noyau et le protocole MCP."
+tags: ["cybersecurity", "Cybersécurité", "MCP", "ai agents", "bedrock agents", "ia agents", "mcp explained", "mcp ia", "artificial intelligence", "mcp tutorial", "what is mcp", "ai business", "google gemini"]
+summary: "Un agent IA qui peut lire vos fichiers, ouvrir le réseau et exécuter du code : comment limiter les dégâts ? La réponse d'Anthropic et d'Always Further : l'isolation au niveau du noyau."
 cover:
   image: "/covers/J1sc_kWU4Xk.jpg"
-  alt: "Sécurité des agents IA : bacs à sable, MCP & défense en profondeur"
+  alt: "Agents IA : pourquoi les enfermer dans un bac à sable noyau"
   caption: "Cybersécurité"
 draft: false
 catalogue_id: "b07058a6"
+translationKey: "b07058a6"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -25,30 +27,37 @@ catalogue_id: "b07058a6"
 
 ## Executive Summary
 
-Les agents d'intelligence artificielle introduisent des risques de sécurité distincts : accès non autorisé à des ressources sensibles, exécution de code incontrôlée et exposition accidentelle de credentials. Face à ces menaces, les équipes d'ingénierie chez Anthropic et Always Further implémentent une stratégie défensive multi-couches combinant l'isolation au niveau noyau, la gestion granulaire des permissions et l'audit cryptographique. Le protocole MCP (Model Context Protocol) et des outils comme nono permettent d'encadrer l'exécution du code générée par les agents tout en optimisant les coûts computationnels. Cette approche reconnaît que la confinement technique seul ne suffit pas : une défense efficace repose sur l'articulation entre sandboxing logiciel, contrôle d'accès strict et vérification continue.
+Les agents d'intelligence artificielle ouvrent de nouvelles surfaces de risque en cybersécurité : accès non autorisé aux fichiers, exécution de code incontrôlée et mouvements latéraux sur les réseaux. Pour limiter ces risques, Anthropic et Always Further préconisent une stratégie d'isolation au niveau du noyau du système d'exploitation. Cette approche combine des bacs à sable kernel (implémentés par des outils comme nono), une gestion granulaire des permissions IAM, et l'utilisation du protocole MCP pour cadrer l'exécution de code. L'enjeu opérationnel consiste à maintenir la fonctionnalité des agents autonomes tout en réduisant la surface d'attaque lors du déploiement en environnement sensible.
 
 ## Principaux points abordés
 
-- **Isolation au niveau noyau** — Les bacs à sable (sandbox) exploitent les primitives du noyau pour séparer complètement les processus d'agent des ressources système critiques, contenant ainsi les dégâts en cas de compromission.
+- **Isolation au niveau kernel** : les bacs à sable noyau (kernel sandboxing) contiennent une compromission en limitant l'accès aux ressources système, indépendamment de l'authentification applicative. L'outil nono incarne cette approche en restricting l'accès aux fichiers et au réseau au plus bas niveau du système.
 
-- **Gestion des identités et credentials** — L'utilisation de services IAM (comme AWS IAM Identity Center) permet de limiter les droits d'accès par rôle et de délivrer des tokens temporaires plutôt que des clés persistantes, réduisant la surface d'exposition.
+- **MCP (Model Context Protocol) pour l'exécution de code** : ce protocole encadre l'exécution de code à travers une architecture modulaire qui réduit simultanément la consommation de tokens et centralise le contrôle des opérations. Les serveurs MCP agissent comme intermédiaires de confiance entre l'agent et les ressources.
 
-- **Protocole MCP pour l'exécution encadrée** — MCP établit un canal de communication standardisé entre agents et outils tiers, permettant à la fois la validation des appels et une facturation granulaire sans pénalité de latence.
+- **Défense en profondeur par permissions IAM** : au-delà de l'isolation technique, l'attribution de droits minimaux (least privilege) aux identités AWS, via IAM Identity Center et les API keys, constitue un deuxième étage de défense. Ceci limite les dégâts même en cas de contournement du bac à sable.
 
-- **Outil nono et audit de code** — Solutions comme nono inspectent le code généré avant exécution, détectant les patterns suspects et appliquant une vérification cryptographique des artefacts sensibles.
+- **Déploiement sécurisé de Claude Code** : Amazon Bedrock propose des patterns de déploiement validés incluant l'authentification, la gestion des secrets et l'audit cryptographique. Les équipes doivent configurer ces paramètres au niveau entreprise, pas par défaut.
 
-- **Limitation des permissions vs. flexibilité opérationnelle** — Bien que l'approche par moindre privilège renforce la sécurité, elle complique le déploiement en environnement d'entreprise où les équipes métier réclament des capacités étendues ; la granularité des rôles IAM offre un compromis partiel.
+- **Contradiction potentielle** : l'isolation kernel augmente la complexité opérationnelle et peut réduire les performances en comparaison d'une exécution non contrôlée. Le trade-off entre sécurité et latence nécessite une évaluation contextuelle par cas d'usage.
 
-- **Enjeu de gouvernance multi-tenants** — En contexte d'hébergement mutualisé, l'isolation devient critique : une faille dans un agent d'un client ne doit pas compromettre les données des autres ; Docker et la virtualisation complètent le sandboxing noyau.
+- **Impact gouvernance et infrastructure** : cette approche impose une architecture d'isolation implicite dès la phase de conception, non comme correctif post-déploiement. Elle exige également un audit continu des logs et des permissions IAM pour détecter les écarts.
 
 ## Références (Golden Sources)
 
-- [Code execution with MCP: building more efficient AI agents \ Anthropic](https://www.anthropic.com/engineering/code-execution-with-mcp)
-- [AI Agent Security & Kernel Sandboxing | Always Further](https://alwaysfurther.ai/)
+- [Code execution with MCP: building more efficient AI agents](https://www.anthropic.com/engineering/code-execution-with-mcp)
+- [AI Agent Security & Kernel Sandboxing](https://alwaysfurther.ai/)
+- [Claude Code deployment patterns and best practices with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/)
 - [Authentication - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/iam)
 - [Connect Claude Code to tools via MCP - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/mcp)
-- [AWS IAM Identity Center concepts for the AWS CLI - AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso-concepts.html)
-- [Claude Code deployment patterns and best practices with Amazon Bedrock | Artific](https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/)
+- [Enterprise deployment overview - Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code/enterprise-setup)
+## Chapitres
+
+- `0:00` — Introduction & contexte
+- `1:04` — Illusion des autorisations humaines
+- `2:04` — Fatigue d'approbation & risques
+- `2:46` — Cas réel : exfiltration AWS
+
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

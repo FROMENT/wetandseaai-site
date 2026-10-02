@@ -1,7 +1,7 @@
 ---
-title: "COMPLIANCE Scanner : Auditeur automatisé RGPD et AI Act pour SaaS"
+title: "Can an LLM Audit GDPR and the AI Act? Inside a Compliance Scanner"
 date: 2026-06-06
-publishDate: "2026-06-10T09:00:00"
+slug: "compliance-scanner-auditeur-automatisé-rgpd-et-ai-act-pour-saas"
 youtube_url: "https://youtu.be/wL8XmgURh-s"
 youtube_video_id: "wL8XmgURh-s"
 youtube_channel: "B"
@@ -10,14 +10,15 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
-tags: ["cybersecurity"]
-summary: "Découvrez le COMPLIANCE Scanner de WetSea Observatory, l'outil d'audit automatisé qui évalue la conformité des solutions SaaS aux réglementations européennes."
+tags: ["cybersecurity", "AIAct", "AuditSaaS", "Conformité", "Cybersécurité", "RGPD"]
+summary: "Can a machine that guesses evaluate laws that demand certainty? How a compliance scanner checks a SaaS tool against 5 EU frameworks, and where its limits are."
 cover:
   image: "/covers/wL8XmgURh-s.jpg"
-  alt: "COMPLIANCE Scanner : Auditeur automatisé RGPD et AI Act pour SaaS"
+  alt: "Can an LLM Audit GDPR and the AI Act? Inside a Compliance Scanner"
   caption: "Cybersécurité"
 draft: false
 catalogue_id: "08f4b850"
+translationKey: "08f4b850"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -26,19 +27,15 @@ catalogue_id: "08f4b850"
 
 ## Executive Summary
 
-Le COMPLIANCE Scanner de WetSea Observatory constitue un outil d'audit automatisé conçu pour évaluer la conformité des plateformes SaaS face aux régulations européennes majeures. Face à la multiplication des cadres normatifs (RGPD, AI Act, DORA, NIS2, Schrems II), les entreprises doivent gérer des vérifications complexes et chronophages. Cet auditeur intelligent centralise l'analyse technique des outils cloud selon les exigences réglementaires, réduisant le risque de dérive de conformité et facilitant la documentation requise pour les audits. L'enjeu principal réside dans l'automatisation d'une fonction critique de gouvernance informatique, particulièrement pour les structures opérant en écosystème SaaS hétérogène.
+Le COMPLIANCE Scanner de Wet & Sea AI automatise l'audit de conformité des outils SaaS face aux cadres réglementaires européens : RGPD, DORA, NIS2, Schrems II et AI Act. Cette vidéo expose le fonctionnement du moteur « Protocol C », qui stabilise les prédictions probabilistes d'un modèle de langage via un cache de 30 jours pour produire des évaluations structurées. Elle problématise la tension centrale : peut-on déléguer à une machine statistique une tâche qui exige certitude juridique ? Le résultat proposé est présenté comme triage de premier passage, non comme preuve légale—distinction stratégique pour l'usage en gouvernance des risques de conformité.
 
 ## Principaux points abordés
 
-- **Architecture multi-normes** — Le scanner intègre nativement RGPD, AI Act, DORA, NIS2 et Schrems II, permettant une évaluation holistique en une seule analyse plutôt que des audits fragmentés par régulation.
-
-- **Automatisation du processus d'audit** — Remplacement des vérifications manuelles chronophages par une évaluation instrumentée, générant des rapports structurés et répétables selon une méthodologie déterministe.
-
-- **Évaluation technique des outils SaaS** — L'outil analyse les caractéristiques architecturales, de gouvernance et de sécurité des solutions cloud, identifiant les écarts de conformité au niveau infrastructure et contrôles.
-
-- **Limitation liée à la diversité des implémentations** — Chaque fournisseur SaaS présente des configurations singulières ; l'auditeur doit s'adapter à des variables hétérogènes, pouvant réduire la précision de certaines évaluations.
-
-- **Impact opérationnel et gouvernance** — Réduction du délai de validation réglementaire, amélioration de la traçabilité des contrôles, facilitation de la démonstration de conformité aux autorités et réduction du coût opérationnel des audits internes ou externes.
+- **Fonctionnement du moteur Protocol C** : l'outil accepte le nom d'un outil tiers (Notion, Slack, etc.) et retourne une évaluation structurée contre cinq cadres réglementaires, réduisant le friction d'onboarding à zéro
+- **Stabilisation de la non-déterminance** : un système de cache de 30 jours convertit les prédictions non-déterministes inhérentes aux modèles de langage en résultats reproductibles, résolvant partiellement le problème de cohérence
+- **Périmètre limité à la triage** : le scanner fonctionne en première passe diagnostique, pas en certification ou avis juridique exécutoire—distinction cruciale pour éviter surcharge de responsabilité
+- **Limite épistémologique majeure** : l'écart irréductible entre la probabilité (nature du LLM) et la certitude (exigence réglementaire) subsiste; le scanner abaisse risque opérationnel mais n'élimine pas le besoin d'expertise légale
+- **Implications de gouvernance** : l'automatisation rend le triage des conformités multi-cadres accessible aux PME et intégrateurs, déplaçant le point de décision de l'absence vers la validation qualifiée
 
 ## Références (Golden Sources)
 

@@ -1,7 +1,7 @@
 ---
-title: "Gestion de Crise Cyber : Guide ANSSI pour la Résilience Digitale"
+title: "Cyberattaque : les 3 stratégies de remédiation de l'ANSSI en 2 min"
 date: 2026-05-28
-publishDate: "2026-05-29T09:00:00"
+slug: "gestion-de-crise-cyber-guide-anssi-pour-la-résilience-digitale"
 youtube_url: "https://youtu.be/HXdbVPXPeFo"
 youtube_video_id: "HXdbVPXPeFo"
 youtube_channel: "B"
@@ -10,14 +10,15 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
-tags: ["cybersecurity"]
-summary: "🛡️ Découvrez les méthodes éprouvées de l'ANSSI pour gérer efficacement les incidents cybersécurité et construire une résilience organisationnelle durable."
+tags: ["cybersecurity", "ANSSI", "CyberSécurité", "GestionDeCrise", "Ransomware", "Résilience"]
+summary: "Après une cyberattaque, la direction doit choisir entre reprendre vite et reconstruire solidement. Les trois axes et les stratégies de remédiation proposées par l'ANSSI, en 2 minutes."
 cover:
   image: "/covers/HXdbVPXPeFo.jpg"
-  alt: "Gestion de Crise Cyber : Guide ANSSI pour la Résilience Digitale"
+  alt: "Cyberattaque : les 3 stratégies de remédiation de l'ANSSI en 2 min"
   caption: "Cybersécurité"
 draft: false
 catalogue_id: "0c87c782"
+translationKey: "0c87c782"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -26,19 +27,29 @@ catalogue_id: "0c87c782"
 
 ## Executive Summary
 
-La gestion de crise cybersécurité repose sur une articulation claire entre réponse tactique et continuité opérationnelle. L'ANSSI propose des frameworks structurés de remédiation post-incident, permettant aux organisations de reprendre progressivement le contrôle des systèmes compromis. Ces approches combinent diagnostic technique, isolement des périmètres affectés et validation des restaurations. Au-delà de la réaction immédiate, les exercices de simulation — en particulier sur scénarios ransomware — constituent un vecteur d'apprentissage institutionnel. Ils permettent aux équipes techniques et aux décideurs d'identifier les points faibles organisationnels avant une véritable crise. L'enjeu réside dans l'alignement entre gouvernance (RSSI, DSI) et capacités opérationnelles, essentiel pour assurer la continuité métier et la restauration de confiance auprès des parties prenantes.
+L'ANSSI (Agence nationale de la sécurité des systèmes d'information) propose un cadre structuré pour la remédiation post-attaque, dépassant la seule dimension technique. Une cyberattaque constitue une crise d'entreprise multidimensionnelle exigeant une coordination entre investigation forensique, gestion de crise et stratégies de remédiation. L'agence définit trois axes indissociables et trois stratégies de remédiation permettant aux organisations d'arbitrer entre vitesse de reprise opérationnelle et reconstruction solide des systèmes. Cet approche vise la résilience : capacité à encaisser l'incident, se redresser rapidement et capitaliser sur l'apprentissage. Ce cadre s'adresse aux responsables techniques et aux décideurs exécutifs pour assurer une réponse coordonnée et pérenne.
 
 ## Principaux points abordés
 
-- **Frameworks opérationnels ANSSI** — Méthodologies structurées de remédiation distinguant phases de containment (isolement), eradication (suppression des accès non autorisés) et recovery (restauration validée des services)
+- **Trois axes de remédiation de l'ANSSI** : investigation (reconstruction de la chronologie et identification des vecteurs d'attaque), gestion de crise (activation du pilotage stratégique et communication), remédiation (restauration et durcissement des systèmes). Ces axes opèrent simultanément et non séquentiellement.
 
-- **Exercices de simulation ransomware** — Approche pédagogique intégrant scénarios réalistes, déploiement de chaos engineering contrôlé et débriefing post-simulation pour identifier écarts entre procédures théoriques et réalité opérationnelle
+- **Arbitrage vitesse vs. solidité** : les trois stratégies de remédiation offrent un continuum entre récupération rapide (priorité opérationnelle immédiate) et reconstruction renforcée (prévention long terme). Cette dichotomie reflète une contrainte réelle : chaque choix implique des compromis en matière de coûts, délais et robustesse future.
 
-- **Reprise de contrôle des systèmes** — Processus de validation (audits de compromission, nettoiement des artefacts malveillants, rebaseline des configurations) précédant la restauration progressive en environnement maîtrisé
+- **Résilience comme finalité** : au-delà de la continuité de service, l'ANSSI positionne l'apprentissage organisationnel comme composante structurelle. Les exercices de simulation de crise et les retours d'expérience (REX) formalisés deviennent des dispositifs de prévention active.
 
-- **Implication des décideurs** — Nécessité d'une prise de décision structurée en crise (allocation de ressources, communication, arbitrage opérationnel) distincte des phases de planification
+- **Gouvernance crisis management** : la distinction nette entre pilotage technique (incident response) et pilotage exécutif (crisis management) implique des canaux de décision décentralisés mais coordonnés. Les guides ANSSI précisent les rôles et escalades.
 
-- **Limite : dépendance au contexte architectural** — L'efficacité des frameworks reste tributaire de la documentation préalable des actifs, de la segmentation réseau existante et de la maturité des processus de configuration management au sein de l'organisation
+- **Limite méthodologique** : l'application des stratégies dépend fortement du contexte organisationnel (PME vs. groupe, secteur critique vs. secteur civil). Le cadre ANSSI reste générique et nécessite une contextualisation sectorielle ou métier.
+
+- **Impact opérationnel** : une remédiation mal arbitrée expose à deux risques symétriques — reprise hâtive sans durcissement (rechute probable) ou reconstruction trop lente (perte de compétitivité). La gouvernance de crise devient un facteur de différenciation competitive et de conformité réglementaire.
+
+## Références (Golden Sources)
+
+- [Comment remédier à une cyberattaque ? L'ANSSI publie sa collection de guide dédi](https://www.globalsecuritymag.fr/comment-remedier-a-une-cyberattaque-l-anssi-publie-sa-collection-de-guide.html)
+- [Piloter la remédiation d'un incident cyber — ANSSI](https://cyber.gouv.fr/securisation/gestion-de-crise/piloter-la-rem%C3%A9diation-dun-incident-cyber/)
+- [Guides ANSSI | MesServicesCyber](https://messervices.cyber.gouv.fr/guides/cyberattaques-et-remediation-preparer-la-remedation)
+- [L'ANSSI étoffe le volet opérationnel de son corpus sur la remédiation — ANSSI](https://cyber.gouv.fr/actualites/lanssi-etoffe-le-volet-operationnel-de-son-corpus-sur-la-remediation/)
+- [anssi-guide-organising_a_cyber_crisis_management_exercise-v1.0](https://messervices.cyber.gouv.fr/documents-guides/anssi-guide-organising_a_cyber_crisis_management_exercise-v1.0.pdf)
 ## Chapitres
 
 - `0:00` — Introduction

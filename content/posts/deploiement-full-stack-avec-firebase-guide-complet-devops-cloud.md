@@ -1,7 +1,7 @@
 ---
-title: "Déploiement Full Stack avec Firebase : Guide Complet DevOps Cloud"
+title: "Déployer une app IA avec Firebase App Hosting et Cloud Run"
 date: 2026-05-28
-publishDate: "2026-05-29T09:00:00"
+slug: "déploiement-full-stack-avec-firebase-guide-complet-devops-cloud"
 youtube_url: "https://youtu.be/hIKA0FIdWlQ"
 youtube_video_id: "hIKA0FIdWlQ"
 youtube_channel: "B"
@@ -10,50 +10,47 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "devops-cloud"
 categories: ["DevOps & Cloud"]
-tags: ["devops-cloud"]
-summary: "🚀 Maîtrisez le déploiement d'applications IA full stack avec Google Cloud et Firebase !"
+tags: ["devops-cloud", "CloudRun", "DevOps", "Firebase", "GoogleCloud", "VertexAI"]
+summary: "Firebase App Hosting, Cloud Run, Vertex AI, Cloud Build : comment ces briques s'assemblent pour déployer une app IA full stack ? Architecture et bonnes pratiques DevOps."
 cover:
   image: "/covers/hIKA0FIdWlQ.jpg"
-  alt: "Déploiement Full Stack avec Firebase : Guide Complet DevOps Cloud"
+  alt: "Déployer une app IA avec Firebase App Hosting et Cloud Run"
   caption: "DevOps & Cloud"
 draft: false
 catalogue_id: "1586919a"
+translationKey: "1586919a"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
   <iframe src="https://www.youtube.com/embed/hIKA0FIdWlQ" title="Voir la vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
 </div>
 
-# Déploiement Full Stack avec Firebase : Guide Complet DevOps Cloud
-
 ## Executive Summary
 
-Le déploiement d'applications d'intelligence artificielle full stack sur Google Cloud et Firebase repose sur un écosystème intégré associant services serverless, orchestration CI/CD et gestion centralisée des configurations. Cette approche consolide Cloud Run, App Hosting et Vertex AI pour réduire la complexité opérationnelle tout en maintenant la sécurité des données sensibles et la scalabilité. Les organisations confrontées à des cycles de déploiement accélérés et à des exigences de conformité doivent maîtriser les patterns d'automatisation et les stratégies de gestion des secrets pour optimiser leurs pipelines DevOps sur l'infrastructure Google.
+Le déploiement d'applications d'IA modernes nécessite une orchestration précise entre plusieurs composants Google Cloud : Firebase App Hosting offre une couche d'abstraction pour les frameworks dynamiques (Next.js, React), tandis que Cloud Run assure l'exécution serverless de conteneurs. Cette architecture découple l'infrastructure statique de la logique métier exécutée sur GPU ou CPU selon les besoins. La vidéo traite de l'assemblage fonctionnel de ces briques — intégration Vertex AI pour l'inférence, pipeline CI/CD via Cloud Build, et gestion des secrets — essentiel pour les équipes DevOps gérant des workloads IA en production. L'enjeu principal réside dans la configuration sécurisée et la scalabilité des déploiements sans surcoût d'infrastructure.
 
 ## Principaux points abordés
 
-- **Architecture multi-couches** : Cloud Run assure l'exécution de conteneurs stateless sans gestion d'infrastructure, tandis qu'App Hosting fournit une couche d'application pour les frameworks web dynamiques (Next.js, etc.)
+- **Firebase App Hosting vs. Hosting classique** : App Hosting supporte les frameworks fullstack avec backend dynamique intégré, contrairement à l'offre Hosting historique limitée au contenu statique et aux fonctions Cloud de seconde génération. Cette distinction détermine le choix architectural pour une application IA interactive.
 
-- **Orchestration de l'apprentissage automatique** : Vertex AI et Google AI Studio offrent des environnements de développement et de test pour les modèles Gemini, intégrant évaluation rapide et validation en production
+- **Séparation frontend/backend et orchestration** : le frontend (Next.js, React) s'exécute sur App Hosting tandis que les modèles IA et traitements intensifs délégués à Cloud Run offrent isolation des ressources et facturation décorrélée de la complexité côté client.
 
-- **Pipeline d'automatisation sécurisée** : Cloud Build assure l'intégration continue avec validation du code, tandis que Secret Manager centralise la gestion des variables d'environnement sensibles et des clés d'API
+- **Intégration Vertex AI et inférence** : la plateforme Vertex AI fournit les modèles entraînés et l'inférence ; Cloud Run invoque ces services via API REST/gRPC, permettant l'implémentation de patterns comme Retrieval-Augmented Generation (RAG) sans gérer les serveurs de modèles.
 
-- **Optimisation des ressources de calcul** : La documentation met l'accent sur l'allocation efficace du GPU et la dimensionnement des instances serverless pour respecter les contraintes budgétaires sans dégrader les performances
+- **Pipeline CI/CD sécurisé avec Cloud Build** : automatisation du build, test et déploiement depuis un dépôt Git ; Secret Manager stocke les variables sensibles (clés API, tokens d'authentification) en dehors du code, injecées au runtime dans l'environnement de conteneur.
 
-- **Patterns d'augmentation de contenu** : La Retrieval-Augmented Generation (RAG) est implémentée pour enrichir les réponses des modèles IA via des sources de données externes, amplifiant la pertinence contextuelle
+- **Coûts et gouvernance** : Firebase App Hosting facture à l'usage (requêtes dynamiques), Cloud Run facture au temps d'exécution (100 ms minimum). L'absence de serveur dédié réduit les dépenses idle, mais demande une tuning fin du provisioning et de la mémoire allouée pour éviter les dépassements lors de pics d'inférence.
 
-- **Limitation : couverture hétérogène de la governancne** — Les guides communautaires manquent de guidance centralisée sur les politiques de contrôle d'accès IAM à grande échelle et la traçabilité des déploiements dans les environnements multi-projets
+- **Limite : complexité d'observabilité** : l'architecture distribuée requiert une instrumentation coordonnée (Cloud Logging, Cloud Trace) ; les dépannages de latence IA impliquent de croiser les traces de plusieurs services. Vertex AI et Cloud Run offrent des métriques natives, mais l'absence d'APM unifié peut compliquer le diagnostique en production.
 
-- **Impact opérationnel** : Cette approche réduit le time-to-market des applications IA, mais exige une maîtrise des principes Infrastructure-as-Code (IaC) et une discipline stricte en matière de rotation des secrets et de versioning des modèles
+## Références (Golden Sources)
 
-## Références
-
-Sources :
-- [Google Cloud Run — Documentation officielle](https://cloud.google.com/run/docs)
-- [Firebase App Hosting — Guide technique](https://firebase.google.com/docs/app-hosting)
-- [Vertex AI — Plateforme d'apprentissage automatique](https://cloud.google.com/vertex-ai/docs)
-- [Cloud Build — Intégration et déploiement continus](https://cloud.google.com/build/docs)
-- [Secret Manager — Gestion des données sensibles](https://cloud.google.com/secret-manager/docs)
+- [App Hosting vs. the original Hosting: Which one do I use? - The Firebase Blog](https://firebase.blog/posts/2024/05/app-hosting-vs-hosting/)
+- [Configure and manage App Hosting backends | Firebase App Hosting](https://firebase.google.com/docs/app-hosting/configure)
+- [Cloud Run AI Cookbook - Google Cloud Documentation](https://docs.cloud.google.com/run/docs/ai/cookbook)
+- [Building an automated serverless deployment pipeline with Cloud Build - Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/building-automated-serverless-deployment-pipeline-cloud-build)
+- [Configure secrets with Secret Manager | Vertex AI - Google Cloud Documentation](https://docs.cloud.google.com/vertex-ai/docs/pipelines/secret-manager)
+- [Cloud Build serverless CI/CD platform | Google Cloud](https://cloud.google.com/build)
 ## Chapitres
 
 - `0:00` — Introduction Firebase

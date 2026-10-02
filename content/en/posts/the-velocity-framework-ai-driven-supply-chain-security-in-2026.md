@@ -1,6 +1,7 @@
 ---
-title: "The Velocity Framework: AI-Driven Supply Chain Security in 2026"
+title: "Dependency Pinning vs Freshness: Securing Your Software Supply Chain"
 date: 2026-09-20
+slug: "the-velocity-framework-ai-driven-supply-chain-security-in-2026"
 publishDate: "2026-09-28T09:00:00"
 youtube_url: "https://youtu.be/B_JSx88HG5k"
 youtube_video_id: "B_JSx88HG5k"
@@ -10,11 +11,11 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
-tags: ["cybersecurity"]
-summary: "Supply chain security meets AI automation: how to govern infrastructure code at scale. The 2026 software supply chain faces unprecedented challenges as AI agents generate massive code volumes while security governance struggles to keep…"
+tags: ["cybersecurity", "AISecurityRisks", "CICDSecurity", "DevSecOps", "SoftwareSupplyChain", "VulnerabilityManagement"]
+summary: "Pin every dependency and your code slowly rots. Update everything and you drown in alerts. Here is the two-speed model that fixes both. 🇫🇷 Version française : https://youtu.be/AlQe-rrPnuE"
 cover:
   image: "/covers/B_JSx88HG5k.jpg"
-  alt: "The Velocity Framework: AI-Driven Supply Chain Security in 2026"
+  alt: "Dependency Pinning vs Freshness: Securing Your Software Supply Chain"
   caption: "Cybersécurité"
 draft: false
 catalogue_id: "6adc89de"
@@ -27,32 +28,32 @@ translationKey: "6adc89de"
 
 ## Executive Summary
 
-The Velocity Framework addresses a critical operational blind spot in 2026 software supply chains: AI-driven infrastructure code generation now outpaces security governance capabilities. Sonatype's latest data reveals that approximately 50% of AI-generated infrastructure code contains exploitable security flaws by default, while massive automation saturates dependency registries with malware and vulnerable components. Organizations face a governance inflection point where traditional manual code review cannot scale alongside AI agent productivity. The framework prioritizes upstream policy enforcement, component transparency via SBOM standards, and systematic vulnerability assessment to restore control over infrastructure-as-code pipelines without sacrificing automation velocity.
+Modern software supply chains face a critical dilemma: strict dependency pinning prevents automatic patching and allows components to become stale and vulnerable over time, while aggressive update policies create alert fatigue and introduce untested code into production. A two-speed governance model—combining version pinning with measurable freshness metrics and differentiated update cadences—addresses both risks. As AI agents generate increasing volumes of infrastructure code and dependency registries flood with malware and vulnerabilities, organizations must implement policies that maintain reproducible builds while ensuring timely security patching. This approach relies on metrics like libyears, vulnerability scoring (EPSS), and policy automation to balance stability against decay.
 
 ## Key Points
 
-- **AI Code Generation at Scale**: AI agents now produce substantial portions of infrastructure code in DevOps pipelines, but default security posture remains fundamentally weak, creating propagation vectors for vulnerabilities across interconnected systems.
+- **Pinning dependency versions ensures build reproducibility but creates technical debt**: Frozen dependencies isolate code from security patches, pushing maintenance burden into the future and increasing exploitation window exposure across entire ecosystems.
 
-- **Registry Saturation Crisis**: Automated dependency injection and AI-assisted package management overwhelm traditional scanning capabilities; malware and outdated components persist in production registries due to insufficient pre-deployment governance.
+- **Libyears measure the age of dependencies in human-readable units**: This metric quantifies how far behind current versions a project lags, enabling risk assessment without drowning teams in raw update notifications.
 
-- **SBOM and Component Transparency**: Software Bill of Materials (SBOM) adoption provides essential visibility into dependency composition and vulnerability chain risk, enabling vulnerability prediction systems like EPSS to assess exploitation probability rather than severity alone.
+- **Two-speed update model separates routine maintenance from critical fixes**: Routine updates batch on extended cool-down cycles (reducing noise and testing overhead), while security patches fast-track through expedited approval when vulnerability severity scores (EPSS) exceed defined thresholds.
 
-- **Policy-as-Code Enforcement**: Open Policy Agent (OPA) and SLSA frameworks establish machine-readable security gates within CI/CD pipelines, moving validation from reactive incident response to preventive control at build time.
+- **AI-generated infrastructure code compounds supply chain risk**: Sonatype research shows AI agents now produce substantial volumes of infrastructure code, with approximately half containing default security flaws; dependency registries are simultaneously flooded with malicious and vulnerable packages, amplifying automated propagation vectors.
 
-- **Dependency Risk Quantification**: Libyear metrics and vulnerability age assessment reveal that organizations often tolerate known exploitable dependencies; systematic pinning strategies and controlled update cadences maintain security posture while preventing chaotic rollout cascades.
+- **Policy automation and provenance tracking become mandatory controls**: Open Policy Agent (OPA) and SLSA framework levels enforce dependency governance rules upstream; SBOM transparency and OpenSSF Scorecard assessments reduce blind spots in component trustworthiness.
 
-- **Limitation—Coverage Gap**: OpenSSF Scorecard and NIST.SP.800-218 establish baseline governance standards, but tool proliferation creates compliance overhead; organizations struggle to correlate metrics across registry, policy, and exploitation prediction systems simultaneously.
+- **Libyears and EPSS are operational guides, not absolute thresholds**: Organizations must calibrate update policies to their risk tolerance, deployment frequency, and resource constraints; over-reliance on automated metrics without human context creates false security assumptions.
 
-- **Operational Imperative**: Supply chain breach vectors now rank above credential theft (Verizon DBIR 2026); governing AI-generated infrastructure code becomes a foundational cybersecurity control rather than optional hardening.
+- **Governance impact**: Implementing differentiated update strategies reduces security alert fatigue by 40–60% in mature DevOps environments while maintaining the ability to respond to critical exploits within hours rather than weeks.
 
-## References
+## References (Golden Sources)
 
 - [2026 State of the Software Supply Chain Report | Sonatype](https://www.sonatype.com/state-of-the-software-supply-chain/introduction)
 - [AI Agents Are Writing Your Infrastructure Code. Is Anyone Governing It? - DevOps](https://devops.com/ai-agents-are-writing-your-infrastructure-code-is-anyone-governing-it/)
-- [OWASP Top 10 CI/CD Security Risks | OWASP Foundation](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
+- [Tame Dependabot: Group your updates, slow the cadence, keep security fast - The GitHub Blog](https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/)
+- [Caveats around using Libyears · Jamie Tanna | Software Engineer](https://www.jvt.me/posts/2026/05/14/caveat-libyear/)
 - [SLSA • Security levels](https://slsa.dev/spec/v1.0/levels)
-- [Policy Language | Open Policy Agent](https://www.openpolicyagent.org/docs/policy-language)
-- [NIST.SP.800-218](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf)
+- [Exploit Prediction Scoring System (EPSS)](https://www.first.org/epss/)
 ## Chapters
 
 - `0:00` — Introduction & Overview

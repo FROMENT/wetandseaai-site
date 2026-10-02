@@ -1,6 +1,7 @@
 ---
-title: "Guide Complet : Protéger votre Propriété Intellectuelle en 2024"
+title: "watsonx Code Assistant : coder avec l'IA sans exposer votre code"
 date: 2026-05-22
+slug: "guide-complet-protéger-votre-propriété-intellectuelle-en-2024"
 youtube_url: "https://youtu.be/wZWDGa3wVK4"
 youtube_video_id: "wZWDGa3wVK4"
 youtube_channel: "B"
@@ -9,14 +10,15 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
-tags: ["cybersecurity"]
-summary: "🔒 Découvrez les stratégies essentielles pour sécuriser votre propriété intellectuelle dans l'écosystème cloud et IA d'IBM."
+tags: ["cybersecurity", "Cybersécurité", "DataSecurity", "DevSecOps", "IBM", "PropriétéIntellectuelle"]
+summary: "Les assistants de code IA font gagner du temps, mais peuvent exposer votre code source. Bonnes pratiques et erreurs à éviter avec IBM watsonx Code Assistant."
 cover:
   image: "/covers/wZWDGa3wVK4.jpg"
-  alt: "Guide Complet : Protéger votre Propriété Intellectuelle en 2024"
+  alt: "watsonx Code Assistant : coder avec l'IA sans exposer votre code"
   caption: "Cybersécurité"
 draft: false
 catalogue_id: "308d6488"
+translationKey: "308d6488"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -25,21 +27,30 @@ catalogue_id: "308d6488"
 
 ## Executive Summary
 
-La sécurisation de la propriété intellectuelle en environnement cloud et IA repose sur une architecture multicouche combinant contrôle d'accès, conformité réglementaire et isolation des données. Le modèle IBM établit la responsabilité partagée entre fournisseur et client : les organisations conservent la propriété intégrale de leurs données et des insights générés par les systèmes IA, tandis que l'infrastructure cloud assure le chiffrement et la séparation au niveau réseau, compte et collaborateur. Les enjeux critiques incluent la prévention de fuites de secrets en supply chain logicielle (via outils comme Gitleaks), la conformité multi-juridictionnelle (GDPR, ISO, HIPAA) et la traçabilité des flux de données sensibles. Cette approche s'inscrit dans une logique de transparence opérationnelle où la confiance repose sur des contrôles techniques vérifiables plutôt que sur des assertions marketing.
+IBM watsonx Code Assistant offre des gains de productivité dans le développement logiciel en intégrant l'intelligence artificielle directement dans les environnements de codage. Cependant, cette accélération du cycle de développement introduit des risques de sécurité majeurs : exposition involontaire de code source propriétaire, fuite de secrets d'authentification et transmission de données sensibles vers des serveurs externes. La vidéo documente les mécanismes de protection disponibles — configuration sécurisée, filtrage des suggestions basées sur du code public, responsabilité partagée entre développeur et IBM — et met en évidence les compromis entre efficacité opérationnelle et gouvernance de la propriété intellectuelle. L'enjeu pour les organisations est de mettre en place des garde-fous techniques et procéduraux avant de généraliser ces outils au sein des équipes.
 
 ## Principaux points abordés
 
-- **Architecture de sécurité en couches** — IBM Cloud Pak for Data implémente des protections au niveau réseau (isolation du trafic), compte (authentification et autorisation) et collaborateur (gestion granulaire des droits d'accès), réduisant la surface d'attaque en cas de compromission partielle.
+- **Configuration requise et points d'exposition** : watsonx Code Assistant s'intègre via des extensions VS Code ou Eclipse et nécessite une clé API IBM Cloud. Les logs locaux ne sont pas chiffrés par défaut, créant un vecteur de risque si la machine de développement est compromise.
 
-- **Prévention des fuites de secrets en DevSecOps** — Gitleaks et outils équivalents scanent les dépôts de code pour détecter identifiants, clés API et certificats avant fusion en production, critiques pour éviter l'exposition de credentials en chaîne d'approvisionnement logicielle.
+- **Paramétrage de sécurité critique** : une option de filtrage bloque les suggestions trop proches de code public identifié par analyse de similarité, réduisant les risques de plagiat involontaire ou de réutilisation de dépendances sensibles.
 
-- **Gouvernance de la donnée et propriété client** — Les frameworks de sécurité IBM stipulent que le client propriétaire conserve le contrôle intégral des données brutes et des modèles IA générés, excluant leur utilisation à des fins de formation de systèmes tiers sans consentement explicite.
+- **Responsabilité partagée dans la chaîne DevSecOps** : IBM s'engage sur la non-réutilisation des données de code des clients pour l'entraînement de modèles, mais les organisations doivent implémenter elles-mêmes les politiques de vérification des artefacts générés et de détection des secrets en amont du commit.
 
-- **Conformité réglementaire multi-juridictionnelle** — Certifications ISO, respect GDPR et HIPAA sont configurables au niveau infrastructure cloud, permettant aux organisations opérant dans plusieurs régions de satisfaire des exigences divergentes sans duplication de systèmes.
+- **Gitleaks et prévention de fuites de secrets** : l'utilisation d'outils comme Gitleaks en pré-commit permet d'identifier et bloquer les clés d'API, tokens et credentials avant qu'ils ne soient saisis dans les suggestions IA ou envoyés dans les dépôts.
 
-- **Limite identifiée : responsabilité partagée implicite** — Le modèle repose sur l'hypothèse que les clients configurent correctement les contrôles disponibles ; une mauvaise implémentation des politiques d'accès ou du chiffrement transfère le risque vers l'organisation cliente, sans automatisation obligatoire.
+- **Conformité réglementaire et architecture multi-couches** : les solutions IBM Cloud Pak for Data implémentent des contrôles de sécurité aux niveaux réseau, compte utilisateur et collaborateurs, essentiels pour respecter GDPR, HIPAA et ISO certifications dans des secteurs hautement régulés.
 
-- **Impact opérationnel** — La mise en place de DevSecOps intégré augmente la latence de déploiement de 15 à 30 % initialement, nécessitant une réorganisation des workflows CI/CD. Cependant, elle réduit les coûts de remédiation post-incident en éliminant les vulnérabilités en amont du déploiement.
+- **Limite structurelle** : aucun outil IA ne peut garantir une isolation totale du code ; les développeurs restent responsables de la validation manuelle des suggestions avant intégration, particulièrement en présence de données confidentielles ou propriétaires.
+
+## Références (Golden Sources)
+
+- [Announcing IBM Project Bob: Your AI partner for faster, smarter software develop](https://www.ibm.com/new/announcements/ibm-project-bob)
+- [Best practices in continuous compliance toolchain - IBM Cloud Docs](https://cloud.ibm.com/docs/devsecops?topic=devsecops-practices-cc-toolchain)
+- [Find secrets with Gitleaks - GitHub](https://github.com/gitleaks/gitleaks)
+- [IBM watsonx Code Assistant for Z: Installation and Usage](https://www.ibm.com/docs/en/SSK5UBS_2.0/pdf/watsonx_code_assistant_for_z_2.4.20.pdf)
+- [IBM's principles of trust and transparency](https://www.ibm.com/policy/trust-transparency)
+- [Sécurité pour Cloud Pak for Data as a Service sur IBM Cloud - Docs](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/security-overview.html?pos=2%3Fcontext%3Dcpdaas&locale=fr&context=cpdaas)
 ## Chapitres
 
 - `0:00` — Introduction

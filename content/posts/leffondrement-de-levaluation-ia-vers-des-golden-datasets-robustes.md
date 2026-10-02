@@ -1,7 +1,7 @@
 ---
-title: "L'effondrement de l'évaluation IA : vers des golden datasets robustes"
+title: "Your AI Evals Are Broken: Golden Datasets & Strict LLM CI/CD"
 date: 2026-06-06
-publishDate: "2026-06-09T09:00:00"
+slug: "leffondrement-de-lévaluation-ia-vers-des-golden-datasets-robustes"
 youtube_url: "https://youtu.be/A6_FKm3qxWQ"
 youtube_video_id: "A6_FKm3qxWQ"
 youtube_channel: "B"
@@ -10,14 +10,15 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "prospective"
 categories: ["Prospective"]
-tags: ["prospective"]
-summary: "Les méthodes d'évaluation traditionnelles de l'IA montrent leurs limites face aux nouveaux modèles de langage spécialisés."
+tags: ["prospective", "DeepEval", "EvaluationIA", "GoldenDataset", "MLOps", "TransformationDigitale"]
+summary: "A study of 57 AI evaluation harnesses and 16,560 GitHub issues found that the tools grading your models are often broken. Here's how to build evals you can trust."
 cover:
   image: "/covers/A6_FKm3qxWQ.jpg"
-  alt: "L'effondrement de l'évaluation IA : vers des golden datasets robustes"
+  alt: "Your AI Evals Are Broken: Golden Datasets & Strict LLM CI/CD"
   caption: "Prospective"
 draft: false
 catalogue_id: "d1089859"
+translationKey: "d1089859"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -26,34 +27,29 @@ catalogue_id: "d1089859"
 
 ## Executive Summary
 
-Les méthodes d'évaluation traditionnelles des modèles d'IA montrent des lacunes structurelles face à la multiplication des architectures spécialisées et des déploiements en environnement de production. L'industrie opère une transition vers une ingénierie de l'évaluation systématique, caractérisée par la construction de datasets de référence (golden datasets) et l'adoption d'outils de benchmark rigoureux. Des institutions financières comme HSBC valident leurs modèles de langage via des protocoles contrôlés dédiés à la détection de fraude et à la conformité réglementaire. Cette évolution répond à un besoin critique : garantir la fiabilité et la traçabilité des systèmes autonomes avant déploiement à grande échelle.
+Les systèmes d'évaluation des modèles de langage présentent des défaillances structurelles massives : une étude empirique de 57 bancs d'essai et 16 560 problèmes GitHub révèle que les outils de notation produisent régulièrement des résultats plausibles mais incorrects. Cette fragmentation évaluative crée un risque opérationnel majeur pour les organisations déployant des agents autonomes en production. La transition vers une ingénierie de l'évaluation systématique — fondée sur des datasets d'or (golden datasets) et des pipelines CI/CD stricts — devient indispensable pour garantir la fiabilité des systèmes critiques, notamment en finance ou en cybersécurité où les hallucinations et erreurs de traçabilité sont inacceptables.
 
 ## Principaux points abordés
 
-- **Obsolescence des benchmarks génériques** — Les approches d'évaluation unidimensionnelles ne capturent pas la complexité des modèles spécialisés (finance, juridique, santé). Un passage vers des frameworks sectoriels devient nécessaire pour valider les cas d'usage métier réels.
+- **Défaillances silencieuses des harnesses d'évaluation** — Les métriques courantes (BLEU, ROUGE) produisent des scores validant des réponses techniquement fausses, particulièrement lorsque les modèles génèrent du contenu syntaxiquement correct mais sémantiquement erroné. Cette limite s'accentue avec les agents mémoire de longue durée, impossibles à auditer manuellement à l'échelle.
 
-- **Golden datasets comme référence stable** — La construction de datasets étalons repose sur la curation manuelle et la validation croisée. Ces ensembles servent de point de comparaison objectif pour mesurer la dérive de performance et la cohérence des prédictions entre versions.
+- **Construction de datasets d'or comme fondation évaluative** — Les organisations (HSBC, secteur financier) structurent des ensembles de test annotés manuellement, validés en environnement contrôlé, pour isoler la performance réelle des modèles spécialisés. Cette approche exige une curatelle rigoureuse et une mise à jour itérative basée sur les cas d'échec en production.
 
-- **Outils d'orchestration d'évaluation** — DeepEval 4.0 et les modèles Zagreus/Nesso implémentent une automatisation des pipelines de test, incluant la capture de traces de production, la détection d'anomalies et le feedback itératif sur les agents autonomes.
+- **Pipeline CI/CD en couches pour les LLM** — Une architecture multi-niveaux combine tests unitaires (conformité des sorties), intégration (cohérence agent-code), et déploiement progressif avec golden datasets comme référentiel de vérité. DeepEval 4.0 et outils similaires automatisent cette validation.
 
-- **Validation en bac à sable contrôlé** — HSBC et autres acteurs financiers déploient des environnements sandbox pour tester la résistance des modèles aux cas limites (injection de requêtes hostiles, contextes ambigus, dérives conceptuelles) avant exposition en production.
+- **Transition du "LLM agency" au "code agency"** — Le paradigme évolue : au lieu de déléguer la logique métier au modèle (approche fragile), les LLM sont confinés à des tâches discrètes, validées par des couches de code déterministe. Cette réduction du champ d'agentivité améliore la traçabilité et la reproductibilité.
 
-- **Tension entre couverture et coût** — L'expansion des golden datasets génère des charges d'annotation et de maintenance importantes. La sélection des cas pertinents reste un problème mal structuré, particulièrement pour les domaines à faible précédent.
+- **Traçabilité et attribution des erreurs** — L'identification précise des sources de défaillance (hallucination du modèle, bogue d'intégration, instabilité de la mémoire) nécessite une instrumentation complète des systèmes et une cartographie des dépendances. Les systèmes mémoire long-terme rendent cette traçabilité critique mais techniquement complexe.
 
-- **Impact sur la gouvernance et la conformité** — L'ingénierie de l'évaluation devient un vecteur de traçabilité réglementaire : chaque décision modèle est documentable, auditée, et traçable pour satisfaire les exigences de transparence et d'explicabilité (RGPD, directives IA).
+- **Limite : coût d'adoption et expertise requise** — La construction et la maintenance de golden datasets exigent une expertise en annotation, une gouvernance stricte, et des ressources significatives. Les petites équipes DevOps risquent de repousser cette rigueur, prolongeant la phase dangereuse du déploiement sans évaluation fiable.
 
 ## Références (Golden Sources)
 
 - [Towards Evaluation Engineering: An Empirical Study of ML Evaluation Harnesses in the Wild](https://www.researchgate.net/publication/405263894_Towards_Evaluation_Engineering_An_Empirical_Study_of_ML_Evaluation_Harnesses_in_the_Wild/download)
-
 - [Building a Golden Dataset for Model Evaluation](https://www.twine.net/blog/building-a-golden-dataset-for-model-evaluation/)
-
-- [Golden datasets: Evaluating fine-tuned large language models](https://sigma.ai/golden-datasets/)
-
-- [Building an LLM Evaluation Framework That Actually Works](https://dev.to/ritwikareddykancharla/building-an-llm-evaluation-framework-that-actually-works-4585)
-
+- [Building a "Golden Dataset" for AI Evaluation: A Step-by-Step Guide](https://www.getmaxim.ai/articles/building-a-golden-dataset-for-ai-evaluation-a-step-by-step-guide/)
+- [Tracing and Attributing Errors in Large Language Model Memory Systems](https://arxiv.org/html/2605.28732v1)
 - [From production traces to better AI agents: Automating the LLMOps feedback loop](https://arize.com/blog/from-production-traces-to-better-ai-agents-automating-the-llmops-feedback-loop/)
-
 - [HKMA GenAI Sandbox Use Cases Summary](https://www.about.hsbc.com.hk/-/media/hong-kong/en/news-and-media/251024-hsbc-hkma-genai-sandbox-use-cases-summary.pdf?sc_lang=en-GB)
 ## Chapitres
 

@@ -1,7 +1,7 @@
 ---
-title: "L'Autopsie de Claude Code : Fuite, Clone Open Source et Révolution IA"
+title: "Fuite du code de Claude Code sur npm : ce qu'on a trouvé dedans"
 date: 2026-06-06
-publishDate: "2026-06-09T17:00:00"
+slug: "lautopsie-de-claude-code-fuite-clone-open-source-et-révolution-ia"
 youtube_url: "https://youtu.be/IuDPR-uIw3A"
 youtube_video_id: "IuDPR-uIw3A"
 youtube_channel: "B"
@@ -10,14 +10,15 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "ia-travail"
 categories: ["IA & Travail"]
-tags: ["ia-travail"]
-summary: "Comment la fuite accidentelle du code source de Claude Code sur npm a déclenché une révolution open source avec Claw Code."
+tags: ["ia-travail", "Anthropic", "ClaudeCode", "ClawCode", "IA", "OpenSource"]
+summary: "Le 31 mars 2026, un fichier source map oublié dans un paquet npm expose les 512 000 lignes de Claude Code. Boucle de 88 lignes, fichier undercover.ts, fonctions cachées : l'autopsie."
 cover:
   image: "/covers/IuDPR-uIw3A.jpg"
-  alt: "L'Autopsie de Claude Code : Fuite, Clone Open Source et Révolution IA"
+  alt: "Fuite du code de Claude Code sur npm : ce qu'on a trouvé dedans"
   caption: "IA & Travail"
 draft: false
 catalogue_id: "53472135"
+translationKey: "53472135"
 ---
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5em 0">
@@ -26,28 +27,32 @@ catalogue_id: "53472135"
 
 ## Executive Summary
 
-La fuite accidentelle du code source de Claude Code sur npm en 2025 a catalysé l'émergence de Claw Code, un clone open source écrit en Rust qui a atteint 105 000 étoiles GitHub en 24 heures. Cet incident expose des tensions fondamentales entre la stratégie de sécurité d'Anthropic — maintenant ses outils d'agents hors du domaine public — et la capacité communautaire à reproduire rapidement ces architectures. L'événement soulève des questions critiques sur la gouvernance des droits d'auteur en IA, la viabilité des modèles fermés face aux implémentations alternatives, et la gestion des risques de sécurité inhérents aux systèmes agentiques autonomes. Pour les organisations exploitant des modèles de langage, cet épisode illustre l'importance d'une segmentation claire entre outils de recherche, outils de production et stratégies de contrôle d'accès.
+Le 31 mars 2026, une erreur de packaging a exposé le code source complet de Claude Code sur npm via un fichier source map oublié. Cette fuite involontaire a révélé environ 1 900 fichiers TypeScript et 512 000 lignes de code, permettant une analyse détaillée de l'architecture interne de l'agent de développement d'Anthropic. L'incident a catalysé la création de Claw Code, un clone open source en Rust devenu viral. Au-delà de l'aspect sensationnel, cette divulgation expose les mécanismes fondamentaux des systèmes agentiques autonomes : boucles d'exécution minimalistes, gestion d'état basée sur les messages, utilisation du protocole MCP pour les outils externes, et fonctionnalités non documentées. Les enjeux croisent la sécurité logicielle, la gouvernance des modèles d'IA et la propriété intellectuelle face aux outils générés par IA.
 
 ## Principaux points abordés
 
-- **Architecture technique de Claude Code** : système de boucle d'agent avec gestion des sessions, intégration d'outils standardisés via le protocole MCP (Model Context Protocol), et modèle de permissions granulaires conçu initialement pour réduire les risques d'exécution non contrôlée.
+- **Architecture de la boucle agentique** : le noyau de Claude Code repose sur une boucle de 88 lignes minimaliste gérant l'orchestration des appels au modèle, la récupération d'outils et la gestion des sessions via un état stocké sous forme de messages.
 
-- **Chronologie et impact de Claw Code** : réécriture complète en Rust du code source divulgué, adoption massive en moins de 24 heures, démontrant la faisabilité technique d'une réimplémentation performante des harnais d'agents d'Anthropic.
+- **Protocole MCP pour l'intégration d'outils** : Claude Code s'appuie sur le Model Context Protocol pour communiquer avec des outils externes, permettant une modulabilité et une extensibilité contrôlées des capacités agentiques.
 
-- **Divergence de stratégie commerciale** : Anthropic maintient Claude Code comme outil propriétaire pour limiter les vecteurs de cybersécurité et les utilisations malveillantes, tandis que la version open source élimine ces garde-fous, créant deux écosystèmes concurrents avec des postures de risque incomparables.
+- **Fichier undercover.ts et fonctionnalités cachées** : la fuite révèle l'existence de composants non documentés publiquement, incluant Kairos (probablement un système de planification temporelle), un classificateur « YOLO » et Ultraplan, soulevant des questions sur les capabilités réelles de l'agent comparées à sa documentation officielle.
 
-- **Vide juridique et droits d'auteur** : absence de clarté sur la propriété intellectuelle lorsque du code IA réécrit par IA est redistribué en tant que dérivé, ouvrant des questions sur la légitimité des recours juridiques (plus de 8 000 notices DMCA émises par Anthropic selon certaines sources).
+- **Latence assumée et choix architecturaux** : le code met en évidence une acceptation délibérée de latences dans l'exécution agentique, favorisant la robustesse et la gestion d'état sur la réactivité immédiate.
 
-- **Implication opérationnelle pour la cybersécurité** : la disponibilité d'une version non auditée et potentiellement modifiée d'un agent logiciel augmente l'exposition aux exploitations non détectées, aux injection de commandes et aux contournements de politiques de sécurité — particulièrement critique dans les environnements d'ingénierie logicielle où les agents manipulent du code de production.
+- **Réplication rapide en Rust** : Claw Code a atteint 105 000 stars en 24 heures, démontrant que la barrière technique à la reproduction d'architectures agentiques complexes s'est effondrée, augmentant les risques de déploiements non sécurisés ou non vérifiés.
+
+- **Paradoxe de la propriété intellectuelle** : la publication accidentelle du code source, suivi d'une campagne de 8 000 takedowns DMCA, pose la question de la protection légale du code d'IA écrit par des modèles face aux clones générés par d'autres modèles, révélant un vide juridique structurel.
+
+- **Limitation : divergence GitHub vs production** — les sources indiquent que le code publié diffère potentiellement des versions déployées en production, limitant la compréhension réelle des systèmes autonomes actuels.
 
 ## Références (Golden Sources)
 
-- [Claw Code: Open-Source Claude Code Clone With 105K Stars in 24 Hours - Dmytro Klymentiev](https://klymentiev.com/blog/claw-code-claude-source)
-- [Claude Code Architecture Explained: Agent Loop, Tool System, and Permission Model](https://dev.to/brooks_wilson_36fbefbbae4/claude-code-architecture-explained-agent-loop-tool-system-and-permission-model-rust-rewrite-41b2)
-- [When AI-Written Code Gets Rewritten by AI: The Copyright Vacuum Exposed by the Claude Code Incident](https://yage.ai/share/claude-code-copyright-paradox-en-20260402.html)
+- [Claude Code Architecture Explained: Agent Loop, Tool System, and Permission Mode](https://dev.to/brooks_wilson_36fbefbbae4/claude-code-architecture-explained-agent-loop-tool-system-and-permission-model-rust-rewrite-41b2)
+- [Claw Code: Open-Source Claude Code Clone With 105K Stars in 24 Hours](https://klymentiev.com/blog/claw-code-claude-source)
 - [AI Governance & Security Platform | Harmonic Security](https://www.harmonic.security/resources/security-lessons-from-claude-codes-first-year)
-- [After Anthropic Open-Sourced Its Source Code, It Issued Over 8,000 Copyright Takedown Notices](https://www.techflowpost.com/en-US/article/30966)
-- [Anthropic vs OpenAI vs Google: Three Different Bets on the Future of AI Agents](https://www.mindstudio.ai/blog/anthropic-vs-openai-vs-google-agent-strategy)
+- [After Anthropic Open-Sourced Its Source Code, It Issued Over 8,000 Copyright Tak](https://www.techflowpost.com/en-US/article/30966)
+- [When AI-Written Code Gets Rewritten by AI: The Copyright Vacuum Exposed by the C](https://yage.ai/share/claude-code-copyright-paradox-en-20260402.html)
+- [Anthropic keeps latest AI tool out of public's hands for fear of enabling widesp](https://www.theguardian.com/technology/2026/apr/08/anthropic-ai-cybersecurity-software)
 ## Chapitres
 
 - `0:00` — Introduction et contexte

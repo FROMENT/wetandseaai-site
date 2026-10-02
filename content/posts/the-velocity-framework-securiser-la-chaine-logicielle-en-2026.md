@@ -1,6 +1,7 @@
 ---
 title: "The Velocity Framework : sécuriser la chaîne logicielle en 2026"
 date: 2026-09-21
+slug: "the-velocity-framework-sécuriser-la-chaîne-logicielle-en-2026"
 publishDate: "2026-10-01T09:00:00"
 youtube_url: "https://youtu.be/FrK7O9QJCPI"
 youtube_video_id: "FrK7O9QJCPI"
@@ -10,8 +11,8 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "cybersecurity"
 categories: ["Cybersécurité"]
-tags: ["cybersecurity"]
-summary: "Chaîne d'approvisionnement logicielle et gouvernance IA : comment maîtriser les risques de sécurité face à l'automatisation massive et aux agents IA générateurs de code."
+tags: ["cybersecurity", "AgentsIA", "ChaîneLogicielle", "CybersécuritéDevOps", "GovernanceSecurité", "SLSA"]
+summary: "🇬🇧 English version : https://youtu.be/B_JSx88HG5k"
 cover:
   image: "/covers/FrK7O9QJCPI.jpg"
   alt: "The Velocity Framework : sécuriser la chaîne logicielle en 2026"
@@ -27,30 +28,28 @@ translationKey: "6adc89de"
 
 ## Executive Summary
 
-La sécurisation de la chaîne d'approvisionnement logicielle en 2026 affronte des défis structurels liés à l'automatisation massive et à l'intégration des agents IA dans les cycles de développement. Selon Sonatype, les registres logiciels sont saturés par des dépendances générées automatiquement, amplifiant la surface d'exposition aux vulnérabilités. Parallèlement, environ 50 % du code d'infrastructure produit par les agents IA présente des défauts de sécurité par défaut. Face à ce contexte, les organisations doivent mettre en place des mécanismes de gouvernance robustes et des contrôles en amont : nomenclatures de composants (SBOM), évaluation continue des dépendances, et politiques de contrôle d'accès aux registres. L'enjeu principal consiste à maintenir une traçabilité complète et une visibilité sur les risques sans paralyser la vélocité de déploiement.
+La chaîne d'approvisionnement logicielle fait face en 2026 à des risques structurels amplifiés par l'automatisation massive et l'intégration d'agents IA génératifs. Selon Sonatype, les registres logiciels subissent une saturation accélérée des dépôts tout en propageant des vulnérabilités et artefacts malveillants. Parallèlement, environ 50 % du code d'infrastructure produit par les agents IA contient des défauts de sécurité par défaut. Les organisations doivent mettre en place des cadres de gouvernance explicites — nomenclatures de composants (SBOM), politiques de contrôle en amont, et évaluation continue de la posture de dépendance — pour transformer l'exposition aux risques en avantage compétitif mesuré.
 
 ## Principaux points abordés
 
-- **Saturation des registres logiciels** : l'automatisation IA génère un volume de dépendances dont une portion significative contient des vulnérabilités ou des malveillances, compliquant le tri et l'évaluation des risques réels.
+- **Propagation systémique des vulnérabilités via l'automatisation** : L'augmentation du volume de dépendances introduites par les outils d'automatisation et les agents IA crée un vecteur de contamination croissant dans les registres publics, dépassant la capacité de remédiation traditionnelle.
 
-- **Code d'infrastructure généré par IA sans gouvernance** : la moitié du code d'infrastructure automatisé présente des failles de sécurité intrinsèques, révélant l'absence de garde-fous suffisants dans les boucles de génération.
+- **Code d'infrastructure généré par IA : défauts de sécurité par défaut** : Environ 50 % des artefacts de code infrastructure produits par les agents IA présentent des vulnérabilités ou des configurations dangereuses, reflétant l'absence de modèles de sécurité intégrés dans les processus de génération.
 
-- **Importance de la transparence logicielle** : les nomenclatures de composants (SBOM) et les métriques comme Libyear permettent une évaluation continue de l'âge et du statut de sécurité des dépendances, bien que leur adoption reste fragmentée.
+- **Nécessité de transparence et de traçabilité** : Les nomenclatures de composants (SBOM) et les systèmes de notation (EPSS, Libyears, OpenSSF Scorecard) deviennent des éléments critiques pour évaluer la maturité et l'exposition aux risques des dépendances logicielles.
 
-- **Frameworks de contrôle et de conformité** : SLSA, OpenSSF Scorecard, NIST.SP.800-218 et les politiques Open Policy Agent (OPA) offrent des cadres pour codifier les exigences de sécurité dans le CI/CD et l'infrastructure.
+- **Limites des approches réactives** : Les métriques classiques (nombre de jours depuis la dernière mise à jour, CVSS seul) ne capturent pas la probabilité réelle d'exploitation (EPSS) ni le coût cumulé de la dette technique (Libyears), créant un décalage entre perception et réalité du risque.
 
-- **Limitation des métriques actuelles** : Libyear et l'Exploit Prediction Scoring System (EPSS) fournissent des signaux utiles mais ne suffisent pas isolément ; une approche composite prenant en compte le contexte organisationnel est nécessaire.
-
-- **Impact opérationnel** : la mise en place de contrôles d'accès stricts aux registres, la validation des dépendances en amont et la gouvernance des agents IA allongent les cycles de validation mais réduisent les risques de compromission en production.
+- **Gouvernance DevOps en aval insuffisante** : Sans politiques explicites (Open Policy Agent, SLSA levels, NIST.SP.800-218), l'absence de point de contrôle entre génération et déploiement permet aux défauts de traverser les pipelines de CI/CD vers l'infrastructure de production.
 
 ## Références (Golden Sources)
 
-- [2026 State of the Software Supply Chain Report | Sonatype](https://www.sonatype.com/state-of-the-software-supply-chain/introduction)
-- [AI Agents Are Writing Your Infrastructure Code. Is Anyone Governing It? - DevOps](https://devops.com/ai-agents-are-writing-your-infrastructure-code-is-anyone-governing-it/)
-- [OWASP Top 10 CI/CD Security Risks | OWASP Foundation](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
+- [2026 State of the Software Supply Chain Report](https://www.sonatype.com/state-of-the-software-supply-chain/introduction)
+- [AI Agents Are Writing Your Infrastructure Code. Is Anyone Governing It?](https://devops.com/ai-agents-are-writing-your-infrastructure-code-is-anyone-governing-it/)
+- [OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
 - [SLSA • Security levels](https://slsa.dev/spec/v1.0/levels)
-- [NIST.SP.800-218](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf)
 - [Exploit Prediction Scoring System (EPSS)](https://www.first.org/epss/)
+- [NIST.SP.800-218](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf)
 ## Ressources Wet & Sea Tech
 
 **Chaîne YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech

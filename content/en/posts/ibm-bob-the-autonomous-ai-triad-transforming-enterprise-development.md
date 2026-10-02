@@ -1,6 +1,7 @@
 ---
-title: "IBM Bob: The Autonomous AI Triad Transforming Enterprise Development"
+title: "IBM Bob, Claude Code & nono: 3 Layers to Secure AI Coding Agents"
 date: 2026-09-07
+slug: "ibm-bob-the-autonomous-ai-triad-transforming-enterprise-development"
 youtube_url: "https://youtu.be/qdf1E_v5JQo"
 youtube_video_id: "qdf1E_v5JQo"
 youtube_channel: "B"
@@ -9,11 +10,11 @@ youtube_channel_url: "https://www.youtube.com/@wetseatech"
 youtube_channel_name: "Wet & Sea Tech"
 theme: "ia-travail"
 categories: ["IA & Travail"]
-tags: ["ia-travail"]
-summary: "IBM Bob represents a paradigm shift in enterprise AI coding: autonomous agents orchestrating multiple specialized models to automate the entire software development lifecycle. Discover how this agentic platform modernizes legacy systems…"
+tags: ["ia-travail", "AIAgents", "EnterpriseAI", "IBMBob", "LegacyModernization", "SoftwareDevelopment"]
+summary: "What happens when an AI coding agent finds an AWS key in plain text? Bob governs, Claude Code executes, nono contains: why you need all three. 🇫🇷 Version française : https://youtu.be/HfjJLktQSNE"
 cover:
-  image: "/covers/theme_ia-travail.svg"
-  alt: "IBM Bob: The Autonomous AI Triad Transforming Enterprise Development"
+  image: "/covers/qdf1E_v5JQo.jpg"
+  alt: "IBM Bob, Claude Code & nono: 3 Layers to Secure AI Coding Agents"
   caption: "IA & Travail"
 draft: false
 catalogue_id: "1637e3ba"
@@ -26,29 +27,29 @@ translationKey: "793aec8b"
 
 ## Executive Summary
 
-IBM Bob represents an enterprise-grade agentic AI platform engineered to automate the complete software development lifecycle through orchestrated multi-agent workflows. Unlike conventional AI coding assistants that operate at single-task scope, Bob coordinates specialized models across design, implementation, testing, and deployment phases—including critical modernization workloads for legacy systems such as COBOL and Java. The platform addresses a structural gap in enterprise operations: scaling development velocity while maintaining integrated governance, security compliance, cost containment, and actionable audit trails. Organizations deploying Bob face both operational acceleration and the requirement for governance frameworks capable of managing autonomous agent decision-making at production scale.
+AI coding agents operating in enterprise environments inherit full system permissions by default—SSH keys, cloud credentials, and administrative access are all exposed to the agent's execution context. This architectural vulnerability requires a layered security model. IBM Bob addresses governance and policy enforcement at the orchestration level, Claude Code provides the coding execution velocity, and nono introduces kernel-level process isolation to contain agent actions within restricted filesystem and capability boundaries. The three-layer approach—governance, execution, and containment—represents the operational necessity for deploying autonomous coding agents in production environments without catastrophic credential exposure or lateral movement risk.
 
 ## Key Points
 
-- **Multi-agent orchestration architecture**: Bob deploys parallel specialized models rather than single general-purpose agents, enabling simultaneous processing of feature development, legacy system transformation, testing automation, and infrastructure provisioning within unified control.
+- **Credential exposure at execution**: AI coding agents running in local terminals inherit parent process permissions, including SSH keys, AWS/Azure tokens, and environment variables, creating a direct attack surface if the agent or its dependencies are compromised.
 
-- **Legacy modernization scope**: The platform automates complex architectural conversions—COBOL-to-modern language translation, monolithic-to-microservices refactoring, on-premise-to-cloud migration—reducing manual code analysis and reducing transformation timelines.
+- **IBM Bob governance layer**: Routes agentic requests through policy engines, enforces approval workflows, maintains immutable audit trails, and orchestrates specialized model routing for different development tasks—from greenfield feature development to legacy modernization (Java, COBOL).
 
-- **Integrated governance framework**: Native security controls, complete action traceability, cost allocation per agent task, and policy enforcement are embedded in the platform rather than bolted on, enabling compliance officers and finance teams to monitor autonomous operations without separate tooling.
+- **Claude Code execution velocity**: Optimized for inline code generation and terminal execution; trades off isolation for development speed. Without containment, this velocity becomes a liability when handling untrusted input or executing in permissioned environments.
 
-- **Sandbox isolation for agent containment**: Complementary tools like nono provide kernel-level sandbox environments that isolate agent execution contexts, preventing lateral movement or unauthorized access to production systems during development and testing phases.
+- **nono kernel-level isolation**: Implements Landlock-based sandboxing on Linux and Seatbelt confinement on macOS, restricting filesystem access, network egress, and system capabilities at the OS level. Operates independently of application-layer controls.
 
-- **Operational limitation**: Governance overhead increases with agent autonomy—enterprises must establish decision boundaries, approval workflows, and rollback procedures before deployment; absence of clear governance policies creates liability exposure when autonomous systems execute costly infrastructure changes.
+- **Layering complexity trade-off**: Stacking governance, execution, and containment layers introduces operational overhead (policy configuration, audit log management, sandbox rule tuning) versus monolithic "all-or-nothing" agent deployment. Enterprises must balance security hardening against DevOps velocity.
 
-- **Cost structure challenge**: While Bob optimizes labor allocation, organizations must model agent execution costs (API calls, compute resources, model inference) and establish billing accountability frameworks to prevent uncontrolled spending in multi-agent scenarios.
+- **Audit trail continuity**: Multi-layer architectures create distributed logging surfaces; maintaining correlatable audit trails across Bob's governance decisions, Claude Code's execution logs, and nono's syscall interception requires centralized observability infrastructure.
 
 ## References (Golden Sources)
 
 - [AI coding agent | IBM](https://www.ibm.com/products/ai-coding-agent)
-- [IBM Bob: Enterprise AI Coding Assistant Complete Guide (2026) | WOWHOW](https://wowhow.cloud/blogs/ibm-bob-enterprise-ai-coding-assistant-complete-guide-2026)
 - [Introducing nono: A Secure Sandbox for AI Agents](https://huggingface.co/blog/lukehinds/nono-agent-sandbox)
+- [From 'oh no' to nono - building apps on OpenShift with nono and Claude Code](https://www.stb.id.au/blog/openshift-claude-nono)
 - [IBM Bob Takes AI Coding Assistants to the Next Level - DevOps.com](https://devops.com/ibm-bob-takes-ai-coding-assistants-to-the-next-level/)
-- [IBM Bob adds multi-agent AI and legacy modernisation tools](https://www.developer-tech.com/news/ibm-bob-multi-agent-ai-legacy-modernisation/)
+- [Overview - Claude Code Docs](https://docs.claude.com/en/docs/claude-code/overview)
 ## Wet & Sea Tech Resources
 
 **YouTube (@wetseatech) :** https://www.youtube.com/@wetseatech
