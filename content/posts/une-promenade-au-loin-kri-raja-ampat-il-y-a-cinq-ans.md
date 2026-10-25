@@ -1,6 +1,7 @@
 ---
 title: "Une promenade au loin : Kri, Raja Ampat, il y a cinq ans"
 date: 2026-10-18
+slug: "une-promenade-au-loin-kri-raja-ampat-il-y-a-cinq-ans"
 publishDate: "2026-10-23T09:00:00"
 youtube_url: "https://youtu.be/rKNxmhcAnl4"
 youtube_video_id: "rKNxmhcAnl4"

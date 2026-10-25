@@ -1,6 +1,7 @@
 ---
 title: "Kri 2024 : la porte de Raja Ampat et ses récifs coralliens"
 date: 2026-10-18
+slug: "kri-2024-la-porte-de-raja-ampat-et-ses-récifs-coralliens"
 publishDate: "2026-10-21T09:00:00"
 youtube_url: "https://youtu.be/PW_HF0evtVo"
 youtube_video_id: "PW_HF0evtVo"

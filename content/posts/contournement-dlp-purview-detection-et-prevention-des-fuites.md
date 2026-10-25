@@ -1,6 +1,7 @@
 ---
 title: "Contournement DLP Purview : détection et prévention des fuites"
 date: 2026-10-13
+slug: "contournement-dlp-purview-détection-et-prévention-des-fuites"
 publishDate: "2026-10-22T09:00:00"
 youtube_url: "https://youtu.be/V_rfnfL1mYA"
 youtube_video_id: "V_rfnfL1mYA"

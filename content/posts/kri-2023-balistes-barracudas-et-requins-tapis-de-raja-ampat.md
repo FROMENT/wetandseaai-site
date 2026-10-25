@@ -1,6 +1,7 @@
 ---
 title: "Kri 2023 : balistes, barracudas et requins-tapis de Raja Ampat"
 date: 2026-10-18
+slug: "kri-2023-balistes-barracudas-et-requins-tapis-de-raja-ampat"
 publishDate: "2026-10-25T09:00:00"
 youtube_url: "https://youtu.be/DDAcgU05XgI"
 youtube_video_id: "DDAcgU05XgI"

@@ -1,6 +1,7 @@
 ---
 title: "Maîtriser les menaces internes : sécuriser l'IA agentique en entreprise"
 date: 2026-10-13
+slug: "maîtriser-les-menaces-internes-sécuriser-lia-agentique-en-entreprise"
 publishDate: "2026-10-19T09:00:00"
 youtube_url: "https://youtu.be/IhexSZYvqc8"
 youtube_video_id: "IhexSZYvqc8"

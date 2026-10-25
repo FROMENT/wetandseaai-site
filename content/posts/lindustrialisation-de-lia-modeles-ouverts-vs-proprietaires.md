@@ -1,6 +1,7 @@
 ---
 title: "L'industrialisation de l'IA : modèles ouverts vs propriétaires"
 date: 2026-10-18
+slug: "lindustrialisation-de-lia-modèles-ouverts-vs-propriétaires"
 publishDate: "2026-11-05T09:00:00"
 youtube_url: "https://youtu.be/bJc6wzK52fg"
 youtube_video_id: "bJc6wzK52fg"

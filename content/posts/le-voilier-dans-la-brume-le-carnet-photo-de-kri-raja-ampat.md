@@ -1,6 +1,7 @@
 ---
 title: "Le Voilier dans la Brume : le carnet photo de Kri, Raja Ampat"
 date: 2026-10-18
+slug: "le-voilier-dans-la-brume-le-carnet-photo-de-kri-raja-ampat"
 publishDate: "2026-10-27T09:00:00"
 youtube_url: "https://youtu.be/oaP3q8MGXn8"
 youtube_video_id: "oaP3q8MGXn8"

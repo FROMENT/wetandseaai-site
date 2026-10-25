@@ -1,6 +1,7 @@
 ---
 title: "Raies manta à Manta Point : Kri, aux portes de Raja Ampat"
 date: 2026-10-18
+slug: "raies-manta-à-manta-point-kri-aux-portes-de-raja-ampat"
 publishDate: "2026-10-19T09:00:00"
 youtube_url: "https://youtu.be/p40llDCW7us"
 youtube_video_id: "p40llDCW7us"

@@ -1,6 +1,7 @@
 ---
 title: "Chiffrer sans fuiter : protéger vos données avec Microsoft Purview"
 date: 2026-10-13
+slug: "chiffrer-sans-fuiter-protéger-vos-données-avec-microsoft-purview"
 publishDate: "2026-10-27T09:00:00"
 youtube_url: "https://youtu.be/lto9_sCEeV0"
 youtube_video_id: "lto9_sCEeV0"

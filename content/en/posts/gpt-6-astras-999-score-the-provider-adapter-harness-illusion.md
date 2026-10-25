@@ -1,6 +1,7 @@
 ---
 title: "GPT-6 Astra's 99.9% Score: The Provider Adapter Harness Illusion"
 date: 2026-10-18
+slug: "gpt-6-astras-999-score-the-provider-adapter-harness-illusion"
 publishDate: "2026-11-03T09:00:00"
 youtube_url: "https://youtu.be/5YS7yInXZYg"
 youtube_video_id: "5YS7yInXZYg"

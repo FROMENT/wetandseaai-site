@@ -1,6 +1,7 @@
 ---
 title: "Où allons-nous ? Carte des articulations du monde numérique"
 date: 2026-10-13
+slug: "où-allons-nous-carte-des-articulations-du-monde-numérique"
 publishDate: "2026-10-29T09:00:00"
 youtube_url: "https://youtu.be/N866cLK96bQ"
 youtube_video_id: "N866cLK96bQ"
